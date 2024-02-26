@@ -86,14 +86,16 @@ article img {
 
 .articletext{
     padding: 48px;
-    width: 40%;
+    width: 50%;
 }
 .rechts{
     float: right;
+    box-sizing: border-box;
 }
 
 .links {
     float: left;
+    box-sizing: border-box;
 }
 
 .articleimg{
@@ -114,6 +116,29 @@ article img {
         width: 100%;
         height: auto;
         float: none;
+    }
+
+}
+
+/* Media Query für Bildschirmbreiten bis maximal 768px */
+@media screen and (max-width: 700px) {
+    .articletext{
+        padding: 5px;
+        float: none;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .articleimg{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    section{
+        padding: 20px;
+       
+    
     }
 
 }

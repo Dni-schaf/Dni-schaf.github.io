@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('.dia');
         let currentImage = 0;
 
         function changeImage() {
