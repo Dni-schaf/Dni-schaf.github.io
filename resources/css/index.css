@@ -3,17 +3,20 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
 .bannerbox{
     position: relative;
     width: 100vw;
     height: 80vh;
 }
+
 .banner {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     position: fixed;
 }
+
 .dia {
     width: 100vw;
     height: 100vh;
@@ -21,23 +24,28 @@ body {
     position: absolute;
     transition: transform 1s ease-in-out;
 }
+
 .dia.active {
     opacity: 1;
     transform: translateX(0);
 }
+
 .dia.next {
     opacity: 0;
     transform: translateX(100%);
 }
+
 .dia.before {
     transform: translateX(-100%); /* Bewegt das neue Bild von rechts herein */
 }
+
 .gradient{
     position: absolute;
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 1));
 }
+
 h1 {
     position: absolute;
     top: 65%;
@@ -63,6 +71,7 @@ p{
     line-height: 150%;
     color: rgb(30, 32, 32);
 }
+
 a{
     font-family: sans-serif;
     line-height: 150%;
@@ -71,6 +80,7 @@ a{
     display: block;
     margin: 16px 0px;
 }
+
 section{
     position: relative;
     background-color: white;
@@ -90,12 +100,11 @@ article img {
     border-radius: 5px;
 }
 
-
-
 .articletext{
     padding: 48px;
     width: 50%;
 }
+
 .rechts{
     float: right;
     box-sizing: border-box;
@@ -117,6 +126,7 @@ article img {
     right: 10px;
     z-index: 9999;
 }
+
 .toggle-btn {
     width: 50px;
     height: 30px;
@@ -143,7 +153,6 @@ article img {
         height: auto;
         float: none;
     }
-
 }
 
 /* Media Query für Bildschirmbreiten bis maximal 768px */
@@ -163,8 +172,6 @@ article img {
 
     section{
         padding: 20px;
-       
-    
     }
 
 }
