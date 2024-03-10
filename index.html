@@ -11,25 +11,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
+    <script src="resources/js/text_mainsite.js"></script>
+
   </head>
   <body>
     <main>
         <header>
+            <div class="language-toggle">
+                <button class="toggle-btn" onclick="toggleLanguage('en')">EN</button>
+                <button class="toggle-btn" onclick="toggleLanguage('de')">DE</button>
+                <button class="toggle-btn" onclick="toggleLanguage('no')">NO</button>
+            </div>
+
             <div class="bannerbox">
                 <div class="banner">
                     <img class="active dia" src="resources/images/bild1.png" alt="Bild 1"> 
                     <img class="next dia" src="resources/images/bild2.png" alt="Bild 2">
                     <img class="next dia" src="resources/images/bild3.png" alt="Bild 3">
                     <div class="gradient"></div>
-                    <h1>EIN PALAST AUS EIS <br>AM ENDE DER WELT</h1> 
+                    <h1 id="headline">EIN PALAST AUS EIS <br>AM ENDE DER WELT</h1> 
                 </div>
             </div>
         </header>
         <section class="clearfix">
             <article  class="clearfix">
                 <div style="width: 80%; margin-bottom: 100px; ">
-                    <h2>Unser Projekt</h2> 
-                    <p>Herzlich Willkommen bei unserem interaktiven Web-Comic über den epischen Wettlauf zum Südpol! Inspiriert von den fesselnden Tagebüchern von Amundsen und Scott haben wir uns zusammengetan, um eine Geschichte zu erzählen, die alles hat, was eine gute Geschichte braucht: Abenteuer, Spannung und eine faszinierende Konfrontation zweier unerschrockener Männer, die das gleiche Ziel verfolgen, aber unterschiedlicher nicht sein könnten. </p>
+                    <h2 id="ProjektH2">Unser Projekt</h2> 
+                    <p id="ProjektP">Willkommen bei unserem interaktiven Web-Comic über den epischen Wettlauf zum Südpol! Inspiriert von den fesselnden Tagebüchern von Amundsen und Scott haben wir uns zusammengetan, um eine Geschichte zu erzählen, die alles hat, was eine gute Geschichte braucht: Abenteuer, Spannung und eine faszinierende Konfrontation zweier unerschrockener Männer, die das gleiche Ziel verfolgen, aber unterschiedlicher nicht sein könnten. </p>
+                </div>
+            </article>
+
+            <article  class="clearfix">
+                <div class="articleimg rechts">
+                    <img style="width: 100%;" src="resources/images/underconstruction.png" alt="Bild 1">
+                </div>
+                <div class="articletext rechts">
+                    <h2 id="ConstructionH2">Bleiben Sie dran!</h2> 
+                    <p id="ConstructionP">Unser Comic und diese Seite sind noch im Werden. Wir aktualisieren sie ständig mit neuen Entwicklungen. Schauen Sie öfter mal vorbei, um zu sehen, was sich Neues auf unserer Reise getan hat!</p>
+                    <p id="ConstructionDate">Zuletzt aktualisiert am: 10.03.2024</p>
                 </div>
             </article>
 
@@ -38,8 +57,8 @@
                     <img style="width: 100%;" src="resources/images/Antarctica.jpg" alt="Bild 1">
                 </div>
                 <div class="articletext links">
-                    <h2>Wir danken all den Menschen, die uns unterstützen</h2> 
-                    <p>Unser Projekt begann als eine Idee, geboren aus der Faszination für die Geschichte und den Wunsch, sie auf eine einzigartige und interaktive Weise zum Leben zu erwecken. Was als kleines Nebenprojekt begann, entwickelte sich im Laufe der Jahre zu einem umfangreichen und fesselnden Web-Comic. Mit der Zeit haben viele talentierte Menschen dazu beigetragen, unsere Vision Wirklichkeit werden zu lassen.</p>
+                    <h2 id="DankeH2">Wir danken all den Menschen, die uns unterstützen</h2> 
+                    <p id="DankeP">Unser Projekt begann als eine Idee, geboren aus der Faszination für die Geschichte und den Wunsch, sie auf eine einzigartige und interaktive Weise zum Leben zu erwecken. Was als kleines Nebenprojekt begann, entwickelte sich im Laufe der Jahre zu einem umfangreichen und fesselnden Web-Comic. Mit der Zeit haben viele talentierte Menschen dazu beigetragen, unsere Vision Wirklichkeit werden zu lassen.</p>
                 </div>
             </article>
 
@@ -48,11 +67,11 @@
                     <img style="width: 100%;" src="resources/images/schiff.png" alt="Bild 1">
                 </div>
                 <div class="articletext rechts">
-                    <h2>Exclusive Vorschau auf die ersten interaktiven Kapitel</h2> 
-                    <p>Was unser Projekt besonders macht, ist die Integration interaktiver Infografiken, die zeigen, wo die Expeditionen an welchen Tagen waren, wie die Teams zusammengesetzt waren und wie ein Sextant funktioniert. Darüber hinaus bieten wir 3D-Modelle der Expeditionsschiffe, die es den Lesern ermöglichen, noch tiefer in die Welt des Südpol-Wettlaufs einzutauchen.</p>
-                    <p>Missionen, die vor Amundsens und Scotts Expedition stattgefunden haben</p>
-                    <p>Die Zusammensetzung der Mannschaften</p>
-                    <p>3D-Modell der Terra Nova</p>
+                    <h2 id="InteraktivH2">Exclusive Vorschau auf die ersten interaktiven Kapitel</h2> 
+                    <p id="InteraktivP">Was unser Projekt besonders macht, ist die Integration interaktiver Infografiken, die zeigen, wo die Expeditionen an welchen Tagen waren, wie die Teams zusammengesetzt waren und wie ein Sextant funktioniert. Darüber hinaus bieten wir 3D-Modelle der Expeditionsschiffe, die es den Lesern ermöglichen, noch tiefer in die Welt des Südpol-Wettlaufs einzutauchen.</p>
+                    <p id="Link1">Missionen, die vor Amundsens und Scotts Expedition stattgefunden haben</p>
+                    <p id="Link2">Die Zusammensetzung der Mannschaften</p>
+                    <a id="Link3" href="https://skfb.ly/6SqCD" target="_blank">3D-Modell der Terra Nova</a>
                 </div>
             </article>
 
@@ -61,15 +80,16 @@
                     <img style="width: 100%;" src="resources/images/ipad.png" alt="Bild 1">
                 </div>
                 <div class="articletext links">
-                    <h2>Exclusive Vorschau auf das Comic</h2> 
-                    <p>Obwohl wir unser erstes Projekt dieser Art sind und viel gelernt haben, seit wir 2020 begonnen haben, haben wir keine bestimmten Erwartungen an das Projekt. Wir tun dies aus purer Leidenschaft und hoffen, dass unsere Leser genauso viel Freude daran haben, unsere Geschichte zu erleben, wie wir es hatten, sie zu erzählen.</p>
-                    <p>Vielen Dank, dass Sie Teil unserer Reise sind, und wir hoffen, dass Sie unser Werk genießen!</p>
+                    <h2 id="ComicH2">Exclusive Vorschau auf das Comic</h2> 
+                    <p id="ComicP">Obwohl wir unser erstes Projekt dieser Art sind und viel gelernt haben, seit wir 2020 begonnen haben, haben wir keine bestimmten Erwartungen an das Projekt. Wir tun dies aus purer Leidenschaft und hoffen, dass unsere Leser genauso viel Freude daran haben, unsere Geschichte zu erleben, wie wir es hatten, sie zu erzählen.</p>
+                    <p id="ComicP2">Vielen Dank, dass Sie Teil unserer Reise sind, und wir hoffen, dass Sie unser Werk genießen!</p>
                 </div>
             </article>
 
         </section>
     </main>
 	<script src="resources/js/diashow.js"></script>
+    <script src="resources/js/textload_script.js"></script>
   </body>
   
 </html>
