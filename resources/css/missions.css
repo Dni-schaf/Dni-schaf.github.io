@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100%; /* Volle Breite des Viewports */
+    height: auto; /* Volle Höhe des Viewports */
+    background-image: url('../images/KarteMissionen.jpg'); /* Hintergrundbild */
+    background-size: 100%;
+    position: relative; /* Positionierung relativ zum Viewport */
+    background-repeat: no-repeat;
+}
+
+#sidebar{
+    width: 30%;
+    height: auto;  
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5%;
+}
+
+h3{
+    background-color: white;
+    padding: 0% 5% ;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    line-height: 150%;
+    color:  rgb(9, 52, 69);
+    font-size: 1.5vw;
+}
+
+h3:first-of-type {
+    padding-top: 15%;
+  }
+
+p{
+    background-color: white;
+    padding: 5% ;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal; 
+    line-height: 150%;
+    font-size: 1.2vw;
+}
+
+#sidebarImage{
+    margin-left: -37%;
+    margin-bottom: -40%;
+}
+
+#imageContainer {
+    width: 100%;
+    height: auto;
+}
+
+#buttonContainer {
+    position: absolute; /* Positionierung relativ zum Elternelement */
+    bottom: 5%; /* Abstand zum unteren Rand */
+    left: 50%; /* Horizontal zentriert */
+    z-index: 1; /* Z-Index, um über dem Bild zu liegen */
+}
+
+.missionsBtn{
+    font-size: 1.2vw;
+    background-color: rgb(9, 52, 69);
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.missionsBtn:hover{
+    background-color: #fff;
+    color: rgb(22, 81, 104);
+}
+
+.missionsBtn:active {
+    background-color: rgb(22, 81, 104);
+}
