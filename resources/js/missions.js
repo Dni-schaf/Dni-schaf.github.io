@@ -42,6 +42,7 @@ function changeImage(imageName) {
     sidebarText.textContent = textArray[imageName.replace('.svg', '')];
 }
 
+changeImage("cook.svg")
 
   
  
