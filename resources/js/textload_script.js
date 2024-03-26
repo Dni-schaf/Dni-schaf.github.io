@@ -1,4 +1,9 @@
+
+
 function loadTexts(language) {
+
+    sitelanguage = language;
+    console.log (sitelanguage);
     txt.forEach(item => {
         const chapterId = item.Kapitel;
         const text = item[language];
@@ -15,4 +20,4 @@ function toggleLanguage(language) {
 }
 
 // Initiales Laden der Texte (in der Standardsprache)
-loadTexts('de'); 
+loadTexts(sitelanguage); 

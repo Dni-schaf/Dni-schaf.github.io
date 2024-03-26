@@ -81,3 +81,8 @@ p{
 .missionsBtn:active {
     background-color: rgb(22, 81, 104);
 }
+
+.missionsBtn:visited {
+    background-color: rgb(22, 81, 104);
+    color: #fff;
+}
