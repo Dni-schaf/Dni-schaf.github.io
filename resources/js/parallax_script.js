@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
       //console.log (panelOffset-height + "und" + newadjustment + "und" + marginTop );
       if (panelOffset-height <0) {
         panel.style.marginTop = (-500 - newadjustment) + 'px'; // Margin-Top-Wert erhöhen
-        panel.style.marginBottom = (900 + newadjustment) + 'px'; // Margin-Bottom-Wert verringern
+        panel.style.marginBottom = (800 + newadjustment) + 'px'; // Margin-Bottom-Wert verringern
       } else 
       {         
         //panel.style.marginTop = (-500 + newadjustment) + 'px'; // Margin-Top-Wert erhöhen
