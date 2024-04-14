@@ -1,0 +1,145 @@
+/* CSS für das Styling der Comic-Panels */
+body {
+    background-color: #fff;
+    margin: 0px;
+    font-family: sans-serif;
+  }
+
+  .farsan-regular {
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title {
+        position: absolute;
+        width: 100%;
+        padding-top: 12%;
+        top: 0px;
+        left: 0px;
+        color: #fff;
+        text-align: center;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 5vw;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -1%;
+
+  }
+
+  h3 {
+    font-size: 1.5vw;
+  }
+
+  p {
+    font-size: 2.1vw;
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2vw;
+  }
+  
+.dialog {
+    position: absolute;
+  }
+
+.txtwhite {
+    color: #fff;
+}
+
+.txtdark {
+    color: #000;
+}
+
+  img {
+    width: 100%;
+  }
+  
+  .language-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+  }
+  
+  .toggle-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+  
+  .kleine-panel{
+    overflow: auto;
+  }
+  
+  /* Panel mit 100% Breite und 300% Höhe des Browserfensters */
+  .panel-tribble {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Panel mit 100% Breite und 200% Höhe des Browserfensters */
+  .panel-double {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Panel mit 100% Breite und 100% Höhe des Browserfensters */
+  .panel-full {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Panel mit 50% Breite und 100% Höhe des Browserfensters */
+  .panel-half {
+    position: relative;
+    width: 50%;
+    height: auto;
+    float: left; 
+    /*box-sizing: border-box;*/
+  }
+  /* Panel mit 50% Breite und 50% Höhe des Browserfensters */
+  .panel-halfhalf {
+    position: relative;
+    width: 50%; 
+    height: auto;
+    float: left; 
+    /*box-sizing: border-box;*/
+  }
+  /* Panel mit 100% Breite und 50% Höhe des Browserfensters */
+  .panel-half-height {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+  }
+  
+  /* Panel mit einem Drittel der Breite und 50 % der Höhe des Browserfensters */
+  .panel-third {
+    position: relative;
+    width: 33.3333%; /* Ein Drittel der Breite des Viewports*/
+    height: auto;
+    float: left; /* Nebeneinander positionieren */
+    margin-right: 0px; /* Abstand zwischen den Panels */
+    /*box-sizing: border-box;*/
+  }
+  
+  /* Zusätzliches Styling für Bilder innerhalb der Panels */
+  .comic-panel img {
+    width: 100%; /* Bilder innerhalb der Panels auf die volle Breite setzen */
+    object-fit: cover; /* Bilder an das Seitenverhältnis des divs anpassen und das Bild zuschneiden, um es anzupassen */
+  }
+  
+  .parallax-panel {
+    position: relative;
+    z-index: -1; /* Hinter den anderen Panels liegen */
+    margin-top: -500px;
+    margin-bottom: -500px;
+  }
+  
