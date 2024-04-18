@@ -21,29 +21,53 @@
         <button class="toggle-btn" onclick="toggleLanguage('de')">DE</button>
     </div>
 
-    <svg width="100%" height="100%">
-        <filter id='roughpaper' x='0%' y='0%' width='100%' height="100%">
 
-            <feTurbulence type="fractalNoise" baseFrequency='0.04' result='noise' numOctaves="5" />
-    
-            <feDiffuseLighting in='noise' lighting-color='white' surfaceScale='2'>
-                <feDistantLight azimuth='45' elevation='60' />
-            </feDiffuseLighting>
-    
+    <svg width="100%" height="100%" style="opacity: 0.5;">
+        
+        <filter id="roughpaper">
+            <feTurbulence type="fractalNoise" baseFrequency=".4" numOctaves="1"/>
+            <feComponentTransfer>
+                <feFuncA type="discrete" tableValues="0 4 0.5"/>
+            </feComponentTransfer>
+            <feColorMatrix values="0 0 0 1 0
+                                   0 0 0 1 0
+                                   0 0 0 1 0
+                                   0 0 0 0 0.2"/>
         </filter>
-
-
     </svg>
 
+<!--
+    <svg width="100%" height="100%">
+        
+        <filter id='roughpaper' x='0%' y='0%' width='100%' height="100%">
+
+            <feTurbulence type="fractalNoise" baseFrequency='0.6' result='noise' numOctaves="2" />
+    
+            <feDiffuseLighting in='noise' lighting-color='white' surfaceScale='1'>
+                <feDistantLight azimuth='5' elevation='60' />
+    </feDiffuseLighting>
+    
+    </filter>
+    </svg>
+
+<svg width="100%" height="100%">
+    <filter id="roughpaper" x="0%" y="0%" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="10" result="noise" numOctaves="3" seed="10" />
+        <feDiffuseLighting in="noise" lighting-color="#fff" surfaceScale="2">
+            <feDistantLight azimuth="10" elevation="90" />
+        </feDiffuseLighting>
+    </filter>
+</svg>
+-->
 <!-- parallax image 2fache Höhe -------------------------------------------      -->
     <div class="comic-page">
         <div class="panel-double parallax-panel" data-scroll-speed="0.05">
 
+            <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+                <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+            </svg>
+            <img src="../resources/images/Preview/Post1a.svg" alt="Panel 1">
             
-                <img style="position: absolute;" src="../resources/images/Preview/Post1c.svg" alt="Panel 1">
-                <img style="position: absolute;" src="../resources/images/Preview/Post1b.svg" alt="Panel 1">
-                <img style="position: relative;" src="../resources/images/Preview/Post1a.svg" alt="Panel 1">
-              
             
             <div class="title parallax-title">
                 <h3 id="1_TN_01_01">
