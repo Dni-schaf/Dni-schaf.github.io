@@ -21,11 +21,31 @@
         <button class="toggle-btn" onclick="toggleLanguage('de')">DE</button>
     </div>
 
+    <svg width="100%" height="100%">
+        <filter id='roughpaper' x='0%' y='0%' width='100%' height="100%">
+
+            <feTurbulence type="fractalNoise" baseFrequency='0.04' result='noise' numOctaves="5" />
+    
+            <feDiffuseLighting in='noise' lighting-color='white' surfaceScale='2'>
+                <feDistantLight azimuth='45' elevation='60' />
+            </feDiffuseLighting>
+    
+        </filter>
+
+
+    </svg>
+
 <!-- parallax image 2fache Höhe -------------------------------------------      -->
     <div class="comic-page">
         <div class="panel-double parallax-panel" data-scroll-speed="0.05">
-            <img src="../resources/images/Preview/TN_Post_Post1.jpg" alt="Panel 1">
-            <div class="title">
+
+            
+                <img style="position: absolute;" src="../resources/images/Preview/Post1c.svg" alt="Panel 1">
+                <img style="position: absolute;" src="../resources/images/Preview/Post1b.svg" alt="Panel 1">
+                <img style="position: relative;" src="../resources/images/Preview/Post1a.svg" alt="Panel 1">
+              
+            
+            <div class="title parallax-title">
                 <h3 id="1_TN_01_01">
                     Text
                 </h3>
@@ -36,6 +56,8 @@
                     Text
                 </h4>
             </div>
+
+            
             
         </div>
     </div>
@@ -43,7 +65,10 @@
 <!-- Panel halbe Höhe volle Breite ----------------------------------------      -->
     <div class="comic-page">
         <div class="panel-half-height">
-            <img src="../resources/images/Preview/TN_Post_Post2.jpg" alt="Panel 2">
+            <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+                <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+            </svg>
+            <img src="../resources/images/Preview/Post2a.svg" alt="Panel 2">
             <div class="dialog"  style="bottom:78%; left:2%; width:25%;">
                 <p class="txtwhite" id="1_TN_01_04">
                     Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -56,7 +81,10 @@
 <!-- 2 Panels volle Höhe volle Breite ----------------------------------------      -->
 <div class="comic-page kleine-panel">
     <div class="panel-half">
-        <img src="../resources/images/Preview/TN_Post_Post3.jpg" alt="Panel 14">
+        <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+        </svg>
+        <img src="../resources/images/Preview/Post3a.svg" alt="Panel 14">
         <div class="dialog"  style="bottom:70%; left:6%; width:55%;">
             <p class="txtwhite" id="1_TN_01_05">
                 Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -64,7 +92,10 @@
         </div>
     </div>
     <div class="panel-half">
-        <img src="../resources/images/Preview/TN_Post_Post4.jpg" alt="Panel 15">
+        <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+        </svg>
+        <img src="../resources/images/Preview/Post4a.svg" alt="Panel 15">
         <div class="dialog"  style="bottom:85%; left:50%; width:40%;">
             <p class="txtwhite" id="1_TN_01_06">
                 Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -76,7 +107,10 @@
 <!-- Panel halbe Höhe volle Breite ----------------------------------------      -->
     <div class="comic-page">
         <div class="panel-half-height">
-            <img src="../resources/images/Preview/TN_Post_Post5.jpg" alt="Panel 3">
+            <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+                <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+            </svg>
+            <img src="../resources/images/Preview/Post5a.svg" alt="Panel 3">
             <div class="dialog"  style="bottom:55%; left:35%; width:20%;">
                 <p class="txtwhite" id="1_TN_01_07">
                     Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -85,10 +119,30 @@
         </div>
     </div> 
 
+
+
+<!-- Panel halbe Höhe volle Breite ----------------------------------------      -->
+<div class="comic-page">
+    <div class="panel-half-height">
+        <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+        </svg>
+        <img src="../resources/images/Preview/Post6a.svg" alt="Panel 3">
+        <div class="dialog"  style="bottom:74%; left:59%; width:20%;">
+            <p class="txtwhite" id="1_TN_01_07a">
+                Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
+            </p>
+        </div>
+    </div>
+</div> 
+
 <!-- 3 Panels halbe Höhe ---------------------------------------------------      -->
 <div class="comic-page kleine-panel">
     <div class="panel-third">
-        <img src="../resources/images/Preview/TN_Post_Post6.jpg" alt="Panel 10">
+        <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+        </svg>
+        <img src="../resources/images/Preview/Post7a.svg" alt="Panel 10">
         <div class="dialog"  style="bottom:85%; left:10%; width:80%;">
             <p class="txtblack" id="1_TN_01_08">
                 Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -96,7 +150,10 @@
         </div>
     </div>
     <div class="panel-third">
-        <img src="../resources/images/Preview/TN_Post_Post7.jpg" alt="Panel 11">
+        <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+        </svg>
+        <img src="../resources/images/Preview/Post8a.svg" alt="Panel 11">
         <div class="dialog"  style="bottom:87%; left:10%; width:80%;">
             <p class="txtblack" id="1_TN_01_09">
                 Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -104,7 +161,10 @@
         </div>
     </div>
     <div class="panel-third">
-        <img src="../resources/images/Preview/TN_Post_Post8.jpg" alt="Panel 12">
+        <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+            <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+        </svg>
+        <img src="../resources/images/Preview/Post9a.svg" alt="Panel 12">
         <div class="dialog"  style="bottom:87%; left:42%; width:50%;">
             <p class="txtblack" id="1_TN_01_10">
                 Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -116,14 +176,20 @@
 <!-- Volles Panel ---------------------------------------------------------      -->
     <div class="comic-page">
         <div class="panel-full">
-            <img src="../resources/images/Preview/TN_Post_Post9.jpg" alt="Panel 6">
+            <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+                <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+            </svg>
+            <img src="../resources/images/Preview/Post10a.svg" alt="Panel 6">
         </div>
     </div>
 
 <!-- Panel halbe Höhe volle Breite ----------------------------------------      -->
     <div class="comic-page">
         <div class="panel-half-height">
-            <img src="../resources/images/Preview/TN_Post_Post10.jpg" alt="Panel 9">
+            <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+                <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+            </svg>
+            <img src="../resources/images/Preview/Post12a.svg" alt="Panel 9">
             <div class="dialog"  style="bottom:60%; left:10%; width:20%;">
                 <p class="txtwhite" id="1_TN_01_11">
                     Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
@@ -135,8 +201,11 @@
 <!-- parallax image 2fache Höhe ---------------------------------------------      -->
     <div class="comic-page">
         <div class="panel-double parallax-panel" data-scroll-speed="0.05">
-            <img src="../resources/images/Preview/TN_Post_Post11.jpg" alt="Panel 13">
-            <div class="dialog"  style="bottom:20%; left:26%; width:20%;">
+            <svg width="100%" height="100%" style="position: absolute; mix-blend-mode: multiply;">
+                <rect x="0" y="0" width="100%" height="100%" filter="url(#roughpaper)" fill="none">
+            </svg>
+            <img src="../resources/images/Preview/Post13a.svg" alt="Panel 13">
+            <div class="dialog"  style="bottom:37%; left:26%; width:20%;">
                 <p class="txtwhite" id="1_TN_01_12">
                     Hier können wir einen Dialog zwischen den Charakteren einfügen oder weitere Handlung hinzufügen.
                 </p>

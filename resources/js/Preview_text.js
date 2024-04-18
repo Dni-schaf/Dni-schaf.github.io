@@ -36,6 +36,11 @@ const previewTxt =
         "en": "seven"
     },
     {
+        "Kapitel": "1_TN_01_07a",
+        "de": "Wir müssen unbedingt zu meinem Mann, Kapitän.",
+        "en": "seven"
+    },
+    {
         "Kapitel": "1_TN_01_08",
         "de": "Naaa gut ...",
         "en": "eight"

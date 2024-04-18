@@ -28,4 +28,19 @@ window.addEventListener('scroll', function() {
     });
   });
 
- 
+ /*
+  window.addEventListener('scroll', function() {
+    const parallaxTitle = document.querySelectorAll('.parallax-title');
+    parallaxTitle.forEach(function(title) {
+
+      const Top = parseFloat(title.style.top) || 0; 
+      const titleOffset = title.getBoundingClientRect().top; // Position des Panels relativ zum aktuellen Bildschirmbereich
+      console.log (titleOffset);
+      title.style.top = (Top - height*0.001) + '%';
+
+
+
+    });
+  });
+
+    */  
