@@ -1,10 +1,10 @@
 
 
-function loadTexts(language, txtSrc) {
+function loadTexts(language) {
 
     sitelanguage = language;
     console.log (sitelanguage);
-    txtSrc.forEach(item => {
+    previewTxt.forEach(item => {
         const chapterId = item.Kapitel;
         const text = item[language];
         const element = document.getElementById(chapterId);
@@ -20,4 +20,4 @@ function toggleLanguage(language) {
 }
 
 // Initiales Laden der Texte (in der Standardsprache)
-loadTexts("de", previewTxt); 
+loadTexts("de"); 

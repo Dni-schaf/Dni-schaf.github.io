@@ -1,68 +1,83 @@
 const previewTxt =
 [
     {
-        "Kapitel": "1_TN_01_01",
+        "Kapitel": "1_TN_01_01_1",
         "de": "Kapitel 1",
-        "en": "one"
+        "en": "Chapter 1"
+    },
+    {
+        "Kapitel": "1_TN_01_01_2",
+        "de": "Aus heiterem Himmel",
+        "en": "Out of the blue"
+    },
+    {
+        "Kapitel": "1_TN_01_01_3",
+        "de": "Melbourne, Australien, 11. Oktober 1910",
+        "en": "Melbourne, Australia, 11 October 1910"
     },
     {
         "Kapitel": "1_TN_01_02",
-        "de": "Aus heiterem Himmel",
-        "en": "two"
+        "de": "Bitte, Kapitän, es ist äußerst dringend, sonst wären wir nicht hier!",
+        "en": "Please, Captain, it's extremely urgent, otherwise we wouldn't be here!"
     },
     {
         "Kapitel": "1_TN_01_03",
-        "de": "Melbourne, Australien, 11. Oktober 1910",
-        "en": "three"
+        "de": "Die Terra Nova ankert nur wenige Meilen von hier. Wir müssen unbedingt heute noch dorthin. Sir.",
+        "en": "The Terra Nova is anchored just a few miles from here. We need to get there today. Sir."
     },
     {
         "Kapitel": "1_TN_01_04",
-        "de": "Bitte, Kapitän, es ist äußerst dringend, sonst wären wir nicht hier!",
-        "en": "four"
+        "de": "Die See ist rau, sage ich Ihnen und bald ist es stockfinster.",
+        "en": "The sea is rough, I tell you, and soon it will be pitch dark."
     },
     {
         "Kapitel": "1_TN_01_05",
-        "de": "Die Terra Nova ankert nur wenige Meilen von hier. Wir müssen unbedingt heute noch dorthin. Sir.",
-        "en": "five"
+        "de": "Bitte lassen Sie es uns doch wenigstens versuchen!",
+        "en": "Please let us at least give it a try!"
     },
     {
         "Kapitel": "1_TN_01_06",
-        "de": "Die See ist rau, sage ich Ihnen und bald ist es stockfinster.",
-        "en": "six"
+        "de": "Unter diesen Bedingungen ist das nicht ganz ungefährlich",
+        "en": "Under these conditions, it is not entirely safe"
     },
     {
         "Kapitel": "1_TN_01_07",
-        "de": "Unter diesen Bedingungen ist das nicht ganz ungefährlich",
-        "en": "seven"
-    },
-    {
-        "Kapitel": "1_TN_01_07a",
         "de": "Wir müssen unbedingt zu meinem Mann, Kapitän.",
-        "en": "seven"
+        "en": "We absolutely have to see my husband, Captain."
     },
     {
         "Kapitel": "1_TN_01_08",
         "de": "Naaa gut ...",
-        "en": "eight"
+        "en": "Welll okey ..."
     },
     {
         "Kapitel": "1_TN_01_09",
         "de": "... aber nur auf Ihre Verantwortung ...",
-        "en": "nine"
+        "en": "... but only on your responsibility ..."
     },
     {
         "Kapitel": "1_TN_01_10",
         "de": "... und ich drehe um, wenn es zu riskant wird.",
-        "en": "ten"
+        "en": "... and I turn back when it gets too risky."
     },
     {
-        "Kapitel": "1_TN_01_11",
+        "Kapitel": "1_TN_01_13",
         "de": "Sicher, dass Sie es versuchen wollen, Junge?",
-        "en": "eleven"
+        "en": "Are you sure you want to try it, boy?"
     },
     {
-        "Kapitel": "1_TN_01_12",
+        "Kapitel": "1_TN_01_14_1",
+        "de": "Ahoi, Bill",
+        "en": "Ahoy, Bill"
+    },
+    {
+        "Kapitel": "1_TN_01_14_2",
+        "de": "Holt den Captain!",
+        "en": "Get the captain!"
+    },
+    {
+        "Kapitel": "1_TN_01_14_3",
         "de": "Keine Chance, Junge.",
-        "en": "twelf"
+        "en": "Not a chance, boy."
     }
 ]
