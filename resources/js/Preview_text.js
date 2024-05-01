@@ -62,7 +62,7 @@ const previewTxt =
     },
     {
         "Kapitel": "1_TN_01_13",
-        "de": "Sicher, dass Sie es versuchen wollen, Junge?",
+        "de": "Sicher, dass Sie es versuchen wollen, Junge? ",
         "en": "Are you sure you want to try it, boy?"
     },
     {

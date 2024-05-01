@@ -11,6 +11,13 @@ body {
     font-style: normal;
   }
 
+  .post_dark{
+    background-color: #214B4D;
+  }
+  .post_light{
+    background-color: #6AB1B5;
+  }
+
   .stapel {
     position: absolute;
 
@@ -45,11 +52,25 @@ body {
     font-family: "Farsan", cursive;
     font-weight: 400;
     font-style: normal;
-    line-height: 2vw;
+    line-height: 2.5vw;
+    /*display: inline-block;
+    border: 10px solid;*/
+
+
+  }
+
+  .highlight { 
+    display: inline;
+    padding: 0% 4%;
+    
+    /* Needs prefixing */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
   
 .dialog {
     position: absolute;
+    display: block;
   }
 
 .txtwhite {
