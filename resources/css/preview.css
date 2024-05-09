@@ -1,4 +1,13 @@
 /* CSS für das Styling der Comic-Panels */
+* {
+  margin:0;
+  padding:0;
+  border: 0;
+  list-style:none;
+  vertical-align:baseline;
+  line-height: 1;
+}
+
 body {
     background-color: #214B4D;
     margin: 0px;
