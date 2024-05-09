@@ -95,5 +95,11 @@ const txt =
         "de": "Vielen Dank, dass Sie Teil unserer Reise sind, und wir hoffen, dass Sie unser Werk genießen!",
         "en": "Thank you for being part of our journey, and we hope you enjoy our work!",
         "no": " "
+    },
+    {
+        "Kapitel": "Link4",
+        "de": "Zur Vorschau",
+        "en": "See the preview",
+        "no": "Til forhåndsvisning"
     }
 ]
