@@ -77,7 +77,7 @@ body {
 (-webkit-min-device-pixel-ratio: 1.25), 
 (min-resolution: 120dpi){ 
   .highlight { 
-    padding: 0.1vw 1vw;
+    padding: 0.3vw 1vw;
   }
 }
   
