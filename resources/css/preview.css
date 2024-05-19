@@ -199,3 +199,6 @@ body {
     margin-bottom: -500px;
   }
   
+  .comic-page {
+    border: 10px solid lime;
+  }
