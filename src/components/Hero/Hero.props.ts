@@ -1,5 +1,7 @@
 export interface HeroProps {
-  captial: string;
+  capital: string;
   heading: string;
   location: string;
+  imageSrc: string;
+  imageAltText: string;
 }

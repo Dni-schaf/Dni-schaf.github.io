@@ -1,0 +1,22 @@
+.container {    
+    position: relative;    
+}
+
+.article {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.capital {
+    font-size: 1.5vw;
+}
+
+.heading {
+    font: normal 500 5vw serif;
+}
+
+.location {
+    font-weight: normal;
+}
