@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#scrollbox {
+  position: absolut;
+  top:0px;
+  left:0px;
+  height:1000px;
+  background-color: lightblue;
+}
+
+#map {
+  position: fixed;
+}
+#grid {
+  position: fixed;
+}
+
+#path {
+  position: fixed;
+}
+
+#text {
+  position: fixed;
+}
+
+path {
+    fill: white;
+    stroke:  none;
+  }
+
+  .graticule {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-width: .2px;
+  }
+
+  .foreground {
+    fill:lightblue;
+    stroke: none;
+    stroke-width: .5px;
+  }
+
+.Amundsen{
+  stroke: rgb(40, 56, 96);
+}
+
+.Scott{
+  stroke: rgb(107, 153, 178);
+}

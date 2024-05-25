@@ -97,6 +97,10 @@ body {
     padding: 0.5vw 1vw;
   }
 }
+
+.comic-page {
+  position: relative;
+}
   
 .dialog {
     position: absolute;
