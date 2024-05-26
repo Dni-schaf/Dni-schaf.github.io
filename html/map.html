@@ -22,7 +22,38 @@
     <div id="text">scroll</div>  
   </div>
 
+  <div id="chapter3" style="position: fixed; top: 350px; width: 100%; height: 100%; background-color: aquamarine;">
+  </div>
+
  <script src="../resources/js/map.js" ></script>  
+
+ <script>
+
+const chapter3date = -1868986921.0084033;
+
+window.addEventListener('scroll', function() {
+        // Berechne den aktuellen Wert von currenttime basierend auf dem Scrollen
+        
+        
+        if (currenttime >= chapter3date) {
+          // Ändere die Position auf absolute und setze top auf die aktuelle Scrollposition + 100vh
+          if (chapter3.style.position !== "absolute") {
+            chapter3.style.position = "absolute";
+            chapter3.style.top = (window.scrollY + window.innerHeight) + "px";
+          }
+        } else {
+          // Ändere die Position zurück auf fixed
+          if (chapter3.style.position !== "fixed") {
+            chapter3.style.position = "fixed";
+            chapter3.style.top = "100vh";
+          }
+        }
+      });
+
+const chapter3 = document.getElementById("chapter3");
+chapter3.style.top = (windowheight) + "px";
+
+ </script>
 </body>
 
 </html>

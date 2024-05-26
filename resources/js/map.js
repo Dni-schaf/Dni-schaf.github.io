@@ -254,7 +254,7 @@ function konverter(){
   let month = date.getMonth() + 1;
   let day = date.getDate();
   let datum = document.getElementById("text");
-  datum.innerHTML = day + ". " + month + ". " + year;
+  datum.innerHTML = day + ". " + month + ". " + year + "." + currenttime;
   
 } ; 
 
