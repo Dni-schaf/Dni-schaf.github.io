@@ -260,6 +260,8 @@ function konverter(){
 
 
 window.addEventListener('scroll', function() {
+
+  
   setPathprogress(datecountAmundsen, Amundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen, MintimestampAmundsen);
   setPathprogress(datecountScott, Scott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott, MintimestampScott);
   konverter();
