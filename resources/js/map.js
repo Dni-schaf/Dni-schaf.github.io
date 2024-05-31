@@ -3,11 +3,11 @@ const windowwidth = window.innerWidth;
 const windowheight = window.innerHeight;
 
 const scrollbox = document.getElementById("scrollbox");
-scrollbox.style.height = (windowheight * 4) + "px";
+scrollbox.style.height = (windowheight * 8) + "px";
 
 
 
-
+// Karte erstellen
 const svgmap = d3.select("#map").append("svg")
 .attr("width", 900)
 .attr("height", 700);
@@ -49,7 +49,7 @@ function fillTimestampArr (datecount, dataset){
 let timestempArrScott = fillTimestampArr(datecountScott, Scott);
 let timestempArrAmundsen = fillTimestampArr(datecountAmundsen, Amundsen);
 
-
+// ermittel den ersten und den letzten tag des datensatzes
 let MaxtimestampScott = Math.max(...timestempArrScott);
 let MaxtimestampAmundsen = Math.max(...timestempArrAmundsen);
 
@@ -78,7 +78,7 @@ let Mintimestamp = getMintimestamp();
 
 let timestampdelta = (Maxtimestamp) - (Mintimestamp);
 
-
+//Reisepfad zeichnen
 function drawPath(dataset, datecount) {
 
 //es wir je eine linie zwischen 2 tagen gezeichnet
@@ -113,6 +113,8 @@ function drawPath(dataset, datecount) {
     }; 
 };
 
+
+//eis in die karte zeichnen
 function drawIce(){
    d3.json("https://gist.githubusercontent.com/ScharffenBerg/5fb9342bb4abe86bec09230d90275197/raw/4bfb48ab30681e6ec441b0d8a2d7a5da6583900a/Shelf_Ice_Data.json", function(error, ice) {
   if (error) return console.error(error);
@@ -127,6 +129,7 @@ function drawIce(){
   });  
 };
 
+//karte zeichnen
 function drawMap(err, world) {
    if (err) throw err
   
@@ -200,19 +203,21 @@ function hidelines (datecount, team, totalLength){
   }; 
 };
  
-hidelines(datecountScott, "Scott", totalLengthScott);
+hidelines(datecountScott, "Scott", totalLengthScott); 
 hidelines(datecountAmundsen, "Amundsen", totalLengthAmundsen);
 
 
-console.log(timestempArrScott);
+//console.log(timestempArrScott);
 
 //steuerung über scrollen
 let currenttime;
+let korrektur = 0;
 
 function setPathprogress(datecount, dataset, timestempArr, team, totalLength, timeLength, starttime){
-    let scrollposition = document.documentElement.scrollTop;      
-   let currenttimestamp =(timestampdelta * scrollposition)/(windowheight*3);
- 
+   let scrollposition = document.documentElement.scrollTop - korrektur;      
+   let currenttimestamp =(timestampdelta * (scrollposition ))/(windowheight*3);
+
+   //console.log(scrollposition);
    
    currenttime = currenttimestamp+Mintimestamp;
 
@@ -247,6 +252,26 @@ function setPathprogress(datecount, dataset, timestempArr, team, totalLength, ti
   };  
 };
 
+const scrollboxdiv = document.getElementById("test");
+
+let lastTwoScrollPositions = [0, 0]; // Array, um die letzten beiden Scroll-Positionen zu speichern
+let scrollDifference = 0; // Variable, um die Differenz zu speichern
+document.addEventListener("scroll", () => {
+  let topoffset = document.documentElement.scrollTop;
+
+  // Verschieben der letzten Position in das zweite Element und Aktualisierung der ersten Position
+  lastTwoScrollPositions[1] = lastTwoScrollPositions[0];
+  lastTwoScrollPositions[0] = topoffset;
+
+  // Berechnung der Differenz
+  scrollDifference = lastTwoScrollPositions[0] - lastTwoScrollPositions[1];
+
+  // Ausgabe der Differenz in der Konsole (optional)
+  //console.log("Scroll Difference:", scrollDifference);
+});
+
+
+
 // konvertiert timestamp zur Datum
 function konverter(){
   let date = new Date(currenttime*1000);
@@ -259,12 +284,94 @@ function konverter(){
 } ; 
 
 
+
+
+
+const chapter3date = -1868986921.0084033;
+
+window.addEventListener('scroll', function() {
+        // Berechne den aktuellen Wert von currenttime basierend auf dem Scrollen
+        
+        
+        if (currenttime >= chapter3date) {
+          // Ändere die Position auf absolute und setze top auf die aktuelle Scrollposition + 100vh
+          if (chapter3.style.position !== "absolute") {
+            chapter3.style.position = "absolute";
+            chapter3.style.top = (window.scrollY + window.innerHeight) + "px";
+
+
+
+            
+          }
+        } else {
+          // Ändere die Position zurück auf fixed
+          if (chapter3.style.position !== "fixed") {
+            chapter3.style.position = "fixed";
+            chapter3.style.top = "110vh";
+          }
+        }
+        
+      });
+
+const chapter1 = document.getElementById("chapter1");
+const chapter3 = document.getElementById("chapter3");
+
+let comictime = true;
+let scrolltopstart = 0;
+let scrolltopend = 0;
+let elemnthight = 0;
+
+
+      // IntersectionObserver für chapter3
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            scrollboxdiv.style.backgroundColor = "red"; // Hintergrundfarbe ändern
+            comictime = true;
+            scrolltopstart = document.documentElement.scrollTop;
+            let intersectingElementId = entry.target.id;
+            let elmnt = document.getElementById(intersectingElementId);
+            elemnthight = elmnt.offsetHeight;
+            console.log(intersectingElementId +" heihgt:" + windowheight + "elementheight" + elemnthight);
+            
+            
+  
+          } else {
+            scrollboxdiv.style.backgroundColor = "white"; // Hintergrundfarbe zurücksetzen
+            comictime = false;
+            scrolltopend = document.documentElement.scrollTop;
+            if (scrolltopend > scrolltopstart) {
+              let korrekturneu = scrolltopend - scrolltopstart;
+              korrektur = korrektur + korrekturneu;
+            }else{
+              let korrekturneu = scrolltopstart - scrolltopend;
+              korrektur = korrektur - korrekturneu;
+            }
+            
+           //console.log("korrektur" + korrekturneu);
+
+          }
+        });
+      }, { threshold: [0] });
+
+
+
+      // chapter3-Element beobachten
+      observer.observe(chapter1);
+      observer.observe(chapter3);
+
+
+
+
+
 window.addEventListener('scroll', function() {
 
-  
+  if( comictime==false){
   setPathprogress(datecountAmundsen, Amundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen, MintimestampAmundsen);
   setPathprogress(datecountScott, Scott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott, MintimestampScott);
   konverter();
+  } else {};
+  
   
 });
 
