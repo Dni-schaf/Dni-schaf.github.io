@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datum zu Timestamp</title>
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        table {
+            position: fixed; /* Tabelle bleibt beim Scrollen sichtbar */
+            top: 10px;
+            left: 10px;
+            background-color: white;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #map {
+            position: relative;
+            height: 500vh;
+            width: 100%;
+            background-color: rgb(17, 194, 194);
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div id="map">
+    </div>
+
+    <div id="chapter1" style="position: fixed; top: 101vh; width: 100%; height: 300px; background-color: rgb(15, 77, 105);">
+    </div>
+
+    <table>
+        <tr>
+          <th>scrollposition</th>
+          <th>humandate</th>
+          <th>currenttimestamp</th>
+          <th>chapter</th>
+          <th>korrektur</th>
+          <th>scrollkorr</th>
+        </tr>
+        <tr>
+          <td id="scrolltop">-</td>
+          <td id="date">-</td>
+          <td id="timestamp">-</td>
+          <td id="chapter">-</td>
+          <td id="korrektur">-</td>
+          <td id="scrollkorr">-</td>
+        </tr>
+      </table>
+
+      
+    <script>
+        const windowheight = window.innerHeight;
+        
+        let chapter = 0;
+        let korrektur = 0;
+
+        // Ursprüngliches Array mit Datumsstrings
+const datestartArray = ["01.06.1910", "15.06.1910", "09.08.1910", "09.09.1910", "10.09.1910", "15.09.1910", "25.09.1910", "01.10.1910", "12.10.1910", "02.11.1910", "15.11.1910", "29.11.1910", "29.11.1910", "03.12.1910", "04.12.1910", "05.12.1910", "07.12.1910", "09.12.1910", "11.12.1910", "13.12.1910", "15.12.1910", "16.12.1910", "19.12.1910", "21.12.1910", "23.12.1910" ];
+const dateendArray =   ["13.06.1910", "09.08.1910", "06.09.1910", "10.09.1910", "15.09.1910", "25.09.1910", "01.10.1910", "11.10.1910", "01.11.1910", "15.11.1910", "25.11.1910", "29.11.1910", "02.12.1910", "04.12.1910", "05.12.1910", "07.12.1910", "09.12.1910", "11.12.1910", "13.12.1910", "15.12.1910", "16.12.1910", "19.12.1910", "21.12.1910", "23.12.1910", "25.12.1910" ];
+
+        // Funktion, die das Datumsformat "tt.mm.jjjj" in einen Timestamp umwandelt
+        function convertDateToTimestamp(dateString) {
+            const [day, month, year] = dateString.split('.');
+            const date = new Date(`${year}-${month}-${day}`);
+            return date.getTime();
+        };
+
+        // timestamp umwandel alternativ test
+        let myDate = "01-06-1910";
+        myDate = myDate.split("-");
+        let newDate = new Date( myDate[2], myDate[1] - 1, myDate[0]);
+        console.log(newDate.getTime());
+
+        function convertTimestampToDateString(timestamp) {
+            const date = new Date(timestamp);
+            const day = String(date.getDate()).padStart(2, '0');
+            const month = String(date.getMonth() + 1).padStart(2, '0'); // Monate sind 0-basiert
+            const year = date.getFullYear();
+            return `${day}.${month}.${year}`;
+            
+        }
+
+        // Neues Array für die Timestamps
+        const timestampstartArray = datestartArray.map(convertDateToTimestamp);
+        const timestampendArray = dateendArray.map(convertDateToTimestamp);
+
+        // erstes und letztes timestamp um den zeitraum zu ermitteln
+        const lastDate = timestampendArray[timestampendArray.length - 1];
+        const firstDate = timestampstartArray[0];
+
+        const timestampdelta = lastDate-firstDate;
+        console.log (timestampdelta);
+
+        currenttimestamp = firstDate;
+
+        // Höhe des div für die map 
+        const mapDiv = document.getElementById('map');
+        const mapHight = mapDiv.offsetHeight - windowheight;
+        let scrollpositionAlt = 0;
+        const chapterID = document.getElementById("chapter1");
+
+        // Event-Listener für Scroll-Events
+        window.addEventListener('scroll', () => {
+            let scrollposition = window.scrollY;
+            let timestampoffset =(timestampdelta * (scrollposition - korrektur ))/(mapHight);
+                currenttimestamp = timestampoffset + firstDate;
+            
+            if(currenttimestamp < timestampendArray[chapter]){
+                console.log("scrollen");
+                
+                let humandate = convertTimestampToDateString(currenttimestamp);
+                document.getElementById('date').textContent = humandate;
+            }else{
+                console.log("chapter");
+                 
+                if (chapterID.style.position !== "absolute") {
+                    chapterID.style.position = "absolute";
+                    chapterID.style.top = (window.scrollY + window.innerHeight) + "px";
+                    scrollpositionAlt = 222;
+                } else{};
+                if (scrollposition > scrollpositionAlt + windowheight + 300) {
+                    korrektur = 300 + windowheight;
+                    console.log("scrollen");
+                
+                    let humandate = convertTimestampToDateString(currenttimestamp);
+                    document.getElementById('date').textContent = humandate;
+
+                } else{};
+
+            };
+
+            
+            
+            
+
+            // Tabelle aktualisieren
+            document.getElementById('scrolltop').textContent = scrollposition;
+            document.getElementById('timestamp').textContent = currenttimestamp;
+            
+            
+            
+        });
+    </script>
+</body> 
+</html>

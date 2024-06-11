@@ -1,0 +1,110 @@
+body {
+    background-color: lightblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*styles für die schriften im comicbereich*/
+.farsan-regular {
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 5vw;
+    font-weight: 500;
+    font-style: normal;
+    margin: 2%;
+    margin-top: -1%;
+}
+
+.chapter{
+    font-size: 1.5vw;
+    margin: 2%;
+    font-family: sans-serif;
+}
+
+.speaker{
+    font-size: 1.2vw;
+    margin: 2%;
+    font-family: sans-serif;
+}
+
+.dialog {
+    font-size: 2.1vw;
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.5vw;
+}
+
+/*styles für die karte*/
+#scrollbox {
+    position: fixed;
+    top:0px;
+    left:0px;
+    height:100vh;
+}
+
+#map {
+    position: fixed;
+}
+
+#grid {
+    position: fixed;
+}
+
+#path {
+    position: fixed;
+}
+
+path {
+    fill: white;
+    stroke:  none;
+}
+
+.graticule {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-width: .2px;
+}
+
+.foreground {
+    fill:lightblue;
+    stroke: none;
+    stroke-width: .5px;
+}
+
+.text-overlay {
+    position: absolute;
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+/* comic bilder style*/
+.image-container {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.day-div {
+    width: 100%;
+    margin-bottom: 10px;
+    /*background-color: lightblue;  Standardfarbe */
+    text-align: center;
+    line-height: 1.5; /* Zeilenhöhe für lesbaren Text */
+}
+
+.spacer-div {
+    width: 100%;
+    background-color: #214B4D;
+}

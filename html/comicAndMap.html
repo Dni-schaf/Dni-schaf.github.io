@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Höhe der Divs basierend auf Tagen</title>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="../resources/js/coordinates.js"></script>
+    <script src="../resources/js/iceshelf_Data.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../resources/css/comicAndMap.css">
+
+</head>
+<body>
+    <div id="mapbox">
+        <div id="map"></div>
+        <div id="grid"></div>
+        <div id="path"></div>
+    </div>
+
+    <div class="container" id="container"></div>
+
+   
+
+<script src="../resources/js/comicAndMap_images.js" ></script> 
+<script src="../resources/js/comicAndMap_texts.js" ></script> 
+ <script>
+        
+        
+        let language = "en";
+
+        // karte erzeugen
+        const svgmap = d3.select("#map").append("svg")
+        .attr("width", 900)
+        .attr("height", 700);
+
+        const svgpath = d3.select("#path").append("svg")
+        .attr("width", 900)
+        .attr("height", 700);
+
+        const svggrid = d3.select("#grid").append("svg")
+        .attr("width", 900)
+        .attr("height", 700);
+
+        const projection = d3.geoAzimuthalEqualArea()
+        .rotate([-70,0])
+        .scale(170)
+        .translate([450,360]);
+
+        const path = d3.geoPath().projection(projection);
+
+        const graticule = d3.geoGraticule()
+        .step([10, 5]);
+
+        
+//eis in die karte zeichnen
+function drawIce(){
+   d3.json("https://gist.githubusercontent.com/ScharffenBerg/5fb9342bb4abe86bec09230d90275197/raw/4bfb48ab30681e6ec441b0d8a2d7a5da6583900a/Shelf_Ice_Data.json", function(error, ice) {
+  if (error) return console.error(error);
+
+  svgmap.append("g")
+    .attr("class", "iceshelf")
+    .selectAll("path")
+    .data(ice.features)
+    .enter().append("path")
+    .attr('d', path)
+    .attr("class", "ice"); 
+  });  
+};
+
+//karte zeichnen
+function drawMap(err, world) {
+   if (err) throw err
+  
+  //macht Umriss für die Farbe des Meers
+  svgmap.append("path")
+    .datum(graticule.outline)
+    .attr("class", "foreground")
+    .attr("d", path);
+  
+  //Kontinente erzeugen
+  svgmap.append("g")
+    .selectAll("path")
+    .data(topojson.feature(world, world.objects.countries).features)
+    .enter().append("path")
+    .attr("d", path)
+    .attr("class", "map");
+ 
+  //Gitternetz erzeugen
+  svggrid.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path); 
+}; 
+
+drawIce();
+d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json", drawMap);
+
+
+
+
+
+        // container erzeugen
+
+        const datestartArray = ["01.06.1910", "15.06.1910", "09.08.1910", "09.09.1910", "10.09.1910", "15.09.1910", "25.09.1910", "01.10.1910", "12.10.1910", "02.11.1910", "15.11.1910", "29.11.1910", "29.11.1910", "03.12.1910", "04.12.1910", "05.12.1910", "07.12.1910", "09.12.1910", "11.12.1910", "13.12.1910", "15.12.1910", "16.12.1910", "19.12.1910", "21.12.1910", "23.12.1910" ];
+        const dateendArray =   ["13.06.1910", "09.08.1910", "06.09.1910", "10.09.1910", "15.09.1910", "25.09.1910", "01.10.1910", "11.10.1910", "01.11.1910", "15.11.1910", "25.11.1910", "29.11.1910", "02.12.1910", "04.12.1910", "05.12.1910", "07.12.1910", "09.12.1910", "11.12.1910", "13.12.1910", "15.12.1910", "16.12.1910", "19.12.1910", "21.12.1910", "23.12.1910", "25.12.1910" ];
+
+        // Farben für die divs
+        const colors = ["#FFCCCC", "#FFCC99", "#FFFF99", "#CCFFCC", "#99CCFF", "#CCCCFF", "#FF99CC", "#FF6666", "#FF9966", "#FFFF66", "#99FF99", "#66CCFF", "#CC99FF", "#FF66CC"];
+
+        // Funktion, die das Datumsformat "tt.mm.jjjj" in ein Date-Objekt konvertiert
+        function convertToDate(dateString) {
+            const [day, month, year] = dateString.split('.');
+            return new Date(`${year}-${month}-${day}`);
+        }
+
+        // Container für die divs
+        const container = document.getElementById('container');
+
+        // Höhe des Browserfensters
+        const windowHeight = window.innerHeight;
+
+        // Funktion, um ein Spacer-div zu erstellen und Bilder hinzuzufügen
+        function createSpacerDiv(images) {
+            const spacerDiv = document.createElement('div');
+            spacerDiv.className = 'spacer-div';
+
+            images.forEach(image => {
+
+                const imgContainer = document.createElement('div');
+                imgContainer.style.position = 'relative';
+                imgContainer.className = 'image-container';
+
+                const img = document.createElement('img');
+                img.src = `../resources/images/${image.Kapitel}.svg`;
+                img.style.width = '100%';
+                imgContainer.appendChild(img);
+
+                addTextToImage(imgContainer, image.Kapitel, language);
+
+                spacerDiv.appendChild(imgContainer);
+            });
+
+            return spacerDiv;
+        
+        }
+
+        // Funktion, um Texte zum Bild hinzuzufügen
+        function addTextToImage(imageContainer, imageKey, language) {
+            if (imageTexts[imageKey]) {
+                imageTexts[imageKey].forEach(textData => {
+                    const textDiv = document.createElement('div');
+                    textDiv.className = `text-overlay ${textData.kind}`;
+                    textDiv.style.color = textData.color;
+                    //textDiv.style.top = textData.top;
+                    textDiv.style.bottom = textData.bottom; // Hinzugefügt für Bottom-Positionierung
+                    textDiv.style.left = textData.left;
+                    textDiv.style.width = textData.width;
+                    textDiv.style.textAlign = textData.textAlign;
+                    textDiv.innerText = textData[`text_${language}`] || textData[`text_en`]; // Fallback auf Englisch, falls die Sprache nicht vorhanden ist                    imageContainer.appendChild(textDiv);
+                
+                    imageContainer.appendChild(textDiv);
+                });
+            }
+        }   
+
+        // Ersten Spacer-div mit Bildern vor dem ersten div einfügen
+        container.appendChild(createSpacerDiv(imageSets[0]));
+
+        // Schleife über die Arrays und Erstellung der divs
+        for (let i = 0; i < datestartArray.length; i++) {
+            const startDate = convertToDate(datestartArray[i]);
+            const endDate = convertToDate(dateendArray[i]);
+
+            // Berechnung der Tage zwischen den beiden Daten
+            const timeDiff = endDate - startDate;
+            const daysDiff = timeDiff / (1000 * 60 * 60 * 24);
+
+            // Höhe des divs in Pixeln (30px pro Tag)
+            const divHeight = daysDiff * 30 + windowHeight;
+
+            // Erstellung und Styling des divs
+            const dayDiv = document.createElement('div');
+            dayDiv.className = 'day-div';
+            dayDiv.style.height = `${divHeight}px`;
+            dayDiv.textContent = `Start: ${datestartArray[i]} - Ende: ${dateendArray[i]} - Tage: ${daysDiff}`;
+
+            // Hinzufügen des divs und eines Spacer-divs mit Bildern zum Container
+            container.appendChild(dayDiv);
+
+            // Füge weitere Bildsätze hinzu, wenn vorhanden
+            if (i < imageSets.length - 1) {
+                container.appendChild(createSpacerDiv(imageSets[i + 1]));
+            }
+        }
+        document.getElementById('container').appendChild(createSpacerDiv(imageSets, language));
+
+    </script>
+</body>
+</html>
