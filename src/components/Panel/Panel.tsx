@@ -19,6 +19,7 @@ const Panel = ({
         <figure className={clsx(styles[`height-${height}`])}>
           <img src={imgSrc} alt={imgAltText} />
         </figure>
+        {children}
       </Columns>
     </div>
   );

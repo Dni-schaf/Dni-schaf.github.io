@@ -1,10 +1,14 @@
-import React from 'react';
-import styles from './Text.module.scss';
-import { TextProps } from './Text.props';
-import { clsx } from 'clsx';
+import React, { CSSProperties } from "react";
+import styles from "./Text.module.scss";
+import { TextProps } from "./Text.props";
+import { clsx } from "clsx";
+
+const positionStyles = {
+  position: "absolute",
+};
 
 const Text = ({
-  color = 'light',
+  color = "light",
   positionTop,
   positionRight,
   positionBottom,
@@ -12,20 +16,27 @@ const Text = ({
   children,
   backgroundColor,
 }: TextProps) => {
+  const positioningStyles = {
+    ...positionStyles,
+    top: `${positionTop}px`,
+    right: `${positionRight}px`,
+    bottom: `${positionBottom}px`,
+    left: `${positionLeft}px`,
+  };
+
+  const styleProps = positioningStyles as CSSProperties;
   return (
-    <div
-      className={clsx(positionTop, positionRight, positionBottom, positionLeft)}
+    // <article className={styles.article}>
+    <p
+      className={clsx(styles.bodyText, styles.article, {
+        [styles.colorLight]: color === "light",
+        [styles.colorDark]: color === "dark",
+      })}
+      style={styleProps}
     >
-      <p
-        className={clsx(styles.bodyText, {
-          [styles.colorLight]: color === 'light',
-          [styles.colorDark]: color === 'dark',
-        })}
-        style={{ backgroundColor: backgroundColor }}
-      >
-        {children}
-      </p>
-    </div>
+      {children}
+    </p>
+    // </article>
   );
 };
 

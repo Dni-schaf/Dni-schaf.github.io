@@ -1,5 +1,6 @@
 .containerColumns {
-  display: grid;
+  // TODO: think about isolation
+  position: relative;
   border: 3px solid pink;
 }
 
