@@ -1,10 +1,16 @@
-import React, { useCallback } from 'react';
-import styles from './Panel.module.scss';
-import { PanelProps } from './Panel.props';
-import { clsx } from 'clsx';
+import React, { useCallback } from "react";
+import styles from "./Panel.module.scss";
+import { PanelProps } from "./Panel.props";
+import { clsx } from "clsx";
 // import Image from 'next/image';
 
-const Panel = ({ column, height, children }: PanelProps) => {
+const Panel = ({
+  column = 1,
+  height = "full",
+  children,
+  imgSrc,
+  imgAltText,
+}: PanelProps) => {
   const renderColumns = useCallback(() => {
     // TODO: edit
     switch (column) {
@@ -20,8 +26,11 @@ const Panel = ({ column, height, children }: PanelProps) => {
   }, [column, children]);
 
   return (
-    <div className={clsx(styles.panel, styles[column], styles[height])}>
+    <div
+      className={clsx(styles.containerPanel, styles[column], styles[height])}
+    >
       {renderColumns()}
+      <img src={imgSrc} alt={imgAltText} />
     </div>
   );
 };

@@ -1,22 +1,23 @@
-.container {    
-    position: relative;    
+.container {
+  position: relative;
+  border: 2px solid lime;
 }
 
 .article {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
 
 .capital {
-    font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 .heading {
-    font: normal 500 5vw serif;
+  font: normal 500 5vw serif;
 }
 
 .location {
-    font-weight: normal;
+  font-weight: normal;
 }
