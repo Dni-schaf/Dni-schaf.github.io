@@ -13,7 +13,7 @@ export default function Home() {
           imageAltText="blah blah"
         />
       </main>
-      <Panel imgSrc="/images/Post1a.svg" imgAltText="panel 2" />
+      <Panel imgSrc="/images/Post1a.svg" imgAltText="panel 2" height="half" />
     </>
   );
 }
