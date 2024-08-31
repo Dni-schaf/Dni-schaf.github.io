@@ -1,0 +1,90 @@
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#contentbox {
+    position: relative;
+    width: 100%;
+    height: 69.89vw; /* Höhe ist 0.6989 der Breite */
+    background-color: lightblue;
+    overflow: hidden; /* Überflüssige Inhalte verstecken */
+}
+
+#imagebox {
+    position: absolute;
+    width: 400%;
+    height: 400%;
+    top: 0;
+    left: 0;
+    background-image: url('../../resources/images/Bild.png'); /* Platzhalterbild */
+    background-size: cover; /* Passt das Bild an die div-Größe an */
+    z-index: 1; /* Hinter den anderen divs */
+}
+
+#draggable {
+    position: absolute;
+    width: 20vw; /* Quadratisch, 10% der Fensterbreite */
+    height: 20vw;
+    cursor: move;
+    top: calc(50% - 10vw); /* Zentriert in der Mitte der contentbox */
+    left: calc(50% - 10vw); /* Zentriert in der Mitte der contentbox */
+    touch-action: none; /* Deaktiviert Standard-Touch-Aktionen */
+    z-index: 10;
+}
+
+#moving-box {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Interaktionen ignorieren */
+    z-index: 5;
+    transform: translate(-50%, -50%);
+}
+
+.cover{
+    position: absolute; 
+    background-color: black; 
+}
+
+
+.trigger {
+    position: absolute;
+    width: 5%;  /* Größe der Trigger-Boxen */
+    height: 5%;
+    background-color: rgba(0, 255, 255, 0.5); /* Halbtransparentes Cyan */
+    z-index: 2; /* Über dem Bild, unter dem Rest */
+}
+
+/* Positioniere die Trigger an verschiedenen Stellen */
+#trigger1 {
+    top: 10%;
+    left: 10%;
+}
+#trigger2 {
+    top: 50%;
+    left: 50%;
+}
+#trigger3 {
+    top: 70%;
+    left: 20%;
+}
+
+#textbox {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Halbtransparentes Weiß */
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 20; /* Ganz oben */
+    display: none; /* Versteckt, bis eine Überlappung festgestellt wird */
+}
