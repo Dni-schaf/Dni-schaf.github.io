@@ -10,7 +10,9 @@
     </style>
 </head>
 <body>
+    <!-- Three.js und OrbitControls laden -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js"></script>
     <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/OBJLoader.js"></script>
 
     <script>
@@ -31,19 +33,30 @@
 
         // OBJ-Datei laden
         var loader = new THREE.OBJLoader();
-        loader.load('../resources/3d/suzanne.obj', function (object) {
+        loader.load('pfad-zu-deinem-modell.obj', function (object) {
             scene.add(object);
         });
 
+        // Kamera-Position initialisieren
         camera.position.z = 5;
 
-        // Animation: Das Modell kontinuierlich drehen
+        // OrbitControls hinzufügen, damit der Benutzer das Modell rotieren und zoomen kann
+        var controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+        // Animation: Renderer aufrufen und Controls updaten
         function animate() {
             requestAnimationFrame(animate);
-            scene.rotation.y += 0.01; // Beispiel: Rotation
+            controls.update();  // OrbitControls aktualisieren
             renderer.render(scene, camera);
         }
         animate();
+
+        // Fenstergröße anpassen
+        window.addEventListener('resize', function() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
     </script>
 </body>
 </html>
