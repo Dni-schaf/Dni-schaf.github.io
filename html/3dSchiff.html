@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Schiffsmodell</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/OBJLoader.js"></script>
+
+    <script>
+        // Szene, Kamera und Renderer erstellen
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // Licht hinzufügen
+        var ambientLight = new THREE.AmbientLight(0xFFFFFF, 0.5);
+        scene.add(ambientLight);
+        
+        var pointLight = new THREE.PointLight(0xFFFFFF, 0.8);
+        pointLight.position.set(10, 10, 10);
+        scene.add(pointLight);
+
+        // OBJ-Datei laden
+        var loader = new THREE.OBJLoader();
+        loader.load('../resources/3d/suzanne.obj', function (object) {
+            scene.add(object);
+        });
+
+        camera.position.z = 5;
+
+        // Animation: Das Modell kontinuierlich drehen
+        function animate() {
+            requestAnimationFrame(animate);
+            scene.rotation.y += 0.01; // Beispiel: Rotation
+            renderer.render(scene, camera);
+        }
+        animate();
+    </script>
+</body>
+</html>
