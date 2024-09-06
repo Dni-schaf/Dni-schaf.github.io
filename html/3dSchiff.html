@@ -10,15 +10,15 @@
     </style>
 </head>
 <body>
-    <!-- Three.js und OrbitControls laden -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js"></script>
-    <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/OBJLoader.js"></script>
+    <!-- Three.js als ES Modul laden -->
+    <script type="module">
+        import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
+        import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/jsm/controls/OrbitControls.js';
+        import { OBJLoader } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/jsm/loaders/OBJLoader.js';
 
-    <script>
         // Szene, Kamera und Renderer erstellen
         var scene = new THREE.Scene();
-        var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
         var renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
@@ -32,18 +32,19 @@
         scene.add(pointLight);
 
         // OBJ-Datei laden
-        var loader = new THREE.OBJLoader();
-        loader.load('pfad-zu-deinem-modell.obj', function (object) {
+        var loader = new OBJLoader();
+        loader.load('../resources/3d/suzanne.obj', function (object) {
             scene.add(object);
         });
 
         // Kamera-Position initialisieren
         camera.position.z = 5;
 
-        // OrbitControls hinzufügen, damit der Benutzer das Modell rotieren und zoomen kann
-        var controls = new THREE.OrbitControls(camera, renderer.domElement);
+        // OrbitControls hinzufügen
+        var controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;  // optional: sanftes Drehen
 
-        // Animation: Renderer aufrufen und Controls updaten
+        // Animation
         function animate() {
             requestAnimationFrame(animate);
             controls.update();  // OrbitControls aktualisieren
@@ -52,7 +53,7 @@
         animate();
 
         // Fenstergröße anpassen
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
@@ -60,3 +61,6 @@
     </script>
 </body>
 </html>
+
+
+
