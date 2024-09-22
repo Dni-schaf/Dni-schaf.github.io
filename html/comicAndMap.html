@@ -33,7 +33,7 @@
 
 
 <script>        
-        let language = "en";
+        let language = "de";
 
         // karte erzeugen
         const svgmap = d3.select("#map").append("svg")
@@ -163,7 +163,7 @@ d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json", drawMap);
                     textDiv.style.left = textData.left;
                     textDiv.style.width = textData.width;
                     textDiv.style.textAlign = textData.textAlign;
-                    textDiv.innerText = textData[`text_${language}`] || textData[`text_en`]; // Fallback auf Englisch, falls die Sprache nicht vorhanden ist                    imageContainer.appendChild(textDiv);
+                    textDiv.innerText = textData[`text_${language}`] || textData[`text_de`]; // Fallback auf Englisch, falls die Sprache nicht vorhanden ist                    imageContainer.appendChild(textDiv);
                 
                     imageContainer.appendChild(textDiv);
                 });

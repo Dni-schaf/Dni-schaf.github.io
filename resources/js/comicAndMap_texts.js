@@ -1,9 +1,166 @@
  const imageTexts = {
-            "01_TN_01": [
+
+  "01_TN_01": [
     {
       "text_de": "Kapitel 1",
       "text_en": "Chapter 1",
       "text_no": "Kapittel 1",
+      "kind": "chapter",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "90%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Abschied auf Raten",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "title",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "85%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "1. Juni 1910, London, England",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "speaker",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+
+  "02_TN_01": [
+    {
+      "text_de": "Kapitel 2",
+      "text_en": "Chapter 2",
+      "text_no": "Kapittel 2",
+      "kind": "chapter",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "90%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Federkleid und Kohlenstaub",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "title",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "85%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "8. August 1910, Südatlantik",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "speaker",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+
+  "03_F_01": [
+    {
+      "text_de": "Kapitel 3",
+      "text_en": "Chapter 3",
+      "text_no": "Kapittel 3",
+      "kind": "chapter",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "90%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Eine neue Partie",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "title",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "85%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "6. September 1910, Funchal, Madeira",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "speaker",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+
+  "04_F_01": [
+    {
+      "text_de": "Kapitel 4",
+      "text_en": "Chapter 4",
+      "text_no": "Kapittel 4",
+      "kind": "chapter",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "90%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Von Hundstagen und Hundewetter",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "title",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "85%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "10. September 1910, Atlantik",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "speaker",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+
+            "05_TN_01": [
+    {
+      "text_de": "Kapitel 5",
+      "text_en": "Chapter 5",
+      "text_no": "Kapittel 5",
       "kind": "chapter",
       "color": "white",
       "backgroundColor": null,
@@ -37,7 +194,7 @@
       "width": "100%"
     }
   ],
-  "01_TN_02": [
+  "05_TN_02": [
     {
       "text_de": "Bitte, Kapitän, es ist äußerst dringend, sonst wären wir nicht hier!",
       "text_en": "Please, Captain, it's extremely urgent, otherwise we wouldn't be here!",
@@ -51,7 +208,7 @@
       "width": "30%"
     }
   ],
-  "01_TN_03": [
+  "05_TN_03": [
     {
       "text_de": "Die Terra Nova ankert nur wenige Meilen von hier. Wir müssen unbedingt heute noch dorthin. Sir.",
       "text_en": "The Terra Nova is anchored just a few miles from here. We need to get there today. Sir",
@@ -77,7 +234,7 @@
       "width": "20%"
     }
   ],
-  "01_TN_04": [
+  "05_TN_04": [
     {
       "text_de": "Bitte lassen Sie es uns doch wenigstens versuchen!",
       "text_en": "Please let us at least give it a try!",
@@ -91,7 +248,7 @@
       "width": "20%"
     }
   ],
-  "01_TN_05": [
+  "05_TN_05": [
     {
       "text_de": "Unter diesen Bedingungen ist das nicht ganz ungefährlich.",
       "text_en": "Under these conditions, it is not entirely safe.",
@@ -105,7 +262,7 @@
       "width": "23%"
     }
   ],
-  "01_TN_06": [
+  "05_TN_06": [
     {
       "text_de": "Wir müssen unbedingt zu meinem Mann, Kapitän.",
       "text_en": "We absolutely have to see my husband, Captain.",
@@ -119,7 +276,7 @@
       "width": "20%"
     }
   ],
-  "01_TN_07": [
+  "05_TN_07": [
     {
       "text_de": "Naaa gut ...",
       "text_en": "Welll okay ...",
@@ -157,7 +314,7 @@
       "width": "15%"
     }
   ],
-  "01_TN_10": [
+  "05_TN_10": [
     {
       "text_de": "Sicher, dass Sie es versuchen wollen, Junge?",
       "text_en": "Are you sure you want to try it, boy?",
@@ -171,7 +328,7 @@
       "width": "20%"
     }
   ],
-  "01_TN_11": [
+  "05_TN_11": [
     {
       "text_de": "Ahoi, Bill.",
       "text_en": "Ahoy, Bill.",
