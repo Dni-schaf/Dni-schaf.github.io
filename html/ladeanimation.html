@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompass Windrose Ladeanimation</title>
+
+    <style>
+        body {
+            background-color: cadetblue;
+            margin: 0px;
+            padding: 0px;
+        }
+        /* Vollbild-Loader */
+        #loader-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 0.5s ease-out; /* Sanfter Übergang für das Ausblenden */
+        }
+
+        #windrosebox {
+            width: 25vw;
+            height: 25vw;
+            background-image: url('../resources/images/rose1.svg');
+        }
+
+        /* Windrose */
+        #windrose {
+            width: 25vw;
+            height: 25vw;
+            background-image: url('../resources/images/rose2.svg');
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(0deg);
+            transition: transform 2s ease-out; /* Übergang für das "nach Norden drehen" */
+        }
+
+        /* Ladefortschritt-Text */
+        #progress {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #374C52;
+        }
+
+        /* Hauptinhalt der Seite */
+        body {
+            min-height: 200vh; /* Lange Seite zum Scrollen */
+        }
+
+    </style>
+</head>
+<body>
+<div id="comic">
+    <img src="../resources/images/01_TN_01.svg" alt="Panel 15">
+</div>
+<div id="loader-container">
+    <div id="windrosebox">
+        <div id="windrose"></div>
+    </div>
+    <!-- Ladefortschritt in Prozent anzeigen -->
+    <div id="progress">0%</div>
+</div>
+
+<script>
+    // Elemente abrufen
+    const windrose = document.getElementById('windrose');
+    const windrosebox = document.getElementById('windrosebox');
+    const progressText = document.getElementById('progress');
+    const loaderContainer = document.getElementById('loader-container');
+
+    // Variablen für Drehgeschwindigkeit und Ladefortschritt
+    let rotationDegree = 0;
+    let loadingProgress = 0;
+
+    // Zufällige Drehung der Windrose während des Ladens
+    function randomRotation() {
+        if (loadingProgress < 99) {
+            rotationDegree += (Math.random() * 120 - 60); // Zufällige Drehung nach links und rechts
+            windrose.style.transform = `rotate(${rotationDegree}deg)`;
+        } else if (loadingProgress >= 99) {
+            // Sanftes Stoppen der Rotation und Ausrichten nach Norden
+            windrose.style.transition = "transform 2s ease-out";
+            windrose.style.transform = 'rotate(0deg)';
+        }
+    }
+
+    // Simuliere den Ladefortschritt
+    function simulateLoading() {
+        const loadingInterval = setInterval(() => {
+            loadingProgress += Math.random() * 5; // Ladefortschritt simulieren
+            if (loadingProgress >= 100) {
+                loadingProgress = 100;
+                clearInterval(loadingInterval);
+                setTimeout(() => {
+    // Windrose und Prozentzahl ausblenden
+    windrose.style.transition = "opacity 1s ease-out";
+    windrosebox.style.transition = "opacity 1s ease-out";
+    progressText.style.transition = "opacity 1s ease-out";
+    windrose.style.opacity = 0;
+    windrosebox.style.opacity = 0;
+    progressText.style.opacity = 0;
+
+    // 1 Sekunde später, nach dem Faden, Scroll-Animation starten
+    setTimeout(() => {
+        windrose.style.display = 'none';
+        windrosebox.style.display = 'none';
+        progressText.style.display = 'none';
+        
+        autoScroll();  // Automatisches Scrollen starten
+    }, 1000);  // 1 Sekunde Verzögerung
+}, 2000);  // 2 Sekunden warten nach der Ausrichtung nach Norden
+            }
+            randomRotation(); // Die Windrose basierend auf dem Fortschritt drehen
+            // Ladefortschritt in Prozent anzeigen
+            progressText.textContent = `${Math.floor(loadingProgress)}%`;
+        }, 50); // Alle 100ms aktualisieren
+    }
+
+    // Funktion für automatisches Scrollen
+    function autoScroll() {
+        const scrollStep = 10; // Anzahl der Pixel pro Frame
+        const scrollInterval = setInterval(() => {
+            if (window.scrollY < window.innerHeight / 2) {
+                window.scrollBy(0, scrollStep); // Scrollt nach unten
+            } else {
+                clearInterval(scrollInterval); // Beende das Scrollen, wenn 50% der Höhe erreicht sind
+            }
+        }, 16); // Ca. 60fps für sanftes Scrollen
+    }
+
+    // Overlay beim Scrollen ausblenden
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const fadePoint = windowHeight / 2; // 50% der Bildschirmhöhe
+
+        // Reduziere die Opazität basierend auf dem Scroll-Fortschritt
+        if (scrollPosition <= fadePoint) {
+            const opacity = 1 - (scrollPosition / fadePoint);
+            loaderContainer.style.opacity = opacity;
+        } else {
+            loaderContainer.style.opacity = 0;
+        }
+    });
+
+    // Ladefortschritt bei DOMContentLoaded starten
+    document.addEventListener('DOMContentLoaded', () => {
+        simulateLoading();
+    });
+
+</script>
+
+</body>
+</html>
