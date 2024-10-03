@@ -19,18 +19,24 @@ body {
     font-style: normal;
     margin: 2%;
     margin-top: -1%;
+    position: absolute;
+    top: 60vh;
 }
 
 .chapter{
     font-size: 1.5vw;
     margin: 2%;
     font-family: sans-serif;
+    position: absolute;
+    top: 57vh;
 }
 
 .speaker{
     font-size: 1.2vw;
     margin: 2%;
     font-family: sans-serif;
+    position: absolute;
+    top: 78vh;
 }
 
 .dialog {
@@ -39,7 +45,41 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 2.5vw;
+    position: absolute;
+    display: block;
 }
+
+.highlight { 
+    display: inline;
+    padding: 0.05vw 1vw;
+    
+    /* Needs prefixing */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  @media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi){ 
+  .highlight { 
+    padding: 0.5vw 1vw;
+  }
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.post_dark{
+    background-color: #214B4D;
+  }
+  .post_light{
+    background-color: #6AB1B5;
+  }
 
 /*styles für die karte*/
 #scrollbox {
@@ -78,6 +118,15 @@ path {
     stroke-width: .5px;
 }
 
+/* route on the map style*/
+.Amundsen{
+    stroke: rgb(40, 56, 96);
+}
+  
+.Scott{
+    stroke: rgb(107, 153, 178);
+}
+
 .text-overlay {
     position: absolute;
     color: white;
@@ -107,4 +156,9 @@ path {
 .spacer-div {
     width: 100%;
     background-color: #214B4D;
+}
+
+.margin {
+    width: 100%;
+    height: 50vh; /* 50% der Fensterhöhe */
 }

@@ -1887,6 +1887,13 @@ const Scott = [
    "team": "Scott"
  },
  {
+  "date": "25.09.1910",
+  "timestamp": -1870323102,
+  "lat": -40,
+  "lng": 87.97,
+  "team": "Scott"
+},
+ {
    "date": "26.09.1910",
    "timestamp": -1870304400,
    "lat": -40.43,
@@ -2005,6 +2012,28 @@ const Scott = [
    "lng": 172.72,
    "team": "Scott"
  },
+ {
+  "date": "02.11.1910",
+  "timestamp": -1867039902,
+  "lat": -43.6,
+  "lng": 172.72,
+  "team": "Scott"
+},
+{
+  "date": "15.11.1910",
+  "timestamp": -1865916702,
+  "lat": -43.6,
+  "lng": 172.72,
+  "team": "Scott"
+},
+{
+  "date": "29.11.1910",
+  "timestamp": -1864707102,
+  "lat": -43.6,
+  "lng": 172.72,
+  "team": "Scott"
+},
+
  {
    "date": "30.11.1910",
    "timestamp": -1864688400,
