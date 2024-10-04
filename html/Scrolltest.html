@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop</title>
+  <style>
+body {
+  margin: 0;
+  height: 5000px; /* Beispiel für eine lange Seite */
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: darkcyan;
+}
+
+.draggable-box {
+  width: 5vh;
+  height: 5vh;
+  border: 0.4vh solid white; /* Weiße Outline */
+  background-color: transparent; /* Keine Füllung */
+  border-radius: 50%; /* Kreisform */
+  position: fixed;
+  right: 2.3vh;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1000;
+  transition: top 0.3s; /* Die Übergangsdauer für das Zurückspringen */
+}
+
+/* Container für das Bild */
+.scroll-help {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12vh; /* Breite des Bildbereichs */
+  height: 90vh; /* Höhe des Bildbereichs */
+  background-image: url('../resources/images/scrollhilfe.svg'); /* Das SVG-Bild */
+  background-size: cover; /* Das Bild soll vollständig innerhalb des Containers angezeigt werden */
+  background-repeat: no-repeat; /* Bild nicht wiederholen */
+  opacity: 0; /* Unsichtbar anfangs */
+  transition: opacity 0.5s; /* Sanftes Ein- und Ausblenden */
+  z-index: 500; /* Hinter dem Kreis */
+}
+
+  </style>
+</head>
+<body>
+    <div class="scroll-help"></div>
+    <div class="draggable-box"></div>
+
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const draggableBox = document.querySelector('.draggable-box');
+  const scrollHelp = document.querySelector('.scroll-help'); // Das Bild-Element
+  let isDragging = false;
+  let startY;
+  let initialTop;
+  let scrollInterval = null;
+  let hideHelpTimeout = null; // Timeout für das Ausblenden
+
+  // Funktion zum Einblenden des Bildes
+  function showScrollHelp() {
+    scrollHelp.style.opacity = '1'; // Sichtbar machen
+    scrollHelp.style.transition = 'opacity 0.3s'; // Sanftes Einblenden
+  }
+
+  // Funktion zum Ausblenden des Bildes nach 5 Sekunden
+  function hideScrollHelp() {
+    if (hideHelpTimeout) {
+      clearTimeout(hideHelpTimeout); // Vorherigen Timeout löschen, um doppeltes Setzen zu verhindern
+    }
+    hideHelpTimeout = setTimeout(function() {
+      scrollHelp.style.opacity = '0'; // Unsichtbar machen
+      scrollHelp.style.transition = 'opacity 0.5s'; // Sanftes Ausblenden
+    }, 1000); // 5 Sekunden Verzögerung
+  }
+
+  // Mouse down event to start dragging and show scroll help
+  draggableBox.addEventListener('mousedown', function(event) {
+    isDragging = true;
+    startY = event.clientY; // Mausposition beim Start
+    initialTop = draggableBox.offsetTop; // Anfangsposition des Divs
+    draggableBox.style.transition = 'none'; // Transition ausschalten, um sofortige Bewegung zu ermöglichen
+
+    // Bild einblenden
+    showScrollHelp();
+
+    // Bild nach 5 Sekunden ausblenden, auch wenn weiterhin gezogen wird
+    hideScrollHelp();
+  });
+
+  // Mouse move event to drag the box and adjust scrolling speed
+  window.addEventListener('mousemove', function(event) {
+    if (isDragging) {
+      const deltaY = event.clientY - startY;
+      draggableBox.style.top = `${initialTop + deltaY}px`; // Div nach oben oder unten bewegen
+
+      const viewportHeight = window.innerHeight;
+      const boxTop = draggableBox.getBoundingClientRect().top;
+
+      // Bestimmen, in welchem Abschnitt sich das Quadrat befindet
+      if (boxTop < viewportHeight / 4) {
+        startScrolling('up', 'fast');
+      } else if (boxTop < viewportHeight / 2) {
+        startScrolling('up', 'slow');
+      } else if (boxTop < (3 * viewportHeight) / 4) {
+        startScrolling('down', 'slow');
+      } else {
+        startScrolling('down', 'fast');
+      }
+    }
+  });
+
+  // Mouse up event to stop dragging, reset box position and scrolling
+  window.addEventListener('mouseup', function() {
+    if (isDragging) {
+      isDragging = false;
+      draggableBox.style.transition = 'top 0.3s'; // Transition aktivieren, um das Zurückspringen sanft zu machen
+
+      // Zurück zur Ausgangsposition (Mitte des Bildschirms)
+      draggableBox.style.top = '50%';
+      draggableBox.style.transform = 'translateY(-50%)';
+
+      // Scrollen stoppen
+      stopScrolling();
+    }
+  });
+
+  // Funktion zum Starten des Scrollens mit unterschiedlicher Geschwindigkeit
+  function startScrolling(direction, speed) {
+    stopScrolling(); // Verhindert doppeltes Scrollen
+
+    let scrollSpeed;
+    if (speed === 'fast') {
+      scrollSpeed = 15; // Schnelles Scrollen
+    } else {
+      scrollSpeed = 5; // Langsames Scrollen
+    }
+
+    scrollInterval = setInterval(function() {
+      if (direction === 'down') {
+        window.scrollBy(0, scrollSpeed); // Scrollt nach unten
+      } else if (direction === 'up') {
+        window.scrollBy(0, -scrollSpeed); // Scrollt nach oben
+      }
+    }, 10); // Geschwindigkeit der Scroll-Updates
+  }
+
+  // Funktion zum Stoppen des Scrollens
+  function stopScrolling() {
+    if (scrollInterval) {
+      clearInterval(scrollInterval);
+      scrollInterval = null;
+    }
+  }
+});
+
+
+  </script>
+</body>
+</html>
