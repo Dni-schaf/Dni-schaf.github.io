@@ -78,9 +78,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Mouse down event to start dragging and show scroll help
-  draggableBox.addEventListener('mousedown', function(event) {
+  function startDrag(event) {
     isDragging = true;
-    startY = event.clientY; // Mausposition beim Start
+    const clientY = event.type === 'mousedown' ? event.clientY : event.touches[0].clientY;
+    startY = clientY; // Maus- oder Touchposition beim Start
     initialTop = draggableBox.offsetTop; // Anfangsposition des Divs
     draggableBox.style.transition = 'none'; // Transition ausschalten, um sofortige Bewegung zu ermöglichen
 
@@ -89,12 +90,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Bild nach 5 Sekunden ausblenden, auch wenn weiterhin gezogen wird
     hideScrollHelp();
-  });
+  }
 
-  // Mouse move event to drag the box and adjust scrolling speed
-  window.addEventListener('mousemove', function(event) {
+  // Touch and Mouse move event to drag the box and adjust scrolling speed
+  function onDrag(event) {
     if (isDragging) {
-      const deltaY = event.clientY - startY;
+      event.preventDefault(); // Verhindert das Scrollen der Seite während des Drag-Vorgangs
+      const clientY = event.type === 'mousemove' ? event.clientY : event.touches[0].clientY;
+      const deltaY = clientY - startY;
       draggableBox.style.top = `${initialTop + deltaY}px`; // Div nach oben oder unten bewegen
 
       const viewportHeight = window.innerHeight;
@@ -111,10 +114,10 @@ document.addEventListener('DOMContentLoaded', function() {
         startScrolling('down', 'fast');
       }
     }
-  });
+  }
 
-  // Mouse up event to stop dragging, reset box position and scrolling
-  window.addEventListener('mouseup', function() {
+  // Touch and Mouse up event to stop dragging, reset box position and scrolling
+  function endDrag() {
     if (isDragging) {
       isDragging = false;
       draggableBox.style.transition = 'top 0.3s'; // Transition aktivieren, um das Zurückspringen sanft zu machen
@@ -126,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Scrollen stoppen
       stopScrolling();
     }
-  });
+  }
 
   // Funktion zum Starten des Scrollens mit unterschiedlicher Geschwindigkeit
   function startScrolling(direction, speed) {
@@ -155,8 +158,17 @@ document.addEventListener('DOMContentLoaded', function() {
       scrollInterval = null;
     }
   }
-});
 
+  // Event Listener für Maus- und Touch-Events hinzufügen
+  draggableBox.addEventListener('mousedown', startDrag);
+  window.addEventListener('mousemove', onDrag);
+  window.addEventListener('mouseup', endDrag);
+
+  // Touch-Events für Dragging auf Touch-Geräten
+  draggableBox.addEventListener('touchstart', startDrag);
+  window.addEventListener('touchmove', onDrag);
+  window.addEventListener('touchend', endDrag);
+});
 
   </script>
 </body>
