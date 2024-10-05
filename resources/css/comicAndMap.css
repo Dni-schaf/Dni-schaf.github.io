@@ -31,12 +31,19 @@ body {
     top: 57vh;
 }
 
-.speaker{
+.LocationAndDate{
     font-size: 1.2vw;
     margin: 2%;
     font-family: sans-serif;
     position: absolute;
     top: 78vh;
+}
+
+.speaker{
+    font-size: 1.2vw;
+    margin: 2%;
+    font-family: sans-serif;
+    position: relative;
 }
 
 .dialog {
