@@ -104,6 +104,15 @@ body {
     position: fixed;
 }
 
+#label {
+    position: fixed;
+}
+
+
+#ice {
+    position: fixed;
+}
+
 #path {
     position: fixed;
 }
@@ -124,6 +133,38 @@ path {
     stroke: none;
     stroke-width: .5px;
 }
+
+.city {
+    color: #2f3030;
+    text-transform: uppercase;
+    text-shadow:
+    -1px -1px 0 white,   /* Schatten links oben */
+    1px -1px 0 white,    /* Schatten rechts oben */
+    -1px 1px 0 white,    /* Schatten links unten */
+    1px 1px 0 white;     /* Schatten rechts unten */
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+
+.city-circle {
+    fill: #2f3030; /* Füllfarbe des Kreises */
+    stroke: white; /* Randfarbe */
+    stroke-width: 1px; /* Dicke des Randes */
+  }
+
+  .continent-label {
+    font-family: sans-serif;
+    font-size: 16px;
+    fill: #5097AF;  /* Textfarbe */
+    text-align: center;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-shadow:
+    -2px -2px 0 #ADD8E5,   /* Schatten links oben */
+    2px -2px 0 #ADD8E5,    /* Schatten rechts oben */
+    -2px 2px 0 #ADD8E5,    /* Schatten links unten */
+    2px 2px 0 #ADD8E5;     /* Schatten rechts unten */
+  }
 
 /* route on the map style*/
 .Amundsen{

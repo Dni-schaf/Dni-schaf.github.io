@@ -3,11 +3,19 @@
         .attr("width", 900)
         .attr("height", 700);
 
+        const svgice = d3.select("#ice").append("svg")
+        .attr("width", 900)
+        .attr("height", 700);
+
         const svgpath = d3.select("#path").append("svg")
         .attr("width", 900)
         .attr("height", 700);
 
         const svggrid = d3.select("#grid").append("svg")
+        .attr("width", 900)
+        .attr("height", 700);
+
+        const svglabel = d3.select("#label").append("svg")
         .attr("width", 900)
         .attr("height", 700);
 
@@ -26,7 +34,7 @@ function drawIce(){
     d3.json("https://gist.githubusercontent.com/ScharffenBerg/5fb9342bb4abe86bec09230d90275197/raw/4bfb48ab30681e6ec441b0d8a2d7a5da6583900a/Shelf_Ice_Data.json", function(error, ice) {
    if (error) return console.error(error);
  
-   svgmap.append("g")
+   svgice.append("g")
      .attr("class", "iceshelf")
      .selectAll("path")
      .data(ice.features)
@@ -59,8 +67,165 @@ function drawIce(){
      .datum(graticule)
      .attr("class", "graticule")
      .attr("d", path); 
- }; 
+
+           // Die Stadtkoordinaten (Längengrad, Breitengrad)
+           const cities = {
+            "Oslo": { 
+              "text_de": "Oslo", 
+              "text_en": "Oslo", 
+              "text_no": "Oslo", 
+              "coordinates": [10.7522, 59.9139], 
+              "kind": "city" 
+            },
+            "Cardiff": { 
+              "text_de": "Cardiff", 
+              "text_en": "Cardiff", 
+              "text_no": "Cardiff", 
+              "coordinates": [-3.1791, 51.4816], 
+              "kind": "city" 
+            },
+            "Funchal": { 
+              "text_de": "Funchal", 
+              "text_en": "Funchal", 
+              "text_no": "Funchal", 
+              "coordinates": [-16.9186, 32.6669], 
+              "kind": "city" 
+            },
+            "Trindade": { 
+              "text_de": "Trindade", 
+              "text_en": "Trindade", 
+              "text_no": "Trindade", 
+              "coordinates": [-29.817, -20.5012], 
+              "kind": "city" 
+            },
+            "Kapstadt": { 
+              "text_de": "Kapstadt", 
+              "text_en": "Cape Town", 
+              "text_no": "Cape Town", 
+              "coordinates": [18.4241, -33.9249], 
+              "kind": "city" 
+            },
+            "Kerguelen": { 
+              "text_de": "Kerguelen", 
+              "text_en": "Kerguelen", 
+              "text_no": "Kerguelen", 
+              "coordinates": [70.2167, -49.352], 
+              "kind": "city" 
+            },
+            "Melbourne": { 
+              "text_de": "Melbourne", 
+              "text_en": "Melbourne", 
+              "text_no": "Melbourne", 
+              "coordinates": [144.9631, -37.8136], 
+              "kind": "city" 
+            },
+            "Lyttelton": { 
+              "text_de": "Lyttelton", 
+              "text_en": "Lyttelton", 
+              "text_no": "Lyttelton", 
+              "coordinates": [172.7209, -43.601], 
+              "kind": "city" 
+            }
+          };
+          
+
+          function getCityName(cityData, lang) {
+            if (lang === 'de') return cityData.text_de;
+            if (lang === 'en') return cityData.text_en;
+            if (lang === 'no') return cityData.text_no;
+          }
+    
+          // Städte auf die Karte setzen
+          Object.keys(cities).forEach(function(cityKey) {
+            const city = cities[cityKey];
+            
+            // Kreise für jede Stadt (kleine Punkte)
+            svglabel.append("circle")
+              .attr("cx",  projection(city.coordinates)[0])
+              .attr("cy", projection(city.coordinates)[1])
+              .attr("r", 4)  // Radius des Kreises
+              .attr("class", "city-circle")
+              .attr("id", city.text_de + "circle");
+
+              svglabel.append("text")
+              .attr("x", projection(city.coordinates)[0])  // Längengrad zu x-Pixel-Koordinate
+              .attr("y", projection(city.coordinates)[1])  // Breitengrad zu y-Pixel-Koordinate
+              .text(getCityName(city, language))    // Den Namen in der aktuellen Sprache verwenden
+              .attr("class", city.kind)
+              .attr("id", city.text_de)                    // CSS-Klasse basierend auf "kind"
+              .attr("dx", "0.8em")
+              .attr("dy", "0.25em");                      // Text leicht nach oben verschieben
+          });
+ 
+ 
+ const continentLabels = {
+  Atlantik: {
+    text_de: ["Atlantischer", "Ozean"],
+    text_en: ["African", "Continent"],
+    text_no: ["Afrikansk", "Kontinent"]
+  },
+  Pazifik: {
+    text_de: ["Pazifischer", "Ozean"],
+    text_en: ["European", "Continent"],
+    text_no: ["Europeisk", "Kontinent"]
+  },
+  Indischerozean: {
+    text_de: ["Indischer", "Ozean"],
+    text_en: ["Asian", "Continent"],
+    text_no: ["Asiatisk", "Kontinent"]
+  }
+};
+
+ 
+ function addContinentLabel(svglabel, continent, lang, x, y) {
+  const labelData = continentLabels[continent];
+
+  if (!labelData) {
+    console.error("Kontinent nicht gefunden:", continent);
+    return;
+  }
+
+  const textLines = labelData[`text_${lang}`];
+  
+  if (!textLines) {
+    console.error("Sprache nicht unterstützt:", lang);
+    return;
+  }
+
+  // Erste Zeile
+  svglabel.append("text")
+    .attr("x", x)          // X-Position
+    .attr("y", y)          // Y-Position für die erste Zeile
+    .attr("class", "continent-label")
+    .style("text-anchor", "middle") 
+    .text(textLines[0]);   // Erste Zeile des Textes
+
+  // Zweite Zeile
+  svglabel.append("text")
+    .attr("x", x)          // Gleiche X-Position wie die erste Zeile
+    .attr("y", y + 20)     // Y-Position für die zweite Zeile (verschoben)
+    .attr("class", "continent-label")
+    .style("text-anchor", "middle") 
+    .text(textLines[1]);   // Zweite Zeile des Textes
+}
+
+
+
+// Beispiel: Afrika auf Deutsch beschriften
+addContinentLabel(svglabel, "Atlantik", "de", 259, 167);
+
+// Beispiel: Europa auf Englisch beschriften
+addContinentLabel(svglabel, "Pazifik", "de", 694, 268);
+
+// Beispiel: Asien auf Norwegisch beschriften
+addContinentLabel(svglabel, "Indischerozean", "de", 473, 394);
+
+
+
+        
+}; 
  
  drawIce();
  d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json", drawMap);
+
  
