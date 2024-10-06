@@ -144,6 +144,7 @@ path {
     1px 1px 0 white;     /* Schatten rechts unten */
     font-family: sans-serif;
     font-size: 0.7em;
+    letter-spacing: 0.1em;
 }
 
 .city-circle {
@@ -164,7 +165,31 @@ path {
     2px -2px 0 #ADD8E5,    /* Schatten rechts oben */
     -2px 2px 0 #ADD8E5,    /* Schatten links unten */
     2px 2px 0 #ADD8E5;     /* Schatten rechts unten */
+    letter-spacing: 0.15em;
   }
+
+#Äquatorcircle{
+    display: none;
+}
+
+.antarctica {
+    font-family: sans-serif;
+    font-size: 16px;
+    fill: #ffffff;  /* Textfarbe */
+    text-align: center;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-shadow:
+    -2px -2px 0 #ADD8E5,   /* Schatten links oben */
+    2px -2px 0 #ADD8E5,    /* Schatten rechts oben */
+    -2px 2px 0 #ADD8E5,    /* Schatten links unten */
+    2px 2px 0 #ADD8E5;     /* Schatten rechts unten */
+    letter-spacing: 0.15em;
+  }
+
+.ocean-path{
+    opacity: 0;
+}
 
 /* route on the map style*/
 .Amundsen{

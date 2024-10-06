@@ -49,6 +49,8 @@ function setPathprogress(datecount, timestempArr, team, totalLength, timeLength)
                 DayIndex = (activeDiv-1)/2;
                 let SpacerIndex = activeDiv/2;
 
+                
+
                 //Korrektur der scrollposition damit die höhe der spacerdivs rausgerechnet werden
                 let korrekturSpacer = sumArrayUpToIndex(spacerDivHeightsArray, SpacerIndex);
                 let korrekturmargin = sumArrayUpToIndex(marginDivHeightsArray, SpacerIndex-1);
@@ -59,6 +61,30 @@ function setPathprogress(datecount, timestempArr, team, totalLength, timeLength)
                 if (datestartArray[DayIndex] !== undefined) {
                     divstate = "daydiv";
                     console.log(datestartArray[DayIndex]);
+
+
+                    // Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
+                    citiesMap[100].forEach(function(cityClass) {
+    // Wählt alle Elemente mit der entsprechenden Klasse aus
+    const elements = document.querySelectorAll('.' + cityClass);
+  
+    elements.forEach(function(element) {
+      element.style.visibility = 'hidden';  // Div sichtbar machen
+    });
+  });
+
+                    // Zugriff auf das entsprechende Array
+let arrayname = citiesMap[DayIndex];
+
+// Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
+arrayname.forEach(function(cityClass) {
+    // Wählt alle Elemente mit der entsprechenden Klasse aus
+    const elements = document.querySelectorAll('.' + cityClass);
+  
+    elements.forEach(function(element) {
+      element.style.visibility = 'visible';  // Div sichtbar machen
+    });
+  });
                 }                
             }      
     break;

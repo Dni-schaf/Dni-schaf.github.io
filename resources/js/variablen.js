@@ -50,3 +50,17 @@ let totalMapHeight= 0;
 let DayIndex=0;
 
 let divstate = "spacerdiv";
+
+const citiesMap = {
+    0: ["Cardiff", "Funchal", "Trindade", "Kapstadt"],
+    1: ["Oslo", "Cardiff", "Funchal", "Kapstadt"],
+    2: ["Oslo", "Cardiff", "Funchal", "Kapstadt"],
+    3: ["Oslo", "Cardiff", "Kapstadt", "Melbourne"],
+    4: ["Oslo", "Cardiff", "Melbourne", "Lyttelton"],
+    5: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
+    6: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
+    7: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
+    8: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
+    9: ["Oslo", "Cardiff"],
+    100: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"]
+  };

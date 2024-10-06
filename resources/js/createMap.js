@@ -68,6 +68,18 @@ function drawIce(){
      .attr("class", "graticule")
      .attr("d", path); 
 
+
+     // Äquatorlinie hinzufügen (entspricht einer Linie von links nach rechts in der Mitte der Karte)
+     svggrid.append("line")
+.attr("x1", 110)           // Start der Linie an der linken Seite der Karte (X-Koordinate)
+.attr("y1", projection([0, 0])[1])  // Y-Koordinate für den Äquator (projiziert auf 0° Breite)
+.attr("x2", 790)  // Ende der Linie an der rechten Seite der Karte
+.attr("y2", projection([0, 0])[1])  // Y-Koordinate für den Äquator
+.attr("stroke", "black")     // Farbe der Äquatorlinie
+.attr("stroke-width", 1)     // Strichstärke, um die Linie dicker zu machen
+.attr("class", "equator-line");
+
+
            // Die Stadtkoordinaten (Längengrad, Breitengrad)
            const cities = {
             "Oslo": { 
@@ -125,6 +137,13 @@ function drawIce(){
               "text_no": "Lyttelton", 
               "coordinates": [172.7209, -43.601], 
               "kind": "city" 
+            },
+            "Aequator": { 
+              "text_de": "Äquator", 
+              "text_en": "Equator", 
+              "text_no": "ekvator", 
+              "coordinates": [165, 0], 
+              "kind": "city" 
             }
           };
           
@@ -144,21 +163,19 @@ function drawIce(){
               .attr("cx",  projection(city.coordinates)[0])
               .attr("cy", projection(city.coordinates)[1])
               .attr("r", 4)  // Radius des Kreises
-              .attr("class", "city-circle")
-              .attr("id", city.text_de + "circle");
+              .attr("class", "city-circle" + " " + city.text_de);
 
               svglabel.append("text")
               .attr("x", projection(city.coordinates)[0])  // Längengrad zu x-Pixel-Koordinate
               .attr("y", projection(city.coordinates)[1])  // Breitengrad zu y-Pixel-Koordinate
               .text(getCityName(city, language))    // Den Namen in der aktuellen Sprache verwenden
-              .attr("class", city.kind)
-              .attr("id", city.text_de)                    // CSS-Klasse basierend auf "kind"
+              .attr("class", city.kind + " " + city.text_de)   // CSS-Klasse basierend auf "kind"
               .attr("dx", "0.8em")
               .attr("dy", "0.25em");                      // Text leicht nach oben verschieben
           });
  
  
- const continentLabels = {
+ const oceanLabels = {
   Atlantik: {
     text_de: ["Atlantischer", "Ozean"],
     text_en: ["African", "Continent"],
@@ -178,7 +195,7 @@ function drawIce(){
 
  
  function addContinentLabel(svglabel, continent, lang, x, y) {
-  const labelData = continentLabels[continent];
+  const labelData = oceanLabels[continent];
 
   if (!labelData) {
     console.error("Kontinent nicht gefunden:", continent);
@@ -220,7 +237,24 @@ addContinentLabel(svglabel, "Pazifik", "de", 694, 268);
 // Beispiel: Asien auf Norwegisch beschriften
 addContinentLabel(svglabel, "Indischerozean", "de", 473, 394);
 
+    // Beispiel für den Atlantischen Ozean (Pfad muss an den Ort angepasst werden)
+    const antarcticPathData = "M492.3,611.44c33.51-1.72,83.78-15.9,100.97-42.54"; // Beispiel für eine geschwungene Linie
 
+    // Pfad für den Text erstellen (wird unsichtbar, nur zur Textführung)
+    svglabel.append("path")
+      .attr("id", "AntarcticPath")
+      .attr("d", antarcticPathData)
+      .attr("class", "ocean-path") // Unsichtbarer Pfad für den Text
+      .attr("transform", "translate(-40, 38)"); 
+
+    // Text entlang des Pfades platzieren
+    svglabel.append("text")
+      .attr("class", "ocean-label")
+      .append("textPath")
+      .attr("href", "#AntarcticPath")  // Verbindet den Text mit dem Pfad
+      .attr("startOffset", "0%")    // Startet in der Mitte des Pfades
+      .attr("class", "antarctica") 
+      .text("Antarktis");   // Beschriftung des Ozeans
 
         
 }; 
