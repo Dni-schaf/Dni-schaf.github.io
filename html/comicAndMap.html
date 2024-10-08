@@ -28,6 +28,19 @@
     <div id="datumsanzeige" style="position: fixed; top: 0px; left: 0px; width: 300px; height: 30px;"></div>
 
     <div class="container" id="container"></div>
+
+    <button id="menuButton" class="menu-button">☰</button>
+
+    <!-- Overlay für die Sprachwahl -->
+    <div id="menuOverlay" class="menu-overlay">
+        <div class="menu-content">
+            <h2>Wähle eine Sprache</h2>
+            <button class="language-button" data-lang="de">Deutsch</button>
+            <button class="language-button" data-lang="en">English</button>
+            <button class="language-button" data-lang="no">Norsk</button>
+            <button id="closeMenu" class="close-button">Schließen</button>
+        </div>
+    </div>
  
     <script src="../resources/js/comicAndMap_images.js"></script> 
     <script src="../resources/js/comicAndMap_texts.js"></script> 
@@ -39,6 +52,7 @@
     <script src="../resources/js/createPath.js"></script>
     <script src="../resources/js/createComic.js"></script>
     <script src="../resources/js/animatePath.js"></script>
+    <script src="../resources/js/menu.js"></script>
 
 
 </body>

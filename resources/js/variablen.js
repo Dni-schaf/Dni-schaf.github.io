@@ -51,16 +51,114 @@ let DayIndex=0;
 
 let divstate = "spacerdiv";
 
+let dayDivHeightsArray = [];
+
+//VARIABLEN FÜR DIE KARTE
+
 const citiesMap = {
-    0: ["Cardiff", "Funchal", "Trindade", "Kapstadt"],
-    1: ["Oslo", "Cardiff", "Funchal", "Kapstadt"],
-    2: ["Oslo", "Cardiff", "Funchal", "Kapstadt"],
-    3: ["Oslo", "Cardiff", "Kapstadt", "Melbourne"],
-    4: ["Oslo", "Cardiff", "Melbourne", "Lyttelton"],
-    5: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
-    6: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
-    7: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
-    8: ["Oslo", "Cardiff", "Lyttelton", "Kerguelen"],
-    9: ["Oslo", "Cardiff"],
+    0: ["Cardiff", "Funchal", "Trindade"],
+    1: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt"],
+    2: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt"],
+    3: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne"],
+    4: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton"],
+    5: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    6: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    7: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    8: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    9: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"],
     100: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"]
-  };
+};
+
+const oceanLabels = {
+  Atlantik: {
+    text_de: ["Atlantischer", "Ozean"],
+    text_en: ["Atlantic ", "Ocean"],
+    text_no: ["Atlanter-", "havet"]
+  },
+  Pazifik: {
+    text_de: ["Pazifischer", "Ozean"],
+    text_en: ["Pacific ", "Ocean"],
+    text_no: ["Stille-", "havet"]
+  },
+    Indischerozean: {
+    text_de: ["Indischer", "Ozean"],
+    text_en: ["Indian ", "Ocean"],
+    text_no: ["Det indiske ", "hav"]
+  }
+};
+
+// Objekt für die Antarktis-Beschriftung in verschiedenen Sprachen
+const AntarktisLabel = {
+  Antaktis: {
+    text_de: "Antarktis",
+    text_en: "Antarctica",
+    text_no: "Antarktis"
+  }
+};
+
+// Städte-Daten mit verschiedenen Sprachen und Koordinaten
+const cities = {
+  "Oslo": { 
+    "text_de": "Oslo", 
+    "text_en": "Oslo", 
+    "text_no": "Oslo", 
+    "coordinates": [10.7522, 59.9139], 
+    "kind": "city" 
+  },
+  "Cardiff": { 
+    "text_de": "Cardiff", 
+    "text_en": "Cardiff", 
+    "text_no": "Cardiff", 
+    "coordinates": [-3.1791, 51.4816], 
+    "kind": "city" 
+  },
+  "Funchal": { 
+    "text_de": "Funchal", 
+    "text_en": "Funchal", 
+    "text_no": "Funchal", 
+    "coordinates": [-16.9186, 32.6669], 
+    "kind": "city" 
+  },
+  "Trindade": { 
+    "text_de": "Trindade", 
+    "text_en": "Trindade", 
+    "text_no": "Trindade", 
+    "coordinates": [-29.817, -20.5012], 
+    "kind": "city" 
+  },
+  "Kapstadt": { 
+    "text_de": "Kapstadt", 
+    "text_en": "Cape Town", 
+    "text_no": "Cape Town", 
+    "coordinates": [18.4241, -33.9249], 
+    "kind": "city" 
+  },
+  "Kerguelen": { 
+    "text_de": "Kerguelen", 
+    "text_en": "Kerguelen", 
+    "text_no": "Kerguelen", 
+    "coordinates": [70.2167, -49.352], 
+    "kind": "city" 
+  },
+  "Melbourne": { 
+    "text_de": "Melbourne", 
+    "text_en": "Melbourne", 
+    "text_no": "Melbourne", 
+    "coordinates": [144.9631, -37.8136], 
+    "kind": "city" 
+  },
+  "Lyttelton": { 
+    "text_de": "Lyttelton", 
+    "text_en": "Lyttelton", 
+    "text_no": "Lyttelton", 
+    "coordinates": [172.7209, -43.601], 
+    "kind": "city" 
+  },
+  "Aequator": { 
+    "text_de": "Äquator", 
+    "text_en": "equator", 
+    "text_no": "ekvator", 
+    "coordinates": [165, 0], 
+    "kind": "city" 
+  }
+};

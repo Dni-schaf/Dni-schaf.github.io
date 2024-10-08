@@ -21,7 +21,7 @@
        }
     }
     // ich weiß nicht warum er behauptet das die nicht verwendet werden, sie sind wichtig wenn sie weg sind geht die animation nicht
-    const { dayDivHeightsArray, spacerDivHeightsArray, marginDivHeightsArray} = getDivHeights();
+    const { spacerDivHeightsArray, marginDivHeightsArray} = getDivHeights();
 
 };
 

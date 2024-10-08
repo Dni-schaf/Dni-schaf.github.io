@@ -82,6 +82,7 @@ function konverter(){
     datum.innerHTML = day + ". " + month + ". " + year;
 }; 
 
+// errechnet die summe der längen der teilabschnitte
 function sumArrayUpToIndex(array, index) {
     let sum = 0;
     for (let i = 0; i <= index; i++) {
