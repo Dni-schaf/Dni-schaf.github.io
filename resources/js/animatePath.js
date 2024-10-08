@@ -26,6 +26,7 @@
 };
 
 
+
 function setPathprogress(datecount, timestempArr, team, totalLength, timeLength){
     let scrolltop= document.documentElement.scrollTop;
 
@@ -57,34 +58,65 @@ function setPathprogress(datecount, timestempArr, team, totalLength, timeLength)
                 let korrekturMap = sumArrayUpToIndex(dayDivHeightsArray, DayIndex-1);
                 korrektur = korrekturMap + korrekturSpacer + korrekturmargin;
 
+                if (SpacerIndex % 1 === 0) {
+                    console.log("spacerdiv" + SpacerIndex);
+
+                    // Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
+                    citiesMap[100].forEach(function(cityClass) {
+                        // Wählt alle Elemente mit der entsprechenden Klasse aus
+                        const elements = document.querySelectorAll('.' + cityClass);
+  
+                        elements.forEach(function(element) {
+                            element.style.visibility = 'hidden';  // Div sichtbar machen
+                        });
+                    });
+
+                    // Zugriff auf das entsprechende Array
+                    let arrayname = citiesMap[SpacerIndex];
+
+                    // Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
+                    arrayname.forEach(function(cityClass) {
+                    // Wählt alle Elemente mit der entsprechenden Klasse aus
+                        const elements = document.querySelectorAll('.' + cityClass);
+  
+                        elements.forEach(function(element) {
+                            element.style.visibility = 'visible';  // Div sichtbar machen
+                        });
+                    });
+                }
+                
                 //Wenn wir in einem daydiv sind dann geht es hier weiter
                 if (datestartArray[DayIndex] !== undefined) {
                     divstate = "daydiv";
                     console.log(datestartArray[DayIndex]);
-
-
+                    console.log(DayIndex);
+                    
+                    
                     // Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
                     citiesMap[100].forEach(function(cityClass) {
-    // Wählt alle Elemente mit der entsprechenden Klasse aus
-    const elements = document.querySelectorAll('.' + cityClass);
+                        // Wählt alle Elemente mit der entsprechenden Klasse aus
+                        const elements = document.querySelectorAll('.' + cityClass);
   
-    elements.forEach(function(element) {
-      element.style.visibility = 'hidden';  // Div sichtbar machen
-    });
-  });
+                        elements.forEach(function(element) {
+                            element.style.visibility = 'hidden';  // Div sichtbar machen
+                        });
+                    });
 
                     // Zugriff auf das entsprechende Array
-let arrayname = citiesMap[DayIndex];
+                    let arrayname = citiesMap[DayIndex];
 
-// Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
-arrayname.forEach(function(cityClass) {
-    // Wählt alle Elemente mit der entsprechenden Klasse aus
-    const elements = document.querySelectorAll('.' + cityClass);
+                    // Schleife zum Sichtbarmachen der DIVs (basierend auf der Klasse)
+                    arrayname.forEach(function(cityClass) {
+                    // Wählt alle Elemente mit der entsprechenden Klasse aus
+                        const elements = document.querySelectorAll('.' + cityClass);
   
-    elements.forEach(function(element) {
-      element.style.visibility = 'visible';  // Div sichtbar machen
-    });
-  });
+                        elements.forEach(function(element) {
+                            element.style.visibility = 'visible';  // Div sichtbar machen
+                        });
+                    });
+
+
+                    
                 }                
             }      
     break;

@@ -98,7 +98,8 @@ function addCityLabel(){
       .attr("cx",  projection(city.coordinates)[0])
       .attr("cy", projection(city.coordinates)[1])
       .attr("r", 4)  // Radius des Kreises
-      .attr("class", "city-circle" + " " + city.text_de);
+      .attr("class", "city-circle" + " " + city.text_de)
+      .style("visibility", "hidden");
 
     svglabel.append("text")
       .attr("x", projection(city.coordinates)[0])  // Längengrad zu x-Pixel-Koordinate
@@ -106,7 +107,8 @@ function addCityLabel(){
       .text(getCityName(city, language))    // Den Namen in der aktuellen Sprache verwenden
       .attr("class", city.kind + " " + city.text_de)   // CSS-Klasse basierend auf "kind"
       .attr("dx", "0.8em")
-      .attr("dy", "0.25em");                      // Text leicht nach oben verschieben
+      .attr("dy", "0.25em")
+      .style("visibility", "hidden") ;                      // Text leicht nach oben verschieben
   });
 }
 
@@ -181,3 +183,6 @@ function addAllOceanLabels(){
 addAllOceanLabels();
 addAntarcticLabel();
 addCityLabel();
+
+
+

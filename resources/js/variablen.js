@@ -38,8 +38,8 @@ const colors = ["#FFCCCC", "#FFCC99", "#FFFF99", "#CCFFCC", "#99CCFF", "#CCCCFF"
 //VARIABLEN FÜR DIE PFADANIMATION
 
 let positionsArray = [];
-let activeDiv = null;
-let lastDiv = 0;
+let activeDiv;
+let lastDiv = 100000;
 
 let currenttime;
 let korrektur = 0;

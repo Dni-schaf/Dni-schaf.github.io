@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #bde6ef;
     padding: 0px;
     margin: 0px;
 }
@@ -184,7 +184,7 @@ path {
 }
 
 .foreground {
-    fill:lightblue;
+    fill:#bde6ef;
     stroke: none;
     stroke-width: .5px;
 }
@@ -211,15 +211,15 @@ path {
   .continent-label {
     font-family: sans-serif;
     font-size: 16px;
-    fill: #5097AF;  /* Textfarbe */
+    fill: #49808c;  /* Textfarbe */
     text-align: center;
     font-size: 0.7em;
     text-transform: uppercase;
     text-shadow:
-    -2px -2px 0 #ADD8E5,   /* Schatten links oben */
-    2px -2px 0 #ADD8E5,    /* Schatten rechts oben */
-    -2px 2px 0 #ADD8E5,    /* Schatten links unten */
-    2px 2px 0 #ADD8E5;     /* Schatten rechts unten */
+    -2px -2px 0 #bde6ef,   /* Schatten links oben */
+    2px -2px 0 #bde6ef,    /* Schatten rechts oben */
+    -2px 2px 0 #bde6ef,    /* Schatten links unten */
+    2px 2px 0 #bde6ef;     /* Schatten rechts unten */
     letter-spacing: 0.15em;
   }
 
