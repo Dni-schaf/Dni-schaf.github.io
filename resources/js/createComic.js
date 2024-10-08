@@ -106,7 +106,6 @@ function addSpeakerTextToDayDiv(dayDiv, speakerKey, language) {
       textDiv.style.left = textData.left;
       textDiv.style.width = textData.width;
       textDiv.style.textAlign = textData.textAlign;
-      textDiv.style.color = textData.color;
       textDiv.style.backgroundColor = textData.backgroundColor;
 
       const pElement = document.createElement('p');

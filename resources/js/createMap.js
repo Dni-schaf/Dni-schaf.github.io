@@ -75,7 +75,7 @@ function drawMap(err, world) {
     .attr("x2", 790)  // Ende der Linie an der rechten Seite der Karte
     .attr("y2", projection([0, 0])[1])  // Y-Koordinate für den Äquator
     .attr("stroke", "black")     // Farbe der Äquatorlinie
-    .attr("stroke-width", 1)     // Strichstärke, um die Linie dicker zu machen
+    .attr("stroke-width", 0.5)     // Strichstärke, um die Linie dicker zu machen
     .attr("class", "equator-line");
 }
 
