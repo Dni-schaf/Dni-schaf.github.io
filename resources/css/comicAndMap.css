@@ -139,9 +139,21 @@ body {
 .post_dark{
     background-color: #214B4D;
   }
-  .post_light{
+.post_light{
     background-color: #6AB1B5;
-  }
+}
+
+.madeira_light{
+    background-color: #D1D8A2;
+}
+
+.madeira_dark{
+    background-color: #7B8900;
+}
+
+.bg_white {
+    background-color: #fff;
+}
 
 /*styles für die karte*/
 #scrollbox {
