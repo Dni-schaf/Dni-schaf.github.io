@@ -128,7 +128,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "",
       "textAlign": "right",
-      "bottom": "83%",
+      "bottom": "76%",
       "left": "42%",
       "width": "15%"
     }
@@ -171,8 +171,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "",
       "textAlign": "right",
-      "bottom": "90%",
-      "left": "75%",
+      "bottom": "81%",
+      "left": "52%",
       "width": "20%"
     },
     {
@@ -184,7 +184,7 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "90%",
+      "bottom": "7%",
       "left": "15%",
       "width": "20%"
     }
@@ -255,8 +255,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "",
       "textAlign": "right",
-      "bottom": "90%",
-      "left": "65%",
+      "bottom": "79%",
+      "left": "50%",
       "width": "20%"
     }
   ],
@@ -343,9 +343,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "37%",
+      "bottom": "67%",
       "left": "33%",
-      "width": "17%"
+      "width": "27%"
     },
     {
       "text_de": "Daran sollten wir nicht zweifeln.",
@@ -353,7 +353,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "white",
+      "backgroundColor": "bg_white",
       "Fontsize": "",
       "textAlign": "left",
       "bottom": "70%",
@@ -396,7 +396,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "",
       "textAlign": "left",
       "bottom": "2%",
@@ -442,9 +442,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "",
       "textAlign": "right",
-      "bottom": "70%",
-      "left": "75%",
-      "width": "20%"
+      "bottom": "79%",
+      "left": "39%",
+      "width": "22%"
     }
   ],
   "03_F_73": [
@@ -466,7 +466,7 @@ const imageTexts = {
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "madeira_dark",
       "Fontsize": "",
       "textAlign": "right",
@@ -497,25 +497,25 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "43%",
-      "left": "30%",
-      "width": "26%"
+      "bottom": "52%",
+      "left": "25%",
+      "width": "25%"
     },
     {
       "text_de": "Die zwei Tage werden sie ja wohl noch dicht halten können.",
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "madeira_dark",
       "Fontsize": "",
       "textAlign": "right",
-      "bottom": "20%",
-      "left": "60%",
-      "width": "20%"
+      "bottom": "52%",
+      "left": "51%",
+      "width": "16%"
     }
   ],
   "03_F_76": [
@@ -528,9 +528,9 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "",
       "textAlign": "right",
-      "bottom": "90%",
-      "left": "50%",
-      "width": "20%"
+      "bottom": "85%",
+      "left": "29%",
+      "width": "18%"
     }
   ],
 
