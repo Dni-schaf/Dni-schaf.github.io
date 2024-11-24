@@ -142,6 +142,9 @@ body {
 .post_light{
     background-color: #6AB1B5;
 }
+.post_middle{
+    background-color: #396364;
+}
 
 .madeira_light{
     background-color: #D1D8A2;
@@ -153,6 +156,10 @@ body {
 
 .bg_white {
     background-color: #fff;
+}
+
+.bg_black {
+    background-color: #000;
 }
 
 /*styles für die karte*/
@@ -278,6 +285,8 @@ path {
 /* comic bilder style*/
 .image-container {
     position: relative;
+    margin-top: -5px;
+    margin-bottom: -6px;
 }
 
 .container {
