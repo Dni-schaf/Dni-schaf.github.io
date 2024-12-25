@@ -136,6 +136,17 @@ body {
     color: #000;
 }
 
+.alltag_dark{
+    background-color: #0F4A53;
+  }
+.alltag_light{
+    background-color: #B2E8F1;
+}
+.alltag_middle{
+    background-color: #33828E;
+}
+
+
 .post_dark{
     background-color: #214B4D;
   }
