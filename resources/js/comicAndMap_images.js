@@ -116,7 +116,26 @@ const imageSets = [
     ], 
     [
         { "Kapitel": "07_TN_01", "speed": 0 },
-        { "Kapitel": "07_TN_02", "speed": 0 }
+        { "Kapitel": "07_TN_02", "speed": 0 },
+        { "Kapitel": "07_TN_52", "speed": 0 },
+        { "Kapitel": "07_TN_53", "speed": 0 },
+        { "Kapitel": "07_TN_54", "speed": 0 },
+        { "Kapitel": "07_TN_55", "speed": 0 },
+        { "Kapitel": "07_TN_56", "speed": 0 },
+        { "Kapitel": "07_TN_57", "speed": 0 },
+        { "Kapitel": "07_TN_58", "speed": 0 },
+        { "Kapitel": "07_TN_59", "speed": 0 },
+        { "Kapitel": "07_TN_60", "speed": 0 },
+        { "Kapitel": "07_TN_61", "speed": 0 },
+        { "Kapitel": "07_TN_62", "speed": 0 },
+        { "Kapitel": "07_TN_63", "speed": 0 },
+        { "Kapitel": "07_TN_64", "speed": 0 },
+        { "Kapitel": "07_TN_65", "speed": 0 },
+        { "Kapitel": "07_TN_66", "speed": 0 },
+        { "Kapitel": "07_TN_67", "speed": 0 },
+        { "Kapitel": "07_TN_68", "speed": 0 },
+        { "Kapitel": "07_TN_69", "speed": 0 },
+        { "Kapitel": "07_TN_70", "speed": 0 }
     ], 
     [
         { "Kapitel": "08_F_01", "speed": 0 },

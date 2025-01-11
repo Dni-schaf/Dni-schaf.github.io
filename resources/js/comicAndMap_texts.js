@@ -2170,7 +2170,380 @@ const imageTexts = {
       "width": "100%"
     }
   ],
-
+    "07_TN_52": [
+      {
+        "text_de": "Titus, so übel sehen die Ponys doch gar nicht aus!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "63%",
+        "left": "31%",
+        "width": "20%"
+      },
+      {
+        "text_de": "Aufgrund Ihrer Schilderungen habe ich mir sie auch schlimmer vorgestellt.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "63%",
+        "left": "67%",
+        "width": "27%"
+      }
+    ],
+    "07_TN_53": [
+      {
+        "text_de": "Ich bleibe bei meiner Meinung: Diese sibirischen Gäule sind gänzlich ungeeignet für die Arbeit, die vor ihnen liegt.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "72%",
+        "left": "2%",
+        "width": "30%"
+      },
+      {
+        "text_de": "Na ja, sie sehen schon etwas müde aus. Was aber auch an den Strapazen der Überfahrt liegen könnte.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "72%",
+        "left": "53%",
+        "width": "30%"
+      }
+    ],
+    "07_TN_54": [
+      {
+        "text_de": "Ich habe versucht, den Captain zu überzeugen, dass wir mehr Futter brauchen. Davon will er aber nichts wissen, dabei sind ihm die Ponys doch so wichtig.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "50%",
+        "left": "1%",
+        "width": "20%"
+      },
+      {
+        "text_de": "Das Übergewicht zwingt uns zum Verzicht. Mich schmerzt es auch zutiefst, dass wir auf das Funkgerät verzichten müssen. Stellen Sie sich die Sensation vor: ein Funkspruch vom Südpol!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "56%",
+        "left": "34%",
+        "width": "30%"
+      },
+      {
+        "text_de": "Ja, aber mit hungrigen Gäulen werden wir es nicht mal bis dorthin schaffen. Und in der Antarktis wächst nun mal kein Heu.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "56%",
+        "left": "67%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_55": [
+      {
+        "text_de": "Fragen Sie doch Birdie, ob es noch etwas Spielraum gibt und er Ihr Anliegen an den Captain herantragen kann.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "60%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_56": [
+      {
+        "text_de": "Darauf können Sie wetten, Bill!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_57": [
+      {
+        "text_de": "… aber abgemagerte Hunde werden uns rein gar nichts nützen!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "64%",
+        "left": "75%",
+        "width": "25%"
+      }
+    ],
+    "07_TN_58": [
+      {
+        "text_de": "Ich sehe schon, wir haben das gleiche Anliegen.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "75%",
+        "left": "1%",
+        "width": "20%"
+      },
+      {
+        "text_de": "Ist mir auch schon zu Ohren gekommen. Reden Sie mit ihm – ich muss mich um meine Hunde kümmern!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "63%",
+        "left": "52%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_59": [
+      {
+        "text_de": "Lieber Titus, ich habe es diesem Maeres auch schon gesagt: Wir sind proppenvoll. Absolut überfüllt. Pickepackedicht.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "70%",
+        "left": "2%",
+        "width": "30%"
+      },
+      {
+        "text_de": "Birdie, schau dir diese Klappergestelle an! Ohne zusätzliches Futter schaffen die es nicht mal bis ins Eis.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "70%",
+        "left": "52%",
+        "width": "30%"
+      }
+    ],
+    "07_TN_60": [
+      {
+        "text_de": "Ich organisiere noch ein, zwei Tonnen Pferdefutter und du verstaust es. Ohne großes Aufsehen.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "72%",
+        "left": "1%",
+        "width": "25%"
+      },
+      {
+        "text_de": "Ich weiß doch, dass du großzügig planst. Tu mir den Gefallen!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "79%",
+        "left": "51%",
+        "width": "25%"
+      }
+    ],
+    "07_TN_61": [
+      {
+        "text_de": "Du hast bis morgen früh Zeit.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_62": [
+      {
+        "text_de": "Du bringst noch mein gesamtes System ins Wanken!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_63": [
+      {
+        "text_de": "Menschenskinder!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_64": [
+      {
+        "text_de": "So, wo war ich? Salz, Zucker, Mehl, Butter …",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_65": [
+      {
+        "text_de": "Eigentlich ist das ja Frauensache: Den Haushalt organisieren, Kuchen backen und so weiter.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "70%",
+        "left": "5%",
+        "width": "25%"
+      },
+      {
+        "text_de": "Hier in Neuseeland dürfen Frauen eben wählen und Männer kümmern sich um die Backzutaten.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "70%",
+        "left": "55%",
+        "width": "25%"
+      }
+    ],
+    "07_TN_66": [
+      {
+        "text_de": "Beim Thema Wahlrecht werde ich ganz gedankenschwer. Vor einigen Tagen wurden in London wieder zahlreiche Suffragetten brutal niedergeknüppelt. Mir wird richtig blümerant, wenn ich daran denke.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "77%",
+        "left": "5%",
+        "width": "30%"
+      }
+    ],
+    "07_TN_67": [
+      {
+        "text_de": "Ja, habe ich in der Zeitung gelesen. Schrecklich.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_68": [
+      {
+        "text_de": "Aber die Zeiten ändern sich. Ist nur eine Frage der Zeit, bis sich die Ideen der Suffragetten durchsetzen.",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
+    "07_TN_69": [
+      {
+        "text_de": "Ihr Wort in Gottes Ohr!",
+        "text_en": "",
+        "text_no": "",
+        "kind": "dialog",
+        "color": "black",
+        "backgroundColor": "bg_white",
+        "Fontsize": "",
+        "textAlign": "left",
+        "bottom": "84%",
+        "left": "75%",
+        "width": "20%"
+      }
+    ],
   "08_F_01": [
     {
       "text_de": "Kapitel 8",
