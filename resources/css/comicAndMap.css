@@ -4,6 +4,23 @@ body {
     margin: 0px;
 }
 
+@font-face {
+    font-family: dialogues;
+    src: url('../fonts/YanoneKaffeesatz-Regular.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: title;
+    src: url('../fonts/Truculenta_Condensed-Bold.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: chapter;
+    src: url('../fonts/Finlandica-Regular.ttf')  format('truetype');
+  }
+  
+
+
 /*styles für die schriften im comicbereich*/
 .farsan-regular {
     font-family: "Farsan", cursive;
@@ -64,21 +81,23 @@ body {
 
 
 .title {
-    font-family: "Playfair Display", serif;
+    font-family: "title";
     font-optical-sizing: auto;
-    font-size: 5vw;
+    text-transform: uppercase;
+    font-size: 8vw;
     font-weight: 500;
     font-style: normal;
     margin: 2%;
     margin-top: -1%;
     position: absolute;
-    top: 60vh;
+    top: 55vh;
 }
 
 .chapter{
-    font-size: 1.5vw;
+    font-family: "chapter";
+    text-transform: uppercase;
+    font-size: 2vw;
     margin: 2%;
-    font-family: sans-serif;
     position: absolute;
     top: 57vh;
 }
@@ -86,15 +105,15 @@ body {
 .LocationAndDate{
     font-size: 1.2vw;
     margin: 2%;
-    font-family: sans-serif;
+    font-family: "chapter";
     position: absolute;
-    top: 78vh;
+    top: 88vh;
 }
 
 .speaker{
     font-size: 1.2vw;
     padding: 2%;
-    font-family: sans-serif;
+    font-family: "chapter";
     position: relative;
     background-color: #ffffffaf;
     color: #000;
@@ -103,8 +122,7 @@ body {
 
 .dialog {
     font-size: 2.1vw;
-    font-family: "Farsan", cursive;
-    font-weight: 400;
+    font-family: "dialogues";
     font-style: normal;
     line-height: 2.5vw;
     position: absolute;
@@ -113,7 +131,7 @@ body {
 
 .highlight { 
     display: inline;
-    padding: 0.05vw 1vw;
+    padding: 0.3vw 0.5vw;
     
     /* Needs prefixing */
     box-decoration-break: clone;
