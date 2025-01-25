@@ -124,14 +124,14 @@ body {
     font-size: 1.8vw;
     font-family: "dialogues";
     font-style: normal;
-    line-height: 2.2vw;
+    line-height: 2.3vw;
     position: absolute;
     display: block;
 }
 
 .highlight { 
     display: inline;
-    padding: 0.27vw 0.8vw;
+    padding: 0.3vw 0.8vw;
     
     /* Needs prefixing */
     box-decoration-break: clone;
