@@ -88,9 +88,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "textAlign": "left",
-      "bottom": "66%",
-      "left": "77%",
-      "width": "21%"
+      "bottom": "76%",
+      "left": "75%",
+      "width": "22%"
     }
   ],
   "02_TN_07": [
@@ -102,7 +102,7 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",     
       "textAlign": "left",
-      "bottom": "67%",
+      "bottom": "71%",
       "left": "25%",
       "width": "20%"
     },
@@ -114,7 +114,7 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",      
       "textAlign": "left",
-      "bottom": "72%",
+      "bottom": "71%",
       "left": "79%",
       "width": "21%"
     }
@@ -140,8 +140,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "alltag_light",      
       "textAlign": "left",
-      "bottom": "69%",
-      "left": "34%",
+      "bottom": "71%",
+      "left": "32.5%",
       "width": "17%"
     },
     {
@@ -154,7 +154,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "63%",
       "left": "51%",
-      "width": "16%"
+      "width": "13%"
     },
     {
       "text_de": "Albern.",
@@ -164,8 +164,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "alltag_light",       
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "90%",
+      "bottom": "83%",
+      "left": "91%",
       "width": "10%"
     }
   ],
@@ -178,9 +178,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "alltag_light",      
       "textAlign": "left",
-      "bottom": "67%",
-      "left": "51%",
-      "width": "25%"
+      "bottom": "71%",
+      "left": "50%",
+      "width": "29%"
     }
   ],
   "02_TN_10": [
@@ -192,8 +192,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "alltag_light",    
       "textAlign": "left",
-      "bottom": "83%",
-      "left": "22%",
+      "bottom": "85%",
+      "left": "20%",
       "width": "15%"
     },
     {
@@ -204,7 +204,7 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "alltag_light",      
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "78%",
       "left": "46%",
       "width": "20%"
     },
@@ -216,7 +216,7 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "alltag_light",      
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "82%",
       "left": "68.5%",
       "width": "29%"
     }
@@ -228,11 +228,11 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",      
+      "backgroundColor": "alltag_light",      
       "textAlign": "left",
-      "bottom": "73%",
-      "left": "26%",
-      "width": "22%"
+      "bottom": "77%",
+      "left": "40%",
+      "width": "21%"
     },
     {
       "text_de": "Ärgere jemand anderen, du Streuner!",
@@ -242,9 +242,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white", 
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "56%",
-      "width": "17%"
+      "bottom": "61%",
+      "left": "60%",
+      "width": "15%"
     }
   ],
   "02_TN_12": [
@@ -253,12 +253,12 @@ const imageTexts = {
       "text_en": "Look at this magnificent specimen, Cherry! It must be several hundred years old.",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",      
+      "color": "white",
+      "backgroundColor": "alltag_middle",      
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "62%",
-      "width": "24%"
+      "bottom": "48%",
+      "left": "76%",
+      "width": "19%"
     }
   ],
   "02_TN_13": [
@@ -267,12 +267,12 @@ const imageTexts = {
       "text_en": "Unbelievable! What kind of species is it?",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",     
+      "color": "white",
+      "backgroundColor": "alltag_middle",     
       "textAlign": "left",
-      "bottom": "6%",
-      "left": "16%",
-      "width": "17%"
+      "bottom": "36%",
+      "left": "15%",
+      "width": "14%"
     },
     {
       "text_de": "So, die Wasserproben sind alle beschriftet.",
@@ -281,10 +281,10 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",     
-      "textAlign": "right",
-      "bottom": "73%",
-      "left": "52%",
-      "width": "19%"
+      "textAlign": "left",
+      "bottom": "87%",
+      "left": "41%",
+      "width": "15%"
     }
   ],
   "02_TN_14": [
@@ -294,10 +294,10 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",      
-      "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "backgroundColor": "alltag_light",      
+      "textAlign": "right",
+      "bottom": "78%",
+      "left": "49%",
       "width": "20%"
     }
   ],
@@ -307,12 +307,12 @@ const imageTexts = {
       "text_en": "Black devil, you! Don't bring us any bad luck!",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",      
-      "textAlign": "right",
-      "bottom": "73%",
-      "left": "25%",
-      "width": "20%"
+      "color": "white",
+      "backgroundColor": "alltag_dark",      
+      "textAlign": "left",
+      "bottom": "71%",
+      "left": "80%",
+      "width": "16%"
     }
   ],
   "02_TN_16": [
@@ -324,8 +324,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",      
       "textAlign": "right",
-      "bottom": "92%",
-      "left": "50%",
+      "bottom": "90%",
+      "left": "36%",
       "width": "20%"
     }
   ],
@@ -337,10 +337,22 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",      
+      "textAlign": "right",
+      "bottom": "11%",
+      "left": "60%",
+      "width": "13%"
+    },
+    {
+      "text_de": "HAHAHA",
+      "text_en": "HAHAHA",
+      "text_no": "HAHAHA",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",      
       "textAlign": "left",
-      "bottom": "2%",
-      "left": "80%",
-      "width": "17%"
+      "bottom": "62%",
+      "left": "89%",
+      "width": "13%"
     }
   ],
   "02_TN_18": [
@@ -352,9 +364,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",     
       "textAlign": "right",
-      "bottom": "72%",
-      "left": "24%",
-      "width": "20%"
+      "bottom": "74%",
+      "left": "34%",
+      "width": "12%"
     },
     {
       "text_de": "Ich werde dir eine ordentliche Tracht Prügel verabreichen!",
@@ -364,9 +376,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "textAlign": "right",
-      "bottom": "65%",
-      "left": "61%",
-      "width": "19%"
+      "bottom": "67%",
+      "left": "68%",
+      "width": "13%"
     }
   ],
   "02_TN_19": [
@@ -385,16 +397,16 @@ const imageTexts = {
   ],
   "02_TN_20": [
     {
-      "text_de": "Achtung, Gran von rechts!",
-      "text_en": "Attention, Gran from the right!",
+      "text_de": "Achtung, Birdie von rechts!",
+      "text_en": "Attention, Birdie from the right!",
       "text_no": "",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "75%",
+      "left": "17%",
+      "width": "10%"
     },
     {
       "text_de": "Gut so, Birdie!",
@@ -404,8 +416,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "32%",
+      "bottom": "79%",
+      "left": "29%",
       "width": "20%"
     },
     {
@@ -416,9 +428,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "52%",
-      "width": "20%"
+      "bottom": "79%",
+      "left": "55%",
+      "width": "13%"
     },
     {
       "text_de": "Birdie! Birdie!",
@@ -428,8 +440,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "72%",
+      "bottom": "72%",
+      "left": "74%",
       "width": "20%"
     },
     {
@@ -440,8 +452,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "bottom": "54%",
+      "left": "77%",
       "width": "20%"
     }
   ],
@@ -453,22 +465,22 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",       
-      "textAlign": "left",
-      "bottom": "86%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "87%",
+      "left": "1%",
+      "width": "12%"
     },
     {
       "text_de": "Was hat es eigentlich mit diesem Norweger auf sich?",
       "text_en": "What's this Norwegian all about?",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",       
+      "color": "white",
+      "backgroundColor": "alltag_dark",       
       "textAlign": "left",
       "bottom": "50%",
-      "left": "14%",
-      "width": "20%"
+      "left": "16%",
+      "width": "19%"
     },
     {
       "text_de": "Tryggve Gran? Den sollte man nicht unterschätzen. Hatte eigene Pläne, zum Südpol zu fahren.",
@@ -478,9 +490,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",      
       "textAlign": "left",
-      "bottom": "49%",
-      "left": "39%",
-      "width": "23%"
+      "bottom": "85%",
+      "left": "34.5%",
+      "width": "20%"
     },
     {
       "text_de": "Ach, so wie du?",
@@ -490,8 +502,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "82%",
+      "bottom": "41%",
+      "left": "10%",
       "width": "13%"
     },
     {
@@ -500,11 +512,11 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",      
-      "textAlign": "left",
-      "bottom": "90%",
-      "left": "68%",
-      "width": "20%"
+      "backgroundColor": "alltag_light",      
+      "textAlign": "right",
+      "bottom": "61%",
+      "left": "66%",
+      "width": "12%"
     },
     {
       "text_de": "Scott nimmt halt nur die Besten.",
@@ -514,9 +526,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",      
       "textAlign": "left",
-      "bottom": "37%",
+      "bottom": "-2%",
       "left": "2%",
-      "width": "14%"
+      "width": "12%"
     },
     {
       "text_de": "Oder die, die zu Rivalen werden könnten.",
@@ -526,9 +538,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "0%",
-      "left": "30%",
-      "width": "20%"
+      "bottom": "35%",
+      "left": "59%",
+      "width": "14%"
     },
     {
       "text_de": "Grandiose Finte, Gran!",
@@ -538,9 +550,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "41%",
-      "left": "35%",
-      "width": "20%"
+      "bottom": "38%",
+      "left": "37%",
+      "width": "8%"
     },
     {
       "text_de": "Scott hat ihn bei seinen Vorbereitungen in Norwegen kennengelernt und ihn kurzerhand angeheuert.",
@@ -548,13 +560,28 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",       
+      "backgroundColor": "alltag_light",       
       "textAlign": "left",
-      "bottom": "34%",
-      "left": "68%",
-      "width": "28%"
+      "bottom": "0%",
+      "left": "67.5%",
+      "width": "23%"
     }
   ],
+  "02_TN_22": [
+    {
+      "text_de": "AWWW",
+      "text_en": "AWWW",
+      "text_no": "AWWW",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",     
+      "textAlign": "left",
+      "bottom": "14%",
+      "left": "82%",
+      "width": "20%"
+    }
+  ],
+
   "02_TN_23": [
     {
       "text_de": "Entschuldigung, Mister Oates. Alles in Ordnung?",
@@ -562,10 +589,22 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",     
+      "backgroundColor": "alltag_light",     
       "textAlign": "left",
-      "bottom": "3%",
-      "left": "79%",
+      "bottom": "56%",
+      "left": "72%",
+      "width": "20%"
+    },
+    {
+      "text_de": "HAHAHA",
+      "text_en": "HAHAHA",
+      "text_no": "HAHAHA",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "alltag_light",     
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "26%",
       "width": "20%"
     }
   ],
@@ -576,10 +615,10 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",    
+      "backgroundColor": "alltag_light",    
       "textAlign": "left",
       "bottom": "81%",
-      "left": "2%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -590,9 +629,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",    
       "textAlign": "left",
-      "bottom": "-1%",
-      "left": "86%",
-      "width": "13%"
+      "bottom": "75%",
+      "left": "78%",
+      "width": "12%"
     }
   ],
   "02_TN_25": [
@@ -604,21 +643,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",       
       "textAlign": "left",
-      "bottom": "87%",
-      "left": "75%",
-      "width": "24%"
-    },
-    {
-      "text_de": "Uiii!",
-      "text_en": "Wow!",
-      "text_no": "",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",      
-      "textAlign": "left",
-      "bottom": "21%",
-      "left": "32%",
-      "width": "20%"
+      "bottom": "93%",
+      "left": "77%",
+      "width": "22%"
     },
     {
       "text_de": "Hoppla!",
@@ -626,10 +653,10 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "textAlign": "left",
-      "bottom": "21%",
-      "left": "52%",
+      "bottom": "31%",
+      "left": "23%",
       "width": "20%"
     },
     {
@@ -638,9 +665,57 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "textAlign": "left",
-      "bottom": "21%",
+      "bottom": "43%",
+      "left": "54%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Gran! Gran!",
+      "text_en": "Gran! Gran!",
+      "text_no": "",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "alltag_light",
+      "textAlign": "left",
+      "bottom": "36%",
+      "left": "55%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Gran! Gran!",
+      "text_en": "Gran! Gran!",
+      "text_no": "",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "alltag_light",
+      "textAlign": "left",
+      "bottom": "28%",
+      "left": "58%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Gran! Gran!",
+      "text_en": "Gran! Gran!",
+      "text_no": "",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "alltag_light",
+      "textAlign": "right",
+      "bottom": "43%",
+      "left": "73%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Gran! Gran!",
+      "text_en": "Gran! Gran!",
+      "text_no": "",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "alltag_light",
+      "textAlign": "right",
+      "bottom": "34%",
       "left": "72%",
       "width": "20%"
     }
@@ -678,10 +753,10 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "Alltag_light",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "bottom": "73%",
+      "left": "31%",
       "width": "20%"
     }
   ],
