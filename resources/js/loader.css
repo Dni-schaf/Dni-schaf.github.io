@@ -1,0 +1,45 @@
+/* Ladeanimation Styles */
+#loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+#windrosebox {
+    width: 25vw;
+    height: 25vw;
+    background-image: url('../images/rose1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#windrose {
+    width: 25vw;
+    height: 25vw;
+    background-image: url('../images/rose2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0deg);
+    transition: transform 2s ease-out;
+}
+
+#progress {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #374C52;
+}

@@ -164,6 +164,13 @@ body {
     background-color: #33828E;
 }
 
+.hundstag_dark{
+    background-color: #33818D;
+}
+.hundstag_middle{
+    background-color: #76CBD9;
+}
+
 
 .post_dark{
     background-color: #214B4D;
@@ -334,6 +341,7 @@ path {
 .spacer-div {
     width: 100%;
     background-color: #ffffff;
+    overflow: hidden;
 }
 
 .margin {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="../resources/js/coordinates.js"></script>
+    <script src="../resources/js/iceshelf_Data.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../resources/css/comicAndMap.css">
+
+</head>
+<body>
+    <script type="module">
+        import { showLoader } from "../resources/js/loader.js";
+        showLoader();
+    </script>
+    
+
+    <div id="mapbox">
+        <div id="map"></div>
+        <div id="ice"></div>
+        <div id="grid"></div>
+        <div id="path"></div>
+        <div id="label"></div>
+    </div>
+    <div id="datumsanzeige" style="display:none; position: fixed; top: 0px; left: 0px; width: 300px; height: 30px;"></div>
+
+    <div class="container" id="container"></div>
+
+    <header style="position: fixed; top: 5px; left: 5px; z-index: 100;">
+        <button id="menuButton">☰</button>
+    </header>
+<script>
+    //VARIABLEN FÜR DEN COMIC
+    const datestartArray = ["09.09.1910"];
+    const dateendArray =   ["10.09.1910"];
+</script>
+
+    <script src="../resources/js/comicAndMap_images_03.js"></script> 
+    <script src="../resources/js/comicAndMap_texts_03.js"></script> 
+    <script src="../resources/js/comicAndMap_Speakertext_03.js"></script> 
+
+    <script src="../resources/js/dateUtils.js"></script>
+    <script src="../resources/js/variablen.js"></script>
+    <script src="../resources/js/createMap.js"></script>
+    <script src="../resources/js/createPath.js"></script>
+    <script src="../resources/js/createComic.js"></script>
+    <script src="../resources/js/animatePath.js"></script>
+
+
+    <!-- Link zum nächsten Kapitel -->
+    <footer>
+        <a href="Chapter4.html">Weiter zu Kapitel 2</a>
+    </footer>
+    <!-- Platzhalter für Navigation -->
+    <div id="navigationPlaceholder"></div>
+</body>
+</html>
