@@ -18,6 +18,10 @@ body {
     font-family: chapter;
     src: url('../fonts/Finlandica-Regular.ttf')  format('truetype');
   }
+  @font-face {
+    font-family: Location;
+    src: url('../fonts/Finlandica-Bold.ttf')  format('truetype');
+  }
   
 
 
@@ -84,30 +88,40 @@ body {
     font-family: "title";
     font-optical-sizing: auto;
     text-transform: uppercase;
-    font-size: 8vw;
+    font-size: 10vw;
     font-weight: 500;
     font-style: normal;
     margin: 2%;
     margin-top: -1%;
     position: absolute;
-    top: 55vh;
+    top: 44vw;
+    width: 80vw;
+    line-height: 10.5vw;
 }
 
 .chapter{
     font-family: "chapter";
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin: 2%;
     position: absolute;
-    top: 57vh;
+    top: 45vw;
+    letter-spacing: 0.5vw;
 }
 
-.LocationAndDate{
-    font-size: 1.2vw;
+.Location{
+    font-size: 1.4vw;
+    margin: 2%;
+    font-family: "Location";
+    position: absolute;
+    top: 106vw;
+}
+.Date{
+    font-size: 1.4vw;
     margin: 2%;
     font-family: "chapter";
     position: absolute;
-    top: 88vh;
+    top: 104vw;
 }
 
 .speaker{

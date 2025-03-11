@@ -9,8 +9,8 @@ const imageTexts = {
       "backgroundColor": null,
       "textAlign": "center",
       "bottom": "90%",
-      "left": "0%",
-      "width": "100%"
+      "left": "10%",
+      "width": "80%"
     },
     {
       "text_de": "Eine neue Partie",
@@ -21,18 +21,30 @@ const imageTexts = {
       "backgroundColor": null,
       "textAlign": "center",
       "bottom": "85%",
+      "left": "10%",
+      "width": "80%"
+    },
+    {
+      "text_de": "6. September 1910",
+      "text_en": "6 September 1910",
+      "text_no": "6. september 1910",
+      "kind": "Date",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "left",
+      "bottom": "80%",
       "left": "0%",
       "width": "100%"
     },
     {
-      "text_de": "6. September 1910, Funchal, Madeira",
-      "text_en": "6 September 1910, Funchal, Madeira",
-      "text_no": "6. september 1910, Funchal, Madeira",
-      "kind": "LocationAndDate",
+      "text_de": "Funchal, Madeira",
+      "text_en": "Funchal, Madeira",
+      "text_no": "Funchal, Madeira",
+      "kind": "Location",
       "color": "black",
       "backgroundColor": null,
-      "textAlign": "center",
-      "bottom": "80%",
+      "textAlign": "left",
+      "bottom": "72%",
       "left": "0%",
       "width": "100%"
     }
@@ -89,7 +101,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "right",
       "bottom": "81%",
       "left": "52%",
@@ -102,7 +113,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "left",
       "bottom": "7%",
       "left": "15%",
@@ -117,7 +127,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "left",
       "bottom": "17%",
       "left": "35%",
@@ -130,7 +139,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
       "bottom": "45%",
       "left": "55%",
@@ -145,7 +153,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "left",
       "bottom": "64%",
       "left": "5%",
@@ -157,8 +164,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "madeira_light",
-       
+      "backgroundColor": "madeira_light", 
       "textAlign": "right",
       "bottom": "2%",
       "left": "81%",
@@ -173,7 +179,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
       "bottom": "79%",
       "left": "50%",
@@ -188,7 +193,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "right",
       "bottom": "18%",
       "left": "65%",
@@ -203,7 +207,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
       "bottom": "76%",
       "left": "37%",
@@ -216,7 +219,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
       "bottom": "84%",
       "left": "72%",
@@ -230,8 +232,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-       
+      "backgroundColor": "bg_white", 
       "textAlign": "left",
       "bottom": "57%",
       "left": "2%",
@@ -246,7 +247,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "right",
       "bottom": "81%",
       "left": "78%",
@@ -261,7 +261,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "left",
       "bottom": "67%",
       "left": "33%",
@@ -273,8 +272,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-       
+      "backgroundColor": "bg_white", 
       "textAlign": "left",
       "bottom": "70%",
       "left": "82%",
@@ -289,7 +287,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "right",
       "bottom": "81%",
       "left": "70%",
@@ -302,7 +299,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "left",
       "bottom": "37%",
       "left": "26%",
@@ -317,7 +313,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "left",
       "bottom": "2%",
       "left": "33%",
@@ -331,8 +326,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-       
+      "backgroundColor": "bg_white",   
       "textAlign": "right",
       "bottom": "85%",
       "left": "24%",
@@ -345,7 +339,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
       "bottom": "64%",
       "left": "62%",
@@ -360,11 +353,10 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
-      "bottom": "79%",
-      "left": "39%",
-      "width": "22%"
+      "bottom": "70%",
+      "left": "75%",
+      "width": "20%"
     }
   ],
   "03_F_73": [
@@ -374,8 +366,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-       
+      "backgroundColor": "bg_white", 
       "textAlign": "left",
       "bottom": "46%",
       "left": "28%",
@@ -388,7 +379,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "madeira_dark",
-       
       "textAlign": "right",
       "bottom": "56%",
       "left": "50%",
@@ -403,7 +393,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-       
       "textAlign": "right",
       "bottom": "74%",
       "left": "31%",
@@ -418,7 +407,6 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-       
       "textAlign": "left",
       "bottom": "52%",
       "left": "25%",
@@ -430,8 +418,7 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "madeira_dark",
-       
+      "backgroundColor": "madeira_dark",  
       "textAlign": "right",
       "bottom": "52%",
       "left": "51%",
