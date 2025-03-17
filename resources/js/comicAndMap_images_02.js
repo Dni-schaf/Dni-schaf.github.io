@@ -34,7 +34,6 @@ const imageSets = [
         { "Kapitel": "02_TN_32", "speed": 0 },
         { "Kapitel": "02_TN_33", "speed": 0 },
         { "Kapitel": "02_TN_34", "speed": 0 },
-        { "Kapitel": "02_TN_35", "speed": 0 },
         { "Kapitel": "02_TN_36", "speed": 0 },
         { "Kapitel": "02_TN_37", "speed": 0 },
         { "Kapitel": "02_TN_38", "speed": 0 },

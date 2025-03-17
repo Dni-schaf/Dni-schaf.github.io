@@ -82,6 +82,7 @@ function updateTexts(language) {
 
         const pElement = document.createElement('p');
         pElement.className = textData.color; // Farbe setzen
+        pElement.style.fontSize = textData.Fontsize;
 
         const spanElement = document.createElement('span');
         spanElement.className = `highlight ${textData.backgroundColor}`; // Hintergrundfarbe setzen

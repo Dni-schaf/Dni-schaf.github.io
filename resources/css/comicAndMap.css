@@ -109,14 +109,14 @@ body {
     letter-spacing: 0.5vw;
 }
 
-.Location{
+.location{
     font-size: 1.4vw;
     margin: 2%;
     font-family: "Location";
     position: absolute;
     top: 106vw;
 }
-.Date{
+.date{
     font-size: 1.4vw;
     margin: 2%;
     font-family: "chapter";
@@ -135,7 +135,6 @@ body {
 }
 
 .dialog {
-    font-size: 1.8vw;
     font-family: "dialogues";
     font-style: normal;
     line-height: 2.3vw;
