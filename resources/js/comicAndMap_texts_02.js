@@ -1207,8 +1207,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "bottom": "39%",
+      "left": "21%",
       "width": "20%"
     }
   ],
@@ -1219,12 +1219,12 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "61%",
+      "left": "17%",
+      "width": "16%"
     },
     {
       "text_de": "Vielleicht haben sich ja alle Geldsorgen in Luft aufgelöst.",
@@ -1232,11 +1232,11 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "81%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "33%",
+      "left": "49%",
       "width": "20%"
     }
   ],
@@ -1247,25 +1247,25 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "23%",
+      "left": "32%",
+      "width": "16%"
     },
     {
       "text_de": "Wie dem auch sei, das Leck muss repariert werden. Das hat oberste Priorität.",
       "text_en": "Be that as it may, the leak must be repaired. That has top priority.",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "81%",
+      "textAlign": "right",
+      "bottom": "60%",
       "left": "52%",
-      "width": "20%"
+      "width": "19%"
     }
   ],
   "02_TN_51": [
@@ -1274,13 +1274,13 @@ const imageTexts = {
       "text_en": "We'll have to plan several days in a dry dock for that.",
       "text_no": "",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "72%",
+      "left": "1%",
+      "width": "15%"
     }
   ],
   "02_TN_52": [
@@ -1290,12 +1290,12 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "72%",
+      "left": "36%",
+      "width": "13%"
     }
   ],
   "02_TN_54": [
@@ -1308,8 +1308,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "bottom": "67%",
+      "left": "45%",
       "width": "20%"
     },
     {
@@ -1321,9 +1321,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "52%",
-      "width": "20%"
+      "bottom": "68%",
+      "left": "82%",
+      "width": "16%"
     }
   ],
   "02_TN_55": [
@@ -1333,12 +1333,12 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "63%",
+      "left": "33%",
+      "width": "13%"
     }
   ],
   "02_TN_56": [
@@ -1351,8 +1351,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "bottom": "66%",
+      "left": "67%",
       "width": "20%"
     }
   ],
@@ -1363,11 +1363,11 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "63%",
+      "left": "27%",
       "width": "20%"
     },
     {
@@ -1376,12 +1376,12 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "52%",
-      "width": "20%"
+      "bottom": "58%",
+      "left": "72%",
+      "width": "19%"
     }
   ],
   "02_TN_58": [
@@ -1391,12 +1391,12 @@ const imageTexts = {
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "84%",
+      "left": "29%",
+      "width": "27%"
     },
     {
       "text_de": "Schon gut, ich treibe noch ein paar Kisten auf.",
@@ -1407,7 +1407,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
+      "bottom": "53%",
       "left": "52%",
       "width": "20%"
     }
