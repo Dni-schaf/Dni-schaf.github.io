@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Grundlayout für das Overlay */
+        #menu-overlay {
+            position: fixed;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            overflow-y: auto;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Bereich für die Sprachauswahl */
+        .menu-section {
+            margin-bottom: 20px;
+        }
+
+        #language-selection {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #language-selection button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #e0e0e0;
+            font-size: 1em;
+        }
+
+        /* Inhaltsverzeichnis als Tabelle */
+        #toc {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        /* Erste Spalte für Bilder */
+        .toc-images {
+            width: 33%;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+         /* Container für Bild und graue Überlagerung */
+         .chapter-image-container {
+            position: relative;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+
+        /* Grau-Überlagerung für Lesefortschritt */
+        .chapter-overlay {
+            position: absolute;
+            top: 0;
+            left: 57%;
+            height: 100%;
+            width: 100%; /* Startet mit voller Breite */
+            background-color: #888;
+            mix-blend-mode: color;
+        }
+
+        /* Bild-Element */
+        .chapter-image {
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+
+        /* Zweite Spalte für Kapiteltexte */
+        .toc-text {
+            width: 67%;
+            text-align: left;
+        }
+
+        .chapter-title {
+            font-size: 1em;
+            color: #555;
+            margin: 0;
+        }
+
+        .chapter-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0;
+            color: #333;
+        }
+
+        /* Einstellungen am unteren Rand */
+        #settings {
+            text-align: center;
+            margin-top: auto;
+        }
+
+        #settings button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #e0e0e0;
+            font-size: 1em;
+        }
+
+        tr {
+          direction: rtl;  
+        }
+    </style>
+</head>
+<body>
+    <div id="menu-overlay">
+        <!-- Sprachauswahl -->
+        <div id="language-selection" class="menu-section">
+            <button>DE</button>
+            <button>EN</button>
+            <button>NO</button>
+        </div>
+
+        <!-- Inhaltsverzeichnis als Tabelle -->
+        <table id="toc" class="menu-section">
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image-container" data-width="30">
+                        <div class="chapter-overlay"></div>
+                        <div class="chapter-image" style="background-image: url('../resources/images/underconstruction.png');"></div>
+                    </div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 1</div>
+                    <div class="chapter-name">Abschied auf Raten</div>
+                </td>
+            </tr>
+           <!-- <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="70" style="background-image: url('placeholder2.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 2</div>
+                    <div class="chapter-name">Federkleid und Kohlenstaub</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="90" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 3</div>
+                    <div class="chapter-name">Eine neue Partie</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="20" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Extra</div>
+                    <div class="chapter-name">Die Mannschaft</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="54" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 4</div>
+                    <div class="chapter-name">Von Hundstagen und Hundewetter</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="26" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 5</div>
+                    <div class="chapter-name">Aus heiterem Himmel</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="69" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 6</div>
+                    <div class="chapter-name">Fluch und Segen</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="71" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 7</div>
+                    <div class="chapter-name">Land der langen weißen Wolke</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="85" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 8</div>
+                    <div class="chapter-name">Niemandsland</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="95" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 9</div>
+                    <div class="chapter-name">Schwerer Abschied</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="38" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 10</div>
+                    <div class="chapter-name">Sturm und Drang</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="20" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 11</div>
+                    <div class="chapter-name">Der böse Zwilling</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="54" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Extra</div>
+                    <div class="chapter-name">Über die Arten des Eises</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="toc-images">
+                    <div class="chapter-image" data-width="89" style="background-image: url('placeholder3.jpg');"></div>
+                </td>
+                <td class="toc-text">
+                    <div class="chapter-title">Kapitel 12</div>
+                    <div class="chapter-name">Das weiße Band</div>
+                </td>
+            </tr>-->
+            <!-- Weitere Kapitel können hier hinzugefügt werden -->
+        </table>
+
+        <!-- Einstellungen -->
+        <div id="settings" class="menu-section">
+            <button id="music-toggle">Musik: An/Aus</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Hole alle Bild-Container und setze ihre Breite basierend auf dem `data-width`-Attribut
+            const chapterImages = document.querySelectorAll('.chapter-image-container');
+            chapterImages.forEach(img => {
+                const widthPercentage = img.getAttribute('data-width');
+                img.style.width = widthPercentage + '%'; // Setzt die Breite basierend auf dem data-width Attribut
+            });
+        });
+    </script>
+</body>
+</html>

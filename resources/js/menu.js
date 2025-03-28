@@ -3,16 +3,7 @@
  const menuOverlay = document.getElementById('menuOverlay');
  const closeMenu = document.getElementById('closeMenu');
  
- // Eventlistener, um das Overlay zu öffnen
- menuButton.addEventListener('click', () => {
-     menuOverlay.style.display = 'flex';
- });
- 
- // Eventlistener, um das Overlay zu schließen
- closeMenu.addEventListener('click', () => {
-     menuOverlay.style.display = 'none';
- });
- 
+
  
  // Sprachwechsel und Aktualisierung der Texte
  const languageButtons = document.querySelectorAll('.language-button');

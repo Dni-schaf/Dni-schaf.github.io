@@ -53,7 +53,7 @@ const imageTexts = {
       {
         "text_de": "Unbegreiflich, diese Arglosigkeit!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -68,7 +68,7 @@ const imageTexts = {
       {
         "text_de": "Hallo Fridtjof!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -83,7 +83,7 @@ const imageTexts = {
       {
         "text_de": "Deine Welt ist noch in Ordnung.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -98,7 +98,7 @@ const imageTexts = {
       {
         "text_de": "Alle sind unzufrieden. Aber sie wussten, dass uns die Reise viel abverlangen wird.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -113,7 +113,7 @@ const imageTexts = {
       {
         "text_de": "Mehr Wasser!?",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -126,7 +126,7 @@ const imageTexts = {
       {
         "text_de": "Als ob das so einfach wäre! Und wir nicht viel größere Sorgen hätten!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -141,7 +141,7 @@ const imageTexts = {
       {
         "text_de": "Sie verstehen die Tragweite unseres Unterfangens nicht! Und welch engem Zeitplan wir folgen müssen! Aber ich sollte mich nicht so aufregen.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -156,7 +156,7 @@ const imageTexts = {
       {
         "text_de": "Morgen ist ein folgenschwerer Tag. Danach wird die Welt uns mit anderen Augen sehen.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -171,7 +171,7 @@ const imageTexts = {
       {
         "text_de": "Tschirp, tschirp!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -184,7 +184,7 @@ const imageTexts = {
       {
         "text_de": "Eigenartig, dass mich diese Vorstellung so kaltlässt. Leon ist vermutlich gerade viel nervöser als ich.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -197,7 +197,7 @@ const imageTexts = {
       {
         "text_de": "Ich kann ja auch nichts tun, außer meinen Plan mit aller Vehemenz zu verfolgen.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -212,7 +212,7 @@ const imageTexts = {
       {
         "text_de": "Und darauf hoffen, dass dein Namensvetter sich nicht hintergangen fühlt.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -225,7 +225,7 @@ const imageTexts = {
       {
         "text_de": "In wenigen Tagen weiß auch die Presse Bescheid.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -240,7 +240,7 @@ const imageTexts = {
       {
         "text_de": "Die wird sicher begeistert sein, denn die Leserschaft liebt Wettrennen!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -253,7 +253,7 @@ const imageTexts = {
       {
         "text_de": "Tschirp, tschirp!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "white",
         "backgroundColor": "hundstag_dark",
@@ -268,7 +268,7 @@ const imageTexts = {
       {
         "text_de": "Bei den Briten wird die Nachricht vermutlich für großen Missmut sorgen. Die haben einen Haufen Gründe, uns in ein schlechtes Licht zu rücken – niemand wird gern derart kalt erwischt.",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -283,7 +283,7 @@ const imageTexts = {
       {
         "text_de": "Tja, aber was machen wir nun wegen des Wassers? Mehr Regen kommt, nicht wahr?",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",
@@ -296,7 +296,7 @@ const imageTexts = {
       {
         "text_de": "Tschirp, tschirp!",
         "text_en": "",
-        "text_no": "",
+        "text_no": "no",
         "kind": "dialog",
         "color": "black",
         "backgroundColor": "hundstag_middle",

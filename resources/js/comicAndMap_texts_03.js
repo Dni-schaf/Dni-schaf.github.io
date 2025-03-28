@@ -54,7 +54,7 @@ const imageTexts = {
     {
       "text_de": "Hier ist doch ein ruhiges Plätzchen.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -69,7 +69,7 @@ const imageTexts = {
     {
       "text_de": "Soso",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -82,7 +82,7 @@ const imageTexts = {
     {
       "text_de": "Zeitung",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -97,7 +97,7 @@ const imageTexts = {
     {
       "text_de": "Vor Anker?",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -109,7 +109,7 @@ const imageTexts = {
     {
       "text_de": "Verläuft alles nach Plan.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -123,7 +123,7 @@ const imageTexts = {
     {
       "text_de": "Gerede in der Heimat?",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -135,7 +135,7 @@ const imageTexts = {
     {
       "text_de": "Niemand hat Verdacht geschöpft.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -149,7 +149,7 @@ const imageTexts = {
     {
       "text_de": "Finanzen?",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -161,7 +161,7 @@ const imageTexts = {
     {
       "text_de": "Leider nur Kinkerlitzchen.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light", 
@@ -175,7 +175,7 @@ const imageTexts = {
     {
       "text_de": "Obrigada, Senhora!",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -189,7 +189,7 @@ const imageTexts = {
     {
       "text_de": "Dann lass uns mal über das weitere Vorgehen reden. Die nächsten Züge sollten gut durchdacht sein – genauso wie die Worte, mit denen du die oberste Instanz informierst.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -203,7 +203,7 @@ const imageTexts = {
     {
       "text_de": "Du hast nur diese eine Chance, um SEINE Gunst zu gewinnen.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -215,7 +215,7 @@ const imageTexts = {
     {
       "text_de": "Letztlich ist ER auch die wichtigste Figur.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -229,7 +229,7 @@ const imageTexts = {
     {
       "text_de": "Ich mache mir jedoch mehr Sorgen um eine andere Figur, die meine Entscheidung als Betrug oder Verrat werten könnte.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white", 
@@ -243,7 +243,7 @@ const imageTexts = {
     {
       "text_de": "Als Diplomat versteht er aber immerhin, wie wichtig Diskretion sein kann.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -257,7 +257,7 @@ const imageTexts = {
     {
       "text_de": "Am Ende werden mir beide allerdings auch nur dann wohlgesinnt sein, wenn unsere Mission von Erfolg gekrönt ist.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -269,7 +269,7 @@ const imageTexts = {
     {
       "text_de": "Daran sollten wir nicht zweifeln.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white", 
@@ -283,7 +283,7 @@ const imageTexts = {
     {
       "text_de": "Allerdings darf man den Gegenspieler auch nie unterschätzen.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -295,7 +295,7 @@ const imageTexts = {
     {
       "text_de": "Das wäre äußerst fahrlässig.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -309,7 +309,7 @@ const imageTexts = {
     {
       "text_de": "Wenn wir verlieren, steht alles auf dem Spiel. Das dürfte auch der Mannschaft klar werden.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -323,7 +323,7 @@ const imageTexts = {
     {
       "text_de": "An der Loyalität deiner Männer …",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",   
@@ -335,7 +335,7 @@ const imageTexts = {
     {
       "text_de": "… zweifelst du doch etwa nicht?!",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -349,7 +349,7 @@ const imageTexts = {
     {
       "text_de": "Hast du Bedenken, dass sie mit Ablehnung reagieren werden?",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -363,7 +363,7 @@ const imageTexts = {
     {
       "text_de": "Ausgeschlossen ist es nicht. Immerhin werde ich ihnen offenbaren, dass alles, was sie zu glauben meinten, falsch ist.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white", 
@@ -375,7 +375,7 @@ const imageTexts = {
     {
       "text_de": "Du übertreibst.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "madeira_dark",
@@ -389,7 +389,7 @@ const imageTexts = {
     {
       "text_de": "Du musst an ihren Sinn fürs Abenteuer appellieren. Und ihnen möglichst wenig Zeit und Raum für Bedenken geben.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -403,7 +403,7 @@ const imageTexts = {
     {
       "text_de": "Hassel, Prestrud und Nilsen haben ständig Angst, sich zu verplappern. Denen wird übermorgen ein riesiger Stein vom Herzen fallen, wenn ich die Katze aus dem Sack lasse.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
@@ -415,7 +415,7 @@ const imageTexts = {
     {
       "text_de": "Die zwei Tage werden sie ja wohl noch dicht halten können.",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "madeira_dark",  
@@ -429,7 +429,7 @@ const imageTexts = {
     {
       "text_de": "So, lieber Bruder. Bereit für eine Partie?",
       "text_en": "",
-      "text_no": "",
+      "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
