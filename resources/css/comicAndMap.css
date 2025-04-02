@@ -116,6 +116,13 @@ body {
     position: absolute;
     top: 106vw;
 }
+.location2{
+    font-size: 1.4vw;
+    margin: 2%;
+    font-family: "Location";
+    position: absolute;
+    top: 10vw;
+}
 .date{
     font-size: 1.4vw;
     margin: 2%;
@@ -167,6 +174,12 @@ body {
     color: #000;
 }
 
+.start_light{
+    background-color: #B3D6DD;
+}
+.start_middle{
+    background-color: #81A9B3;
+}
 .alltag_dark{
     background-color: #0F4A53;
   }

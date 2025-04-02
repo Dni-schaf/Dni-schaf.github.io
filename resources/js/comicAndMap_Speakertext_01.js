@@ -1,9 +1,9 @@
 const speaker = {
   "01_Speaker": [
     {
-      "text_de": "Während Captain Scott wehmütig und in Erwartung des Wiedersehens in Kapstadt nach London zurückkehrt, begibt sich die Terra Nova auf ihre lange Reise über den Atlantik. In Madeira legt sie einen kurzen Stopp ein, bevor sie ihre Route fortsetzt und den Äquator am XX. XXXXXXX überquert.",
-      "text_en": "Chapter 1",
-      "text_no": "Kapittel 1",
+      "text_de": "Unter Applaus, Hochrufen und einigen Tränen verlässt der ehemalige Walfänger London und zieht die Themse hinab. Kurz darauf verabschiedet sich Captain Scott im flussabwärts gelegenen Greenhithe von seiner Mannschaft.",
+      "text_en": "Amid applause, cheers and a few tears, the former whaler leaves London and heads down the Thames. Shortly afterwards, Captain Scott bids farewell to his crew in Greenhithe downriver.",
+      "text_no": "NO",
       "kind": "speaker",
       "color": "black",
       "backgroundColor": null,
@@ -13,9 +13,21 @@ const speaker = {
       "width": "20%"
     },
     {
-      "text_de": "Die endlose Weite des Ozeans wird nur von einem winzigen unbewohnten Archipel unterbrochen: Eine kleine Gruppe um den Wissenschaftler Wilson sammelt auf der Insel Trindade biologische und geologische Proben. Danach nimmt die Terra Nova Kurs auf die Südspitze Afrikas.",
-      "text_en": "Chapter 1",
-      "text_no": "Kapittel 1",
+      "text_de": "In den nächsten Tagen macht die Terra Nova Halt in Portsmouth und Weymouth, wo zusätzliche Ausrüstung geladen wird. Doch vor allem sind es die Menschen an Land, die ihr einen bewegenden Abschied bereiten. Schließlich sticht sie wieder in See – begleitet von Fahnen, Fanfaren und einem Flottengruß.",
+      "text_en": "Over the next few days, the Terra Nova will make stops in Portsmouth and Weymouth, where additional equipment will be loaded. But above all, it is the people ashore who give her a moving farewell. Finally, she sets sail again - accompanied by flags, fanfares and a fleet salute.",
+      "text_no": "NO",
+      "kind": "speaker",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "left",
+      "top": "90%",
+      "left": "70%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Die Abschiedstour der Terra Nova endet im walisischen Cardiff, wo Captain Scott endlich wieder zu seiner Mannschaft zurückkehrt. Doch die große Reise kann erst beginnen, wenn eine weitere Schlüsselperson an Bord kommt.",
+      "text_en": "The Terra Nova's farewell tour ends in Cardiff, Wales, where Captain Scott finally rejoins his crew. But the great journey can only begin when another key person comes on board.",
+      "text_no": "NO",
       "kind": "speaker",
       "color": "black",
       "backgroundColor": null,
@@ -24,56 +36,5 @@ const speaker = {
       "left": "70%",
       "width": "20%"
     },
-  ],
-
-  "02_Speaker": [
-    {
-      "text_de": "Während die Terra Nova unbeirrt Kurs auf Südafrika hält, verlässt ein anderes Schiff unbemerkt den Hafen der norwegischen Hauptstadt Kristiania, die wir heute als Oslo kennen.",
-      "text_en": "Chapter 1",
-      "text_no": "Kapittel 1",
-      "kind": "speaker",
-      "color": "black",
-      "backgroundColor": null,
-      "textAlign": "left",
-      "top": "51%",
-      "left": "70%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Als das norwegische Schiff in den Ärmelkanal einfährt, erreicht die Terra Nova nach acht langen Wochen auf See endlich Kapstadt, wo Captain Scott zu seiner Mannschaft stößt.",
-      "text_en": "Chapter 1",
-      "text_no": "Kapittel 1",
-      "kind": "speaker",
-      "color": "black",
-      "backgroundColor": null,
-      "textAlign": "left",
-      "top": "59%",
-      "left": "70%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Nach zwei Wochen setzt die britische Expedition ihre Reise fort – diesmal ohne ihren Chefwissenschaftler Wilson, der auf einem Postdampfer nach Australien vorausgefahren ist.",
-      "text_en": "Chapter 1",
-      "text_no": "Kapittel 1",
-      "kind": "speaker",
-      "color": "black",
-      "backgroundColor": null,
-      "textAlign": "left",
-      "top": "100%",
-      "left": "70%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Unterdessen erreicht das geheimnisvolle Schiff aus Norwegen nach vier Wochen auf See die Insel Madeira.",
-      "text_en": "Chapter 1",
-      "text_no": "Kapittel 1",
-      "kind": "speaker",
-      "color": "black",
-      "backgroundColor": null,
-      "textAlign": "left",
-      "top": "112%",
-      "left": "70%",
-      "width": "20%"
-    }
   ]
 }
