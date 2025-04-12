@@ -1,33 +1,42 @@
+const breite = window.innerWidth;
+      console.log("Fensterbreite:", breite + "px");
+const hoehe = breite * 0.699;
+const halbbreit = breite/2;
+const halbhoehe = hoehe/2;
+
+const AntarcticaOffsetX = breite * 0.06;  // z.B. 10% der Fensterbreite
+const AntarcticaOffsetY = hoehe * 0.13;
+
 // karte erzeugen
 const svgmap = d3.select("#map").append("svg")
-  .attr("width", 900)
-  .attr("height", 700);
+  .attr("width", breite)
+  .attr("height", hoehe);
 
 const svgice = d3.select("#ice").append("svg")
-  .attr("width", 900)
-  .attr("height", 700);
+  .attr("width", breite)
+  .attr("height", hoehe);
 
 const svgpath = d3.select("#path").append("svg")
-  .attr("width", 900)
-  .attr("height", 700);
+  .attr("width", breite)
+  .attr("height", hoehe);
 
 const svggrid = d3.select("#grid").append("svg")
-  .attr("width", 900)
-  .attr("height", 700);
+  .attr("width", breite)
+  .attr("height", hoehe);
 
 const svglabel = d3.select("#label").append("svg")
-  .attr("width", 900)
-  .attr("height", 700);
+  .attr("width", breite)
+  .attr("height", hoehe);
 
 const projection = d3.geoAzimuthalEqualArea()
   .rotate([-70,0])
-  .scale(170)
-  .translate([450,360]);
+  .scale(180)
+  .translate([halbbreit,halbhoehe]);
 
 const path = d3.geoPath().projection(projection);
 
 const graticule = d3.geoGraticule()
-  .step([10, 5]);
+  .step([20, 15]);
 
 //eis in die karte zeichnen
 function drawIce(){
@@ -70,12 +79,12 @@ function drawMap(err, world) {
 
   // Äquatorlinie hinzufügen (entspricht einer Linie von links nach rechts in der Mitte der Karte)
   svggrid.append("line")
-    .attr("x1", 110)           // Start der Linie an der linken Seite der Karte (X-Koordinate)
+    .attr("x1", projection([-95, 0])[0])           // Start der Linie an der linken Seite der Karte (X-Koordinate)
     .attr("y1", projection([0, 0])[1])  // Y-Koordinate für den Äquator (projiziert auf 0° Breite)
-    .attr("x2", 790)  // Ende der Linie an der rechten Seite der Karte
+    .attr("x2",  projection([235, 0])[0])  // Ende der Linie an der rechten Seite der Karte
     .attr("y2", projection([0, 0])[1])  // Y-Koordinate für den Äquator
-    .attr("stroke", "black")     // Farbe der Äquatorlinie
-    .attr("stroke-width", 0.5)     // Strichstärke, um die Linie dicker zu machen
+    .attr("stroke", "#9DB4C9")     // Farbe der Äquatorlinie
+    .attr("stroke-width", 2.5)     // Strichstärke, um die Linie dicker zu machen
     .attr("class", "equator-line");
 }
 
@@ -128,7 +137,7 @@ function addAntarcticLabel(){
     .attr("id", "AntarcticPath")
     .attr("d", antarcticPathData)
     .attr("class", "ocean-path") // Unsichtbarer Pfad für den Text
-    .attr("transform", "translate(-40, 38)"); 
+    .attr("transform", `translate(${AntarcticaOffsetX}, ${AntarcticaOffsetY})`);
 
   // Text entlang des Pfades platzieren
   svglabel.append("text")
@@ -171,13 +180,16 @@ function addAllOceanLabels(){
   svglabel.selectAll(".continent-label").remove();
 
   // Beispiel: Afrika auf Deutsch beschriften
-  addOceanLabel(svglabel, "Atlantik", language, 259, 167);
+  addOceanLabel(svglabel, "Atlantik", language, halbbreit*0.653, halbhoehe*0.46);
 
   // Beispiel: Europa auf Englisch beschriften
-  addOceanLabel(svglabel, "Pazifik", language, 694, 268);
+  addOceanLabel(svglabel, "Pazifik", language, halbbreit*1.45,  halbhoehe*0.8);
 
   // Beispiel: Asien auf Norwegisch beschriften
-  addOceanLabel(svglabel, "Indischerozean", language, 473, 394);
+  addOceanLabel(svglabel, "Indischerozean", language, halbbreit, halbhoehe*1.1);
+
+  // Beispiel: Asien auf Norwegisch beschriften
+  addOceanLabel(svglabel, "Aequator", language, halbbreit*1.5, halbhoehe*0.99);
 }
 
 addAllOceanLabels();

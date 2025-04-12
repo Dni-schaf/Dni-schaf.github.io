@@ -72,18 +72,38 @@ const citiesMap = {
 const oceanLabels = {
   Atlantik: {
     text_de: ["Atlantischer", "Ozean"],
-    text_en: ["Atlantic ", "Ocean"],
+    text_en: ["Atlantic", "Ocean"],
     text_no: ["Atlanter-", "havet"]
   },
   Pazifik: {
     text_de: ["Pazifischer", "Ozean"],
-    text_en: ["Pacific ", "Ocean"],
+    text_en: ["Pacific", "Ocean"],
     text_no: ["Stille-", "havet"]
   },
     Indischerozean: {
     text_de: ["Indischer", "Ozean"],
-    text_en: ["Indian ", "Ocean"],
-    text_no: ["Det indiske ", "hav"]
+    text_en: ["Indian", "Ocean"],
+    text_no: ["Det indiske", "hav"]
+  },
+  Afrika: {
+    text_de: ["Afrika", " "],
+    text_en: ["Africa", " "],
+    text_no: ["Afrika", " "]
+  },
+  Eurasien: {
+    text_de: ["Eurasien", " "],
+    text_en: ["Eurasia", " "],
+    text_no: ["Eurasia", " "]
+  },
+  Amerika: {
+    text_de: ["Süd", "Amerika"],
+    text_en: ["South", "America"],
+    text_no: ["Sør-", "Amerika"]
+  },
+  Australien: {
+    text_de: ["Australien", ""],
+    text_en: ["Australia", " "],
+    text_no: ["Australia", " "]
   }
 };
 
@@ -152,13 +172,6 @@ const cities = {
     "text_en": "Lyttelton", 
     "text_no": "Lyttelton", 
     "coordinates": [172.7209, -43.601], 
-    "kind": "city" 
-  },
-  "Aequator": { 
-    "text_de": "Äquator", 
-    "text_en": "equator", 
-    "text_no": "ekvator", 
-    "coordinates": [165, 0], 
     "kind": "city" 
   }
 };

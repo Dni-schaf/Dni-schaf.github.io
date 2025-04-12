@@ -1,5 +1,5 @@
 body {
-    background-color: #bde6ef;
+    background-color: #7492A8;
     padding: 0px;
     margin: 0px;
 }
@@ -136,9 +136,12 @@ body {
     padding: 2%;
     font-family: "chapter";
     position: relative;
-    background-color: #ffffffaf;
     color: #000;
     font-style: italic;
+    background-image: url("/resources/images/speaker.svg");
+    background-size: 100% 100%; /* <<< das verzerrt das Bild auf die Boxgröße */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .dialog {
@@ -254,72 +257,69 @@ body {
 }
 
 path {
-    fill: white;
-    stroke:  none;
+    fill: #9DB4C9;
+    stroke:  #9DB4C9;
 }
 
 .graticule {
     fill: none;
-    stroke: rgb(0, 0, 0);
-    stroke-width: .2px;
+    stroke:#9DB4C9;
+    stroke-width: .6px;
 }
 
 .foreground {
-    fill:#bde6ef;
+    fill:#7492A8;
     stroke: none;
-    stroke-width: .5px;
+    stroke-width: 1.5px;
 }
 
 .city {
-    fill: #5a5b5e;
-    text-transform: uppercase;
+    fill: white;
     text-shadow:
-    -1px -1px 0 white,   /* Schatten links oben */
-    1px -1px 0 white,    /* Schatten rechts oben */
-    -1px 1px 0 white,    /* Schatten links unten */
-    1px 1px 0 white;     /* Schatten rechts unten */
-    font-family: sans-serif;
+    -1px -1px 0 #7492A8,   /* Schatten links oben */
+    1px -1px 0 #7492A8,    /* Schatten rechts oben */
+    -1px 1px 0 #7492A8,    /* Schatten links unten */
+    1px 1px 0 #7492A8;     /* Schatten rechts unten */
+    font-family: "chapter";
     font-size: 0.7em;
     letter-spacing: 0.1em;
 }
 
 .city-circle {
-    fill: #5a5b5e; /* Füllfarbe des Kreises */
-    stroke: white; /* Randfarbe */
+    fill: white; /* Füllfarbe des Kreises */
+    stroke: #7492A8; /* Randfarbe */
     stroke-width: 1px; /* Dicke des Randes */
   }
 
   .continent-label {
-    font-family: sans-serif;
+    font-family: "chapter";
     font-size: 16px;
-    fill: #49808c;  /* Textfarbe */
+    fill: white;  /* Textfarbe */
     text-align: center;
     font-size: 0.7em;
     text-transform: uppercase;
     text-shadow:
-    -2px -2px 0 #bde6ef,   /* Schatten links oben */
-    2px -2px 0 #bde6ef,    /* Schatten rechts oben */
-    -2px 2px 0 #bde6ef,    /* Schatten links unten */
-    2px 2px 0 #bde6ef;     /* Schatten rechts unten */
+    -2px -2px 0 #7492A8,   /* Schatten links oben */
+    2px -2px 0 #7492A8,    /* Schatten rechts oben */
+    -2px 2px 0 #7492A8,    /* Schatten links unten */
+    2px 2px 0 #7492A8;     /* Schatten rechts unten */
     letter-spacing: 0.15em;
   }
 
-.city-circle.Äquator{
-    display: none;
-}
+
 
 .antarctica {
-    font-family: sans-serif;
+    font-family: "chapter";
     font-size: 16px;
     fill: #ffffff;  /* Textfarbe */
     text-align: center;
     font-size: 0.9em;
     text-transform: uppercase;
     text-shadow:
-    -2px -2px 0 #ADD8E5,   /* Schatten links oben */
-    2px -2px 0 #ADD8E5,    /* Schatten rechts oben */
-    -2px 2px 0 #ADD8E5,    /* Schatten links unten */
-    2px 2px 0 #ADD8E5;     /* Schatten rechts unten */
+    -2px -2px 0 #7492A8,   /* Schatten links oben */
+    2px -2px 0 #7492A8,    /* Schatten rechts oben */
+    -2px 2px 0 #7492A8,    /* Schatten links unten */
+    2px 2px 0 #7492A8;     /* Schatten rechts unten */
     letter-spacing: 0.15em;
   }
 
@@ -329,11 +329,11 @@ path {
 
 /* route on the map style*/
 .Amundsen{
-    stroke: rgb(40, 56, 96);
+    stroke:black;
 }
   
 .Scott{
-    stroke: rgb(107, 153, 178);
+    stroke:white;
 }
 
 .text-overlay {
