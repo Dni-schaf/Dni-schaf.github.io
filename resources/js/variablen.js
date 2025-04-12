@@ -85,6 +85,11 @@ const oceanLabels = {
     text_en: ["Indian", "Ocean"],
     text_no: ["Det indiske", "hav"]
   },
+  Aequator: {
+    text_de: ["Äquator", " "],
+    text_en: ["Equator ", " "],
+    text_no: ["Ekvator ", " "]
+  },
   Afrika: {
     text_de: ["Afrika", " "],
     text_en: ["Africa", " "],
