@@ -1,5 +1,4 @@
 body {
-    background-color: #7492A8;
     padding: 0px;
     margin: 0px;
 }
@@ -238,6 +237,16 @@ body {
     height:100vh;
 }
 
+#map_BG {
+    position: fixed;
+    width: 100vw;
+    height:  69.9vw;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 #map {
     position: fixed;
 }
@@ -260,55 +269,67 @@ body {
 }
 
 path {
-    fill: #9DB4C9;
-    stroke:  #9DB4C9;
+    fill: #4E5F70;
+    stroke:  #4E5F70;
 }
 
 .graticule {
     fill: none;
-    stroke:#9DB4C9;
-    stroke-width: .6px;
+    stroke:#5D7082;
+    stroke-width: 1px;
 }
 
 .foreground {
-    fill:#7492A8;
+    fill:#6F8193;
     stroke: none;
     stroke-width: 1.5px;
 }
 
 .city {
-    fill: white;
-    text-shadow:
-    -1px -1px 0 #7492A8,   /* Schatten links oben */
-    1px -1px 0 #7492A8,    /* Schatten rechts oben */
-    -1px 1px 0 #7492A8,    /* Schatten links unten */
-    1px 1px 0 #7492A8;     /* Schatten rechts unten */
+    fill: #AEC5DB;
+    /*text-shadow:
+     -1px -1px 0 #7492A8,    Schatten links oben */
+     /*1px -1px 0 #7492A8,    Schatten rechts oben */
+     /*-1px 1px 0 #7492A8,    Schatten links unten */
+     /* 1px 1px 0 #7492A8;    Schatten rechts unten */
     font-family: "chapter";
-    font-size: 0.7em;
-    letter-spacing: 0.1em;
+    font-size: 1.3vw;
 }
 
 .city-circle {
-    fill: white; /* Füllfarbe des Kreises */
-    stroke: #7492A8; /* Randfarbe */
+    fill: #AEC5DB; /* Füllfarbe des Kreises */
+    /*stroke: #7492A8;  Randfarbe */
     stroke-width: 1px; /* Dicke des Randes */
+  }
+
+  .ocean-label {
+    font-family: "chapter";
+    font-size: 0,8vw;
+    fill: #9DB4C9;  /* Textfarbe */
+    text-align: center;
+    font-size: 1.1vw;
+    letter-spacing: 0.1vw;
+     /*text-shadow:
+    -2px -2px 0 #7492A8,   Schatten links oben 
+    2px -2px 0 #7492A8,    
+    -2px 2px 0 #7492A8,    
+    2px 2px 0 #7492A8;    */
   }
 
   .continent-label {
     font-family: "chapter";
     font-size: 16px;
-    fill: white;  /* Textfarbe */
+    fill: #2E3B4B;  /* Textfarbe */
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1.1vw;;
     text-transform: uppercase;
-    text-shadow:
-    -2px -2px 0 #7492A8,   /* Schatten links oben */
-    2px -2px 0 #7492A8,    /* Schatten rechts oben */
-    -2px 2px 0 #7492A8,    /* Schatten links unten */
-    2px 2px 0 #7492A8;     /* Schatten rechts unten */
-    letter-spacing: 0.15em;
+     /*text-shadow:
+    -2px -2px 0 #7492A8,   Schatten links oben 
+    2px -2px 0 #7492A8,    
+    -2px 2px 0 #7492A8,    
+    2px 2px 0 #7492A8;    */
+    letter-spacing: 0.1vw;
   }
-
 
 
 .antarctica {
@@ -323,7 +344,7 @@ path {
     2px -2px 0 #7492A8,    /* Schatten rechts oben */
     -2px 2px 0 #7492A8,    /* Schatten links unten */
     2px 2px 0 #7492A8;     /* Schatten rechts unten */
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1vw;
   }
 
 .ocean-path{

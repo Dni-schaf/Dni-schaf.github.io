@@ -1,8 +1,8 @@
 const breite = window.innerWidth;
-      console.log("Fensterbreite:", breite + "px");
 const hoehe = breite * 0.699;
 const halbbreit = breite/2;
 const halbhoehe = hoehe/2;
+const scale = breite * 0.15;
 
 const AntarcticaOffsetX = breite * 0.06;  // z.B. 10% der Fensterbreite
 const AntarcticaOffsetY = hoehe * 0.13;
@@ -30,7 +30,7 @@ const svglabel = d3.select("#label").append("svg")
 
 const projection = d3.geoAzimuthalEqualArea()
   .rotate([-70,0])
-  .scale(180)
+  .scale(scale)
   .translate([halbbreit,halbhoehe]);
 
 const path = d3.geoPath().projection(projection);
@@ -83,7 +83,7 @@ function drawMap(err, world) {
     .attr("y1", projection([0, 0])[1])  // Y-Koordinate für den Äquator (projiziert auf 0° Breite)
     .attr("x2",  projection([235, 0])[0])  // Ende der Linie an der rechten Seite der Karte
     .attr("y2", projection([0, 0])[1])  // Y-Koordinate für den Äquator
-    .attr("stroke", "#9DB4C9")     // Farbe der Äquatorlinie
+    .attr("stroke", "#5D7082")     // Farbe der Äquatorlinie
     .attr("stroke-width", 2.5)     // Strichstärke, um die Linie dicker zu machen
     .attr("class", "equator-line");
 }
@@ -157,6 +157,27 @@ function addOceanLabel(svglabel, continent, lang, x, y) {
   svglabel.append("text")
     .attr("x", x)          // X-Position
     .attr("y", y)          // Y-Position für die erste Zeile
+    .attr("class", "ocean-label")
+    .style("text-anchor", "middle") 
+    .text(textLines[0]);   // Erste Zeile des Textes
+
+  // Zweite Zeile
+  svglabel.append("text")
+    .attr("x", x)          // Gleiche X-Position wie die erste Zeile
+    .attr("y", y + 20)     // Y-Position für die zweite Zeile (verschoben)
+    .attr("class", "ocean-label")
+    .style("text-anchor", "middle") 
+    .text(textLines[1]);   // Zweite Zeile des Textes
+}
+
+function addContinentLabel(svglabel, continent, lang, x, y) {
+  const labelData = continentLabels[continent];
+  const textLines = labelData[`text_${lang}`];
+
+  // Erste Zeile
+  svglabel.append("text")
+    .attr("x", x)          // X-Position
+    .attr("y", y)          // Y-Position für die erste Zeile
     .attr("class", "continent-label")
     .style("text-anchor", "middle") 
     .text(textLines[0]);   // Erste Zeile des Textes
@@ -169,7 +190,6 @@ function addOceanLabel(svglabel, continent, lang, x, y) {
     .style("text-anchor", "middle") 
     .text(textLines[1]);   // Zweite Zeile des Textes
 }
- 
 
 // draw everything one first time
  drawIce();
@@ -190,6 +210,19 @@ function addAllOceanLabels(){
 
   // Beispiel: Asien auf Norwegisch beschriften
   addOceanLabel(svglabel, "Aequator", language, halbbreit*1.5, halbhoehe*0.99);
+
+   // Beispiel: Asien auf Norwegisch beschriften
+   addContinentLabel(svglabel, "Afrika", language, halbbreit*0.75, halbhoehe*0.9);
+
+   // Beispiel: Asien auf Norwegisch beschriften
+   addContinentLabel(svglabel, "Asien", language, halbbreit*1.1, halbhoehe*0.7);
+
+   // Beispiel: Asien auf Norwegisch beschriften
+   addContinentLabel(svglabel, "Europa", language, halbbreit*0.85, halbhoehe*0.61);
+   // Beispiel: Asien auf Norwegisch beschriften
+   addContinentLabel(svglabel, "Australien", language, halbbreit*1.28, halbhoehe*1.23);
+   // Beispiel: Asien auf Norwegisch beschriften
+   addContinentLabel(svglabel, "SuedAmerika", language, halbbreit*0.48, halbhoehe*1.07);
 }
 
 addAllOceanLabels();
@@ -198,3 +231,12 @@ addCityLabel();
 
 
 
+
+let resizeTimeout;
+
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(() => {
+    location.reload(); // oder redrawAll()
+  }, 150);
+});

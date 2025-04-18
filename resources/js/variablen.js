@@ -56,17 +56,17 @@ let dayDivHeightsArray = [];
 //VARIABLEN FÜR DIE KARTE
 
 const citiesMap = {
-    0: ["Cardiff", "Funchal", "Trindade"],
-    1: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt"],
-    2: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt"],
-    3: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne"],
-    4: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton"],
-    5: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
-    6: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
-    7: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
-    8: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
-    9: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"],
-    100: ["Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"]
+    0: ["Nordpol", "Südpol", "Cardiff", "Funchal", "Trindade"],
+    1: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt"],
+    2: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt"],
+    3: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne"],
+    4: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton"],
+    5: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    6: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    7: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    8: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Melbourne", "Lyttelton", "Kerguelen"],
+    9: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"],
+    100: ["Nordpol", "Südpol", "Oslo", "Cardiff", "Funchal", "Trindade", "Kapstadt", "Kerguelen", "Melbourne", "Lyttelton"]
 };
 
 const oceanLabels = {
@@ -89,18 +89,26 @@ const oceanLabels = {
     text_de: ["Äquator", " "],
     text_en: ["Equator ", " "],
     text_no: ["Ekvator ", " "]
-  },
+  }
+};
+
+  const continentLabels = {
   Afrika: {
     text_de: ["Afrika", " "],
     text_en: ["Africa", " "],
     text_no: ["Afrika", " "]
   },
-  Eurasien: {
-    text_de: ["Eurasien", " "],
-    text_en: ["Eurasia", " "],
-    text_no: ["Eurasia", " "]
+  Europa: {
+    text_de: ["Europa", " "],
+    text_en: ["Europe", " "],
+    text_no: ["Europa", " "]
   },
-  Amerika: {
+  Asien: {
+    text_de: ["Asien", " "],
+    text_en: ["Asia", " "],
+    text_no: ["Asien", " "]
+  },
+  SuedAmerika: {
     text_de: ["Süd", "Amerika"],
     text_en: ["South", "America"],
     text_no: ["Sør-", "Amerika"]
@@ -123,6 +131,20 @@ const AntarktisLabel = {
 
 // Städte-Daten mit verschiedenen Sprachen und Koordinaten
 const cities = {
+  "Nordpol": { 
+    "text_de": "Nordpol", 
+    "text_en": "Northpole", 
+    "text_no": "nordpol", 
+    "coordinates": [0, 90], 
+    "kind": "city" 
+  },
+  "SPol": { 
+    "text_de": "Südpol", 
+    "text_en": "Southpole", 
+    "text_no": "sørpolen", 
+    "coordinates": [0,-90], 
+    "kind": "city" 
+  },
   "Oslo": { 
     "text_de": "Oslo", 
     "text_en": "Oslo", 
