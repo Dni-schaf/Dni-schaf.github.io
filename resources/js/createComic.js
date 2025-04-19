@@ -10,6 +10,8 @@ const timestampendArray = dateendArray.map(convertToDate);
 // Container für die divs
 const container = document.getElementById('container');
 
+
+
 // Höhe des Browserfensters
 const windowHeight = window.innerHeight;
 
@@ -118,6 +120,10 @@ function addSpeakerTextToDayDiv(dayDiv, speakerKey, language) {
   }
 }
 
+function createAllDivs() {
+  container.innerHTML = ''; // Leert den Container komplett (alte divs raus)
+  dayDivHeightsArray = []; // Wichtig: Reset für neue Höhenberechnung
+  
 // Ersten Spacer-div mit Bildern vor dem ersten div einfügen
 container.appendChild(createSpacerDiv(imageSets[0]));
 
@@ -143,9 +149,7 @@ for (let i = 0; i < datestartArray.length; i++) {
   dayDiv.id = `${startDate}`;
   dayDiv.style.height = `${divHeight}px`;
   dayDiv.textContent = `Start: ${datestartArray[i]} - Ende: ${dateendArray[i]} - Tage: ${daysDiff}`;
-
-
-
+ 
   // Hinzufügen des divs und eines Spacer-divs mit Bildern zum Container
   container.appendChild(dayDiv);
 
@@ -183,3 +187,18 @@ function updateAllTexts(language) {
 
 updateAllTexts(language);
 
+}
+
+createAllDivs();
+
+let resizeTimeoutComic;
+
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimeoutComic);
+  resizeTimeoutComic = setTimeout(() => {
+    createAllDivs();            // baue Container neu
+    updateLayoutData();         // baue Positionsdaten neu
+    setPathprogress(datecountAmundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen);
+    setPathprogress(datecountScott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott);
+  }, 200);
+});

@@ -1,28 +1,37 @@
  //variablen erst befüllen nach laden der seite
- window.onload = function() {
+ let dashoffset = 0;
+ 
+ function updateLayoutData() {
+    positionsArray = []; // Leeren, damit nichts doppelt ist
     // Alle Spacer-Divs und Day-Divs holen
     const spacers = document.querySelectorAll('.spacer-div');
     const days = document.querySelectorAll('.day-div');
-
+    
     // Sicherstellen, dass die Anzahl der Spacer und Days übereinstimmt
     const maxLength = Math.max(spacers.length, days.length);
 
     // Berechne die Y-Position relativ zum Dokument (top-Wert) für jedes Div
     for (let i = 0; i < maxLength; i++) {
-       if (i < spacers.length) {
-           // Position des Spacer-Divs relativ zum Dokumentanfang
-           const spacerPosition = spacers[i].getBoundingClientRect().top + window.scrollY;
-           positionsArray.push(spacerPosition);
-       }
-       if (i < days.length) {
-           // Position des Day-Divs relativ zum Dokumentanfang
-           const dayPosition = days[i].getBoundingClientRect().top + window.scrollY;
-           positionsArray.push(dayPosition);
-       }
+        if (i < spacers.length) {
+            // Position des Spacer-Divs relativ zum Dokumentanfang
+            const spacerPosition = spacers[i].getBoundingClientRect().top + window.scrollY;
+            positionsArray.push(spacerPosition);
+        }
+        if (i < days.length) {
+            // Position des Day-Divs relativ zum Dokumentanfang
+            const dayPosition = days[i].getBoundingClientRect().top + window.scrollY;
+            positionsArray.push(dayPosition);
+        }
     }
-    // ich weiß nicht warum er behauptet das die nicht verwendet werden, sie sind wichtig wenn sie weg sind geht die animation nicht
-    const { spacerDivHeightsArray, marginDivHeightsArray} = getDivHeights();
 
+    const heights = getDivHeights();
+    spacerDivHeightsArray = heights.spacerDivHeightsArray;
+    marginDivHeightsArray = heights.marginDivHeightsArray;
+    dayDivHeightsArray = heights.dayDivHeightsArray;
+}
+ 
+ window.onload = function() {
+    updateLayoutData();
 };
 
 
@@ -118,7 +127,8 @@ function setPathprogress(datecount, timestempArr, team, totalLength, timeLength)
 
                     
                 }                
-            }      
+            }  
+               
     break;
         }
     }
@@ -143,8 +153,37 @@ function setPathprogress(datecount, timestempArr, team, totalLength, timeLength)
             //auswählen des abschnittest in dem wir grad mitten drin sind
             if (currenttime/1000>timestempArr[i] && currenttime/1000<timestempArr[i+1]&& currenttime < endDate) {
                 //setzt länger des aktuellen abschnitt ins verhältnis zur relativen timestemp zeit und verändert das offset
-                let dashoffset = totalLength[i]*((currenttime/1000)-timestempArr[i])/timeLength[i];
+                dashoffset = totalLength[i]*((currenttime/1000)-timestempArr[i])/timeLength[i];
                 d3.select("#"+team+i).attr("stroke-dashoffset", totalLength[i]-dashoffset);
+
+                if (team === "Amundsen") {
+                    const path = document.getElementById(team + i);
+                    const currentDashOffset = totalLength[i] - dashoffset;
+                    const currentLength = totalLength[i] - currentDashOffset;
+                
+                    const point = path.getPointAtLength(currentLength);
+                    const marker = document.getElementById("amundsen-marker");
+                
+                    if (point && marker) {
+                        marker.setAttribute("cx", point.x);
+                        marker.setAttribute("cy", point.y);
+                        marker.setAttribute("visibility", "visible");
+                    }
+                } 
+                if (team === "Scott") {
+                    const path = document.getElementById(team + i);
+                    const currentDashOffset = totalLength[i] - dashoffset;
+                    const currentLength = totalLength[i] - currentDashOffset;
+                
+                    const point = path.getPointAtLength(currentLength);
+                    const marker = document.getElementById("scott-marker");
+                
+                    if (point && marker) {
+                        marker.setAttribute("cx", point.x);
+                        marker.setAttribute("cy", point.y);
+                        marker.setAttribute("visibility", "visible");
+                    }
+                } 
             }else{
             };
         };  
@@ -156,4 +195,14 @@ function setPathprogress(datecount, timestempArr, team, totalLength, timeLength)
 window.addEventListener('scroll', function() {
     setPathprogress(datecountAmundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen);
     setPathprogress(datecountScott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott);
+});
+
+let resizeTimeoutPath;
+window.addEventListener('resize', function () {
+    clearTimeout(resizeTimeoutPath);
+    resizeTimeoutPath = setTimeout(function () {
+        updateLayoutData();
+        setPathprogress(datecountAmundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen);
+        setPathprogress(datecountScott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott);
+    }, 200); // Warte 200ms nach letztem Resize-Event
 });

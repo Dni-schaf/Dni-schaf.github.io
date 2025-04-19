@@ -36,6 +36,9 @@ function drawPath(dataset, datecount) {
 drawPath(Scott, datecountScott);
 drawPath(Amundsen, datecountAmundsen);
 
+
+
+
 // enthält die Längen der Pfadabschnitte zwischen zwei Datumsangaben   
 let totalLengthScott = fillLength(datecountScott, "Scott");
 let totalLengthAmundsen = fillLength(datecountAmundsen, "Amundsen");
