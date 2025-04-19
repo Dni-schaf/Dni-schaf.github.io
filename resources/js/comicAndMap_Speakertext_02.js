@@ -1,36 +1,9 @@
-const speaker = {
-    "01_Speaker": [
+const speaker = {  
+    "2a_Speaker": [
       {
-        "text_de": "Während Captain Scott wehmütig und in Erwartung des Wiedersehens in Kapstadt nach London zurückkehrt, begibt sich die Terra Nova auf ihre lange Reise über den Atlantik. In Madeira legt sie einen kurzen Stopp ein, bevor sie ihre Route fortsetzt und den Äquator am XX. XXXXXXX überquert.",
-        "text_en": "Chapter 1",
-        "text_no": "Kapittel 1",
-        "kind": "speaker",
-        "color": "black",
-        "backgroundColor": null,
-        "textAlign": "left",
-        "top": "30%",
-        "left": "0%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Die endlose Weite des Ozeans wird nur von einem winzigen unbewohnten Archipel unterbrochen: Eine kleine Gruppe um den Wissenschaftler Wilson sammelt auf der Insel Trindade biologische und geologische Proben. Danach nimmt die Terra Nova Kurs auf die Südspitze Afrikas.",
-        "text_en": "Chapter 1",
-        "text_no": "Kapittel 1",
-        "kind": "speaker",
-        "color": "black",
-        "backgroundColor": null,
-        "textAlign": "left",
-        "top": "108%",
-        "left": "70%",
-        "width": "20%"
-      },
-    ],
-  
-    "02_Speaker": [
-      {
-        "text_de": "Während die Terra Nova unbeirrt Kurs auf Südafrika hält, verlässt ein anderes Schiff unbemerkt den Hafen der norwegischen Hauptstadt Kristiania, die wir heute als Oslo kennen.",
-        "text_en": "Chapter 1",
-        "text_no": "Kapittel 1",
+        "text_de": "Während die Terra Nova unbeirrt Kurs auf Südafrika hält, verlässt in Kristiania – dem heutigen Oslo – ein anderes Schiff ohne großes Aufsehen den Hafen.",
+        "text_en": "While the Terra Nova continues its course for South Africa, another ship leaves the harbour in Kristiania - today's Oslo - without causing a stir.",
+        "text_no": "NO",
         "kind": "speaker",
         "color": "black",
         "backgroundColor": null,
@@ -40,39 +13,39 @@ const speaker = {
         "width": "20%"
       },
       {
-        "text_de": "Als das norwegische Schiff in den Ärmelkanal einfährt, erreicht die Terra Nova nach acht langen Wochen auf See endlich Kapstadt, wo Captain Scott zu seiner Mannschaft stößt.",
-        "text_en": "Chapter 1",
-        "text_no": "Kapittel 1",
+        "text_de": "Als das norwegische Schiff durch den Ärmelkanal steuert, läuft die Terra Nova nach fast neun Wochen auf See endlich nahe Kapstadt ein. Hier erwarten sie Captain Scott und die Ehefrauen der Expeditionsführung bereits ungeduldig.",
+        "text_en": "As the Norwegian ship steers through the English Channel, the Terra Nova finally arrives near Cape Town after almost nine weeks at sea. Captain Scott and the expedition leaders' wives are already waiting impatiently for them.",
+        "text_no": "NO",
         "kind": "speaker",
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
         "top": "59%",
-        "left": "70%",
+        "left": "0%",
         "width": "20%"
       },
       {
-        "text_de": "Nach zwei Wochen setzt die britische Expedition ihre Reise fort – diesmal ohne ihren Chefwissenschaftler Wilson, der auf einem Postdampfer nach Australien vorausgefahren ist.",
-        "text_en": "Chapter 1",
-        "text_no": "Kapittel 1",
+        "text_de": "Zwei Wochen später bricht die britische Expedition erneut auf – diesmal ohne ihren Chefwissenschaftler Wilson. Der wird mit den drei Ehefrauen auf einem Postdampfer nach Australien reisen.",
+        "text_en": "Two weeks later, the British expedition sets off again - this time without their chief scientist Wilson. He will be travelling to Australia on a mail steamer with his three wives.",
+        "text_no": "NO",
         "kind": "speaker",
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "100%",
+        "top": "95%",
         "left": "70%",
         "width": "20%"
       },
       {
-        "text_de": "Unterdessen erreicht das geheimnisvolle Schiff aus Norwegen nach vier Wochen auf See die Insel Madeira.",
-        "text_en": "Chapter 1",
-        "text_no": "Kapittel 1",
+        "text_de": "Unterdessen erreicht das geheimnisvolle Schiff aus Norwegen nach einem Monat auf See ebenfalls die grüne, vom Atlantik umspülte Insel Madeira.",
+        "text_en": "Meanwhile, after a month at sea, the mysterious ship from Norway also reaches the green island of Madeira, bathed by the Atlantic.",
+        "text_no": "NO",
         "kind": "speaker",
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "112%",
-        "left": "70%",
+        "top": "104%",
+        "left": "0%",
         "width": "20%"
       }
     ]

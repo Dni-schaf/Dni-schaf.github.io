@@ -173,15 +173,24 @@ function removeTextsFromImageContainer(imageContainer) {
 
 //addSpeakerTextToDayDiv(dayDiv, `0${i + 1}_Speaker`, language); // Zum Beispiel 01_Speaker, 02_Speaker
 // Funktion, um alle Texte zu aktualisieren, wenn die Sprache geändert wird
-function updateAllTexts(language) {
-  // Update Texte in day-divs (Sprechertexte)
+window.updateAllTexts = function(language) {
+  const chapterPrefix = String(window.chapter); 
+
   document.querySelectorAll('.day-div').forEach((dayDiv, index) => {
-    dayDiv.querySelectorAll('div').forEach(div => div.remove());  // Nur die Texte (divs) leeren
-    addSpeakerTextToDayDiv(dayDiv, `0${index + 1}_Speaker`, language);
+    // Leere vorhandene Texte
+    dayDiv.querySelectorAll('div').forEach(div => div.remove());
+
+    // Berechne den speakerKey, z. B. "01a_Speaker"
+    const suffix = String.fromCharCode(97 + index); // 97 = 'a', 98 = 'b', ...
+    const speakerKey = `${chapterPrefix}${suffix}_Speaker`;
+
+    // Nur wenn dieser Key auch existiert:
+    if (speaker[speakerKey]) {
+      addSpeakerTextToDayDiv(dayDiv, speakerKey, language);
+    }
   });
 
-  // Update Texte in den Bildern
-  updateTexts(language);
+  updateTexts(language); // Bildtexte wie gehabt
 }
 
 

@@ -1340,6 +1340,76 @@ const Amundsen =
 ];
   
 const Scott = [
+  {
+    "date": "01.06.1910",
+    "timestamp": -1880413200,
+    "lat": 51.5,
+    "lng": -0.02,
+    "team": "Scott"
+  },
+  {
+    "date": "02.06.1910",
+    "timestamp": -1880326800,
+    "lat": 51.46,
+    "lng": 0.28,
+    "team": "Scott"
+  },
+  {
+    "date": "03.06.1910",
+    "timestamp": -1880240400,
+    "lat": 51.45,
+    "lng": 1.96,
+    "team": "Scott"
+  },
+  {
+    "date": "04.06.1910",
+    "timestamp": -1879981200,
+    "lat": 50.59,
+    "lng": 0.78,
+    "team": "Scott"
+  },
+  {
+    "date": "05.06.1910",
+    "timestamp": -1879981200,
+    "lat": 50.72,
+    "lng": -0.99,
+    "team": "Scott"
+  },
+  {
+    "date": "06.06.1910",
+    "timestamp": -1879981200,
+    "lat": 50.52,
+    "lng": -0.99,
+    "team": "Scott"
+  },
+  {
+    "date": "07.06.1910",
+    "timestamp": -1879894800,
+    "lat": 50.6,
+    "lng": -2.42,
+    "team": "Scott"
+  },
+  {
+    "date": "08.06.1910",
+    "timestamp": -1879808400,
+    "lat": 49.64,
+    "lng": -6,
+    "team": "Scott"
+  },
+  {
+    "date": "09.06.1910",
+    "timestamp": -1879722000,
+    "lat": 51.13,
+    "lng": -5.13,
+    "team": "Scott"
+  },
+  {
+    "date": "10.06.1910",
+    "timestamp": -1879635600,
+    "lat": 51.48,
+    "lng": -3.18,
+    "team": "Scott"
+  },
  {
    "date": "15.06.1910",
    "timestamp": -1879203600,
