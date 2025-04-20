@@ -1,4 +1,4 @@
-let language = "de";
+const language = localStorage.getItem('preferredLanguage') || 'de';
 
 // VARIABLEN FÜR DIE KARTE UND DIE PFADE
 

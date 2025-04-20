@@ -173,7 +173,8 @@ function removeTextsFromImageContainer(imageContainer) {
 
 //addSpeakerTextToDayDiv(dayDiv, `0${i + 1}_Speaker`, language); // Zum Beispiel 01_Speaker, 02_Speaker
 // Funktion, um alle Texte zu aktualisieren, wenn die Sprache geändert wird
-window.updateAllTexts = function(language) {
+window.updateAllTexts = function() {
+  const language = localStorage.getItem("selectedLanguage") || "de";
   const chapterPrefix = String(window.chapter); 
 
   document.querySelectorAll('.day-div').forEach((dayDiv, index) => {
@@ -194,7 +195,7 @@ window.updateAllTexts = function(language) {
 }
 
 
-updateAllTexts(language);
+updateAllTexts();
 
 }
 
