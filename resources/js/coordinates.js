@@ -1336,7 +1336,37 @@ const Amundsen =
    "lat": -61.07,
    "lng": 153.68,
    "team": "Amundsen"
- }
+ },
+ { "date": "20.10.1911", "timestamp": -1836694800, "lat": -78.5, "lng": -164.00, "team": "Amundsen" },
+ { "date": "23.10.1911", "timestamp": -1836435600, "lat": -80.00, "lng": -166.03, "team": "Amundsen" },
+ { "date": "26.10.1911", "timestamp": -1836176400, "lat": -80.00, "lng": -166.03, "team": "Amundsen" },
+ { "date": "31.10.1911", "timestamp": -1835744400, "lat": -81.00, "lng": -167.33, "team": "Amundsen" },
+ { "date": "01.11.1911", "timestamp": -1835658000, "lat": -81.00, "lng": -167.33, "team": "Amundsen" },
+ { "date": "05.11.1911", "timestamp": -1835312400, "lat": -82.00, "lng": -166.50, "team": "Amundsen" },
+ { "date": "07.11.1911", "timestamp": -1835139600, "lat": -82.00, "lng": -166.50, "team": "Amundsen" },
+ { "date": "09.11.1911", "timestamp": -1834966800, "lat": -83.00, "lng": -164.72, "team": "Amundsen" },
+ { "date": "13.11.1911", "timestamp": -1834621200, "lat": -84.00, "lng": -163.58, "team": "Amundsen" },
+ { "date": "14.11.1911", "timestamp": -1834534800, "lat": -84.67, "lng": -163.87, "team": "Amundsen" },
+ { "date": "16.11.1911", "timestamp": -1834362000, "lat": -85.00, "lng": -162.80, "team": "Amundsen" },
+ { "date": "20.11.1911", "timestamp": -1834016400, "lat": -85.60, "lng": -168.08, "team": "Amundsen" },
+ { "date": "25.11.1911", "timestamp": -1833584400, "lat": -85.60, "lng": -168.08, "team": "Amundsen" },
+ { "date": "26.11.1911", "timestamp": -1833498000, "lat": -86.00, "lng": -178.82, "team": "Amundsen" },
+ { "date": "04.12.1911", "timestamp": -1832806800, "lat": -87.00, "lng": -179.17, "team": "Amundsen" },
+ { "date": "06.12.1911", "timestamp": -1832634000, "lat": -88.00, "lng": -178.77, "team": "Amundsen" },
+ { "date": "12.12.1911", "timestamp": -1832115600, "lat": -89.50, "lng": -178.25, "team": "Amundsen" },
+ { "date": "14.12.1911", "timestamp": -1831942800, "lat": -90.00, "lng": -177.00, "team": "Amundsen" },
+ { "date": "17.12.1911", "timestamp": -1831683600, "lat": 89.99, "lng": -177.00, "team": "Amundsen" },
+ { "date": "20.12.1911", "timestamp": -1831424400, "lat": -88.42, "lng": -178.10, "team": "Amundsen" },
+ { "date": "26.12.1911", "timestamp": -1830906000, "lat": -88.00, "lng": -178.77, "team": "Amundsen" },
+ { "date": "30.12.1911", "timestamp": -1830560400, "lat": -87.00, "lng": -179.17, "team": "Amundsen" },
+ { "date": "03.01.1912", "timestamp": -1830214800, "lat": -85.60, "lng": -168.08, "team": "Amundsen" },
+ { "date": "07.01.1912", "timestamp": -1829869200, "lat": -85.08, "lng": -173.17, "team": "Amundsen" },
+ { "date": "11.01.1912", "timestamp": -1829523600, "lat": -84.00, "lng": -163.58, "team": "Amundsen" },
+ { "date": "14.01.1912", "timestamp": -1829264400, "lat": -83.00, "lng": -164.72, "team": "Amundsen" },
+ { "date": "17.01.1912", "timestamp": -1829005200, "lat": -82.00, "lng": -166.50, "team": "Amundsen" },
+ { "date": "20.01.1912", "timestamp": -1828746000, "lat": -81.00, "lng": -167.33, "team": "Amundsen" },
+ { "date": "22.01.1912", "timestamp": -1828573200, "lat": -80.38, "lng": -166.10, "team": "Amundsen" },
+ { "date": "25.01.1912", "timestamp": -1828314000, "lat": -78.50, "lng": -164.00, "team": "Amundsen" }
 ];
   
 const Scott = [
@@ -2348,5 +2378,641 @@ const Scott = [
    "lat": -77.37,
    "lng": 169.97,
    "team": "Scott"
- }
+ },
+ { "date": '1.11.1911', "timestamp": -1835658000, lat: -77.63, lng: 166.4, "team": 'Scott' },
+ { "date": '3.11.1911', "timestamp": -1835485200, lat: -77.98, lng: 168.0, "team": 'Scott' },
+ { "date": '4.11.1911', "timestamp": -1835398800, lat: -78.02, lng: 168.83, "team": 'Scott' },
+ { "date": '5.11.1911', "timestamp": -1835312400, lat: -78.08, lng: 169.0, "team": 'Scott' },
+ { "date": '6.11.1911', "timestamp": -1835226000, lat: -78.27, lng: 169.17, "team": 'Scott' },
+ { "date": '7.11.1911', "timestamp": -1835139600, lat: -78.27, lng: 169.33, "team": 'Scott' },
+ { "date": '8.11.1911', "timestamp": -1835053200, lat: -78.5, lng: 169.5, "team": 'Scott' },
+ { "date": '9.11.1911', "timestamp": -1834966800, lat: -78.63, lng: 169.67, "team": 'Scott' },
+ { "date": '10.11.1911', "timestamp": -1834880400, lat: -78.75, lng: 169.83, "team": 'Scott' },
+ { "date": '11.11.1911', "timestamp": -1834794000, lat: -78.92, lng: 169.83, "team": 'Scott' },
+ { "date": '12.11.1911', "timestamp": -1834707600, lat: -79.08, lng: 170.0, "team": 'Scott' },
+ { "date": '13.11.1911', "timestamp": -1834621200, lat: -79.23, lng: 170.0, "team": 'Scott' },
+ { "date": '14.11.1911', "timestamp": -1834534800, lat: -79.38, lng: 170.0, "team": 'Scott' },
+ { "date": '15.11.1911', "timestamp": -1834448400, lat: -79.48, lng: 170.0, "team": 'Scott' },
+ { "date": '16.11.1911', "timestamp": -1834362000, lat: -79.48, lng: 170.0, "team": 'Scott' },
+ { "date": '17.11.1911', "timestamp": -1834275600, lat: -79.72, lng: 169.83, "team": 'Scott' },
+ { "date": '18.11.1911', "timestamp": -1834189200, lat: -79.97, lng: 169.83, "team": 'Scott' },
+ { "date": '19.11.1911', "timestamp": -1834102800, lat: -80.17, lng: 169.0, "team": 'Scott' },
+ { "date": '20.11.1911', "timestamp": -1834016400, lat: -80.37, lng: 168.0, "team": 'Scott' },
+ { "date": '21.11.1911', "timestamp": -1833930000, lat: -80.52, lng: 167.0, "team": 'Scott' },
+ {
+  "date": "22.11.1911",
+  "timestamp": -1833843600,
+  "lat": -80.83,
+  "lng": 169.00,
+  "team": "Scott"
+},
+{
+  "date": "23.11.1911",
+  "timestamp": -1833757200,
+  "lat": -81.05,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "24.11.1911",
+  "timestamp": -1833670800,
+  "lat": -81.25,
+  "lng": 170.50,
+  "team": "Scott"
+},
+{
+  "date": "25.11.1911",
+  "timestamp": -1833584400,
+  "lat": -81.48,
+  "lng": 170.83,
+  "team": "Scott"
+},
+{
+  "date": "26.11.1911",
+  "timestamp": -1833498000,
+  "lat": -81.58,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "27.11.1911",
+  "timestamp": -1833411600,
+  "lat": -81.92,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "28.11.1911",
+  "timestamp": -1833325200,
+  "lat": -82.15,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "29.11.1911",
+  "timestamp": -1833238800,
+  "lat": -82.35,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "30.11.1911",
+  "timestamp": -1833152400,
+  "lat": -82.65,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "01.12.1911",
+  "timestamp": -1833066000,
+  "lat": -82.73,
+  "lng": 171.13,
+  "team": "Scott"
+},
+{
+  "date": "14.12.1911",
+  "timestamp": -1831942800,
+  "lat": -83.92,
+  "lng": 172.00,
+  "team": "Scott"
+},
+{
+  "date": "15.12.1911",
+  "timestamp": -1831856400,
+  "lat": -84.05,
+  "lng": 171.83,
+  "team": "Scott"
+},
+{
+  "date": "16.12.1911",
+  "timestamp": -1831770000,
+  "lat": -84.25,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "17.12.1911",
+  "timestamp": -1831683600,
+  "lat": -84.42,
+  "lng": 170.83,
+  "team": "Scott"
+},
+{
+  "date": "18.12.1911",
+  "timestamp": -1831597200,
+  "lat": -84.58,
+  "lng": 169.00,
+  "team": "Scott"
+},
+{
+  "date": "19.12.1911",
+  "timestamp": -1831510800,
+  "lat": -84.78,
+  "lng": 167.00,
+  "team": "Scott"
+},
+{
+  "date": "20.12.1911",
+  "timestamp": -1831424400,
+  "lat": -85.02,
+  "lng": 165.00,
+  "team": "Scott"
+},
+{
+  "date": "21.12.1911",
+  "timestamp": -1831338000,
+  "lat": -85.17,
+  "lng": 164.00,
+  "team": "Scott"
+},
+{
+  "date": "22.12.1911",
+  "timestamp": -1831251600,
+  "lat": -85.32,
+  "lng": 162.00,
+  "team": "Scott"
+},
+{
+  "date": "23.12.1911",
+  "timestamp": -1831165200,
+  "lat": -85.47,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "24.12.1911",
+  "timestamp": -1831078800,
+  "lat": -85.67,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "25.12.1911",
+  "timestamp": -1830992400,
+  "lat": -85.90,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "26.12.1911",
+  "timestamp": -1830906000,
+  "lat": -86.08,
+  "lng": 160.83,
+  "team": "Scott"
+},
+{
+  "date": "27.12.1911",
+  "timestamp": -1830819600,
+  "lat": -86.33,
+  "lng": 160.83,
+  "team": "Scott"
+},
+{
+  "date": "28.12.1911",
+  "timestamp": -1830733200,
+  "lat": -86.57,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "29.12.1911",
+  "timestamp": -1830646800,
+  "lat": -86.67,
+  "lng": 162.00,
+  "team": "Scott"
+},
+{
+  "date": "30.12.1911",
+  "timestamp": -1830560400,
+  "lat": -86.83,
+  "lng": 165.00,
+  "team": "Scott"
+},
+{
+  "date": "31.12.1911",
+  "timestamp": -1830474000,
+  "lat": -86.93,
+  "lng": 165.10,
+  "team": "Scott"
+},
+{
+  "date": "01.01.1912",
+  "timestamp": -1830387600,
+  "lat": -87.10,
+  "lng": 163.00,
+  "team": "Scott"
+},
+{
+  "date": "02.01.1912",
+  "timestamp": -1830301200,
+  "lat": -87.33,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "03.01.1912",
+  "timestamp": -1830214800,
+  "lat": -87.53,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "04.01.1912",
+  "timestamp": -1830128400,
+  "lat": -87.75,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "05.01.1912",
+  "timestamp": -1830042000,
+  "lat": -88.00,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "06.01.1912",
+  "timestamp": -1829955600,
+  "lat": -88.12,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "07.01.1912",
+  "timestamp": -1829869200,
+  "lat": -88.27,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "08.01.1912",
+  "timestamp": -1829782800,
+  "lat": -88.33,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "09.01.1912",
+  "timestamp": -1829696400,
+  "lat": -88.42,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "10.01.1912",
+  "timestamp": -1829610000,
+  "lat": -88.50,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "11.01.1912",
+  "timestamp": -1829523600,
+  "lat": -88.77,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "12.01.1912",
+  "timestamp": -1829437200,
+  "lat": -88.83,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "13.01.1912",
+  "timestamp": -1829350800,
+  "lat": -89.13,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "14.01.1912",
+  "timestamp": -1829264400,
+  "lat": -89.33,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "15.01.1912",
+  "timestamp": -1829178000,
+  "lat": -89.53,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "16.01.1912",
+  "timestamp": -1829091600,
+  "lat": -89.67,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "17.01.1912",
+  "timestamp": -1829005200,
+  "lat": -89.83,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "18.01.1912",
+  "timestamp": -1828918800,
+  "lat": -90.00,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "19.01.1912",
+  "timestamp": -1828832400,
+  "lat": -89.52,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "20.01.1912",
+  "timestamp": -1828746000,
+  "lat": -89.33,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "21.01.1912",
+  "timestamp": -1828659600,
+  "lat": -89.23,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "22.01.1912",
+  "timestamp": -1828573200,
+  "lat": -88.97,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "23.01.1912",
+  "timestamp": -1828486800,
+  "lat": -88.70,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "24.01.1912",
+  "timestamp": -1828400400,
+  "lat": -88.55,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "25.01.1912",
+  "timestamp": -1828314000,
+  "lat": -88.35,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "26.01.1912",
+  "timestamp": -1828227600,
+  "lat": -88.08,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "27.01.1912",
+  "timestamp": -1828141200,
+  "lat": -87.87,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "28.01.1912",
+  "timestamp": -1828054800,
+  "lat": -87.65,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "29.01.1912",
+  "timestamp": -1827968400,
+  "lat": -87.33,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "30.01.1912",
+  "timestamp": -1827882000,
+  "lat": -87.08,
+  "lng": 162.00,
+  "team": "Scott"
+},
+{
+  "date": "31.01.1912",
+  "timestamp": -1827795600,
+  "lat": -86.83,
+  "lng": 163.00,
+  "team": "Scott"
+},
+{
+  "date": "01.02.1912",
+  "timestamp": -1827709200,
+  "lat": -86.67,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "02.02.1912",
+  "timestamp": -1827622800,
+  "lat": -86.33,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "03.02.1912",
+  "timestamp": -1827536400,
+  "lat": -86.08,
+  "lng": 160.00,
+  "team": "Scott"
+},
+{
+  "date": "04.02.1912",
+  "timestamp": -1827450000,
+  "lat": -86.77,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "05.02.1912",
+  "timestamp": -1827363600,
+  "lat": -86.50,
+  "lng": 159.00,
+  "team": "Scott"
+},
+{
+  "date": "06.02.1912",
+  "timestamp": -1827277200,
+  "lat": -85.32,
+  "lng": 161.00,
+  "team": "Scott"
+},
+{
+  "date": "23.02.1912",
+  "timestamp": -1825808400,
+  "lat": -82.92,
+  "lng": 170.83,
+  "team": "Scott"
+},
+{
+  "date": "24.02.1912",
+  "timestamp": -1825722000,
+  "lat": -82.97,
+  "lng": 170.83,
+  "team": "Scott"
+},
+{
+  "date": "25.02.1912",
+  "timestamp": -1825635600,
+  "lat": -82.57,
+  "lng": 170.83,
+  "team": "Scott"
+},
+{
+  "date": "26.02.1912",
+  "timestamp": -1825549200,
+  "lat": -82.33,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "27.02.1912",
+  "timestamp": -1825462800,
+  "lat": -82.13,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "28.02.1912",
+  "timestamp": -1825376400,
+  "lat": -81.98,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "29.02.1912",
+  "timestamp": -1825290000,
+  "lat": -81.73,
+  "lng": 171.00,
+  "team": "Scott"
+},
+{
+  "date": "01.03.1912",
+  "timestamp": -1825203600,
+  "lat": -81.58,
+  "lng": 170.83,
+  "team": "Scott"
+},
+{
+  "date": "02.03.1912",
+  "timestamp": -1825117200,
+  "lat": -81.42,
+  "lng": 170.50,
+  "team": "Scott"
+},
+{
+  "date": "03.03.1912",
+  "timestamp": -1825030800,
+  "lat": -81.33,
+  "lng": 170.50,
+  "team": "Scott"
+},
+{
+  "date": "04.03.1912",
+  "timestamp": -1824944400,
+  "lat": -81.17,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "05.03.1912",
+  "timestamp": -1824858000,
+  "lat": -81.02,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "06.03.1912",
+  "timestamp": -1824771600,
+  "lat": -80.92,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "07.03.1912",
+  "timestamp": -1824685200,
+  "lat": -80.82,
+  "lng": 169.50,
+  "team": "Scott"
+},
+{
+  "date": "08.03.1912",
+  "timestamp": -1824598800,
+  "lat": -80.65,
+  "lng": 169.50,
+  "team": "Scott"
+},
+{
+  "date": "09.03.1912",
+  "timestamp": -1824512400,
+  "lat": -80.65,
+  "lng": 169.00,
+  "team": "Scott"
+},
+{
+  "date": "10.03.1912",
+  "timestamp": -1824426000,
+  "lat": -80.50,
+  "lng": 169.00,
+  "team": "Scott"
+},
+{
+  "date": "11.03.1912",
+  "timestamp": -1824339600,
+  "lat": -80.40,
+  "lng": 169.00,
+  "team": "Scott"
+},
+{
+  "date": "12.03.1912",
+  "timestamp": -1824253200,
+  "lat": -80.45,
+  "lng": 169.83,
+  "team": "Scott"
+},
+{
+  "date": "13.03.1912",
+  "timestamp": -1824166800,
+  "lat": -80.18,
+  "lng": 169.83,
+  "team": "Scott"
+},
+{
+  "date": "14.03.1912",
+  "timestamp": -1824080400,
+  "lat": -80.10,
+  "lng": 169.83,
+  "team": "Scott"
+},
+{
+  "date": "15.03.1912",
+  "timestamp": -1823994000,
+  "lat": -79.92,
+  "lng": 170.00,
+  "team": "Scott"
+},
+{
+  "date": "29.03.1912",
+  "timestamp": -1822784400,
+  "lat": -79.67,
+  "lng": 170.00,
+  "team": "Scott"
+}
 ];

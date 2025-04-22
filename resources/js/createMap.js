@@ -28,6 +28,11 @@ const svglabel = d3.select("#label").append("svg")
   .attr("width", breite)
   .attr("height", hoehe);
 
+//const projection = d3.geoAzimuthalEqualArea()
+//.rotate([-70,0])
+//.scale(scale)
+//.translate([halbbreit,halbhoehe]);
+
 const projection = d3.geoAzimuthalEqualArea()
   .rotate([-70,0])
   .scale(scale)
