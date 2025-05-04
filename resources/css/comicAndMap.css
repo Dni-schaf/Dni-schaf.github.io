@@ -13,6 +13,10 @@ body {
     font-family: title;
     src: url('../fonts/Truculenta_Condensed-Bold.ttf')  format('truetype');
   }
+  @font-face {
+    font-family: title_medium;
+    src: url('../fonts/Truculenta_Condensed-Medium.ttf')  format('truetype');
+  }
 
   @font-face {
     font-family: chapter;
@@ -218,6 +222,10 @@ body {
     background-color: #D1D8A2;
 }
 
+.madeira_middle{
+    background-color: #A9B54F;
+}
+
 .madeira_dark{
     background-color: #7B8900;
 }
@@ -391,7 +399,6 @@ path {
 
 .spacer-div {
     width: 100%;
-    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -399,3 +406,102 @@ path {
     width: 100%;
     height: 50vh; /* 50% der Fensterhöhe */
 }
+
+#excurs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+
+#excursContent {
+    pointer-events: auto;
+}
+.excursheadline {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 9vw;
+    color: #fff;
+    font-family: "title_medium";
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .excursIntroText {
+    position: absolute;
+    top: 25vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40vw;
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/ExcursIntroBG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 3vw;
+    font-family: chapter;
+  }
+
+  .excursButtonWrapper {
+    position: absolute;
+    top: 52vw;
+    left: 50vw;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 2vw; /* Abstand zwischen Buttons */
+  }
+  
+  .excursButton {
+    width: 21vw;
+    height: 5vw;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+    font-family: chapter;  }
+
+.excursButton1 {
+    background-image: url('../images/Excurs_Button1.png'); /* Passe Pfad an */
+}
+
+.excursButton2 {
+    background-image: url('../images/Excurs_Button2.png'); /* Passe Pfad an */
+}
+
+.excursContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2E3B4B;
+    z-index: 10;
+    position: fixed;
+    top: 0%;
+    display: none;
+}
+
+.excursCloseButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white; /* oder eine passende Farbe */
+    z-index: 10;
+  }

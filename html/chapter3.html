@@ -34,9 +34,21 @@
         <div id="path"></div>
         <div id="label"></div>
     </div>
+ <!-- 
+     <div id="excurs">
+        <div id="excursContent">
+            <button id="button1">Button 1</button>
+            <button id="button2">Excurs überspringen</button>
+        </div>
+    </div>
+  -->
     <div id="datumsanzeige" style="display:none; position: fixed; top: 0px; left: 0px; width: 300px; height: 30px;"></div>
 
     <div class="container" id="container"></div>
+
+    <div class="excursContainer" id="excursContainer">
+
+    </div>
 
     <header style="position: fixed; top: 5px; left: 5px; z-index: 100;">
         <button id="menuButton">☰</button>
@@ -46,6 +58,10 @@
     const datestartArray = ["09.09.1910"];
     const dateendArray =   ["10.09.1910"];
     window.chapter = 3;
+
+  
+
+
 </script>
 
     <script src="../resources/js/comicAndMap_images_03.js"></script> 
@@ -57,13 +73,17 @@
     <script src="../resources/js/newcreateMap.js"></script>
     <script src="../resources/js/createComic.js"></script>
     <script src="../resources/js/animatePath.js"></script>
+    <script src="../resources/js/createexkursMannschaft.js"></script>
+   <!--  <script src="../resources/js/exkursMannschaft.js"></script>
 
 
-    <!-- Link zum nächsten Kapitel -->
+    Link zum nächsten Kapitel -->
     <footer>
         <a href="chapter4.html">Weiter zu Kapitel 4</a>
     </footer>
     <!-- Platzhalter für Navigation -->
     <div id="navigationPlaceholder"></div>
+
+
 </body>
 </html>

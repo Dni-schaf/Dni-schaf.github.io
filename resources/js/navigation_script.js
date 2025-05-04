@@ -20,8 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Funktion zum Ändern der Sprache
             function changeLanguage(language) {
-            localStorage.setItem("selectedLanguage", language); // Speichert die Sprache im localStorage
-            updateAllTexts(language); // Aktualisiert alle Texte auf der Seite
+                localStorage.setItem("selectedLanguage", language); // Speichert die Sprache im localStorage
+                updateAllTexts(); // Nur aufrufen, wenn sie existiert
+                
             }
 
             // Klick-Event für die Sprachbuttons

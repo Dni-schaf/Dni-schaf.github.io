@@ -61,7 +61,7 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "19%",
+        "bottom": "20%",
         "left": "68%",
         "width": "17%"
       }
@@ -104,8 +104,8 @@ const imageTexts = {
         "backgroundColor": "start_light",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "84%",
-        "left": "63%",
+        "bottom": "79%",
+        "left": "65%",
         "width": "20%"
       }
     ],
@@ -189,7 +189,7 @@ const imageTexts = {
         "Fontsize": "1.8vw",
         "textAlign": "left",
         "bottom": "75%",
-        "left": "5%",
+        "left": "33%",
         "width": "20%"
       },
       {
@@ -202,7 +202,7 @@ const imageTexts = {
         "Fontsize": "1.8vw",
         "textAlign": "left",
         "bottom": "75%",
-        "left": "5%",
+        "left": "66%",
         "width": "20%"
       }
     ],
@@ -231,9 +231,9 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "bottom": "78%",
+        "left": "57%",
+        "width": "30%"
       },
       {
         "text_de": "Hei, hei!",
@@ -241,11 +241,11 @@ const imageTexts = {
         "text_no": "no",
         "kind": "dialog",
         "color": "black",
-        "backgroundColor": "bg_white",
+        "backgroundColor": "start_light",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
+        "bottom": "89%",
+        "left": "26%",
         "width": "20%"
       }
     ],
@@ -258,10 +258,10 @@ const imageTexts = {
         "color": "black",
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "textAlign": "right",
+        "bottom": "72%",
+        "left": "27%",
+        "width": "19%"
       },
       {
         "text_de": "Wir Norweger feiern aber auch gerne und viel.",
@@ -272,9 +272,9 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "bottom": "78%",
+        "left": "81%",
+        "width": "15%"
       }
     ],
     "01a_TN_12": [
@@ -312,11 +312,11 @@ const imageTexts = {
         "text_no": "no",
         "kind": "dialog",
         "color": "black",
-        "backgroundColor": "bg_white",
+        "backgroundColor": "start_light",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
+        "bottom": "14%",
+        "left": "36%",
         "width": "20%"
       }
     ],
@@ -327,12 +327,12 @@ const imageTexts = {
         "text_no": "no",
         "kind": "dialog",
         "color": "black",
-        "backgroundColor": "bg_white",
+        "backgroundColor": "start_light",
         "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "textAlign": "right",
+        "bottom": "41%",
+        "left": "1%",
+        "width": "14%"
       },
       {
         "text_de": "Da haben Sie meins. Heute soll kein Griesgram aufkommen.",
@@ -343,9 +343,9 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "bottom": "64%",
+        "left": "64%",
+        "width": "14%"
       }
     ],
     "01a_TN_16": [
@@ -355,12 +355,12 @@ const imageTexts = {
         "text_no": "no",
         "kind": "dialog",
         "color": "black",
-        "backgroundColor": "bg_white",
+        "backgroundColor": "start_light",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "bottom": "4%",
+        "left": "52%",
+        "width": "17%"
       }
     ],
     "01a_TN_18": [
@@ -373,9 +373,9 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "bottom": "68%",
+        "left": "24%",
+        "width": "13%"
       },
       {
         "text_de": "Alles ist so herausgeputzt, da fällt etwas Staub sofort ins Auge.",
@@ -386,8 +386,8 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
+        "bottom": "77%",
+        "left": "66%",
         "width": "20%"
       }
     ],
@@ -401,8 +401,8 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
+        "bottom": "72%",
+        "left": "45%",
         "width": "20%"
       }
     ],
@@ -607,12 +607,12 @@ const imageTexts = {
         "text_no": "no",
         "kind": "dialog",
         "color": "black",
-        "backgroundColor": "bg_white",
+        "backgroundColor": "start_light",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "bottom": "45%",
+        "left": "28%",
+        "width": "12%"
       }
     ],
     "01a_TN_27": [
@@ -653,8 +653,8 @@ const imageTexts = {
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
         "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
+        "bottom": "71%",
+        "left": "39%",
         "width": "20%"
       },
       {
@@ -665,10 +665,10 @@ const imageTexts = {
         "color": "black",
         "backgroundColor": "bg_white",
         "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
+        "textAlign": "right",
+        "bottom": "7%",
+        "left": "37%",
+        "width": "17%"
       }
     ],
     "01a_TN_29": [

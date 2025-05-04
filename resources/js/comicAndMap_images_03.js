@@ -113,6 +113,7 @@ const imageSets = [
         { "Kapitel": "03_F_111", "speed": 0 },
         { "Kapitel": "03_F_112", "speed": 0 },
         { "Kapitel": "03_F_113", "speed": 0 },
-        { "Kapitel": "03_F_114", "speed": 0 }
+        { "Kapitel": "03_F_114", "speed": 0 },
+        { "Kapitel": "excursMannschaft", "speed": 0 }
     ]
 ];
