@@ -488,6 +488,8 @@ path {
     width: 100vw;
     height: 100vh;
     background-color: #2E3B4B;
+    background-image: url("../images/BGMannschaft_01.png");
+    background-size: 100% 100%;
     z-index: 10;
     position: fixed;
     top: 0%;
@@ -505,3 +507,55 @@ path {
     color: white; /* oder eine passende Farbe */
     z-index: 10;
   }
+
+
+  .ExCrewButtonWrapper {
+    position: absolute;
+    width: 80vw;
+    top: 4vw;
+    left: 50vw;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5vw; /* Abstand zwischen Buttons */
+  }
+  
+  .ExCrewButton {
+    width: 15vw;
+    height: 4vw;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+    font-family: chapter;  
+    background-image: url('../images/Excurs_Button1.png');
+}
+
+
+#exCrewText {
+    position: absolute;
+    bottom: 2vw;
+    height: 10vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    font-size: 1vw;
+    line-height: 1.6;
+    text-align: left;
+    color: #354455;
+    padding: 2vw;
+    font-family: chapter;
+  }
+
+.TerraNova {
+    fill: #FFF;
+}
+.Fram {
+    fill: #000;
+}
+.ExCrewButton.active {  
+    background-image: url('../images/Excurs_Button3.png');
+}
+

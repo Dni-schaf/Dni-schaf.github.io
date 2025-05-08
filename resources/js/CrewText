@@ -1,0 +1,93 @@
+let TextAll = {
+	expeditionen: {
+		DE:"<p><span class='Title'>Expeditionsgröße</span></br>Die britische Expedition bestand aus <span class='bold'>66 Männern</span>. 33 von ihnen folgen Scott an Land wärend die Anderen mit der Terra Nova wieder abfuhren. Die norwegische Expedition bestand nur aus <span class='bold'>19 Männern</span>, wovon 9 der Landgruppe angehörten.</p>",
+		EN:""},
+		 
+	zusammensetzung: {
+		DE:"<p><span class='Title'>Mannschaftszusammensetzung</span></br>Beide Mannschaften bestanden aus bunt zusammengewürfelten Spezialisten.  Sie kamen aus den verschiedensten Ländern und brachten unterschiedliche Erfahrung mit. Sortiere die Mannschaften und erfahre mehr über die Männer.</p>",
+		EN:""},
+		 
+	alter: {
+		DE:"<p><span class='Title'>Altersverteilung</span></br>Der Altersdurchschnitt liegt bei 31 Jahren. <span class='bold'>Scott ist 42 und Amundsen 4 Jahre jünger.</span> Jacob Nødtvedt von der norwegischen Schiffsbesatzung ist mit 53 Jahren das älteste Expeditionsmitglied. Mit 18 Jahren ist der Vollmatrose William McDonald das jüngste Mitglied.</p>",
+		EN:""},
+		 
+	nation: {
+		DE:"<p><span class='Title'>Herkunfsländer</span></br>Auch wenn die Expeditionen unter <span class='bold'>britischer bzw norwegischer Flagge</span> fahren, kommen einiger der Männer aus anderen Ländern. Wobei 1910 das British Empire noch viele dieser Länder einschließt. Australien war jedoch schon auf dem Weg in die Unabhängigkeit.</p>",
+		EN:""},
+		 
+	erfahrung: {
+		DE:"<p><span class='Title'>Erfahrungen</span></br>Sowohl Scott als auch Amundsen hatten bereits Erfahrungen in den Polregionen gesammelt. <span class='bold'>Amundsen</span> hat mit deGerlache während der <span class='bold'>Belgica-Expedition</span> in der Antarktis überwintert. Während der Durchquerung der <span class='bold'>Nordwestepassage</span> konnte er viel von den arktischen Ureinwohnern lernen. <span class='bold'>Scott</span> hat während seiner <span class='bold'>Discovery-Expedition</span> 2 Winter in der Antarktis gelebt und bereits einen ersten Versuch Richtung Südpol unternommen. Auch unter den Männern, die sie begleiten, haben einige bereits Erfahrungen.</p>",
+		EN:""},
+		 
+	feld: {
+		DE:"<p><span class='Title'>Tätigkeitsfeld</span></br>Scott war <span class='bold'>Marineoffizier</span> und viele seiner Männer wählte er aus der Marine oder den anderen britischen Streitkräften aus. Für das umfangreiche wissenschaftliche Programm begleiteten <span class='bold'>Wissenschaftler</span> aus den unterschiedlichsten Bereichen die Expedition. Amundsen selbst war nicht beim Militär und auch für die Auswahl seiner Mannschaft war ihm nur wichtig, dass sie ihr Handwerk verstanden. Für Wissenschaftler sah er auf seinem kleinen Schiff keinen Platz, um dennoch wissenschaftliche Daten sammeln zu können ließ er sich selbst und einige seiner Männer darin ausbilden.</p>",
+		EN:""},
+		
+	antarktis: {
+		DE:"<span>Antarktis</span>",
+		EN:""},
+	arktis: {
+		DE:"<span>Arktis</span>",
+		EN:""},
+	beide: {
+		DE:"<span>Arktis</br>und Antarktis</span>",
+		EN:""},
+	keine: {
+		DE:"<span>keine Erfahrungen</br>in den Polregionen</span>",
+		EN:""},
+		
+	GB: {
+		DE:"<span>Briten</span>",
+		EN:""},
+	NOR: {
+		DE:"<span>Norweger</span>",
+		EN:""},
+	RUS: {
+		DE:"<span>Russen</span>",
+		EN:""},
+	AUS: {
+		DE:"<span>Australier</span>",
+		EN:""},
+	NZ: {
+		DE:"<span>Neuseeländer</span>",
+		EN:""},
+	CND: {
+		DE:"<span>Kanadier</span>",
+		EN:""},
+	IRL: {
+		DE:"<span>Iren</span>",
+		EN:""},
+	SWE: {
+		DE:"<span>Schwede</span>",
+		EN:""},
+		
+	keinLand: {
+		DE:"<span>keine Angabe</span>",
+		EN:""},
+		
+	altertext: {
+		DE:"<span>Alter der Männer 1910</span>",
+		EN:""},
+		
+	Land: {
+		DE:"<span>Landungsgruppe</span>",
+		EN:""},
+	Schiff: {
+		DE:"<span>Schiffsmannschaft</span>",
+		EN:""},
+
+	zivil: {
+		DE:"<span>Zivilist</span>",
+		EN:""},
+	wissenschaftler: {
+		DE:"<span>Zivilist und Wissenschaftler</span>",
+		EN:""},
+	militaer: {
+		DE:"<span>Militär</span>",
+		EN:""},
+		
+		sortieren: {
+		DE:"<span id='sortieren' style='padding-right: 10px;'>Männer sortieren nach: </span><span id='expedition' class='links'>Expedition</span><span id='alter' class='links'>Alter</span><span id='nationen' class='links'>Länder</span><span id='erfahrungen' class='links'>Erfahrung</span><span id='feld' class='links'>Tätigkeitsfeld</span>",
+		EN:""}
+
+}

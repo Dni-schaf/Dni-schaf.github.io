@@ -208,6 +208,8 @@ window.addEventListener('resize', () => {
   resizeTimeoutComic = setTimeout(() => {
     createAllDivs();            // baue Container neu
     updateLayoutData();         // baue Positionsdaten neu
+    createExkurseMannschaftIntro ();
+    createExkurseMannschaftContent();
     setPathprogress(datecountAmundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen);
     setPathprogress(datecountScott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott);
   }, 200);
