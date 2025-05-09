@@ -1,460 +1,189 @@
-function createExkurseMannschaftIntro () {
-  // Excurs headline erstellen und einfügen
+// Globale Steuerung
+let currentSimulationMode = "EXCrewExpedition";
+let xScale, xAxisG, simulation;
+
+// Hauptfunktionen
+function createExkurseMannschaftIntro() {
   const excursMannschaft = document.getElementById("excursMannschaft");
 
   const headline = document.createElement("p");
   headline.classList.add("excursheadline");
-  headline.textContent = "Wie sind die beiden Mannschaften aufgestellt?"; // <-- Optionaler Text
+  headline.textContent = "Wie sind die beiden Mannschaften aufgestellt?";
   excursMannschaft.appendChild(headline);
 
-  // Introtext erstellen und einfügen
   const introDiv = document.createElement("div");
   introDiv.classList.add("excursIntroText");
-  introDiv.textContent = "Dies ist ein Einleitungstext zum Exkurs. Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen.Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen. Hier kannst du eine Einführung oder Erklärung unterbringen.";
-
+  introDiv.textContent = "Dies ist ein Einleitungstext zum Exkurs...";
   excursMannschaft.appendChild(introDiv);
 
-  // Container für die Buttons
   const buttonWrapper = document.createElement("div");
   buttonWrapper.classList.add("excursButtonWrapper");
 
-  // Button 1
   const button1 = document.createElement("button");
   button1.classList.add("excursButton", "excursButton1");
   button1.textContent = "Mannschaften vergleichen";
-  button1.id = "ExMannschaft1";
+  button1.id = "ExCrewBtn1";
 
-  // Button 2
   const button2 = document.createElement("button");
   button2.classList.add("excursButton", "excursButton2");
   button2.textContent = "Exkurs überspringen";
-  button2.id = "ExMannschaft2";
+  button2.id = "ExCrewBtn2";
 
-
-  // Buttons zum Wrapper hinzufügen
   buttonWrapper.appendChild(button1);
   buttonWrapper.appendChild(button2);
-
-  // Button-Wrapper unter den Intro-Text setzen
   excursMannschaft.appendChild(buttonWrapper);
 
-};
+  button1.addEventListener("click", () => {
+    document.querySelector('.excursContainer').style.display = 'block';
+    document.body.style.overflow = "hidden";
+  });
+}
 
-
-
-
-function createExkurseMannschaftContent(){
-
-  //Excurs inneres gestalten
+function createExkurseMannschaftContent() {
   const excursContainer = document.getElementById("excursContainer");
 
-  // Schließen-Button erstellen
+  // Entfernt nur alte Texte und Buttons, nicht das SVG
+  const elementsToRemove = excursContainer.querySelectorAll(
+    ".ExCrewButtonWrapper, .excursCloseButton, #exCrewText"
+  );
+  elementsToRemove.forEach(el => el.remove());
+
   const closeButton = document.createElement("button");
   closeButton.textContent = "✕";
   closeButton.classList.add("excursCloseButton");
   closeButton.id = "ExCrewClose";
-
-  // Schließen-Button oben rechts einfügen
   excursContainer.appendChild(closeButton);
 
-  // Container für die Buttons
-  const ExCrewButtonWrapper = document.createElement("div");
-  ExCrewButtonWrapper.classList.add("ExCrewButtonWrapper");
-
-  // Button 1
-  const button1 = document.createElement("button");
-  button1.classList.add("ExCrewButton", "active");
-  button1.textContent = "Expedition";
-  button1.id = "EXCrewExpedition";
-
-  // Button 2
-  const button2 = document.createElement("button");
-  button2.classList.add("ExCrewButton");
-  button2.textContent = "Polar-Erfahrung";
-  button2.id = "EXCrewEerfahrung";
-
-    // Button 3
-  const button3 = document.createElement("button");
-  button3.classList.add("ExCrewButton");
-  button3.textContent = "Dienst";
-  button3.id = "EXCrewDienst";
-
-  // Button 4
-  const button4 = document.createElement("button");
-  button4.classList.add("ExCrewButton");
-  button4.textContent = "Herkunft";
-  button4.id = "EXCrewHerkunft";
-
-  // Button 5
-  const button5 = document.createElement("button");
-  button5.classList.add("ExCrewButton");
-  button5.textContent = "Alter";
-  button5.id = "EXCrewAlter";
-
-
-  // Buttons zum Wrapper hinzufügen
-  ExCrewButtonWrapper.appendChild(button1);
-  ExCrewButtonWrapper.appendChild(button2);
-  ExCrewButtonWrapper.appendChild(button3);
-  ExCrewButtonWrapper.appendChild(button4);
-  ExCrewButtonWrapper.appendChild(button5);
-  
-
-  // Button-Wrapper unter den Intro-Text setzen
-  excursContainer.appendChild(ExCrewButtonWrapper);
-
-  // Introtext erstellen und einfügen
-  const textDiv = document.createElement("div");
-  textDiv.id = "exCrewText";
-  textDiv.textContent = "Dies ist ein Text für Expeditionen, Dies ist ein Text für Expeditionen. Dies ist ein Text für Expeditionen. Dies ist ein Text für Expeditionen. Dies ist ein Text für Expeditionen. Dies ist ein Text für Expeditionen. Dies ist ein Text für Expeditionen. Dies ist ein Text für Expeditionen.";
-
-  excursContainer.appendChild(textDiv);
-
-
-
-}
-
-createExkurseMannschaftIntro ();
-createExkurseMannschaftContent();
-
-
-
-const ExCrewBtn1 = document.getElementById("ExMannschaft1");
-const ExCrewBtn2 = document.getElementById("ExMannschaft2");
-const closeButton = document.getElementById("ExCrewClose");
-const EXCrewExpedition = document.getElementById("EXCrewExpedition");
-const EXCrewEerfahrung = document.getElementById("EXCrewEerfahrung");
-const EXCrewDienst = document.getElementById("EXCrewDienst");
-const EXCrewHerkunft = document.getElementById("EXCrewHerkunft");
-const EXCrewAlter = document.getElementById("EXCrewAlter");
-
-// EXCURS ÖFFNEN
-
-
-ExCrewBtn1.addEventListener("click", () => {
-    console.log("klick");
-    document.querySelector('.excursContainer').style.display = 'block';
-    document.body.style.overflow = "hidden";
-  });
-
-const allButtons = document.querySelectorAll(".ExCrewButton");
-function handleButtonClick(e, text) {
-  // Aktive Klasse von allen entfernen
-  allButtons.forEach(btn => btn.classList.remove("active"));
-
-  // Aktive Klasse auf aktuellen Button setzen
-  e.target.classList.add("active");
-
-  // Text ändern
-  document.getElementById("exCrewText").textContent = text;
-}
-
-// Klick-Event: Container ausblenden
-closeButton.addEventListener("click", () => {
+  closeButton.addEventListener("click", () => {
     excursContainer.style.display = "none";
     document.body.style.overflow = "auto";
-});
+  });
 
-EXCrewExpedition.addEventListener("click", (e) => {
-  handleButtonClick(e, "Dies ist ein Text für Expeditionen...");
-});
+  const buttonWrapper = document.createElement("div");
+  buttonWrapper.classList.add("ExCrewButtonWrapper");
 
-EXCrewEerfahrung.addEventListener("click", (e) => {
-  handleButtonClick(e, "Dies ist ein Text für Erfahrung...");
-});
+  const buttons = [
+    { id: "EXCrewExpedition", text: "Expedition", default: true },
+    { id: "EXCrewEerfahrung", text: "Polar-Erfahrung" },
+    { id: "EXCrewDienst", text: "Dienst" },
+    { id: "EXCrewHerkunft", text: "Herkunft" },
+    { id: "EXCrewAlter", text: "Alter" },
+  ];
 
-EXCrewDienst.addEventListener("click", (e) => {
-  handleButtonClick(e, "Dies ist ein Text für Dienst...");
-});
+  buttons.forEach(btn => {
+    const button = document.createElement("button");
+    button.classList.add("ExCrewButton");
+    if (btn.default) button.classList.add("active");
+    button.id = btn.id;
+    button.textContent = btn.text;
+    buttonWrapper.appendChild(button);
+  });
 
-EXCrewHerkunft.addEventListener("click", (e) => {
-  handleButtonClick(e, "Dies ist ein Text für Herkunft...");
-});
+  excursContainer.appendChild(buttonWrapper);
 
-EXCrewAlter.addEventListener("click", (e) => {
-  handleButtonClick(e, "Dies ist ein Text für Alter...");
-});
+  const textDiv = document.createElement("div");
+  textDiv.id = "exCrewText";
+  textDiv.textContent = "Text für Expeditionen...";
+  excursContainer.appendChild(textDiv);
 
+  document.querySelectorAll(".ExCrewButton").forEach(button => {
+    button.addEventListener("click", (e) => {
+      document.querySelectorAll(".ExCrewButton").forEach(btn => btn.classList.remove("active"));
+      e.target.classList.add("active");
 
-//erzeuge infografik
-// erzeugen der kreise
-const breite = window.innerWidth;
-const hoehe = breite * 0.699;
-const radius = breite * 0.01;
+      currentSimulationMode = e.target.id;
 
+      const texts = {
+        EXCrewExpedition: "Text für Expeditionen...",
+        EXCrewEerfahrung: "Text für Erfahrung...",
+        EXCrewDienst: "Text für Dienst...",
+        EXCrewHerkunft: "Text für Herkunft...",
+        EXCrewAlter: "Text für Alter..."
+      };
+      textDiv.textContent = texts[e.target.id] || "";
+      updateSimulation(currentSimulationMode);
+    });
+  });
 
-const collideforce = d3.forceCollide().radius(function(d) {
-  return breite * 0.012; // entspricht etwa 1vw
-});
+  createExkurseMannschaftGraphic(); // Wichtig: auch hier neu aufbauen
+}
 
+function createExkurseMannschaftGraphic() {
+  const breite = window.innerWidth;
+  const hoehe = breite * 0.699;
+  const radius = breite * 0.01;
 
-const canvas = d3.select('.mannschaft')
-		.append("svg")
-		.attr("height", hoehe)
-		.attr("width", breite)
-		.attr('class', 'svgbox')
-		.append("g")
-		.attr('class', 'axis');
+  const svg = d3.select('.mannschaft').html("")
+    .append("svg")
+    .attr("width", breite)
+    .attr("height", hoehe)
+    .attr("class", "svgbox");
 
-const databox = d3.selectAll('.svgbox')
-		.append("g")
-		.attr('class', 'box');
+  const axisGroup = svg.append("g").attr("class", "axis");
+  const dataGroup = svg.append("g").attr("class", "box");
 
-const alterchart = databox.selectAll(".box")
-		.data(mannschaft)
-		.enter()
-		.append("g")
-		.attr('class', 'kreise');
+  xScale = d3.scaleLinear().domain([17, 54]).range([0, 0.98 * breite]);
+  const xAxis = d3.axisBottom(xScale).tickSize(-hoehe / 2).ticks(16);
 
-const manschaftskreise = d3.selectAll(".kreise")
-    .append("circle")
+  xAxisG = axisGroup.append("g").call(xAxis)
+    .attr("transform", `translate(0,${hoehe * 0.65})`);
+
+  xAxisG.selectAll("text").attr("transform", `translate(0,${hoehe * 0.01})`).style("stroke", "#869BAE");
+  xAxisG.selectAll(".domain").remove();
+  xAxisG.selectAll("line").style("stroke-width", "0.1vw").style("stroke", "#869BAE");
+
+  const kreise = dataGroup.selectAll(".kreise")
     .data(mannschaft)
+    .enter()
+    .append("circle")
     .attr("r", radius)
-    .attr('id', d => d.name )
-    .attr('class', d => d.schiff)
-    .classed("kreisBG", true);
-  
+    .attr("id", d => d.name)
+    .attr("class", d => `${d.schiff} kreisBG ${d.status}`);
 
-manschaftskreise.each(function(d) {
-  this.classList.add(d.status);
-});
+  simulation = d3.forceSimulation(mannschaft)
+    .force("x", forceXstart(breite))
+    .force("y", forceYstart(hoehe))
+    .force("collide", d3.forceCollide().radius(breite * 0.012))
+    .on("tick", () => {
+      kreise.attr("cx", d => d.x).attr("cy", d => d.y);
+    });
+}
 
-const xValue = function(d) {
-	return d.alter;
-	};
-			
-const xScale = d3.scaleLinear()
-    .domain([17, 54])
-    .range([0, 0.98*breite]);
+function updateSimulation(mode) {
+  const breite = window.innerWidth;
+  const hoehe = breite * 0.699;
+  const forceMap = {
+    EXCrewExpedition: [forceXstart(breite), forceYstart(hoehe)],
+    EXCrewEerfahrung: [forceXerfahrung(breite), forceYerfahrung(hoehe)],
+    EXCrewDienst: [forceXberuf(breite), forceYberuf(hoehe)],
+    EXCrewHerkunft: [forceXnation(breite), forceYnation(hoehe)],
+    EXCrewAlter: [forceXalter(breite), forceYalter(hoehe)]
+  };
 
+  if (!simulation || !forceMap[mode]) return;
 
-
-// Achsen für den Alterchart 
-const xAxis = d3.axisBottom(xScale)
-	.tickSize(-hoehe/2)
-	.ticks(16);
-
-const xAxisG = d3.select('.axis').append('g').call(xAxis)
-	.attr('transform',`translate(0,${hoehe*0.65})`);
-
-xAxisG.selectAll("text")
-    .attr("transform", `translate(0,${hoehe*0.01})`)
-    .style('stroke', '#869BAE');
-		
-xAxisG.selectAll('.domain').remove();
-xAxisG.selectAll('line')
-  .style('stroke-width', '0.1vw')
-  .style('stroke', '#869BAE');
-
-
-
-
-// koordinaten für die Kräfte festlegen
-var forceXnation = d3.forceX(function(d) {
-  if(d.nation === "NOR") {
-    return 0.85 * breite
-    } 
-  if(d.nation === "GB") {
-    return 0.2 * breite
-    }
-  if(d.nation === "SWE") {
-    return 0.58 * breite
-    }
-  if(d.nation === "RUS") {
-    return 0.7 * breite
-    }
-  if(d.nation === "IRL") {
-    return 0.3 * breite
-    }
-  if(d.nation === "CND") {
-    return 0.41 * breite
-    }
-  if(d.nation === "AUS") {
-    return 0.5 * breite
-    }
-  if(d.nation === "NZ") {
-    return 0.5 * breite
-    } else {
-    return 0.75 * breite }
- }).strength(0.09);
- 
- 
- var forceYnation = d3.forceY(function(d) {
-  if(d.nation === "NOR") {
-    return 0.5 * hoehe
-    } 
-  if(d.nation === "GB") {
-    return 0.58 * hoehe
-    }
-  if(d.nation === "SWE") {
-    return 0.73 * hoehe
-    }
-  if(d.nation === "RUS") {
-    return 0.25 * hoehe
-    }
-  if(d.nation === "IRL") {
-    return 0.25 * hoehe
-    }
-  if(d.nation === "CND") {
-    return 0.82 * hoehe
-    }
-  if(d.nation === "AUS") {
-    return 0.53 * hoehe
-    }
-  if(d.nation === "NZ") {
-    return 0.25 * hoehe
-    } else {
-    return 0.84 * hoehe}
- }).strength(0.09);
- 
- 
- var forceXerfahrung = d3.forceX(function(d) {
-  if(d.erfahrung === "beide") {
-    return 0.77 * breite
-    }
-  if(d.erfahrung === "arktis") {
-    return 0.65 * breite
-    }
-  if(d.erfahrung === "antarktis") {
-    return 0.75 * breite
-    } else {
-    return 0.25 * breite }
- }).strength(0.09);
- 
- 
- var forceYerfahrung = d3.forceY(function(d) {
-  if(d.erfahrung === "beide") {
-    return 0.525 * hoehe
-    }
-  if(d.erfahrung === "arktis") {
-    return 0.3 * hoehe
-    }
-  if(d.erfahrung === "antarktis") {
-    return 0.8 * hoehe
-    } else {
-    return 0.5 * hoehe}
- }).strength(0.09);
- 
- var forceXberuf = d3.forceX(function(d) {
-  if(d.beruf === "zivil") {
-    return 0.7 * breite
-    }
-  if(d.beruf === "wissenschaft") {
-    return 0.45 * breite
-    } else {
-    return 0.18 * breite }
- }).strength(0.09);
- 
- 
- var forceYberuf = d3.forceY(function(d) {
-  if(d.beruf === "zivil") {
-    return 0.7 * hoehe
-    }
-  if(d.beruf === "wissenschaft") {
-    return 0.3 * hoehe
-    } else {
-    return 0.7 * hoehe}
- }).strength(0.09);
- 
- 
- var forceXstart = d3.forceX(function(d) {
-  if(d.schiff === "Fram") {
-    return 0.7 * breite
-    } else {
-    return 0.3 * breite }
- }).strength(0.05);
- 
- 
- var forceYstart = d3.forceY(function(d) {
-    return 0.5 * hoehe
- }).strength(0.1);
- 
- 
- var forceXexpedition = d3.forceX(function(d) {
-  if(d.schiff === "Fram") {
-    return 0.7 * breite
-    } else {
-    return 0.3 * breite }
- }).strength(0.05);
- 
- 
- var forceYexpedition = d3.forceY(function(d) {
-  if(d.ort === "Land") {
-    return 0.4 * hoehe
-    }
-  else {
-    return 0.8 * hoehe}
- }).strength(0.1);
- 
- 
- var forceXalter = d3.forceX(function(d) {
-       return  xScale(xValue(d))
- }).strength(1.5);
- 
- 
- var forceYalter = d3.forceY(function(d) {
-    return 0.6 * hoehe
- }).strength(0.05);
-
-const simulation = d3.forceSimulation(mannschaft)
-	.force("x", forceXstart)
-	.force("y", forceYstart)
-	.force("collide", collideforce);
-
-simulation.nodes(mannschaft)
- .on("tick", ticked)
-
-function ticked() {
-   manschaftskreise
-     .attr("cx", function(d) {
-       return d.x
-     })
-     .attr("cy", function(d) {
-       return d.y
-     })
-};
-
-d3.select("#EXCrewExpedition").on('click', function() {
   simulation
-    .force("x", forceXstart)
-    .force("y", forceYstart)
-    .force("collide", collideforce)
-    .alphaTarget(0.1)
-    .restart()		
-});
+    .force("x", forceMap[mode][0])
+    .force("y", forceMap[mode][1])
+    .alpha(1)
+    .restart();
+}
 
-d3.select("#EXCrewEerfahrung").on('click', function() {
-  simulation
-    .force("x", forceXerfahrung)
-    .force("y", forceYerfahrung)
-    .force("collide", collideforce)
-    .alphaTarget(0.1)
-    .restart()		
-});
+// Force Funktionen
+const forceXstart = w => d3.forceX(d => d.schiff === "Fram" ? 0.7 * w : 0.3 * w).strength(0.05);
+const forceYstart = h => d3.forceY(() => 0.5 * h).strength(0.1);
+const forceXalter = w => d3.forceX(d => d3.scaleLinear().domain([17, 54]).range([0, 0.98 * w])(d.alter)).strength(1.5);
+const forceYalter = h => d3.forceY(() => 0.6 * h).strength(0.05);
+const forceXnation = w => d3.forceX(d => ({ NOR: 0.85, GB: 0.2, SWE: 0.58, RUS: 0.7, IRL: 0.3, CND: 0.41, AUS: 0.5, NZ: 0.5 }[d.nation] || 0.75) * w).strength(0.09);
+const forceYnation = h => d3.forceY(d => ({ NOR: 0.5, GB: 0.58, SWE: 0.73, RUS: 0.25, IRL: 0.25, CND: 0.82, AUS: 0.53, NZ: 0.25 }[d.nation] || 0.84) * h).strength(0.09);
+const forceXerfahrung = w => d3.forceX(d => ({ beide: 0.77, arktis: 0.65, antarktis: 0.75 }[d.erfahrung] || 0.25) * w).strength(0.09);
+const forceYerfahrung = h => d3.forceY(d => ({ beide: 0.525, arktis: 0.3, antarktis: 0.8 }[d.erfahrung] || 0.5) * h).strength(0.09);
+const forceXberuf = w => d3.forceX(d => ({ zivil: 0.7, wissenschaft: 0.45 }[d.beruf] || 0.18) * w).strength(0.09);
+const forceYberuf = h => d3.forceY(d => ({ zivil: 0.7, wissenschaft: 0.3 }[d.beruf] || 0.7) * h).strength(0.09);
 
-d3.select("#EXCrewDienst").on('click', function() {
-  simulation
-    .force("x", forceXberuf)
-    .force("y", forceYberuf)
-    .force("collide", collideforce)
-    .alphaTarget(0.1)
-    .restart()		
-});
+// Resize-Handling
 
-  d3.select("#EXCrewAlter").on('click', function(d) {
-  simulation
-    .force("x", forceXalter)
-    .force("y", forceYalter)
-    .force("collide", collideforce)		
-    .alphaTarget(0.1)
-    .restart()		
-});
 
-d3.select("#EXCrewHerkunft").on('click', function() {
-  simulation
-    .force("x", forceXnation)
-    .force("y", forceYnation)
-    .force("collide", collideforce)
-    .alphaTarget(0.1)
-    .restart()		
-});
+// Initial
+createExkurseMannschaftIntro();
+createExkurseMannschaftContent();

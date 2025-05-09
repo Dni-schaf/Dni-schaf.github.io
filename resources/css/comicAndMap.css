@@ -557,5 +557,6 @@ path {
 }
 .ExCrewButton.active {  
     background-image: url('../images/Excurs_Button3.png');
+    color: #2E3B4B;
 }
 

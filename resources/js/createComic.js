@@ -203,13 +203,16 @@ createAllDivs();
 
 let resizeTimeoutComic;
 
+
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimeoutComic);
   resizeTimeoutComic = setTimeout(() => {
-    createAllDivs();            // baue Container neu
-    updateLayoutData();         // baue Positionsdaten neu
-    createExkurseMannschaftIntro ();
+    createAllDivs();
+    updateLayoutData();
+    createExkurseMannschaftIntro();
     createExkurseMannschaftContent();
+    updateSimulation(currentSimulationMode);  // Wichtig: aktuell gewählte Ansicht behalten
+
     setPathprogress(datecountAmundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen);
     setPathprogress(datecountScott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott);
   }, 200);
