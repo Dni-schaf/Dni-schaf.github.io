@@ -1,0 +1,205 @@
+    #titel{
+      font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        font-size: 6vw;
+        text-transform: uppercase;
+        top: 12vw;
+    }
+
+    .newsticker {
+      position: absolute;
+      left: 10vw;
+      width: 79vw;
+      top: 8vw;
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+      font-family: chapter;
+    }
+    .ticker-text{
+      flex: 1 1 32%;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 1.5vw;
+    }
+
+    .newspaperdate {
+      position: absolute;
+      top: 20vw;
+      left: 9vw;
+      width: 79vw;
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+      border-top: solid;
+      border-bottom: solid;
+      font-family: chapter;
+      font-size: 1.2vw;
+    }
+    .date-text{
+      flex: 1 1 32%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .price{
+      text-align: right;
+    }
+
+    .number{
+      text-align: left;
+    }
+
+    .intro {
+      position: absolute;
+      top: 24vw;
+      left: 10vw;
+      width: 79vw;
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .intro-text,
+    .intro-image {
+      flex: 1 1 49%;
+      box-sizing: border-box;
+    }
+
+    .intro-image {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      background-image: url("../images/01a_TN_newspaperimg1.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .intro-paragraph-1{
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+      font-size: 5vw;
+      margin: 0;
+      line-height: 5vw;
+    }
+
+    .intro-paragraph-2{
+        font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+      font-size: 2.5vw;
+      margin: 0.5vw 0vw;
+      line-height: 2.5vw;
+    }
+    .intro-paragraph-3{
+        font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+      font-size: 1.4vw;
+      margin: 0.5vw 0vw;
+      line-height: 1.8vw;
+      text-align: justify;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+    }
+
+    .part4 {
+      position: absolute;
+      top: 93vw;
+      left: 10vw;
+      width: 79vw;
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .part4-text {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+      flex: 1 32%;
+      box-sizing: border-box;
+      line-height: 1.6;
+      text-align: justify;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+    }
+
+    .part4-image {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      flex: 2 67%;
+      box-sizing: border-box;
+      display: block;
+      background-image: url("../images/01a_TN_newspaperimg2.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background-color: #fff;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 0.5em;
+    }
+
+    .newspaper {
+      position: absolute;
+      top: 44vw;
+      left: 10vw;
+      width: 79vw;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: auto;
+      gap: 3vw;
+      margin-top: 3vw;
+    }
+
+    .column-area {
+      grid-column: 1 / -1;
+      grid-row: 1 / -1;
+      column-width: 20vw;
+      column-gap: 2vw;
+      column-fill: balance;
+    }
+
+    .flow-text {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+
+      height: 100%;
+      padding: 0;
+      text-align: justify;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+    }
+
+    .content{
+      margin: 0;
+      font-size: 1.4vw;
+      line-height: 1.8vw;
+      margin-bottom: 1.6vw;
+    }
+
+    .subheadline{
+      margin: 0;
+      font-size: 1.4vw;
+      line-height: 1.8vw;
+      font-weight: bolder;
+      text-transform: uppercase;
+      text-align: left;
+    }

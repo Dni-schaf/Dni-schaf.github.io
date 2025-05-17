@@ -192,6 +192,7 @@ window.updateAllTexts = function() {
   });
 
   updateTexts(language); // Bildtexte wie gehabt
+  updateNewspaper(language);
 }
 
 
@@ -209,9 +210,21 @@ window.addEventListener('resize', () => {
   resizeTimeoutComic = setTimeout(() => {
     createAllDivs();
     updateLayoutData();
-    createExkurseMannschaftIntro();
-    createExkurseMannschaftContent();
-    updateSimulation(currentSimulationMode);  // Wichtig: aktuell gewählte Ansicht behalten
+    if (typeof createExkurseMannschaftIntro === "function") {
+  createExkurseMannschaftIntro();
+};
+if (typeof createExkurseMannschaftContent === "function") {
+  createExkurseMannschaftContent();
+};
+if (typeof createExkurseNewspaper === "function") {
+  createExkurseNewspaper();
+}
+if (typeof updateSimulation === "function") {
+  updateSimulation(currentSimulationMode);  // Wichtig: aktuell gewählte Ansicht behalten
+}
+    
+    
+    
 
     setPathprogress(datecountAmundsen, timestempArrAmundsen, "Amundsen", totalLengthAmundsen, timeLengthAmundsen);
     setPathprogress(datecountScott, timestempArrScott, "Scott", totalLengthScott, timeLengthScott);
