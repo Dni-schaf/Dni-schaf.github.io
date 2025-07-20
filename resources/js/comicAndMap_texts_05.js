@@ -676,7 +676,7 @@ const imageTexts = {
       "color": "white",
       "backgroundColor": "bg_black",
       "textAlign": "left",
-      "bottom": "74.5%",
+      "bottom": "68.5%",
       "left": "58%",
       "width": "20%"
     },
@@ -689,9 +689,9 @@ const imageTexts = {
       "color": "white",
       "backgroundColor": "bg_black",
       "textAlign": "right",
-      "bottom": "72%",
-      "left": "26%",
-      "width": "20%"
+      "bottom": "66%",
+      "left": "27%",
+      "width": "19%"
     },
     {
       "text_de": "Liebster, komm ins Bett! Du brauchst deinen Schlaf.",
@@ -702,10 +702,189 @@ const imageTexts = {
       "color": "white",
       "backgroundColor": "bg_black",
       "textAlign": "left",
-      "bottom": "41.5%",
+      "bottom": "28%",
       "left": "50%",
       "width": "21%"
-    }
+    },
+    {
+      "text_de": "Letzter Halt: Uranienborg.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
+      "textAlign": "left",
+      "bottom": "16.6%",
+      "left": "48%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Bitte beehren Sie uns wieder!",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
+      "textAlign": "left",
+      "bottom": "15.2%",
+      "left": "56%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Das da ist es",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "left",
+      "bottom": "11.5%",
+      "left": "27%",
+      "width": "20%"
+    },
+  ],
+  "05_TN_33b": [
+    {
+      "text_de": "Endlich, das lang erwartete Treffen wird wahr! Ich bin sicher, man wird uns mit offenen Armen empfangen.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "right",
+      "bottom": "62.5%",
+      "left": "5%",
+      "width": "22%"
+    },
+    {
+      "text_de": "Hoffen wir, dass er auch ein offenes Ohr für mein Anliegen hat.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "left",
+      "bottom": "62.5%",
+      "left": "31%",
+      "width": "15%"
+    },
+    {
+      "text_de": "Simultane magnetische Messungen an beiden Polen – eine solche Kooperation ist eine einmalige Gelegenheit.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "white",
+      "backgroundColor": "post_dream_dark",
+      "textAlign": "right",
+      "bottom": "74.5%",
+      "left": "65%",
+      "width": "24%"
+    },
+  ],
+  "05_TN_33d": [
+    {
+      "text_de": "Mister Scott – welch unerwartete Ehre!",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
+      "textAlign": "left",
+      "bottom": "64.5%",
+      "left": "23%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Falls Sie meinen Bruder zu sprechen wünschen, fürchte ich, dass Ihre Mühe vergebens war.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "white",
+      "backgroundColor": "post_dream_dark",
+      "textAlign": "right",
+      "bottom": "20.5%",
+      "left": "56%",
+      "width": "15%"
+    },
+  ],
+  "05_TN_33e": [
+    {
+      "text_de": "Roald scheint in aller Frühe aufgebrochen zu sein, möglicherweise für mehrere Tage – sein Schreibtisch ist aufgeräumt und die Haushälterin ausgeflogen.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "left",
+      "bottom": "77.5%",
+      "left": "27%",
+      "width": "24%"
+    },
+    {
+      "text_de": "Ich selbst bin nur zufällig hier, um nach dem Rechten zu sehen. Es tut mir aufrichtig leid, Captain.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "left",
+      "bottom": "22.5%",
+      "left": "43%",
+      "width": "20%"
+    },
+  ],
+  "05_TN_33f": [
+    {
+      "text_de": "Wie konnte das schiefgehen? Hat er das Telegramm nicht bekommen?",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
+      "textAlign": "left",
+      "bottom": "53.5%",
+      "left": "57%",
+      "width": "13%"
+    },
+    {
+      "text_de": "Vielleicht ist ihm etwas Dringliches dazwischen gekommen.",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "left",
+      "bottom": "4.5%",
+      "left": "71%",
+      "width": "21%"
+    },
+  ],
+  "05_TN_33g": [
+    {
+      "text_de": "Aber schade! Es war meine letzte Gelegenheit, ihn persönlich zu sprechen – mein kurzer Aufenthalt in Norwegen ist bereits bis auf die Stunde verplant. ",
+      "text_en": "EN",
+      "text_no": "NO",
+      "kind": "dialog",
+      "Fontsize": "1.8vw",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "textAlign": "right",
+      "bottom": "84.5%",
+      "left": "26%",
+      "width": "33%"
+    },
   ],
   "05_TN_35": [
     {
