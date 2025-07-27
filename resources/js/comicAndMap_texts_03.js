@@ -60,11 +60,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "41%",
+      "left": "34%",
       "width": "20%"
     }
   ],
@@ -144,12 +144,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "40%",
+      "left": "52%",
+      "width": "11%"
     },
     {
       "text_de": "Korrekt.",
@@ -157,11 +157,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "37%",
+      "left": "73%",
       "width": "20%"
     }
   ],
@@ -172,12 +172,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "71%",
+      "left": "27%",
+      "width": "17%"
     },
     {
       "text_de": "Das Schiff des weltberühmten Entdeckers Fridtjof Nansen.",
@@ -185,11 +185,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "82%",
+      "left": "75%",
       "width": "20%"
     }
   ],
@@ -203,7 +203,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "75%",
       "left": "22%",
       "width": "18%"
     }
@@ -331,7 +331,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "madeira_light",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "73%",
@@ -359,10 +359,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "11%",
-      "left": "73%",
-      "width": "20%"
+      "textAlign": "left",
+      "bottom": "14%",
+      "left": "75%",
+      "width": "23%"
     }
   ],
   "03_F_15": [
@@ -372,7 +372,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "black",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "36%",
@@ -475,10 +475,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "82%",
-      "left": "71%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "72%",
+      "left": "65%",
+      "width": "10%"
     }
   ],
   "03_F_23": [
@@ -492,8 +492,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "left": "11%",
+      "width": "21%"
     },
     {
       "text_de": "Die Mannschaft besteht aus 19 Männern.",
@@ -505,8 +505,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "left": "49%",
+      "width": "15%"
     },
     {
       "text_de": "Dios, mehr Hunde als Männer!",
@@ -514,12 +514,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "23%",
+      "left": "83%",
+      "width": "12%"
     }
   ],
   "03_F_24": [
@@ -529,12 +529,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "27%",
+      "left": "17%",
+      "width": "16%"
     }
   ],
   "03_F_25": [
@@ -562,9 +562,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "59%",
+      "left": "80%",
+      "width": "15%"
     }
   ],
   "03_F_27": [
@@ -577,9 +577,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "59%",
+      "left": "32%",
+      "width": "16%"
     },
     {
       "text_de": "Herr Nansen war so nett, uns sein Schiff und seinen Segen zu geben.",
@@ -590,9 +590,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "55%",
+      "left": "75%",
+      "width": "15%"
     }
   ],
   "03_F_28": [
@@ -615,11 +615,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "49%",
+      "left": "51%",
       "width": "20%"
     },
     {
@@ -631,7 +631,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "64%",
+      "bottom": "67%",
       "left": "77%",
       "width": "14%"
     }
@@ -643,12 +643,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "left": "36%",
+      "width": "23%"
     },
     {
       "text_de": "Guten Tag.",
@@ -659,8 +659,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "85%",
+      "left": "68%",
       "width": "20%"
     }
   ],
@@ -753,12 +753,732 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "19%",
       "left": "73%",
       "width": "13%"
+    }
+  ],
+  "03_F_33": [
+    {
+      "text_de": "Ach, der hohe Norden fasziniert mich ja so!",
+      "text_en": "Oh, the far north fascinates me so much!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "72%",
+      "left": "1%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Wie gerne wäre ich bei Ihrem Abenteuer dabei!",
+      "text_en": "How I would love to be part of your adventure!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "85%",
+      "left": "32%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Meu Deus!",
+      "text_en": "Meu Deus!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "88%",
+      "left": "55%",
+      "width": "20%"
+    }
+  ],
+  "03_F_34": [
+    {
+      "text_de": "Wären weniger Hunde an Bord, würde ich sofort bei Ihnen anheuern. Aber diese Biester sind mir nicht geheuer.",
+      "text_en": "If there were fewer dogs on board, I'd sign on with you in a heartbeat. But unfortunately I don't like these beasts.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "7%",
+      "left": "32%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Lassen Sie uns doch die Formalitäten klären, Doktor.",
+      "text_en": "Why don't we clear up the formalities, Doctor?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "65%",
+      "left": "54%",
+      "width": "20%"
+    }
+  ],
+  "03_F_35": [
+    {
+      "text_de": "Vielleicht hat Herr Amundsen ja ein anderes Mal Zeit für ein Schwätzchen.",
+      "text_en": "Perhaps Mr Amundsen will have time for a chat another time.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "85%",
+      "left": "32%",
+      "width": "18%"
+    },
+    {
+      "text_de": "Das wäre großartig! Fragen Sie bei der Hafenbehörde nach Doktor Sapato. Jederzeit.",
+      "text_en": "That would be great! Ask for Doctor Sapato at the harbour authority. Any time.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "67%",
+      "left": "78%",
+      "width": "19%"
+    }
+  ],
+  "03_F_36": [
+    {
+      "text_de": "Kommen Sie, Doktor.",
+      "text_en": "Come on, Doctor.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "82%",
+      "left": "26%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ich Glückspilz! Vor ein paar Wochen die Terra Nova und jetzt die Fram! Meine Frau wird Augen machen.",
+      "text_en": "Lucky me! A few weeks ago the Terra Nova and now the Fram! My wife will be amazed.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "84%",
+      "left": "76%",
+      "width": "22%"
+    }
+  ],
+  "03_F_37": [
+    {
+      "text_de": "HUIII!",
+      "text_en": "HUIII!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wohuff, wuff!",
+      "text_en": "Woof, woof!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_38": [
+    {
+      "text_de": "Irgendwelche Auffälligkeiten an Bord?",
+      "text_en": "Any abnormalities on board?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "WUFF! Wohuff, wuff, wuff! WUFF!",
+      "text_en": "WOOF! Woof, woof, woof! WOOF!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ruhe jetzt, Jakob!",
+      "text_en": "Quiet now, Jakob!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "2.5vw",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "54%",
+      "width": "20%"
+    }
+  ],
+  "03_F_39": [
+    {
+      "text_de": "WUFF! WUFF!",
+      "text_en": "WOOF! WOOF!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "3vw",
+      "textAlign": "left",
+      "bottom": "87%",
+      "left": "40%",
+      "width": "20%"
+    },
+    {
+      "text_de": "AUS!",
+      "text_en": "OFF!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "39%",
+      "left": "3%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Bleib hier, Jakob!",
+      "text_en": "Stay here, Jakob!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_40": [
+    {
+      "text_de": "Jakob! BEI FUSS!",
+      "text_en": "Jakob! ON FOOT!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "3vw",
+      "textAlign": "left",
+      "bottom": "74%",
+      "left": "32%",
+      "width": "20%"
+    }
+  ],
+  "03_F_41": [
+    {
+      "text_de": "Aaaaaa!",
+      "text_en": "Aaaaaa!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "3vw",
+      "textAlign": "left",
+      "bottom": "81%",
+      "left": "80%",
+      "width": "20%"
+    }
+  ],
+  "03_F_42": [
+    {
+      "text_de": "AJUDA!",
+      "text_en": "AJUDA!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "29%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Alles unter Kontrolle, Doktor.",
+      "text_en": "Everything under control, Doctor.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "72%",
+      "width": "20%"
+    }
+  ],
+  "03_F_43": [
+    {
+      "text_de": "Aleluia, Comandante.",
+      "text_en": "Aleluia, Comandante.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "25%",
+      "left": "1%",
+      "width": "9%"
+    },
+    {
+      "text_de": "Also, im Grunde genommen ...",
+      "text_en": "So, basically ...",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "83%",
+      "left": "34%",
+      "width": "20%"
+    },
+    {
+      "text_de": "… hätte ich alle wichtigen Informationen und …",
+      "text_en": "... I would have all the important information and ...",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "75%",
+      "left": "62%",
+      "width": "20%"
+    }
+  ],
+  "03_F_44": [
+    {
+      "text_de": "… wäre dann auch fertig.",
+      "text_en": "... would be done.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "9%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wuff, WUFF!",
+      "text_en": "Woof, woof!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "3%",
+      "left": "60%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Na dann, einen schönen Aufenthalt bei uns. Bitte richten Sie Senhor Amundsen aus, dass ich unser Treffen bereits jetzt sehnsüchtig erwarte.",
+      "text_en": "Well then, have a nice stay with us. Please tell Senhor Amundsen that I am already eagerly awaiting our meeting.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "60%",
+      "left": "58%",
+      "width": "24%"
+    }
+  ],
+  "03_F_45": [
+    {
+      "text_de": "Die Inspektion fiel ja mal kurz aus.",
+      "text_en": "The inspection was short.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Hoffentlich sind hier nicht alle so vorwitzig wie dieser Hafenarzt.",
+      "text_en": "Hopefully not everyone here is as cheeky as this harbour doctor.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_46": [
+    {
+      "text_de": "Klarmachen zum Ankern!",
+      "text_en": "Get ready to anchor!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ach du liebes Lieschen! Da kommt ja eine richtige Armada auf uns zu!",
+      "text_en": "Oh dear Lieschen! There's a real armada coming our way!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Bom dia! Wollen Sie Wasser kaufen?",
+      "text_en": "Bom dia! Do you want to buy water?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Frische Weintrauben!",
+      "text_en": "Fresh grapes!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Leckere Birnen und Äpfel.",
+      "text_en": "Delicious pears and apples.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Sumo de maracujá.",
+      "text_en": "Sumo de maracujá.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_47": [
+    {
+      "text_de": "Tauschen auch gegen Kleidung.",
+      "text_en": "Barter for clothes too.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Eines meiner Hemden könnte ich entbehren.",
+      "text_en": "I could do without one of my shirts.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Was in aller Welt ist denn Maracuja?",
+      "text_en": "What on earth is passion fruit?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Die haben hier allerlei exotische Früchte. Dein Gaumen wird was erleben.",
+      "text_en": "They have all sorts of exotic fruits here. Your taste buds are in for a treat.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ich hätte nichts gegen ein paar leckere Früchte.",
+      "text_en": "I wouldn't mind some tasty fruit.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_48": [
+    {
+      "text_de": "Chef, da kommt noch ein Boot. Ist das etwa der norwegische Konsul?",
+      "text_en": "Boss, there's another boat coming. Is that the Norwegian consul?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "1%",
+      "left": "1%",
+      "width": "16%"
+    },
+    {
+      "text_de": "Nicht ganz. Es ist ein alter Vertrauter, mein lieber Nilsen.",
+      "text_en": "Not quite. It's an old acquaintance, my dear Nilsen.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "1%",
+      "left": "51%",
+      "width": "14%"
+    }
+  ],
+  "03_F_49": [
+    {
+      "text_de": "Sei gegrüßt, Bruder! Bitte um Erlaubnis, an Bord zu kommen.",
+      "text_en": "Greetings, brother! Please ask permission to come on board.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_50": [
+    {
+      "text_de": "Willkommen an Bord, werter Herr Amundsen.",
+      "text_en": "Welcome aboard, dear Mr Amundsen.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "2%",
+      "width": "16%"
+    },
+    {
+      "text_de": "Vielen Dank, Kapitän. Ich habe die Fram schon sehnsüchtig erwartet.",
+      "text_en": "Thank you very much, Captain. I have been eagerly awaiting the Fram.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "58%",
+      "left": "34%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Ich komme auch nicht mit leeren Händen, sondern bringe reichlich Post mit. Im Koffer befindet sich auch der Plan für den Landgang der Mannschaft.",
+      "text_en": "I'm not coming empty-handed either, but am bringing plenty of mail with me. The suitcase also contains the plan for the crew's shore leave.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "78%",
+      "left": "61%",
+      "width": "20%"
+    }
+  ],
+  "03_F_51": [
+    {
+      "text_de": "Schön dich wiederzusehen, Leon.",
+      "text_en": "Nice to see you again, Leon.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "2%",
+      "width": "15%"
+    },
+    {
+      "text_de": "Wie war die Reise? Ist die Mannschaft auf Kurs?",
+      "text_en": "How was the journey? Is the crew on course?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "44%",
+      "left": "80%",
+      "width": "20%"
+    }
+  ],
+  "03_F_52": [
+    {
+      "text_de": "Zu viele Ohren hier.",
+      "text_en": "Too many ears here.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_53": [
+    {
+      "text_de": "Gut, lass uns an Land sprechen. Ich habe ein exzellentes Hotel für uns gebucht.",
+      "text_en": "Well, let's talk ashore. I've booked an excellent hotel for us.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Übermittle den Männern die Details zum Landgang. Wir sehen uns dann im Hotel.",
+      "text_en": "Give the men the details of the shore leave. I'll see you at the hotel.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_54": [
+    {
+      "text_de": "Sie können sich wirklich freuen, denn ich habe ein wunderbares Programm organisiert! Gutes Essen, ein Besuch der Sehenswürdigkeiten, eine Fahrt mit der Zahnradbahn und noch viele andere Vergnügungen.",
+      "text_en": "You can really look forward to it, because I've organised a wonderful programme! Good food, a visit to the sights, a ride on the cog railway and lots of other fun.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
+      "width": "20%"
     }
   ],
   "03_F_58": [
@@ -1175,5 +1895,886 @@ const imageTexts = {
       "left": "29%",
       "width": "18%"
     }
+  ],
+  "03_F_78": [
+    {
+      "text_de": "Wie ich sehe, haben Sie den Fischmarkt leer gekauft, Lindstrøm!",
+      "text_en": "I see you've bought the fish market empty, Lindstrøm!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_79": [
+    {
+      "text_de": "Da bist du ja endlich!",
+      "text_en": "There you are at last!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_81": [
+    {
+      "text_de": "Ich dachte schon, wir müssen ohne dich fahren!",
+      "text_en": "I thought we'd have to go without you!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_82": [
+    {
+      "text_de": "Die beste Ware zu finden, braucht seine Zeit. Und das erste Essen auf See soll doch ein Festmahl werden.",
+      "text_en": "It takes time to find the best goods. And the first meal at sea should be a feast.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_83": [
+    {
+      "text_de": "Bitte leg deinen Fang beiseite, ich habe eine wichtige Ankündigung zu machen.",
+      "text_en": "Please put your catch aside, I have an important announcement to make.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_84": [
+    {
+      "text_de": "Wird gemacht!",
+      "text_en": "Will do!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_85": [
+    {
+      "text_de": "Wusste ich’s doch: Etwas ist im Busch!",
+      "text_en": "I knew it: something's up!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_86": [
+    {
+      "text_de": "Der Chef verhält sich schon den ganzen Tag so eigentümlich.",
+      "text_en": "The boss has been behaving so strangely all day.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_88": [
+    {
+      "text_de": "Nun, da wir alle versammelt sind, will ich euch etwas offenbaren: Ich bin nicht ganz ehrlich gewesen, was unser Vorhaben angeht.",
+      "text_en": "Now that we're all together, I want to reveal something to you: I haven't been completely honest about our plan.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_89": [
+    {
+      "text_de": "Uns bleiben nur wenige Stunden, deshalb werdet ihr gleich die wohl wichtigste Entscheidung eures Lebens treffen müssen.",
+      "text_en": "We only have a few hours left, so you are about to have to make the most important decision of your lives.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_90": [
+    {
+      "text_de": "Bitte fühlt euch nicht getäuscht! Die Geheimhaltung hatte gute Gründe, denn die Angelegenheit ist etwas heikel.",
+      "text_en": "Please don't feel deceived! There were good reasons for the secrecy, because the matter is somewhat delicate.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Es gibt nämlich eine kleine Planänderung, Männer. Unsere Route führt uns zwar weiterhin ins Nordpolarmeer. Sie ist nur …",
+      "text_en": "There's been a slight change of plan, men. Our route will still take us to the Arctic Ocean. It's just ...",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_91": [
+    {
+      "text_de": "… etwas länger geworden. Ihr seid frei, zu entscheiden, ob ihr weiterhin dabei bleibt.",
+      "text_en": "... a little longer. You are free to decide whether you want to stay on board.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_92": [
+    {
+      "text_de": "Tock, tock, tock!",
+      "text_en": "Tock, tock, tock!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_93": [
+    {
+      "text_de": "Männer, unser kleiner Umweg wird uns ans andere Ende der Welt führen. Zum Südpol.",
+      "text_en": "Men, our little diversions will take us to the other end of the world. To the South Pole.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_94": [
+    {
+      "text_de": "Der Nordpol ist vergeben, schnappen wir uns wenigstens den Südpol!",
+      "text_en": "The North Pole is taken, let's at least grab the South Pole!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Aber die Terra Nova ist uns doch um viele Wochen voraus!",
+      "text_en": "But the Terra Nova is many weeks ahead of us!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Holla!",
+      "text_en": "Holla!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_95": [
+    {
+      "text_de": "Wir werden den Südpol auf Hundeschlitten erobern. Und die Briten holen wir wieder ein.",
+      "text_en": "We'll conquer the South Pole on dog sledges. And we'll catch up with the British.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Das wär ja ein Ding!",
+      "text_en": "What a thing that would be!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Donnerwetter!",
+      "text_en": "Golly!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_96": [
+    {
+      "text_de": "Und wenn wir den Südpol erreichen, dann wird unser Vorhaben im Nordpolarmeer den nötigen Rückenwind bekommen.",
+      "text_en": "And when we reach the South Pole, our endeavour in the Arctic Ocean will get the tailwind it needs.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Was … was sagt denn Herr Nansen dazu?",
+      "text_en": "What ... what does Mr Nansen say?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_97": [
+    {
+      "text_de": "Alles ist wohldurchdacht – die Details erkläre ich euch später. Nun brauche ich euer Vertrauen. Gemeinsam können wir es schaffen, vor den Briten am Pol zu sein! Oder wollt ihr einen Rückfahrschein in die Heimat und die Gelegenheit eures Lebens verpassen?",
+      "text_en": "Everything is well thought out - I'll explain the details later. Now I need your trust. Together we can make it to the Pole before the British! Or do you want a return ticket home and miss the opportunity of a lifetime?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_98": [
+    {
+      "text_de": "Papperlapapp!",
+      "text_en": "Fiddlesticks!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Keineswegs!",
+      "text_en": "Not at all!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Was ist mit dir, Bjaaland?",
+      "text_en": "What about you, Bjaaland?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Skifahren am Südpol – das lasse ich mir doch nicht entgehen!",
+      "text_en": "Skiing at the South Pole - I'm not going to miss out on that!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Und die anderen? Seid ihr auch alle dabei?",
+      "text_en": "And the others? Are you all there too?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Aber ja!",
+      "text_en": "Why yes!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ja!",
+      "text_en": "Yes!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Jawohl!",
+      "text_en": "Yes!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Jaaa!",
+      "text_en": "Yes!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ja, ich bin dabei!",
+      "text_en": "Yes, I'm in!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ich auch!",
+      "text_en": "Me too!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ich auch!",
+      "text_en": "Me too!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Auf jeden Fall!",
+      "text_en": "By all means!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Jawohl!",
+      "text_en": "Yes!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_99": [
+    {
+      "text_de": "Ausgezeichnet. Die Flagge Norwegens wird am Südpol wehen!",
+      "text_en": "Excellent. Norway's flag will fly at the South Pole!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Schreibt Briefe an eure Liebsten. Ich nehme sie mit in die Heimat.",
+      "text_en": "Write letters to your loved ones. I'll take them home with me.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_100": [
+    {
+      "text_de": "Ans Werk, Männer! In einer Stunde legen wir ab.",
+      "text_en": "Get to work, men! We leave in an hour.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Jetzt wird mir so einiges klar.",
+      "text_en": "Now I realise a lot of things.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Endlich ist die Katze aus dem Sack, Prestrud.",
+      "text_en": "The cat's out of the bag at last, Prestrud.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_101": [
+    {
+      "text_de": "Lief doch wie am Schnürchen.",
+      "text_en": "It went like clockwork.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wie geschmiert.",
+      "text_en": "Like clockwork.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_103": [
+    {
+      "text_de": "Zwei Briefe für meine Brüder. Die werden Augen machen!",
+      "text_en": "Two letters for my brothers. They'll be amazed!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Hier deine wichtigste Fracht.",
+      "text_en": "Here's your most important cargo.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_104": [
+    {
+      "text_de": "Ein Brief für den König …",
+      "text_en": "A letter for the king ...",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "… einer für Fridtjof Nansen …",
+      "text_en": "... one for Fridtjof Nansen ...",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "… und einer für die Öffentlichkeit.",
+      "text_en": "... and one for the public.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_105": [
+    {
+      "text_de": "Ich werde sie hüten wie ein Schatz.",
+      "text_en": "I will guard them like a treasure.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Auf ihnen lastet auch unsere ganze Hoffnung auf Wohlwollen und Nachsicht.",
+      "text_en": "All our hopes for goodwill and forbearance rest on them.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_106": [
+    {
+      "text_de": "Unerlässlich ist, dass der König und Nansen vor der Öffentlichkeit informiert werden.",
+      "text_en": "It is essential that the King and Nansen are informed before the public.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Hier ist noch etwas.",
+      "text_en": "Here is something else.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Oh, mein Bruder hat Geheimnisse vor mir!",
+      "text_en": "Oh, my brother is keeping secrets from me!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_107": [
+    {
+      "text_de": "Für diesen Hafenarzt. Richte ihm aus, dass es mir an Zeit mangelte.",
+      "text_en": "For this harbour doctor. Tell him I was short of time.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_108": [
+    {
+      "text_de": "Nach allem, was du erzählt hast, wird er sich sicher freuen wie ein Schneekönig.",
+      "text_en": "After all you've told him, I'm sure he'll be delighted.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_109": [
+    {
+      "text_de": "Bleibt es beim 1. Oktober, was die Briefe angeht?",
+      "text_en": "Will it still be 1 October for the letters?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ja. Dann müssten wir südlich des Äquators sein und niemand kann uns mehr aufhalten.",
+      "text_en": "Yes. We should be south of the equator by then and nobody can stop us.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_110": [
+    {
+      "text_de": "Ach, ja. Hier ist noch das Telegramm für Scott.",
+      "text_en": "Oh, yes. Here's the telegram for Scott.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "03_F_111": [
+    {
+      "text_de": "Tun wir das Richtige, Roald?",
+      "text_en": "Are we doing the right thing, Roald?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Das Spiel hat begonnen, die Figuren sind gesetzt.",
+      "text_en": "The game has begun, the pieces are set.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Du hast recht.",
+      "text_en": "You're right.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
+    }
   ]
-};
+}
