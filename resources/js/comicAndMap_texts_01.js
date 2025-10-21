@@ -1,4 +1,5 @@
 const imageTexts = {
+ 
   "01a_TN_01": [
     {
       "text_de": "Kapitel 1",
@@ -15,7 +16,7 @@ const imageTexts = {
     },
     {
       "text_de": "Abschied auf Raten",
-      "text_en": "Farewell in instalments",
+      "text_en": "A Farewell, Paid in Parts",
       "text_no": "no",
       "kind": "title",
       "color": "black",
@@ -40,8 +41,8 @@ const imageTexts = {
       "width": "100%"
     },
     {
-      "text_de": "London",
-      "text_en": "London",
+      "text_de": "London, England",
+      "text_en": "London, England",
       "text_no": "no",
       "kind": "location",
       "color": "black",
@@ -53,8 +54,8 @@ const imageTexts = {
       "width": "100%"
     },
     {
-      "text_de": "Südafrikanische Union gegründet: alles zur Zukunft des Empire in Afrika.",
-      "text_en": "South African Union founded: all about the future of the Empire in Africa.",
+      "text_de": "Union in Südafrika – das Empire wächst!",
+      "text_en": "Union in South Africa — the Empire grows stronger!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -68,8 +69,8 @@ const imageTexts = {
   ],
   "01a_TN_02": [
     {
-      "text_de": "Abenteuer Südpol: Terra Nova legt aus London ab.",
-      "text_en": "Adventure South Pole: Terra Nova sets sail from London.",
+      "text_de": "Abenteuer Südpol – Terra Nova sticht in See!",
+      "text_en": "South Pole Adventure — Terra Nova sets sail!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -83,8 +84,8 @@ const imageTexts = {
   ],
   "01a_TN_03": [
     {
-      "text_de": "Abenteuer Südpol: Terra Nova legt …",
-      "text_en": "Adventure South Pole: Terra Nova sets sail from ...",
+      "text_de": "Abenteuer Südpol – Terra …",
+      "text_en": "South Pole Adventure — Terra…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -124,8 +125,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Das erfahren Sie für nur einen Penny, Sir.",
-      "text_en": "You can find out for just a penny, sir.",
+      "text_de": "Nur einen Penny, Sir – dann wissen Sie’s!",
+      "text_en": "Only a penny, Sir — then you’ll know!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -138,7 +139,7 @@ const imageTexts = {
     },
     {
       "text_de": "Na gut, du Dreikäsehoch.",
-      "text_en": "All right, you three-eyed kid.",
+      "text_en": "All right then, you little tyke.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -153,7 +154,7 @@ const imageTexts = {
   "01a_TN_05": [
     {
       "text_de": "Abenteuer Südpol …",
-      "text_en": "Adventure South Pole ...",
+      "text_en": "South Pole Adventure…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -167,8 +168,8 @@ const imageTexts = {
   ],
   "01a_TN_07": [
     {
-      "text_de": "Ein stolzes Schiff.",
-      "text_en": "A proud ship.",
+      "text_de": "Was für ein prächtiges Schiff!",
+      "text_en": "What a fine vessel!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -180,8 +181,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Bereit für große Abenteuer!",
-      "text_en": "Ready for great adventures!",
+      "text_de": "Jetzt geht’s ins große Abenteuer!",
+      "text_en": "Off to a great adventure!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -193,8 +194,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Ein ehemaliger Walfänger, wusstest du es?",
-      "text_en": "A former whaler, did you know?",
+      "text_de": "Früher hat sie Wale gejagt, stell dir vor!",
+      "text_en": "She was a whaler once, fancy that!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -208,8 +209,8 @@ const imageTexts = {
   ],
   "01a_TN_09": [
     {
-      "text_de": "Perfekte Perspektive, Mister Ponting! Von dort oben ergibt sich sicher ein ganz reizvoller Bildaufbau!",
-      "text_en": "Perfect perspective, Mr Ponting! I'm sure you'll get a very attractive composition from up there!",
+      "text_de": "Feine Wahl, Mister Ponting! Von dort oben haben Sie sicher eine perfekte Perspektive!",
+      "text_en": "Fine choice, Mister Ponting! From up there you must have a perfect perspective!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -223,8 +224,8 @@ const imageTexts = {
   ],
   "01a_TN_10": [
     {
-      "text_de": "Das Eishaus ist ideal, Misses Scott. Gestern habe ich das gesamte Deck erkundet – an einem so wichtigen Tag möchte man ja nichts dem Zufall überlassen.",
-      "text_en": "The ice house is ideal, Miss Scott. Yesterday I explored the entire deck - you don't want to leave anything to chance on such an important day.",
+      "text_de": "Das Eishaus ist ideal, Mrs. Scott. Ich habe gestern das ganze Deck ausgekundschaftet – an einem Tag wie diesem darf man nichts dem Zufall überlassen.",
+      "text_en": "The icehouse is ideal, Mrs. Scott. I scouted the whole deck yesterday — on a day like this, nothing should be left to chance.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -251,8 +252,8 @@ const imageTexts = {
   ],
   "01a_TN_11": [
     {
-      "text_de": "So einen Rummel haben Sie in Kristiania bestimmt noch nicht erlebt, was, Mister Gran?",
-      "text_en": "I bet you've never seen such a hustle and bustle in Kristiania, have you, Mr Gran?",
+      "text_de": "So viel Rummel haben Sie in Kristiania wohl noch nicht erlebt, was, Mister Gran?",
+      "text_en": "You’ve hardly seen such a crowd in Kristiania, have you, Mr Gran?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -264,8 +265,8 @@ const imageTexts = {
       "width": "19%"
     },
     {
-      "text_de": "Wir Norweger feiern aber auch gerne und viel.",
-      "text_en": "But we Norwegians also like to party a lot.",
+      "text_de": "Ach, wir Norweger feiern auch gern – und oft.",
+      "text_en": "Ah, but we Norwegians do love to celebrate too.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -279,8 +280,8 @@ const imageTexts = {
   ],
   "01a_TN_12": [
     {
-      "text_de": "Vielen Dank nochmal für den Gedichtband von Lord Byron.",
-      "text_en": "Thanks again for the book of poetry by Lord Byron.",
+      "text_de": "Nochmals vielen Dank für den Gedichtband von Lord Byron!",
+      "text_en": "Thank you again for the volume of Lord Byron.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -292,8 +293,8 @@ const imageTexts = {
       "width": "14%"
     },
     {
-      "text_de": "Seine Lyrik gefällt mir von Tag zu Tag mehr, auch wenn sie nicht immer leicht zu verstehen ist.",
-      "text_en": "I like his poetry more and more every day, even if it's not always easy to understand.",
+      "text_de": "Seine Lyrik gefällt mir von Tag zu Tag besser, auch wenn sie nicht immer leicht zu verstehen ist.",
+      "text_en": "His poetry grows on me day by day, though it isn’t always easy to grasp.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -307,8 +308,8 @@ const imageTexts = {
   ],
   "01a_TN_13": [
     {
-      "text_de": "Falls Sie unsicher sind, fragen Sie Mister Oates. Der ist im Herzen auch ein Romantiker.",
-      "text_en": "If you are unsure, ask Mr Oates. He's a romantic at heart too.",
+      "text_de": "Falls Sie mal unsicher sind, fragen Sie Oates. Im Herzen ist auch er ein Romantiker.",
+      "text_en": "If you’re ever unsure, just ask Oates. Deep down, he’s a romantic too.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -322,8 +323,8 @@ const imageTexts = {
   ],
   "01a_TN_14": [
     {
-      "text_de": "Verfluchte Möwen! Jetzt ist mein Taschentuch ruiniert.",
-      "text_en": "Damn seagulls! Now my handkerchief is ruined.",
+      "text_de": "Verfluchte Möwen! Jetzt ist mein Taschentuch hinüber.",
+      "text_en": "Blast those gulls! Now my handkerchief’s ruined.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -335,8 +336,8 @@ const imageTexts = {
       "width": "14%"
     },
     {
-      "text_de": "Da haben Sie meins. Heute soll kein Griesgram aufkommen.",
-      "text_en": "There's mine. I don't want any grumpiness today.",
+      "text_de": "Da haben Sie meins. Lächeln steht Ihnen besser, Mister Oates.",
+      "text_en": "Here, take mine. A smile suits you better, Mister Oates.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -350,8 +351,8 @@ const imageTexts = {
   ],
   "01a_TN_16": [
     {
-      "text_de": "Was zum Donnerknispel machen Sie denn noch da oben, Lieutenant Bowers?",
-      "text_en": "What on earth are you still doing up there, Lieutenant Bowers?",
+      "text_de": "Was zum Donnerknispel treiben Sie da noch oben, Lieutenant Bowers?",
+      "text_en": "What in thunderation are you doing up there, Lieutenant Bowers?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -366,7 +367,7 @@ const imageTexts = {
   "01a_TN_18": [
     {
       "text_de": "Verzeihung, Lieutenant Evans.",
-      "text_en": "Excuse me, Lieutenant Evans.",
+      "text_en": "Pardon me, Lieutenant Evans.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -379,7 +380,7 @@ const imageTexts = {
     },
     {
       "text_de": "Alles ist so herausgeputzt, da fällt etwas Staub sofort ins Auge.",
-      "text_en": "Everything's so spruced up, a little dust immediately catches the eye.",
+      "text_en": "Everything’s so polished up today — even a speck of dust shows.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -393,8 +394,8 @@ const imageTexts = {
   ],
   "01a_TN_19": [
     {
-      "text_de": "Ich habe nochmal nachjustiert, die oberen Rahsegel sind nun auch ganz akkurat gerafft.",
-      "text_en": "I've readjusted it again, the upper square sails are now also very accurately gathered.",
+      "text_de": "Ich hab noch mal nachjustiert. Die oberen Rahsegel sind nun ordentlich gerafft.",
+      "text_en": "I just made a final adjustment. The upper yards are now properly furled.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -408,8 +409,8 @@ const imageTexts = {
   ],
   "01a_TN_20": [
     {
-      "text_de": "Superb, Mister Bowers! Jetzt ist die Silhouette perfekt.",
-      "text_en": "Superb, Mr Bowers! Now the silhouette is perfect.",
+      "text_de": "Vorzüglich, Mister Bowers! Jetzt ist die Silhouette wirklich perfekt.",
+      "text_en": "Splendid, Mister Bowers! Now the silhouette is truly perfect.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -421,8 +422,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Dieses Frauenzimmer glaubt wohl, sie sei die Chefin hier.",
-      "text_en": "This woman probably thinks she's the boss here.",
+      "text_de": "Dieses Frauenzimmer glaubt wohl, sie führt hier das Kommando.",
+      "text_en": "That female thinks she’s running the ship.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -436,8 +437,8 @@ const imageTexts = {
   ],
   "01a_TN_21": [
     {
-      "text_de": "Grünspan beseitigt, Misses Scott. Alles blitzblank!",
-      "text_en": "Verdigris removed, Miss Scott. Everything is spick and span!",
+      "text_de": "Grünspan weg, Mrs. Scott. Alles blitzblank!",
+      "text_en": "Verdigris gone, Mrs. Scott. All shipshape and shining!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -450,7 +451,7 @@ const imageTexts = {
     },
     {
       "text_de": "Fantastisch! Vielen Dank, Mister Evans.",
-      "text_en": "Fantastic! Thank you very much, Mr Evans.",
+      "text_en": "Fantastic! Thank you, Mister Evans.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -464,8 +465,8 @@ const imageTexts = {
   ],
   "01a_TN_22": [
     {
-      "text_de": "Nennen Sie mich doch Taff!",
-      "text_en": "Why don't you call me Taff?",
+      "text_de": "Ach, nennen Sie mich doch einfach Taff!",
+      "text_en": "Ah, just call me Taff!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -477,8 +478,8 @@ const imageTexts = {
       "width": "11%"
     },
     {
-      "text_de": "Gestatten Sie mir die Frage: Wie geht es dem Captain? Er ist so still.",
-      "text_en": "Allow me to ask: how's the captain? He's so quiet.",
+      "text_de": "Darf ich fragen … wie geht’s dem Captain? Er ist so still heute.",
+      "text_en": "If I may ask… how is the Captain? He’s so quiet today.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -492,8 +493,8 @@ const imageTexts = {
   ],
   "01a_TN_23": [
     {
-      "text_de": "In Gedanken ist er bereits bei den wichtigen Terminen, die morgen anstehen. Und die Wehmut überkommt ihn, dass er sein Schiff vorerst wieder verlassen muss.",
-      "text_en": "He's already thinking about the important appointments he has tomorrow. And he is overcome with melancholy that he has to leave his ship again for the time being.",
+      "text_de": "Mit den Gedanken ist er bereits bei den Terminen von morgen. Und … die Wehmut packt ihn, weil er sein Schiff wieder verlassen muss.",
+      "text_en": "His thoughts are already on tomorrow’s engagements. And… there’s a touch of sorrow, knowing he must leave his ship again.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -507,8 +508,8 @@ const imageTexts = {
   ],
   "01a_TN_24": [
     {
-      "text_de": "Aber sicher ist es ein Trost für ihn, dass ein Antarktis-Veteran und treuer Gefährte wie Sie wieder an Bord ist, mein lieber Taff.",
-      "text_en": "But I'm sure it's a comfort to him that an Antarctic veteran and loyal companion like you is back on board, my dear Taff.",
+      "text_de": "Sicher tröstet ihn, dass ein Antarktis-Veteran und treuer Gefährte wie Sie an Bord ist – mein lieber Taff.",
+      "text_en": "Surely it comforts him to have an Antarctic veteran and loyal companion like you on board — my dear Taff.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -520,8 +521,8 @@ const imageTexts = {
       "width": "14%"
     },
     {
-      "text_de": "Ich erinnere mich noch gut an die Heimfahrt auf der Discovery damals. Wie seelenfinster er war! So enttäuscht, weil wir es nicht zum Pol geschafft hatten.",
-      "text_en": "I still remember the journey home on the Discovery. How gloomy he was! So disappointed because we hadn't made it to the pole.",
+      "text_de": "Ich erinnere mich noch gut an die Heimfahrt mit der Discovery. Wie seelenfinster er war – so enttäuscht, dass wir den Pol nicht erreicht hatten.",
+      "text_en": "I still remember the homeward voyage on the Discovery. How dark his spirits were — so bitterly disappointed we never reached the Pole.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -535,8 +536,8 @@ const imageTexts = {
   ],
   "01a_TN_25": [
     {
-      "text_de": "Aber diesmal vollenden wir die Mission Südpol!",
-      "text_en": "But this time we'll complete the South Pole mission!",
+      "text_de": "Aber diesmal schaffen wir’s!",
+      "text_en": "But this time, we will!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -548,8 +549,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Da bin ich mir sicher.",
-      "text_en": "I'm sure of that.",
+      "text_de": "Daran zweifle ich nicht.",
+      "text_en": "I have no doubt of it.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -561,8 +562,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Und auch er ist sich dessen gewiss.",
-      "text_en": "And he's sure of it too.",
+      "text_de": "Und er auch nicht.",
+      "text_en": "Nor has he.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -617,8 +618,8 @@ const imageTexts = {
   ],
   "01a_TN_27": [
     {
-      "text_de": "Hervorragend, Lieutenant Evans. Dann los!",
-      "text_en": "Excellent, Lieutenant Evans. Let's go!",
+      "text_de": "Sehr gut, Lieutenant Evans. Dann los!",
+      "text_en": "Very good, Lieutenant Evans. Then let’s go!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -630,7 +631,7 @@ const imageTexts = {
       "width": "11%"
     },
     {
-      "text_de": "Sie sitzt perfekt.",
+      "text_de": "Sie sitzt tadellos.",
       "text_en": "It fits perfectly.",
       "text_no": "no",
       "kind": "dialog",
@@ -645,8 +646,8 @@ const imageTexts = {
   ],
   "01a_TN_28": [
     {
-      "text_de": "ALLES ist perfekt. Auf diesen Moment hast du so lange hingearbeitet, Liebster.",
-      "text_en": "EVERYTHING is perfect. You've been working towards this moment for so long, my love.",
+      "text_de": "Alles ist tadellos, Schatz. Auf diesen Moment hast du so lange hingearbeitet.",
+      "text_en": "Everything’s perfect, darling. You’ve worked so long for this moment.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -658,8 +659,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Perfekt?! Wie du weißt, gibt es noch eine Myriade organisatorischer und finanzieller Dinge zu regeln.",
-      "text_en": "Perfect?! As you know, there are still a myriad of organisational and financial things to sort out.",
+      "text_de": "Ich wünschte, auch unsere Finanzen wären tadellos … so vieles hängt noch in der Luft.",
+      "text_en": "If only our finances were just as perfect… so much still hangs in the balance.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -673,8 +674,8 @@ const imageTexts = {
   ],
   "01a_TN_29": [
     {
-      "text_de": "LEINEN LOS!",
-      "text_en": "LINE OUT!",
+      "text_de": "Leinen los!",
+      "text_en": "Cast off!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -686,8 +687,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Lass dich von der Euphorie anstecken! Heute ruhen alle Sorgen.",
-      "text_en": "Let the euphoria infect you! Today all your worries are at rest.",
+      "text_de": "Schau, wie euphorisch sie dir zujubeln. Nimm diesen Augenblick, als gehörte er nur dir. Lass sie fliegen, all die Sorgen!",
+      "text_en": "Look — they’re cheering for you with such joy. Take this moment as if it were yours alone. Let the worries drift away, just for now.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -701,8 +702,8 @@ const imageTexts = {
   ],
   "01a_TN_30": [
     {
-      "text_de": "Farvell! Goodbye, London!",
-      "text_en": "Farvell! Goodbye, London!",
+      "text_de": "Farvell, London!",
+      "text_en": "Farvell, London!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -766,73 +767,6 @@ const imageTexts = {
       "width": "20%"
     }
   ],
-    "01a_TN_30": [
-      {
-        "text_de": "Farvell! Goodbye, London!",
-        "text_en": "Farvell! Goodbye, London!",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "bg_white",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Lebt wohl!",
-        "text_en": "Farewell!",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "bg_white",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Macht uns stolz!",
-        "text_en": "Make us proud!",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "bg_white",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Hip, hip, hur­ra!",
-        "text_en": "Hip, hip, hooray!",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "bg_white",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Gute Reise, Terra Nova!",
-        "text_en": "Bon voyage, Terra Nova!",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "bg_white",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "75%",
-        "left": "5%",
-        "width": "20%"
-      }
-    ],
       "01b_TN_01": [
         {
           "text_de": "14. Juni 1910",
