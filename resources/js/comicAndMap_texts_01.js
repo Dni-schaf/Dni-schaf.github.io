@@ -1,5 +1,4 @@
-const imageTexts = {
- 
+const imageTexts ={
   "01a_TN_01": [
     {
       "text_de": "Kapitel 1",
@@ -16,7 +15,7 @@ const imageTexts = {
     },
     {
       "text_de": "Abschied auf Raten",
-      "text_en": "A Farewell, Paid in Parts",
+      "text_en": "A Farewell, Paid in Parts A Gradual Goodbye",
       "text_no": "no",
       "kind": "title",
       "color": "black",
@@ -78,8 +77,23 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "75%",
-      "left": "40%",
-      "width": "19%"
+      "left": "43%",
+      "width": "16%"
+    }
+  ],
+  "": [
+    {
+      "text_de": "ziege",
+      "text_en": "",
+      "text_no": "",
+      "kind": "",
+      "color": "",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "",
+      "bottom": "",
+      "left": "",
+      "width": ""
     }
   ],
   "01a_TN_03": [
@@ -120,7 +134,7 @@ const imageTexts = {
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "81%",
       "left": "10%",
       "width": "20%"
     },
@@ -135,7 +149,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "68%",
       "left": "35%",
-      "width": "16%"
+      "width": "15%"
     },
     {
       "text_de": "Na gut, du Dreikäsehoch.",
@@ -176,7 +190,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
+      "bottom": "48%",
       "left": "5%",
       "width": "20%"
     },
@@ -189,9 +203,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "33%",
-      "width": "20%"
+      "bottom": "60%",
+      "left": "48%",
+      "width": "12%"
     },
     {
       "text_de": "Früher hat sie Wale gejagt, stell dir vor!",
@@ -202,9 +216,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "66%",
-      "width": "20%"
+      "bottom": "39%",
+      "left": "76%",
+      "width": "15%"
     }
   ],
   "01a_TN_09": [
@@ -345,7 +359,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "64%",
-      "left": "64%",
+      "left": "63%",
       "width": "14%"
     }
   ],
@@ -359,7 +373,7 @@ const imageTexts = {
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "4%",
+      "bottom": "1%",
       "left": "52%",
       "width": "17%"
     }
@@ -404,7 +418,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "72%",
       "left": "45%",
-      "width": "20%"
+      "width": "18%"
     }
   ],
   "01a_TN_20": [
@@ -417,9 +431,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "59%",
+      "bottom": "60%",
       "left": "37%",
-      "width": "20%"
+      "width": "17%"
     },
     {
       "text_de": "Dieses Frauenzimmer glaubt wohl, sie führt hier das Kommando.",
@@ -445,7 +459,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "55%",
+      "bottom": "57%",
       "left": "25%",
       "width": "17%"
     },
@@ -474,8 +488,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "49%",
-      "left": "2%",
-      "width": "11%"
+      "left": "1%",
+      "width": "13%"
     },
     {
       "text_de": "Darf ich fragen … wie geht’s dem Captain? Er ist so still heute.",
@@ -487,7 +501,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "14%",
-      "left": "54%",
+      "left": "56%",
       "width": "15%"
     }
   ],
@@ -516,7 +530,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
+      "bottom": "49%",
       "left": "20%",
       "width": "14%"
     },
@@ -526,12 +540,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "0%",
       "left": "44%",
-      "width": "20%"
+      "width": "19%"
     }
   ],
   "01a_TN_25": [
@@ -541,11 +555,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "94%",
+      "left": "68%",
       "width": "20%"
     },
     {
@@ -554,11 +568,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "84%",
+      "left": "61%",
       "width": "20%"
     },
     {
@@ -567,11 +581,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "82%",
+      "left": "62%",
       "width": "20%"
     },
     {
@@ -583,8 +597,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "97%",
+      "left": "59%",
       "width": "20%"
     },
     {
@@ -656,7 +670,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "71%",
       "left": "39%",
-      "width": "20%"
+      "width": "16%"
     },
     {
       "text_de": "Ich wünschte, auch unsere Finanzen wären tadellos … so vieles hängt noch in der Luft.",
@@ -667,9 +681,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "7%",
+      "bottom": "13%",
       "left": "37%",
-      "width": "17%"
+      "width": "18%"
     }
   ],
   "01a_TN_29": [
@@ -679,11 +693,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "56%",
+      "left": "23%",
       "width": "20%"
     },
     {
@@ -692,12 +706,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
-      "width": "20%"
+      "bottom": "85%",
+      "left": "72%",
+      "width": "23%"
     }
   ],
   "01a_TN_30": [
