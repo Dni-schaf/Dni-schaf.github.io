@@ -1326,7 +1326,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "66%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_21": [
     {
       "text_de": "Sie bekommen sogar einen Ehrenplatz.",
       "text_en": "You’ll even have a place of honour.",
@@ -1339,9 +1341,7 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_21": [
+    },
     {
       "text_de": "Dann hol ich wohl besser meinen feinsten Zwirn raus.",
       "text_en": "Then I’d best dust off my finest suit.",
@@ -1354,7 +1354,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "52%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_22": [
     {
       "text_de": "Popeth yn iawn, ffrind bach?",
       "text_en": "Popeth yn iawn, ffrind bach?",
@@ -1367,9 +1369,7 @@ const imageTexts ={
       "bottom": "26%",
       "left": "36%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_22": [
+    },
     {
       "text_de": "Fangen wir unten in den Lagerräumen an. Keine Sorge, Bill – zu deinen heißgeliebten Laboren kommen wir gleich danach.",
       "text_en": "Let’s start down in the stores first. Don’t worry, Bill — we’ll get to your precious labs right after.",
@@ -1382,7 +1382,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "52%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_23": [
     {
       "text_de": "Gra ra raaa!",
       "text_en": "Gra ra raaa!",
@@ -1397,7 +1399,7 @@ const imageTexts ={
       "width": "20%"
     }
   ],
-  "01b_TN_23": [
+  "01b_TN_24": [
     {
       "text_de": "Royal Hotel, Cardiff",
       "text_en": "Royal Hotel, Cardiff",
@@ -1412,7 +1414,7 @@ const imageTexts ={
       "width": "100%"
     }
   ],
-  "01b_TN_24": [
+  "01b_TN_25": [
     {
       "text_de": "… schwärmte geradezu von dieser Psychoanalyse …",
       "text_en": "… was simply raving about this psychoanalysis …",
@@ -1425,9 +1427,7 @@ const imageTexts ={
       "bottom": "54%",
       "left": "12%",
       "width": "13%"
-    }
-  ],
-  "01b_TN_25": [
+    },
     {
       "text_de": "… und tüftelt nun an neuartigen Flugmaschinen.",
       "text_en": "… and now he’s tinkering with the latest flying machines.",
@@ -1453,7 +1453,9 @@ const imageTexts ={
       "bottom": "58%",
       "left": "77%",
       "width": "13%"
-    },
+    }
+  ],
+  "01b_TN_26": [
     {
       "text_de": "Der Lammbraten ist vorzüglich!",
       "text_en": "The lamb is simply splendid!",
@@ -1466,9 +1468,7 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_26": [
+    },
     {
       "text_de": "… alles in Kinemacolor – ein Erlebnis!",
       "text_en": "… all in Kinemacolor — quite the experience!",
@@ -1533,7 +1533,9 @@ const imageTexts ={
       "bottom": "55%",
       "left": "66%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_27": [
     {
       "text_de": "Herr Oberbürgermeister, kennen Sie die Geschichte von unserer halsbrecherischen Rückkehr vom Gletscherplateau?",
       "text_en": "Lord Mayor, have you heard the story of our daredevil return from the glacier plateau?",
@@ -1546,9 +1548,7 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_27": [
+    },
     {
       "text_de": "… Kaltblüter sage ich Ihnen!",
       "text_en": "… cold-bloods, I tell you!",
@@ -1600,7 +1600,9 @@ const imageTexts ={
       "bottom": "55%",
       "left": "33%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_28": [
     {
       "text_de": "Um Haaresbreite wären wir in eine Gletscherspalte gestürzt! Und dann hat der verfluchte Sturm in der Nacht auch noch unsere Navigationstabellen weggefegt.",
       "text_en": "We came within a hair’s breadth of plunging into a crevasse! And then that cursed storm in the night swept away our navigation tables as well.",
@@ -1613,9 +1615,7 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_28": [
+    },
     {
       "text_de": "Ach was!",
       "text_en": "Good heavens!",
@@ -1628,7 +1628,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "52%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_29": [
     {
       "text_de": "Da hat uns Captain Scott mit navigatorischem Geschick allein durch die weiße Wüste zurückgeführt.",
       "text_en": "It was Captain Scott, using his navigational skills alone, who led us back through the white wilderness.",
@@ -1641,9 +1643,7 @@ const imageTexts ={
       "bottom": "68%",
       "left": "20%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_29": [
+    },
     {
       "text_de": "Wirklich beeindruckend, Mister Evans.",
       "text_en": "Most impressive, Mr. Evans.",
@@ -1870,7 +1870,9 @@ const imageTexts ={
       "bottom": "55%",
       "left": "66%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_35": [
     {
       "text_de": "Lieber Taff, wir beide sind stolze Waliser …",
       "text_en": "Dear Taff, we are both proud sons of Wales ...",
@@ -1883,9 +1885,7 @@ const imageTexts ={
       "bottom": "87%",
       "left": "17%",
       "width": "14%"
-    }
-  ],
-  "01b_TN_35": [
+    },
     {
       "text_de": "… und deswegen überreiche ich Ihnen unsere Flagge. Hissen Sie unseren roten Drachen am Südpol!",
       "text_en": "... and so I present you with our flag. Raise our Red Dragon at the South Pole!",
@@ -1911,7 +1911,9 @@ const imageTexts ={
       "bottom": "83%",
       "left": "82%",
       "width": "16%"
-    },
+    }
+  ],
+  "01b_TN_36": [
     {
       "text_de": "Auf Taff Evans!",
       "text_en": "To Taff Evans!",
@@ -1924,9 +1926,7 @@ const imageTexts ={
       "bottom": "70%",
       "left": "12%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_36": [
+    },
     {
       "text_de": "Cymru am byth!",
       "text_en": "Cymru am byth!",
@@ -2047,7 +2047,9 @@ const imageTexts ={
       "bottom": "55%",
       "left": "33%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_39": [
     {
       "text_de": "K-Kohle … hihi … im doppppelten Sinn-nnn!",
       "text_en": "C-ccoal … hehe … in the double sennn-se!",
@@ -2060,9 +2062,7 @@ const imageTexts ={
       "bottom": "49%",
       "left": "1%",
       "width": "13%"
-    }
-  ],
-  "01b_TN_39": [
+    },
     {
       "text_de": "Hihihi!",
       "text_en": "Hehehe!",
@@ -2075,7 +2075,9 @@ const imageTexts ={
       "bottom": "80%",
       "left": "91%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_40": [
     {
       "text_de": "Werte Herrschaften — erlauben Sie mir, Ihnen von Herzen für Ihre Großzügigkeit zu danken. All unseren Freunden hier in Wales, die uns so tatkräftig unterstützt haben, gilt mein aufrichtiger Dank. Unser Erfolg wird auch der Ihre sein.",
       "text_en": "Ladies and gentlemen — allow me to thank you, from the heart, for your extraordinary generosity. To all our friends here in Wales who have supported us so warmly — you have my deepest gratitude. Our success will be your success too.",
@@ -2090,7 +2092,7 @@ const imageTexts ={
       "width": "32%"
     }
   ],
-  "01b_TN_40": [
+  "01b_TN_41": [
     {
       "text_de": "Seien Sie gewiss: Cardiff wird der erste Hafen sein, den wir bei unserer Rückkehr in die Heimat anlaufen.",
       "text_en": "And rest assured: Cardiff will be the first port we call at on our return home.",
@@ -2103,9 +2105,7 @@ const imageTexts ={
       "bottom": "69%",
       "left": "17%",
       "width": "18%"
-    }
-  ],
-  "01b_TN_41": [
+    },
     {
       "text_de": "Wir werden hier auf Sie warten, Captain!",
       "text_en": "We’ll be waiting here for you, Captain!",
@@ -2118,7 +2118,9 @@ const imageTexts ={
       "bottom": "62%",
       "left": "51%",
       "width": "17%"
-    },
+    }
+  ],
+  "01b_TN_42": [
     {
       "text_de": "Auf Cardiff!",
       "text_en": "To Cardiff!",
@@ -2131,9 +2133,7 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_42": [
+    },
     {
       "text_de": "Cheers!",
       "text_en": "Cheers!",
@@ -2200,7 +2200,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "52%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_44": [
     {
       "text_de": "Aber die Erkenntnis des heutigen Abends lautet: Ein solches Fest wird es im Eis wohl kaum geben – also erheben wir die Gläser und trinken auf den Südpol!",
       "text_en": "But the truth I’ve discovered tonight is plain: you’ll find no feast like this upon the ice. So, my friends, let us raise our glasses, and drink — to the South Pole!",
@@ -2215,7 +2217,7 @@ const imageTexts ={
       "width": "26%"
     }
   ],
-  "01b_TN_44": [
+  "01b_TN_45": [
     {
       "text_de": "Auf den Pol!",
       "text_en": "To the Pole!",
@@ -2228,9 +2230,7 @@ const imageTexts ={
       "bottom": "59%",
       "left": "11%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_45": [
+    },
     {
       "text_de": "Auf Captain Scott!",
       "text_en": "To Captain Scott!",
@@ -2269,7 +2269,9 @@ const imageTexts ={
       "bottom": "50%",
       "left": "13%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_46": [
     {
       "text_de": "Sternhagelvoll, unser guter Taff!",
       "text_en": "Drunk as a lord, our dear Taff!",
@@ -2282,9 +2284,7 @@ const imageTexts ={
       "bottom": "49%",
       "left": "66%",
       "width": "12%"
-    }
-  ],
-  "01b_TN_46": [
+    },
     {
       "text_de": "Und schwer wie ein Sack Kohle!",
       "text_en": "And heavy as a sack of coal!",
@@ -2297,7 +2297,9 @@ const imageTexts ={
       "bottom": "0%",
       "left": "64%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_47": [
     {
       "text_de": "15. Juni 1910",
       "text_en": "15 June 1910",
@@ -2310,9 +2312,7 @@ const imageTexts ={
       "bottom": "80%",
       "left": "0%",
       "width": "100%"
-    }
-  ],
-  "01b_TN_47": [
+    },
     {
       "text_de": "Cardiff, Wales",
       "text_en": "Cardiff, Wales",
@@ -2416,7 +2416,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_48": [
     {
       "text_de": "Onkel Taff, versprich mir, dass du lebend zurückkehrst.",
       "text_en": "Uncle Taff, promise me you’ll come back alive.",
@@ -2429,9 +2431,7 @@ const imageTexts ={
       "bottom": "90%",
       "left": "23%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_48": [
+    },
     {
       "text_de": "Aber klar – ich will doch meine Lieblingsnichte wiedersehen!",
       "text_en": "Of course — I’ve got to see my favourite niece again!",
@@ -2457,7 +2457,9 @@ const imageTexts ={
       "bottom": "52%",
       "left": "24%",
       "width": "16%"
-    },
+    }
+  ],
+  "01b_TN_49": [
     {
       "text_de": "Verzeihung, die Herren.",
       "text_en": "Beg your pardon.",
@@ -2470,9 +2472,7 @@ const imageTexts ={
       "bottom": "8%",
       "left": "44%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_49": [
+    },
     {
       "text_de": "Captain?",
       "text_en": "Captain?",
@@ -2485,7 +2485,9 @@ const imageTexts ={
       "bottom": "66%",
       "left": "38%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_50": [
     {
       "text_de": "In ein paar Jahren sehen wir uns wieder.",
       "text_en": "In a few years, we’ll see each other again.",
@@ -2498,9 +2500,7 @@ const imageTexts ={
       "bottom": "78%",
       "left": "15%",
       "width": "15%"
-    }
-  ],
-  "01b_TN_50": [
+    },
     {
       "text_de": "Liebe Miss Sarah …",
       "text_en": "Dear Miss Sarah ...",
@@ -2513,7 +2513,9 @@ const imageTexts ={
       "bottom": "22%",
       "left": "70%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_51": [
     {
       "text_de": "… hier, einer unserer Schlittenkekse – als kleines Andenken. Sie sind unser Proviant für den Weg zum Südpol.",
       "text_en": "... here, one of our sledging biscuits — as a small keepsake. They'll serve as provisions on our journey to the South Pole.",
@@ -2526,9 +2528,7 @@ const imageTexts ={
       "bottom": "5%",
       "left": "5%",
       "width": "23%"
-    }
-  ],
-  "01b_TN_51": [
+    },
     {
       "text_de": "Oh! Danke, Captain Scott.",
       "text_en": "Oh! Thank you, Captain Scott.",
@@ -2541,7 +2541,9 @@ const imageTexts ={
       "bottom": "41%",
       "left": "80%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_52": [
     {
       "text_de": "Auf Wiedersehen, Onkel Taff.",
       "text_en": "Goodbye, Uncle Taff.",
@@ -2554,9 +2556,7 @@ const imageTexts ={
       "bottom": "80%",
       "left": "54%",
       "width": "12%"
-    }
-  ],
-  "01b_TN_52": [
+    },
     {
       "text_de": "Komm, mein Kind, ich begleite dich von Bord.",
       "text_en": "Come, my child, I’ll see you ashore.",
@@ -2569,7 +2569,9 @@ const imageTexts ={
       "bottom": "44%",
       "left": "18%",
       "width": "17%"
-    },
+    }
+  ],
+  "01b_TN_53": [
     {
       "text_de": "Schade, dass auch Sie uns verlassen, Sir!",
       "text_en": "It's a pity you're leaving us too, sir!",
@@ -2582,9 +2584,7 @@ const imageTexts ={
       "bottom": "90%",
       "left": "16%",
       "width": "15%"
-    }
-  ],
-  "01b_TN_53": [
+    },
     {
       "text_de": "Sobald wir die offene See erreicht haben.",
       "text_en": "Once we’ve reached the open sea.",
@@ -2597,7 +2597,9 @@ const imageTexts ={
       "bottom": "60%",
       "left": "53%",
       "width": "14%"
-    },
+    }
+  ],
+  "01b_TN_54": [
     {
       "text_de": "Aber jetzt ist es Zeit, die Flagge zu hissen.",
       "text_en": "But for now, it’s time to hoist the flag.",
@@ -2610,9 +2612,7 @@ const imageTexts ={
       "bottom": "73%",
       "left": "24%",
       "width": "18%"
-    }
-  ],
-  "01b_TN_54": [
+    },
     {
       "text_de": "Aye, Captain!",
       "text_en": "Aye, Captain!",
@@ -2625,7 +2625,9 @@ const imageTexts ={
       "bottom": "75%",
       "left": "60%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_55": [
     {
       "text_de": "Für Wales!",
       "text_en": "For Wales!",
@@ -2638,9 +2640,7 @@ const imageTexts ={
       "bottom": "59%",
       "left": "28%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_55": [
+    },
     {
       "text_de": "Cymru am byth!",
       "text_en": "Cymru am byth!",
@@ -2720,7 +2720,9 @@ const imageTexts ={
       "bottom": "85%",
       "left": "33%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_57": [
     {
       "text_de": "Sir?",
       "text_en": "Sir?",
@@ -2735,7 +2737,7 @@ const imageTexts ={
       "width": "20%"
     }
   ],
-  "01b_TN_57": [
+  "01b_TN_58": [
     {
       "text_de": "Captain?!",
       "text_en": "Captain?!",
@@ -2748,9 +2750,7 @@ const imageTexts ={
       "bottom": "12%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_58": [
+    },
     {
       "text_de": "Verzeihung – das Lotsenboot ist bereit zum Zurückfahren.",
       "text_en": "Beg pardon — the pilot boat is ready to return.",
