@@ -1462,11 +1462,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "25%",
+      "left": "11%",
       "width": "20%"
     },
     {
@@ -1475,12 +1475,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
-      "width": "20%"
+      "bottom": "91%",
+      "left": "24%",
+      "width": "15%"
     },
     {
       "text_de": "Nein, danke – kein Alkohol für mich.",
@@ -1488,13 +1488,41 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
-      "width": "20%"
+      "bottom": "39%",
+      "left": "52%",
+      "width": "11%"
     },
+    {
+      "text_de": "… kann dem neuen König nur das beste wünschen!",
+      "text_en": "… one can only wish the new King the very best!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "88%",
+      "left": "83%",
+      "width": "16%"
+    },
+    {
+      "text_de": "Cheers!",
+      "text_en": "Cheers!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "27%",
+      "left": "78%",
+      "width": "20%"
+    }
+  ],
+  "01b_TN_27": [
     {
       "text_de": "… Sie meinen, dieser Mr. Marconi wird uns bald drahtlos über den Atlantik verbinden?",
       "text_en": "… you suppose this Mr. Marconi will soon connect us by wireless across the Atlantic?",
@@ -1508,34 +1536,6 @@ const imageTexts ={
       "left": "2%",
       "width": "20%"
     },
-    {
-      "text_de": "… kann dem neuen König nur das beste wünschen!",
-      "text_en": "… one can only wish the new King the very best!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "33%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Cheers!",
-      "text_en": "Cheers!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "66%",
-      "width": "20%"
-    }
-  ],
-  "01b_TN_27": [
     {
       "text_de": "Herr Oberbürgermeister, kennen Sie die Geschichte von unserer halsbrecherischen Rückkehr vom Gletscherplateau?",
       "text_en": "Lord Mayor, have you heard the story of our daredevil return from the glacier plateau?",
@@ -1609,12 +1609,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "68%",
+      "left": "54%",
+      "width": "26%"
     },
     {
       "text_de": "Ach was!",
@@ -1622,11 +1622,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "bottom": "57%",
+      "left": "75%",
       "width": "20%"
     }
   ],
@@ -1669,22 +1669,24 @@ const imageTexts ={
       "bottom": "83%",
       "left": "73%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_31": [
     {
       "text_de": "Bing, bing, bing!",
       "text_en": "Bing, bing, bing!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "30%",
+      "left": "17%",
       "width": "20%"
     }
   ],
-  "01b_TN_31": [
+  "01b_TN_32": [
     {
       "text_de": "Werte Herrschaften …",
       "text_en": "Ladies and gentlemen ...",
@@ -1712,7 +1714,7 @@ const imageTexts ={
       "width": "20%"
     }
   ],
-  "01b_TN_32": [
+  "01b_TN_33": [
     {
       "text_de": "Unseren verehrten Captain kenne ich ja schon lange …",
       "text_en": "Our esteemed Captain I’ve known for many years…",
@@ -1725,9 +1727,7 @@ const imageTexts ={
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_33": [
+    },
     {
       "text_de": "Hört, hört!",
       "text_en": "Hear, hear!",
@@ -1949,8 +1949,8 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "80%",
-      "left": "66%",
+      "bottom": "84%",
+      "left": "8%",
       "width": "20%"
     },
     {
@@ -1962,25 +1962,27 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "85%",
+      "bottom": "73%",
+      "left": "49%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_37": [
     {
       "text_de": "Und auf die walisische Kohle, die uns ins Po-Polarmeer bringen wird!",
       "text_en": "And to Welsh coal, that will carry us to the Po–Po–Polar Sea!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "74%",
+      "left": "51%",
+      "width": "21%"
     }
   ],
-  "01b_TN_37": [
+  "01b_TN_38": [
     {
       "text_de": "Auf die Kohle!",
       "text_en": "Here's to the coal!",
@@ -1989,13 +1991,11 @@ const imageTexts ={
       "color": "white",
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "83%",
+      "left": "30%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_38": [
+    },
     {
       "text_de": "Cheers!",
       "text_en": "Cheers!",
@@ -2005,8 +2005,8 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
+      "bottom": "78%",
+      "left": "17%",
       "width": "20%"
     },
     {
@@ -2018,8 +2018,8 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
+      "bottom": "74%",
+      "left": "78%",
       "width": "20%"
     },
     {
@@ -2102,8 +2102,8 @@ const imageTexts ={
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "69%",
-      "left": "17%",
+      "bottom": "58%",
+      "left": "13%",
       "width": "18%"
     },
     {
@@ -2130,8 +2130,8 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "79%",
+      "left": "4%",
       "width": "20%"
     },
     {
@@ -2143,7 +2143,7 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "82%",
       "left": "33%",
       "width": "20%"
     },
@@ -2156,8 +2156,8 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
+      "bottom": "77%",
+      "left": "80%",
       "width": "20%"
     },
     {
@@ -2169,36 +2169,36 @@ const imageTexts ={
       "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "2%",
+      "bottom": "71%",
+      "left": "12%",
       "width": "20%"
-    },
+    }
+  ],
+  "01b_TN_43": [
     {
       "text_de": "Ihre Spenden dienen nicht allein dem großen Ziel, den Pol zu erreichen. Sie fließen auch in die Forschung – Geologie, Meteorologie, Biologie …",
       "text_en": "Your contributions are not only for the great goal ahead — the Pole itself — they also serve science: geology, meteorology, biology…",
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
-    }
-  ],
-  "01b_TN_43": [
+      "bottom": "6%",
+      "left": "31%",
+      "width": "18%"
+    },
     {
       "text_de": "Verzeihen Sie, Captain Scott – gewiss werden Sie großartige Erkenntnisse gewinnen …",
       "text_en": "Forgive me, Captain Scott — no doubt your voyage will bring great discoveries…",
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "53%",
+      "left": "48%",
       "width": "20%"
     }
   ],
@@ -2470,7 +2470,7 @@ const imageTexts ={
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "8%",
-      "left": "44%",
+      "left": "48%",
       "width": "20%"
     },
     {
@@ -2702,8 +2702,8 @@ const imageTexts ={
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "88%",
+      "left": "31%",
       "width": "20%"
     }
   ],
@@ -2732,7 +2732,7 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "30%",
+      "bottom": "8%",
       "left": "80%",
       "width": "20%"
     }
@@ -2789,10 +2789,10 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "64%",
-      "left": "58%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "24%",
+      "width": "25%"
     }
   ],
   "01b_TN_61": [
