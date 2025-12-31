@@ -8,7 +8,7 @@ const imageTexts =
       "kind": "chapter",
       "color": "white",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "center",
       "bottom": "90%",
       "left": "0%",
@@ -21,7 +21,7 @@ const imageTexts =
       "kind": "title",
       "color": "white",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "center",
       "bottom": "85%",
       "left": "0%",
@@ -34,7 +34,7 @@ const imageTexts =
       "kind": "date",
       "color": "white",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -47,7 +47,7 @@ const imageTexts =
       "kind": "location",
       "color": "white",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -424,13 +424,13 @@ const imageTexts =
       "text_en": "What’s the meaning of this, Gran?",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "post_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "60%",
-      "left": "74%",
-      "width": "18%"
+      "bottom": "67%",
+      "left": "77%",
+      "width": "15%"
     },
     {
       "text_de": "Erlaube mir mitzuteilen, Fram auf dem Weg Antarktis – Amundsen.",
@@ -458,7 +458,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "72%",
       "left": "34%",
-      "width": "13%"
+      "width": "12%"
     }
   ],
   "05_TN_24": [
@@ -473,7 +473,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "60%",
       "left": "32%",
-      "width": "14%"
+      "width": "12%"
     },
     {
       "text_de": "Zum Teufel – das haben wir alle gedacht!",
@@ -499,8 +499,8 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "30%",
+      "bottom": "44%",
+      "left": "29%",
       "width": "15%"
     },
     {
@@ -508,13 +508,13 @@ const imageTexts =
       "text_en": "Not once did he respond to my requests — though they concerned vital scientific work.",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "post_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "37%",
       "left": "84%",
-      "width": "17%"
+      "width": "13%"
     }
   ],
   "05_TN_27": [
@@ -568,8 +568,8 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "80%",
-      "left": "79%",
+      "bottom": "84%",
+      "left": "76%",
       "width": "20%"
     }
   ],
@@ -585,7 +585,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "65%",
       "left": "23%",
-      "width": "15%"
+      "width": "16%"
     },
     {
       "text_de": "Er hat die ganze Welt getäuscht – während wir mit offenen Karten gespielt haben.",
@@ -624,9 +624,9 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "46%",
+      "bottom": "54%",
       "left": "33%",
-      "width": "15%"
+      "width": "13%"
     },
     {
       "text_de": "Ich werde ihm schreiben.",
@@ -652,9 +652,9 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "24%",
+      "bottom": "31%",
       "left": "10%",
-      "width": "21%"
+      "width": "19%"
     }
   ],
   "05_TN_32": [
@@ -667,9 +667,9 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "62%",
-      "left": "42%",
-      "width": "21%"
+      "bottom": "63%",
+      "left": "45%",
+      "width": "15%"
     }
   ],
   "05_TN_33": [
@@ -679,12 +679,12 @@ const imageTexts =
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "post_dark",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "74.5%",
+      "bottom": "69.5%",
       "left": "58%",
-      "width": "20%"
+      "width": "14%"
     },
     {
       "text_de": "Deswegen bist du mitgekommen? Du lässt auch kein Abenteuer aus.",
@@ -695,9 +695,9 @@ const imageTexts =
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "72%",
+      "bottom": "67%",
       "left": "26%",
-      "width": "20%"
+      "width": "21%"
     },
     {
       "text_de": "Liebster, komm ins Bett! Du brauchst deinen Schlaf.",
@@ -708,7 +708,7 @@ const imageTexts =
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41.5%",
+      "bottom": "30%",
       "left": "50%",
       "width": "21%"
     },
@@ -719,7 +719,7 @@ const imageTexts =
       "kind": "speaker",
       "color": "",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "",
       "bottom": "",
       "left": "",
@@ -731,11 +731,11 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
+      "bottom": "13.5%",
+      "left": "26%",
       "width": "21%"
     }
   ],
@@ -746,12 +746,12 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
+      "textAlign": "right",
+      "bottom": "57.5%",
+      "left": "12%",
+      "width": "15%"
     },
     {
       "text_de": "Hoffen wir, dass er auch ein offenes Ohr für mein Anliegen hat.",
@@ -759,12 +759,12 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
+      "bottom": "57.5%",
+      "left": "32%",
+      "width": "15%"
     },
     {
       "text_de": "Simultane magnetische Messungen an beiden Polen – eine solche Kooperation ist eine einmalige Gelegenheit.",
@@ -772,12 +772,12 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
+      "textAlign": "right",
+      "bottom": "73.5%",
+      "left": "66%",
+      "width": "23%"
     }
   ],
   "05_TN_33d": [
@@ -787,12 +787,12 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
+      "bottom": "64.5%",
+      "left": "22%",
+      "width": "17%"
     },
     {
       "text_de": "Falls Sie meinen Bruder zu sprechen wünschen, fürchte ich, dass Ihre Mühe vergebens war.",
@@ -800,12 +800,12 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
+      "textAlign": "right",
+      "bottom": "10.5%",
+      "left": "51%",
+      "width": "20%"
     }
   ],
   "05_TN_33e": [
@@ -815,25 +815,12 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
-    },
-    {
-      "text_de": "",
-      "text_en": "",
-      "text_no": "",
-      "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_black",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
-      "width": "21%"
+      "bottom": "76.5%",
+      "left": "32%",
+      "width": "22%"
     }
   ],
   "05_TN_33f": [
@@ -843,11 +830,11 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
+      "bottom": "52.5%",
+      "left": "21%",
       "width": "21%"
     },
     {
@@ -856,11 +843,11 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
+      "textAlign": "right",
+      "bottom": "0%",
+      "left": "44%",
       "width": "21%"
     }
   ],
@@ -871,11 +858,11 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "41.5%",
-      "left": "50%",
+      "textAlign": "right",
+      "bottom": "85.5%",
+      "left": "41%",
       "width": "21%"
     }
   ],
@@ -887,7 +874,7 @@ const imageTexts =
       "kind": "date",
       "color": "white",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -900,7 +887,7 @@ const imageTexts =
       "kind": "location",
       "color": "white",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",

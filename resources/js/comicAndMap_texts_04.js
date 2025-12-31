@@ -651,6 +651,581 @@ const imageTexts = {
           "width": "20%"
         }
       ],
+  "04b_F_01": [
+    {
+      "text_de": "15. September 1910",
+      "text_en": "15 September 1910",
+      "text_no": "no",
+      "kind": "date",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Atlantischer Ozean",
+      "text_en": "Atlantic Ocean",
+      "text_no": "no",
+      "kind": "location",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+  "04b_F_04": [
+    {
+      "text_de": "Verflixt! Als wär’s nicht eh schon knapp.",
+      "text_en": "Blast it! As if it weren’t scarce enough already.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wau, wau!",
+      "text_en": "Woof, woof!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_05": [
+    {
+      "text_de": "Aha.",
+      "text_en": "Aha.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_06": [
+    {
+      "text_de": "Lass noch was für Snuppesen übrig!",
+      "text_en": "Leave some for Snuppesen!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Fiep, fiep!",
+      "text_en": "Yip, yip!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_07": [
+    {
+      "text_de": "Ich dachte, das Wasser sei streng rationiert?",
+      "text_en": "I thought water was strictly rationed?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_08": [
+    {
+      "text_de": "Äh… ja, also…",
+      "text_en": "Uh… well, yes, but…",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wau, wau, wau!",
+      "text_en": "Woof, woof, woof!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ruhe, Katinka!",
+      "text_en": "Quiet, Katinka!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Die Hündinnen brauchen doch Wasser – sonst geben sie nicht genug Milch.",
+      "text_en": "They need water — otherwise they won’t give enough milk.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_09": [
+    {
+      "text_de": "Keine Sorge, Lindstrøm. Das bleibt unser Geheimnis.",
+      "text_en": "Don’t worry, Lindstrøm. This stays between us.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Haferbrei darf schließlich auch mal ein bisschen dicker sein.",
+      "text_en": "Porridge’s allowed to be a bit thicker, after all.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_10": [
+    {
+      "text_de": "Ah! Darum stand heut früh mein Löffel senkrecht im Brei.",
+      "text_en": "Ah! Explains why my spoon was upright in it this morning.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_11": [
+    {
+      "text_de": "Na Hanssen, übst du schon für deine große Houdini-Nummer?",
+      "text_en": "Well, Hanssen — practicing for your big Houdini act?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Die Riemen sind völlig verheddert! Da hat jemand geschlampt.",
+      "text_en": "These straps are a hopeless mess! Someone’s been sloppy.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_12": [
+    {
+      "text_de": "So, Rønne. Gib mir sieben Minuten, dann sind sie wieder wie am ersten Tag.",
+      "text_en": "Here you are, Rønne. Give me seven minutes and they’ll be shipshape again.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_13": [
+    {
+      "text_de": "Na, fein. Dann gönn ich mir noch ein Päuschen.",
+      "text_en": "Fine, then I’ll sneak in another rest.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Mein Schädel dröhnt schon wieder. Diese Hitze ist einfach nicht auszuhalten.",
+      "text_en": "My head’s pounding again. This heat is simply unbearable.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_14": [
+    {
+      "text_de": "Eigentlich sollte mich Wisting an der Nähmaschine ablösen – aber Rasmus und Lasse sind sich mal wieder in die Wolle geraten.",
+      "text_en": "Wisting was supposed to relieve me at the sewing machine — but Rasmus and Lasse got into a scrap again.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Grrrrr!",
+      "text_en": "Grrrrr!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wau-au-au!",
+      "text_en": "Ruff-uff-uff!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_15": [
+    {
+      "text_de": "Musst du dich denn immer mit den Großen anlegen?",
+      "text_en": "Why do you keep picking fights with the bigger ones?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Oh weh, dein Rücken!",
+      "text_en": "Good grief, your back!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Lindstrøm, wir brauchen Olivenöl!",
+      "text_en": "Lindstrøm, we need olive oil!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_16": [
+    {
+      "text_de": "Rot wie ein gekochter Hummer.",
+      "text_en": "Red as a boiled lobster.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Seid ihr auch so gespannt, was Prestrud, Johansen und Hassel mit dem Chef austüfteln?",
+      "text_en": "Aren’t you curious what Prestrud, Johansen and Hassel are cooking up with the Chief?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_17": [
+    {
+      "text_de": "Vielleicht erfahren wir heute Abend schon, wer mit zum Pol geht.",
+      "text_en": "Perhaps tonight we’ll already learn who gets to go to the Pole.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ich bin auch gespannt wie ein Flitzebogen.",
+      "text_en": "I’m all on edge myself.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_18": [
+    {
+      "text_de": "So eine Expedition plant man nicht an einem Nachmittag.",
+      "text_en": "You don’t plan an expedition like this in a single afternoon.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wir haben noch Wochen auf See – warum also überstürzen?",
+      "text_en": "We’ve still got weeks at sea — why rush things?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_19": [
+    {
+      "text_de": "Fix! Wenn du die Zeltriemen noch einmal verhedderst, setzt’s was.",
+      "text_en": "Fix! Tangle those tent straps again and you’ll be in trouble.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_20": [
+    {
+      "text_de": "Kein Wunder, dass die Hunde so wild sind – der Durst macht sie verrückt.",
+      "text_en": "No wonder the dogs are restless — the heat and thirst are driving them mad.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Zwei Liter am Tag – bei dieser Affenhitze! Aber der Chef rückt davon nicht ab.",
+      "text_en": "Two litres a day — in this blazing heat! But the Chief won’t budge.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_21": [
+    {
+      "text_de": "Er meint, erst wenn wir genug Regenwasser gesammelt haben.",
+      "text_en": "Not until we’ve caught enough rainwater, he says.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Aber wo soll denn der Regen herkommen? Blauer Himmel, gleißende Sonne – das geht bestimmt wochenlang so weiter.",
+      "text_en": "And where’s that rain meant to come from? Blue skies, scorching sun — this could drag on for weeks.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_22": [
+    {
+      "text_de": "Heute Mittag waren’s 35 Grad, meinte Prestrud.",
+      "text_en": "35 degrees at noon today, Prestrud said.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Teufel auch – schlimmer geht’s doch kaum.",
+      "text_en": "Damn — it can hardly get worse.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Das Quecksilber steigt sicher noch über die 40. Wollen wir wetten?",
+      "text_en": "The mercury will top 40 yet. Care to bet?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04b_F_23": [
+    {
+      "text_de": "Über 40 Grad auf offener See? Hm… ich weiß nicht. Na schön – die Wette gilt!",
+      "text_en": "Over 40 degrees, out on the open sea? Hm… I’m not sure. All right then — you’re on!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
     "04d_F_27": [
       {
         "text_de": "Unbegreiflich, diese Arglosigkeit!",
