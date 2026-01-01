@@ -692,19 +692,6 @@ const imageTexts = {
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    },
-    {
-      "text_de": "Wau, wau!",
-      "text_en": "Woof, woof!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
     }
   ],
   "04b_F_05": [
@@ -724,8 +711,8 @@ const imageTexts = {
   ],
   "04b_F_06": [
     {
-      "text_de": "Lass noch was für Snuppesen übrig!",
-      "text_en": "Leave some for Snuppesen!",
+      "text_de": "Wau, wau!",
+      "text_en": "Woof, woof!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -737,8 +724,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Fiep, fiep!",
-      "text_en": "Yip, yip!",
+      "text_de": "Lass noch was für Snuppesen übrig!",
+      "text_en": "Leave some for Snuppesen!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -751,6 +738,19 @@ const imageTexts = {
     }
   ],
   "04b_F_07": [
+    {
+      "text_de": "Fiep, fiep!",
+      "text_en": "Yip, yip!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
     {
       "text_de": "Ich dachte, das Wasser sei streng rationiert?",
       "text_en": "I thought water was strictly rationed?",
@@ -826,12 +826,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "37%",
+      "left": "28%",
+      "width": "17%"
     },
     {
       "text_de": "Haferbrei darf schließlich auch mal ein bisschen dicker sein.",
@@ -842,9 +842,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "66%",
+      "left": "68%",
+      "width": "14%"
     }
   ],
   "04b_F_10": [
@@ -853,12 +853,12 @@ const imageTexts = {
       "text_en": "Ah! Explains why my spoon was upright in it this morning.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "15%",
+      "left": "46%",
       "width": "20%"
     }
   ],
@@ -897,12 +897,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "71%",
+      "left": "35%",
+      "width": "19%"
     }
   ],
   "04b_F_13": [
@@ -912,25 +912,25 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "75%",
+      "left": "30%",
+      "width": "15%"
     },
     {
       "text_de": "Mein Schädel dröhnt schon wieder. Diese Hitze ist einfach nicht auszuhalten.",
       "text_en": "My head’s pounding again. This heat is simply unbearable.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "66%",
+      "left": "77%",
+      "width": "17%"
     }
   ],
   "04b_F_14": [
@@ -1050,12 +1050,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "70%",
+      "left": "22%",
+      "width": "21%"
     },
     {
       "text_de": "Ich bin auch gespannt wie ein Flitzebogen.",
@@ -1063,12 +1063,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "41%",
+      "left": "69%",
+      "width": "15%"
     }
   ],
   "04b_F_18": [
@@ -1106,12 +1106,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "18%",
+      "left": "45%",
+      "width": "16%"
     }
   ],
   "04b_F_20": [
@@ -1121,12 +1121,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "83%",
+      "left": "12%",
+      "width": "23%"
     },
     {
       "text_de": "Zwei Liter am Tag – bei dieser Affenhitze! Aber der Chef rückt davon nicht ab.",
@@ -1134,11 +1134,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "57%",
       "width": "20%"
     }
   ],
@@ -1149,11 +1149,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "89%",
+      "left": "46%",
       "width": "20%"
     },
     {
@@ -1162,11 +1162,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "59%",
+      "left": "23%",
       "width": "20%"
     }
   ],

@@ -66,7 +66,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "81%",
       "left": "2%",
-      "width": "30%"
+      "width": "24%"
     }
   ],
   "05_TN_03": [
@@ -94,7 +94,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "84%",
       "left": "75%",
-      "width": "20%"
+      "width": "19%"
     }
   ],
   "05_TN_04": [
@@ -124,7 +124,7 @@ const imageTexts =
       "textAlign": "right",
       "bottom": "53%",
       "left": "35%",
-      "width": "23%"
+      "width": "19%"
     }
   ],
   "05_TN_06": [
@@ -178,9 +178,9 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
-      "left": "74%",
-      "width": "19%"
+      "bottom": "86%",
+      "left": "78%",
+      "width": "15%"
     }
   ],
   "05_TN_10": [
@@ -194,8 +194,8 @@ const imageTexts =
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "65%",
-      "left": "9%",
-      "width": "21%"
+      "left": "12%",
+      "width": "17%"
     }
   ],
   "05_TN_11": [
@@ -247,9 +247,9 @@ const imageTexts =
       "backgroundColor": "post_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "47.5%",
-      "left": "71%",
-      "width": "20%"
+      "bottom": "47.2%",
+      "left": "68%",
+      "width": "18%"
     },
     {
       "text_de": "Achtung!",
@@ -263,7 +263,9 @@ const imageTexts =
       "bottom": "20.5%",
       "left": "45%",
       "width": "20%"
-    },
+    }
+  ],
+  "05_TN_12": [
     {
       "text_de": "Sei bitte vorsichtig!",
       "text_en": "Be careful, please!",
@@ -273,7 +275,7 @@ const imageTexts =
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "8%",
+      "bottom": "36%",
       "left": "85%",
       "width": "15%"
     }
@@ -287,10 +289,10 @@ const imageTexts =
       "color": "white",
       "backgroundColor": "post_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
+      "textAlign": "right",
+      "bottom": "74%",
       "left": "0%",
-      "width": "13%"
+      "width": "11%"
     },
     {
       "text_de": "Sapperlot, was für ein Hundewetter!",
@@ -331,7 +333,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "75%",
       "left": "18%",
-      "width": "25%"
+      "width": "23%"
     }
   ],
   "05_TN_16": [
@@ -346,7 +348,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "60%",
       "left": "70%",
-      "width": "15%"
+      "width": "13%"
     }
   ],
   "05_TN_17": [
@@ -372,7 +374,7 @@ const imageTexts =
       "backgroundColor": "post_dark",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85%",
+      "bottom": "86%",
       "left": "27%",
       "width": "20%"
     },
@@ -382,12 +384,12 @@ const imageTexts =
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "post_dark",
+      "backgroundColor": "post_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
+      "textAlign": "left",
       "bottom": "41%",
-      "left": "78%",
-      "width": "21%"
+      "left": "79%",
+      "width": "19%"
     }
   ],
   "05_TN_19": [
@@ -400,9 +402,9 @@ const imageTexts =
       "backgroundColor": "post_dark",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "57%",
-      "left": "33%",
-      "width": "12%"
+      "bottom": "59%",
+      "left": "32%",
+      "width": "9%"
     },
     {
       "text_de": "Gran! In die Offiziersmesse – sofort!",
@@ -412,10 +414,10 @@ const imageTexts =
       "color": "white",
       "backgroundColor": "post_dark",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "78%",
-      "left": "86%",
-      "width": "13%"
+      "left": "84%",
+      "width": "14%"
     }
   ],
   "05_TN_22": [
@@ -540,8 +542,8 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "15%",
-      "left": "40%",
+      "bottom": "17%",
+      "left": "41%",
       "width": "20%"
     }
   ],
@@ -708,7 +710,7 @@ const imageTexts =
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "30%",
+      "bottom": "29.5%",
       "left": "50%",
       "width": "21%"
     },
@@ -730,7 +732,7 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
@@ -745,7 +747,7 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
@@ -758,7 +760,7 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
@@ -772,7 +774,7 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "post_dream_dark",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "73.5%",
@@ -786,8 +788,8 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_white",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "64.5%",
@@ -800,7 +802,7 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "post_dream_dark",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "10.5%",
@@ -814,8 +816,8 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_white",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76.5%",
@@ -829,12 +831,12 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_white",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "52.5%",
-      "left": "21%",
+      "left": "68%",
       "width": "21%"
     },
     {
@@ -842,7 +844,7 @@ const imageTexts =
       "text_en": "",
       "text_no": "",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
@@ -858,7 +860,7 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "post_dream_dark",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "85.5%",
@@ -900,8 +902,8 @@ const imageTexts =
       "text_en": "Men, before you rush to your letters from home, I have an important announcement.",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "post_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "73%",
@@ -915,7 +917,7 @@ const imageTexts =
       "text_en": "It appears the Norwegians are also bound for the South Pole.",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "post_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
@@ -929,7 +931,7 @@ const imageTexts =
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "post_light",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "67%",
@@ -944,7 +946,7 @@ const imageTexts =
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "post_light",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "75%",
@@ -1003,9 +1005,9 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "69%",
-      "left": "25%",
-      "width": "26%"
+      "bottom": "67%",
+      "left": "30%",
+      "width": "20%"
     },
     {
       "text_de": "Und nun: Freuen Sie sich auf hoffentlich bessere Nachrichten aus der Heimat.",
@@ -1013,12 +1015,12 @@ const imageTexts =
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "post_light",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "47.5%",
-      "left": "48%",
-      "width": "16%"
+      "bottom": "47%",
+      "left": "47%",
+      "width": "18%"
     }
   ],
   "05_TN_40": [
@@ -1028,11 +1030,11 @@ const imageTexts =
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "22%",
+      "bottom": "87.5%",
+      "left": "19%",
       "width": "26%"
     },
     {
@@ -1057,7 +1059,7 @@ const imageTexts =
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "60%",
+      "bottom": "61%",
       "left": "62%",
       "width": "20%"
     }
@@ -1081,13 +1083,13 @@ const imageTexts =
       "text_en": "What do you mean exactly?",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "post_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "10%",
-      "left": "40%",
-      "width": "20%"
+      "bottom": "8%",
+      "left": "41%",
+      "width": "9%"
     },
     {
       "text_de": "All das Gerede vom Nordpolarmeer – reine Täuschung. Wie hinterlistig!",
@@ -1114,8 +1116,8 @@ const imageTexts =
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "65%",
-      "left": "32%",
-      "width": "22%"
+      "left": "37%",
+      "width": "17%"
     }
   ],
   "05_TN_44": [
@@ -1130,7 +1132,7 @@ const imageTexts =
       "textAlign": "right",
       "bottom": "75%",
       "left": "2%",
-      "width": "27%"
+      "width": "25%"
     },
     {
       "text_de": "Sonst bekommen sie Ihren rechten Haken zu spüren, Birdie?",
@@ -1143,7 +1145,7 @@ const imageTexts =
       "textAlign": "right",
       "bottom": "75%",
       "left": "50%",
-      "width": "24%"
+      "width": "21%"
     }
   ],
   "05_TN_45": [
@@ -1176,4 +1178,5 @@ const imageTexts =
       "width": "25%"
     }
   ]
-};
+}
+;
