@@ -1,656 +1,656 @@
 const imageTexts = {
-      "04a_F_01": [
-        {
-          "text_de": "Kapitel 4",
-          "text_en": "Chapter 4",
-          "text_no": "no",
-          "kind": "chapter",
-          "color": "black",
-          "backgroundColor": "",
-          "Fontsize": "",
-          "textAlign": "center",
-          "bottom": "90%",
-          "left": "0%",
-          "width": "100%"
-        },
-        {
-          "text_de": "Von Hundstagen und Hundewetter",
-          "text_en": "Of dog days and dog weather",
-          "text_no": "no",
-          "kind": "title",
-          "color": "black",
-          "backgroundColor": "",
-          "Fontsize": "",
-          "textAlign": "center",
-          "bottom": "85%",
-          "left": "10%",
-          "width": "80%"
-        },
-        {
-          "text_de": "10. September 1910",
-          "text_en": "10 September 1910",
-          "text_no": "no",
-          "kind": "date",
-          "color": "black",
-          "backgroundColor": "",
-          "Fontsize": "",
-          "textAlign": "left",
-          "bottom": "80%",
-          "left": "0%",
-          "width": "100%"
-        },
-        {
-          "text_de": "Atlantik",
-          "text_en": "Atlantic Ocean",
-          "text_no": "no",
-          "kind": "location",
-          "color": "black",
-          "backgroundColor": "",
-          "Fontsize": "",
-          "textAlign": "left",
-          "bottom": "80%",
-          "left": "0%",
-          "width": "100%"
-        }
-      ],
-      "04a_F_02": [
-        {
-          "text_de": "Bjaaland! Schön, dass ich dich beim Frühsport treffe.",
-          "text_en": "Bjaaland! Nice to meet you at the morning exercise.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_03": [
-        {
-          "text_de": "Du weißt ja, ein Athlet will in Form bleiben, mein lieber Johansen.",
-          "text_en": "As you know, an athlete wants to stay in shape, my dear Johansen.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "25%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Und die frische Brise pustet einem den Kopf frei.",
-          "text_en": "And the fresh breeze clears your head.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "73%",
-          "left": "76%",
-          "width": "17%"
-        }
-      ],
-      "04a_F_04": [
-        {
-          "text_de": "Schlecht geschlafen? Oder nur zu wenig?",
-          "text_en": "Slept badly? Or just too little?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "63%",
-          "left": "28%",
-          "width": "15%"
-        },
-        {
-          "text_de": "In der Tat habe ich lange wach gelegen.",
-          "text_en": "I did indeed lie awake for a long time.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "76%",
-          "left": "49%",
-          "width": "14%"
-        }
-      ],
-      "04a_F_05": [
-        {
-          "text_de": "Zweifelst du am Südpol-Plan?",
-          "text_en": "Are you having doubts about the South Pole plan?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "70%",
-          "left": "13%",
-          "width": "14%"
-        },
-        {
-          "text_de": "Wärst du lieber von Bord gegangen?",
-          "text_en": "Would you rather have got off the boat?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "51%",
-          "left": "40%",
-          "width": "13%"
-        },
-        {
-          "text_de": "Nein, aber ich frage mich, warum ich den Wald vor lauter Bäumen nicht gesehen habe.",
-          "text_en": "No, but I wonder why I couldn't see the wood for the trees.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "63%",
-          "left": "77%",
-          "width": "18%"
-        }
-      ],
-      "04a_F_06": [
-        {
-          "text_de": "Was meinst du?",
-          "text_en": "What do you mean?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "63%",
-          "left": "27%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Die ganzen Indizien. Das Beobachtungshaus etwa. So ein aufwändiges Winterquartier macht wenig Sinn, wenn man durchs Nordpolarmeer treibt.",
-          "text_en": "All the clues. The observation house, for example. Such elaborate winter quarters don't make much sense when you're drifting through the Arctic Ocean.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "64%",
-          "left": "59%",
-          "width": "26%"
-        }
-      ],
-      "04a_F_07": [
-        {
-          "text_de": "Stimmt. Selbst Stubberud, der das alles ja gezimmert hat, war ahnungslos.",
-          "text_en": "That's right. Even Stubberud, who built it all, was clueless.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "64%",
-          "left": "25%",
-          "width": "17%"
-        },
-        {
-          "text_de": "Und dann die ganzen Hunde.",
-          "text_en": "And then all the dogs.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "76%",
-          "left": "66%",
-          "width": "10%"
-        }
-      ],
-      "04a_F_08": [
-        {
-          "text_de": "Wozu schiffen wir sie aus Grönland ums Kap Hoorn bis nach Alaska, wenn es dort auch Schlittenhunde gibt?",
-          "text_en": "Why are we shipping them from Greenland around Cape Horn to Alaska if there are also sled dogs there?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "68%",
-          "left": "32%",
-          "width": "24%"
-        }
-      ],
-      "04a_F_09": [
-        {
-          "text_de": "Vor unserer Abreise habe ich Fridtjof Nansen ja noch getroffen. Der war zwar erstaunt über die vielen Hunde, aber die Lunte gerochen hat selbst er nicht.",
-          "text_en": "I met Fridtjof Nansen before we left. He was amazed at the number of dogs, but even he didn't smell the fuse.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "65%",
-          "left": "35%",
-          "width": "24%"
-        }
-      ],
-      "04a_F_10": [
-        {
-          "text_de": "Niemand hat das. Unser Chef würde sicher einen guten Geheimagenten abgeben.",
-          "text_en": "Nobody did. Our boss would certainly make a good secret agent.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "62%",
-          "left": "32%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_11": [
-        {
-          "text_de": "Ich frage mich gerade, ob meine erste Begegnung damals mit ihm in Lübeck bloß Zufall war.",
-          "text_en": "I'm just wondering whether my first encounter with him in Lübeck was just a coincidence.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "70%",
-          "left": "20%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_12": [
-        {
-          "text_de": "Ich kann dir versichern: Das war sie. Aber danke für das Kompliment, Bjaaland!",
-          "text_en": "I can assure you it was: It was. But thanks for the compliment, Bjaaland!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "70%",
-          "left": "28%",
-          "width": "18%"
-        },
-        {
-          "text_de": "Oh! Guten Morgen, Chef!",
-          "text_en": "Good morning, boss!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "25%",
-          "left": "29%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_13": [
-        {
-          "text_de": "Meine Ankündigung gestern war sicher ein echter Paukenschlag. Ich hoffe, ihr habt ihn gut verdaut und brennt weiterhin für die Sache.",
-          "text_en": "My announcement yesterday was certainly a real bombshell. I hope you've digested it well and are still passionate about the cause.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_14": [
-        {
-          "text_de": "Jawohl!",
-          "text_en": "Yay!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "hundstag_light",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "83%",
-          "left": "27%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Schön, dass ich auf euch zählen kann.",
-          "text_en": "I'm glad I can count on you.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "41%",
-          "left": "53%",
-          "width": "14%"
-        }
-      ],
-      "04a_F_15": [
-        {
-          "text_de": "Wohin so eilig, Wisting?",
-          "text_en": "Where are you off to in such a hurry, Wisting?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "70%",
-          "left": "45%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_16": [
-        {
-          "text_de": "Ich will schauen, wie es Katinka geht.",
-          "text_en": "I want to see how Katinka is doing.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "58%",
-          "left": "84%",
-          "width": "13%"
-        }
-      ],
-      "04a_F_17": [
-        {
-          "text_de": "Lässt du noch einmal Zigarren springen, falls es Nachwuchs gibt?",
-          "text_en": "Can you spare a few more cigars in case there are offspring?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "right",
-          "bottom": "69%",
-          "left": "8%",
-          "width": "15%"
-        },
-        {
-          "text_de": "Die sind ab sofort streng rationiert.",
-          "text_en": "They're strictly rationed from now on.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "63%",
-          "left": "50%",
-          "width": "14%"
-        },
-        {
-          "text_de": "Schließlich will ich ja am Südpol noch ein paar Zigarren rauchen.",
-          "text_en": "After all, I want to smoke a few more cigars at the South Pole.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "64%",
-          "left": "84%",
-          "width": "15%"
-        }
-      ],
-      "04a_F_18": [
-        {
-          "text_de": "Falls sich die Hunde weiter so schnell vermehren, werden wir nicht drum herumkommen, auch das Wasser zu rationieren.",
-          "text_en": "If the dogs continue to multiply so quickly, we won't be able to avoid rationing the water.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "18%",
-          "left": "82%",
-          "width": "16%"
-        }
-      ],
-      "04a_F_19": [
-        {
-          "text_de": "Herrschaften, wir haben Nachwuchs!",
-          "text_en": "Ladies and gentlemen, we have offspring!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "84%",
-          "left": "79%",
-          "width": "13%"
-        }
-      ],
-      "04a_F_20": [
-        {
-          "text_de": "Wie viele sind es denn?",
-          "text_en": "How many are there?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Wauhauhauhau!",
-          "text_en": "Wauhauhauhauhau!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Reiß dich zusammen, Jakob!",
-          "text_en": "Pull yourself together, Jakob!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_21": [
-        {
-          "text_de": "Sieben.",
-          "text_en": "Seven.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Eine Glückszahl!",
-          "text_en": "A lucky number!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_22": [
-        {
-          "text_de": "Glückwunsch, Katinka!",
-          "text_en": "Congratulations, Katinka!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "hundstag_light",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_23": [
-        {
-          "text_de": "Wau, Wauhauhau!",
-          "text_en": "Wau, Wauhauhauhau!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Wie viele Rüden?",
-          "text_en": "How many males?",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_24": [
-        {
-          "text_de": "Leider nur zwei.",
-          "text_en": "Only two, unfortunately.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        },
-        {
-          "text_de": "Egal. Die beiden werden auf jeden Fall viel Muttermilch bekommen.",
-          "text_en": "No matter. The two of them will definitely get plenty of breast milk.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_25": [
-        {
-          "text_de": "Sie brauchen dringend mehr Schatten, die Hitze wird sonst unerträglich für sie.",
-          "text_en": "They urgently need more shade, otherwise the heat will be unbearable for them.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_26": [
-        {
-          "text_de": "Deshalb bauen wir heute richtige Sonnensegel, die uns auch dazu dienen werden, Regenwasser aufzufangen. Bjaaland, du übernimmst die Leitung dafür.",
-          "text_en": "That's why we're building proper sun sails today, which will also help us to collect rainwater. Bjaaland, you're in charge of that.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "65%",
-          "left": "22%",
-          "width": "26%"
-        },
-        {
-          "text_de": "Wird gemacht, Chef!",
-          "text_en": "Will do, boss!",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "82%",
-          "width": "20%"
-        }
-      ],
-      "04a_F_27": [
-        {
-          "text_de": "Zunächst aber muss das Deck gesäubert werden, damit wir nicht alle paar Meter in einen Haufen treten.",
-          "text_en": "But first we have to clean the deck so that we don't step in a heap every few metres.",
-          "text_no": "no",
-          "kind": "dialog",
-          "color": "black",
-          "backgroundColor": "bg_white",
-          "Fontsize": "1.8vw",
-          "textAlign": "left",
-          "bottom": "76%",
-          "left": "5%",
-          "width": "20%"
-        }
-      ],
+  "04a_F_01": [
+    {
+      "text_de": "Kapitel 4",
+      "text_en": "Chapter 4",
+      "text_no": "no",
+      "kind": "chapter",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "center",
+      "bottom": "90%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Von Hundstagen und Hundewetter",
+      "text_en": "Dog Days and Downpours",
+      "text_no": "no",
+      "kind": "title",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "center",
+      "bottom": "85%",
+      "left": "10%",
+      "width": "80%"
+    },
+    {
+      "text_de": "10. September 1910",
+      "text_en": "10 September 1910",
+      "text_no": "no",
+      "kind": "date",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Atlantischer Ozean",
+      "text_en": "Atlantic Ocean",
+      "text_no": "no",
+      "kind": "location",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+  "04a_F_02": [
+    {
+      "text_de": "Ah, Bjaaland! Gut, dich beim Frühsport zu sehen.",
+      "text_en": "Ah, Bjaaland! Good to see you keeping up your morning exercise.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "54%",
+      "left": "56%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_03": [
+    {
+      "text_de": "Du weißt ja – ein Athlet will in Form bleiben, mein lieber Johansen.",
+      "text_en": "As you know — an athlete has to stay in shape, my dear Johansen.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "25%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Und die frische Brise pustet einem den Kopf frei.",
+      "text_en": "And the fresh breeze clears the head.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "73%",
+      "left": "76%",
+      "width": "17%"
+    }
+  ],
+  "04a_F_04": [
+    {
+      "text_de": "Schlecht geschlafen? Oder nur zu wenig?",
+      "text_en": "Poor sleep? Or just not enough?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "63%",
+      "left": "28%",
+      "width": "15%"
+    },
+    {
+      "text_de": "In der Tat habe ich lange wach gelegen.",
+      "text_en": "Truth be told, I lay awake half the night.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "49%",
+      "width": "14%"
+    }
+  ],
+  "04a_F_05": [
+    {
+      "text_de": "Zweifel am Südpol-Plan?",
+      "text_en": "Doubts about the South Pole plan?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "70%",
+      "left": "13%",
+      "width": "14%"
+    },
+    {
+      "text_de": "Wärst du lieber von Bord gegangen?",
+      "text_en": "Would you rather have left the ship?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "51%",
+      "left": "40%",
+      "width": "13%"
+    },
+    {
+      "text_de": "Nein. Aber ich frage mich, warum ich den Wald vor lauter Bäumen nicht gesehen habe.",
+      "text_en": "No. But I wonder why I didn’t see the wood for the trees.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "63%",
+      "left": "77%",
+      "width": "18%"
+    }
+  ],
+  "04a_F_06": [
+    {
+      "text_de": "Wie meinst du das?",
+      "text_en": "What do you mean?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "63%",
+      "left": "27%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Die Indizien! Zum Beispiel das Beobachtungshaus. Das ist doch eher So ein aufwändiges Winterquartier ergibt keinen Sinn, wenn man nur durchs Nordpolarmeer treiben will.",
+      "text_en": "The clues! Take the observation hut house, for instance. Such an elaborate winter station makes no sense if all we do is drift through the Arctic Sea.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "64%",
+      "left": "59%",
+      "width": "26%"
+    }
+  ],
+  "04a_F_07": [
+    {
+      "text_de": "Stimmt. Selbst Stubberud, der es gezimmert hat, ahnte nichts.",
+      "text_en": "True. Even Stubberud, who built the thing, was clueless.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "64%",
+      "left": "25%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Und die vielen Hunde!",
+      "text_en": "And all those dogs!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "66%",
+      "width": "10%"
+    }
+  ],
+  "04a_F_08": [
+    {
+      "text_de": "Wozu sie aus Grönland ums Kap Hoorn nach Alaska verschiffen, wenn es dort auch Schlittenhunde gibt?",
+      "text_en": "Why haul them from Greenland round Cape Horn to Alaska, when there are sled dogs there already?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "68%",
+      "left": "32%",
+      "width": "24%"
+    }
+  ],
+  "04a_F_09": [
+    {
+      "text_de": "Vor unserer Abreise habe ich noch Nansen getroffen. Auch er war erstaunt über die Zahl der Hunde – aber selbst er hat nichts gerochen.",
+      "text_en": "Before we left, I met with Nansen. He was surprised by the number of dogs — but even he didn’t catch on.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "65%",
+      "left": "35%",
+      "width": "24%"
+    }
+  ],
+  "04a_F_10": [
+    {
+      "text_de": "Niemand hat’s. Unser Chef gäbe einen guten Geheimagenten ab.",
+      "text_en": "No one did. Our chief would certainly make a fine secret agent.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "62%",
+      "left": "32%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_11": [
+    {
+      "text_de": "Da frag ich mich fast, ob meine erste Begegnung mit ihm in Lübeck damals bloß Zufall war.",
+      "text_en": "Makes me wonder if my first meeting with him in Lübeck was pure coincidence.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "70%",
+      "left": "20%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_12": [
+    {
+      "text_de": "Ich kann dir versichern: Das war sie. Aber danke für das Kompliment, Bjaaland!",
+      "text_en": "I can assure you — it was. But thanks for the compliment, Bjaaland!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "28%",
+      "width": "18%"
+    },
+    {
+      "text_de": "Oh! Guten Morgen, Chef.",
+      "text_en": "Oh! Good morning, Chief.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "25%",
+      "left": "29%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_13": [
+    {
+      "text_de": "Meine Ankündigung gestern war sicher ein Paukenschlag. Ich hoffe, ihr habt ihn gut verdaut und brennt weiter für die Sache.",
+      "text_en": "My announcement yesterday was surely a thunderclap. I trust you’ve digested it well and are still burning for the cause.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "6%",
+      "left": "42%",
+      "width": "22%"
+    }
+  ],
+  "04a_F_14": [
+    {
+      "text_de": "Aber sicher!",
+      "text_en": "Absolutely!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "83%",
+      "left": "27%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Gut zu wissen, dass ich auf euch zählen kann.",
+      "text_en": "Good to know I can count on you.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "41%",
+      "left": "53%",
+      "width": "14%"
+    }
+  ],
+  "04a_F_15": [
+    {
+      "text_de": "Wisting! Wohin so eilig?",
+      "text_en": "Wisting! Where are you rushing off to?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "45%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_16": [
+    {
+      "text_de": "Ich will nach Katinka sehen.",
+      "text_en": "I want to check on Katinka.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "58%",
+      "left": "84%",
+      "width": "13%"
+    }
+  ],
+  "04a_F_17": [
+    {
+      "text_de": "Lässt du wieder Zigarren springen, falls es Nachwuchs gibt?",
+      "text_en": "Will you hand out cigars again if there’s a litter?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "69%",
+      "left": "8%",
+      "width": "15%"
+    },
+    {
+      "text_de": "Die sind ab sofort streng rationiert.",
+      "text_en": "Those are strictly rationed from now on.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "63%",
+      "left": "50%",
+      "width": "14%"
+    },
+    {
+      "text_de": "Schließlich will ich am Südpol noch ein paar rauchen.",
+      "text_en": "I want a few left to smoke at the South Pole.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "64%",
+      "left": "84%",
+      "width": "15%"
+    }
+  ],
+  "04a_F_18": [
+    {
+      "text_de": "Wir werden wohl eher das Wasser rationieren müssen, wenn mehr durstige Mäuler dazukommen.",
+      "text_en": "We’ll more likely have to start rationing the water — if more thirsty mouths keep adding up.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "18%",
+      "left": "82%",
+      "width": "16%"
+    }
+  ],
+  "04a_F_19": [
+    {
+      "text_de": "Herrschaften – wir haben einen Wurf!",
+      "text_en": "Gentlemen — we’ve got pups!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "84%",
+      "left": "79%",
+      "width": "13%"
+    }
+  ],
+  "04a_F_20": [
+    {
+      "text_de": "Wie viele sind es denn?",
+      "text_en": "How many?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "86%",
+      "left": "35%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wauuu! Wau-hau-hau!",
+      "text_en": "Wooof! Woo-hoof-hoof!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "2.8vw",
+      "textAlign": "left",
+      "bottom": "33%",
+      "left": "47%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Jakob, benimm dich!",
+      "text_en": "Jakob, behave yourself!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "59%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_21": [
+    {
+      "text_de": "Sieben!",
+      "text_en": "Seven!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "40%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Eine Glückszahl.",
+      "text_en": "A lucky number.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "52%",
+      "left": "13%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_22": [
+    {
+      "text_de": "Gratuliere, Katinka!",
+      "text_en": "Congratulations, Katinka!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "59%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_23": [
+    {
+      "text_de": "Hrrrwau!",
+      "text_en": "Hrrrwoof!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "2.8vw",
+      "textAlign": "right",
+      "bottom": "40%",
+      "left": "43%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Und – wie viele Rüden?",
+      "text_en": "And how many males?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "83%",
+      "left": "37%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_24": [
+    {
+      "text_de": "Nur zwei.",
+      "text_en": "Only two.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "2%",
+      "width": "9%"
+    },
+    {
+      "text_de": "Dann kriegen die beiden eben besonders viel Muttermilch.",
+      "text_en": "Then those two will get plenty of her milk.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "54%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_25": [
+    {
+      "text_de": "Und wichtig ist, dass sie Schatten bekommen – sonst gehen sie uns ein.",
+      "text_en": "And shade is vital — without it, they won’t last in this heat.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "37%",
+      "width": "23%"
+    }
+  ],
+  "04a_F_26": [
+    {
+      "text_de": "Deshalb bauen wir heute Sonnensegel. Die spenden nicht nur Schatten, sondern fangen auch Regenwasser auf. Bjaaland, du übernimmst die Leitung.",
+      "text_en": "That’s why we’ll rig up sun awnings today. They’ll not only give shade but also catch rainwater. Bjaaland, you’ll be in charge.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "65%",
+      "left": "22%",
+      "width": "26%"
+    },
+    {
+      "text_de": "Wird gemacht, Chef!",
+      "text_en": "Consider it done, Chief!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "82%",
+      "width": "20%"
+    }
+  ],
+  "04a_F_27": [
+    {
+      "text_de": "Aber zunächst – Schrubber raus! Das Deck ist schon wieder voller Haufen. Ein einziges Minenfeld.",
+      "text_en": "But first — swabs out, lads! The deck’s littered with piles again. A proper minefield.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "83%",
+      "left": "40%",
+      "width": "20%"
+    }
+  ],
   "04b_F_01": [
     {
       "text_de": "15. September 1910",
