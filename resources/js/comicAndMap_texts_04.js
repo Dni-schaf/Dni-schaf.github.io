@@ -1,4 +1,5 @@
 const imageTexts = {
+
   "04a_F_01": [
     {
       "text_de": "Kapitel 4",
@@ -55,7 +56,7 @@ const imageTexts = {
   ],
   "04a_F_02": [
     {
-      "text_de": "Ah, Bjaaland! Gut, dich beim Frühsport zu sehen.",
+      "text_de": "Ah, Bjaaland! Schön, dich wieder beim Frühsport zu treffen.",
       "text_en": "Ah, Bjaaland! Good to see you keeping up your morning exercise.",
       "text_no": "no",
       "kind": "dialog",
@@ -71,7 +72,7 @@ const imageTexts = {
   "04a_F_03": [
     {
       "text_de": "Du weißt ja – ein Athlet will in Form bleiben, mein lieber Johansen.",
-      "text_en": "As you know — an athlete has to stay in shape, my dear Johansen.",
+      "text_en": "As you know—an athlete has to stay in shape, my dear Johansen.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -80,7 +81,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "76%",
       "left": "25%",
-      "width": "20%"
+      "width": "21%"
     },
     {
       "text_de": "Und die frische Brise pustet einem den Kopf frei.",
@@ -136,7 +137,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "70%",
       "left": "13%",
-      "width": "14%"
+      "width": "20%"
     },
     {
       "text_de": "Wärst du lieber von Bord gegangen?",
@@ -162,7 +163,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "63%",
       "left": "77%",
-      "width": "18%"
+      "width": "20%"
     }
   ],
   "04a_F_06": [
@@ -180,7 +181,7 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Die Indizien! Zum Beispiel das Beobachtungshaus. Das ist doch eher So ein aufwändiges Winterquartier ergibt keinen Sinn, wenn man nur durchs Nordpolarmeer treiben will.",
+      "text_de": "Die Indizien! Zum Beispiel das Beobachtungshaus. So ein aufwändiges Winterquartier ergibt keinen Sinn, wenn man nur durchs Nordpolarmeer treiben will.",
       "text_en": "The clues! Take the observation hut house, for instance. Such an elaborate winter station makes no sense if all we do is drift through the Arctic Sea.",
       "text_no": "no",
       "kind": "dialog",
@@ -190,7 +191,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "64%",
       "left": "59%",
-      "width": "26%"
+      "width": "27%"
     }
   ],
   "04a_F_07": [
@@ -204,8 +205,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "64%",
-      "left": "25%",
-      "width": "17%"
+      "left": "15%",
+      "width": "20%"
     },
     {
       "text_de": "Und die vielen Hunde!",
@@ -216,9 +217,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "76%",
-      "left": "66%",
-      "width": "10%"
+      "bottom": "68%",
+      "left": "59%",
+      "width": "15%"
     }
   ],
   "04a_F_08": [
@@ -239,16 +240,16 @@ const imageTexts = {
   "04a_F_09": [
     {
       "text_de": "Vor unserer Abreise habe ich noch Nansen getroffen. Auch er war erstaunt über die Zahl der Hunde – aber selbst er hat nichts gerochen.",
-      "text_en": "Before we left, I met with Nansen. He was surprised by the number of dogs — but even he didn’t catch on.",
+      "text_en": "Before we left, I met with Nansen. He was surprised by the number of dogs—but even he didn’t catch on.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "65%",
+      "bottom": "64%",
       "left": "35%",
-      "width": "24%"
+      "width": "25%"
     }
   ],
   "04a_F_10": [
@@ -284,7 +285,7 @@ const imageTexts = {
   "04a_F_12": [
     {
       "text_de": "Ich kann dir versichern: Das war sie. Aber danke für das Kompliment, Bjaaland!",
-      "text_en": "I can assure you — it was. But thanks for the compliment, Bjaaland!",
+      "text_en": "I can assure you—it was. But thanks for the compliment, Bjaaland!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -349,7 +350,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "41%",
       "left": "53%",
-      "width": "14%"
+      "width": "15%"
     }
   ],
   "04a_F_15": [
@@ -376,16 +377,16 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "58%",
       "left": "84%",
-      "width": "13%"
+      "width": "12%"
     }
   ],
   "04a_F_17": [
     {
-      "text_de": "Lässt du wieder Zigarren springen, falls es Nachwuchs gibt?",
-      "text_en": "Will you hand out cigars again if there’s a litter?",
+      "text_de": "Lässt du ein paar Zigarren springen, falls es Nachwuchs gibt?",
+      "text_en": "Will you hand out a few cigars if there’s a litter?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -425,8 +426,8 @@ const imageTexts = {
   ],
   "04a_F_18": [
     {
-      "text_de": "Wir werden wohl eher das Wasser rationieren müssen, wenn mehr durstige Mäuler dazukommen.",
-      "text_en": "We’ll more likely have to start rationing the water — if more thirsty mouths keep adding up.",
+      "text_de": "Wir werden wohl eher das Wasser rationieren müssen.",
+      "text_en": "We’ll more likely have to start rationing the water.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -441,7 +442,7 @@ const imageTexts = {
   "04a_F_19": [
     {
       "text_de": "Herrschaften – wir haben einen Wurf!",
-      "text_en": "Gentlemen — we’ve got pups!",
+      "text_en": "Gentlemen—we’ve got pups!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -475,10 +476,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "hundstag_middle",
       "Fontsize": "2.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "33%",
-      "left": "47%",
-      "width": "20%"
+      "left": "36%",
+      "width": "24%"
     },
     {
       "text_de": "Jakob, benimm dich!",
@@ -572,7 +573,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "76%",
@@ -585,7 +586,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "76%",
@@ -595,8 +596,8 @@ const imageTexts = {
   ],
   "04a_F_25": [
     {
-      "text_de": "Und wichtig ist, dass sie Schatten bekommen – sonst gehen sie uns ein.",
-      "text_en": "And shade is vital — without it, they won’t last in this heat.",
+      "text_de": "Aber Schatten brauchen sie – sonst gehen sie uns ein.",
+      "text_en": "But they need shade—they won’t last in this heat.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -605,7 +606,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "76%",
       "left": "37%",
-      "width": "23%"
+      "width": "20%"
     }
   ],
   "04a_F_26": [
@@ -638,8 +639,8 @@ const imageTexts = {
   ],
   "04a_F_27": [
     {
-      "text_de": "Aber zunächst – Schrubber raus! Das Deck ist schon wieder voller Haufen. Ein einziges Minenfeld.",
-      "text_en": "But first — swabs out, lads! The deck’s littered with piles again. A proper minefield.",
+      "text_de": "Doch zunächst – Schrubber raus! Das Deck gleicht schon wieder einem einzigen Minenfeld.",
+      "text_en": "But first—swabs out, lads! The deck’s a proper minefield again.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -688,10 +689,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "43%",
+      "width": "15%"
     }
   ],
   "04b_F_05": [
@@ -701,11 +702,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "63%",
+      "left": "47%",
       "width": "20%"
     }
   ],
@@ -716,11 +717,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "16%",
+      "left": "80%",
       "width": "20%"
     },
     {
@@ -729,12 +730,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "79%",
+      "left": "85%",
+      "width": "17%"
     }
   ],
   "04b_F_07": [
@@ -744,11 +745,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "32%",
+      "left": "85%",
       "width": "20%"
     },
     {
@@ -757,12 +758,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "61%",
+      "left": "28%",
+      "width": "19%"
     }
   ],
   "04b_F_08": [
@@ -775,7 +776,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "1%",
       "left": "2%",
       "width": "20%"
     },
@@ -785,12 +786,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "backgroundColor": "bg_transparent",
+      "Fontsize": "2.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "63%",
       "left": "2%",
-      "width": "20%"
+      "width": "9%"
     },
     {
       "text_de": "Ruhe, Katinka!",
@@ -800,23 +801,23 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "9%",
+      "left": "25%",
       "width": "20%"
     },
     {
       "text_de": "Die Hündinnen brauchen doch Wasser – sonst geben sie nicht genug Milch.",
-      "text_en": "They need water — otherwise they won’t give enough milk.",
+      "text_en": "They need water—otherwise they won’t give enough milk.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "35%",
+      "left": "87%",
+      "width": "10%"
     }
   ],
   "04b_F_09": [
@@ -865,15 +866,15 @@ const imageTexts = {
   "04b_F_11": [
     {
       "text_de": "Na Hanssen, übst du schon für deine große Houdini-Nummer?",
-      "text_en": "Well, Hanssen — practicing for your big Houdini act?",
+      "text_en": "Well, Hanssen—practicing for your big Houdini act?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "80%",
+      "left": "21%",
       "width": "20%"
     },
     {
@@ -884,16 +885,16 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "left": "55%",
+      "width": "19%"
     }
   ],
   "04b_F_12": [
     {
-      "text_de": "So, Rønne. Gib mir sieben Minuten, dann sind sie wieder wie am ersten Tag.",
-      "text_en": "Here you are, Rønne. Give me seven minutes and they’ll be shipshape again.",
+      "text_de": "Gib mir sieben Minuten, Rønne, dann sind sie wieder wie am ersten Tag.",
+      "text_en": "Give me seven minutes, Rønne, and they’ll be shipshape again.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -936,16 +937,16 @@ const imageTexts = {
   "04b_F_14": [
     {
       "text_de": "Eigentlich sollte mich Wisting an der Nähmaschine ablösen – aber Rasmus und Lasse sind sich mal wieder in die Wolle geraten.",
-      "text_en": "Wisting was supposed to relieve me at the sewing machine — but Rasmus and Lasse got into a scrap again.",
+      "text_en": "Wisting was supposed to relieve me at the sewing machine—but Rasmus and Lasse got into a scrap again.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "75%",
+      "left": "38%",
+      "width": "28%"
     },
     {
       "text_de": "Grrrrr!",
@@ -956,8 +957,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "67%",
+      "left": "20%",
       "width": "20%"
     },
     {
@@ -969,8 +970,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "62%",
+      "left": "55%",
       "width": "20%"
     }
   ],
@@ -984,9 +985,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "67%",
+      "left": "26%",
+      "width": "17%"
     },
     {
       "text_de": "Oh weh, dein Rücken!",
@@ -996,9 +997,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "90%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -1010,9 +1011,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "81%",
+      "left": "82%",
+      "width": "14%"
     }
   ],
   "04b_F_16": [
@@ -1022,11 +1023,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "13%",
       "width": "20%"
     },
     {
@@ -1035,18 +1036,18 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "1%",
+      "left": "70%",
       "width": "20%"
     }
   ],
   "04b_F_17": [
     {
-      "text_de": "Vielleicht erfahren wir heute Abend schon, wer mit zum Pol geht.",
-      "text_en": "Perhaps tonight we’ll already learn who gets to go to the Pole.",
+      "text_de": "Vielleicht erfahren wir ja schon heute Abend, wer mit zum Pol geht.",
+      "text_en": "Maybe we’ll find out tonight who’s going to the Pole.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1055,11 +1056,11 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "70%",
       "left": "22%",
-      "width": "21%"
+      "width": "22%"
     },
     {
-      "text_de": "Ich bin auch gespannt wie ein Flitzebogen.",
-      "text_en": "I’m all on edge myself.",
+      "text_de": "Das wär ein Ding!",
+      "text_en": "Wouldn’t that be something!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1073,29 +1074,29 @@ const imageTexts = {
   ],
   "04b_F_18": [
     {
-      "text_de": "So eine Expedition plant man nicht an einem Nachmittag.",
-      "text_en": "You don’t plan an expedition like this in a single afternoon.",
+      "text_de": "So eine Expedition plant man nicht mal eben an einem Nachmittag.",
+      "text_en": "You don’t plan an expedition like this in just one afternoon.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "43%",
+      "left": "33%",
+      "width": "16%"
     },
     {
-      "text_de": "Wir haben noch Wochen auf See – warum also überstürzen?",
-      "text_en": "We’ve still got weeks at sea — why rush things?",
+      "text_de": "Und wir haben noch Wochen auf See – warum also die Eile?",
+      "text_en": "And we’ve still got weeks at sea—so what’s the rush?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "8%",
+      "left": "51%",
       "width": "20%"
     }
   ],
@@ -1117,7 +1118,7 @@ const imageTexts = {
   "04b_F_20": [
     {
       "text_de": "Kein Wunder, dass die Hunde so wild sind – der Durst macht sie verrückt.",
-      "text_en": "No wonder the dogs are restless — the heat and thirst are driving them mad.",
+      "text_en": "No wonder the dogs are restless—the thirst is driving them mad.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1130,7 +1131,7 @@ const imageTexts = {
     },
     {
       "text_de": "Zwei Liter am Tag – bei dieser Affenhitze! Aber der Chef rückt davon nicht ab.",
-      "text_en": "Two litres a day — in this blazing heat! But the Chief won’t budge.",
+      "text_en": "Two litres a day—in this blazing heat! But the Chief won’t budge.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1157,8 +1158,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Aber wo soll denn der Regen herkommen? Blauer Himmel, gleißende Sonne – das geht bestimmt wochenlang so weiter.",
-      "text_en": "And where’s that rain meant to come from? Blue skies, scorching sun — this could drag on for weeks.",
+      "text_de": "Aber wo soll denn der Regen herkommen? Kein Wölkchen am Himmel – bestimmt geht das wochenlang so weiter. Und dann diese Hitze!",
+      "text_en": "But where’s that rain meant to come from? Not a cloud in the sky and the sun’s blazing down—looks like this could drag on for weeks.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1172,8 +1173,8 @@ const imageTexts = {
   ],
   "04b_F_22": [
     {
-      "text_de": "Heute Mittag waren’s 35 Grad, meinte Prestrud.",
-      "text_en": "35 degrees at noon today, Prestrud said.",
+      "text_de": "25 Grad waren’s bereits heute früh, meinte Prestrud.",
+      "text_en": "25 degrees early this morning, Prestrud said.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1185,8 +1186,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Teufel auch – schlimmer geht’s doch kaum.",
-      "text_en": "Damn — it can hardly get worse.",
+      "text_de": "Teufel auch – schlimmer geht’s kaum.",
+      "text_en": "Hell’s bells—doesn’t get much worse than this.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1198,8 +1199,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Das Quecksilber steigt sicher noch über die 40. Wollen wir wetten?",
-      "text_en": "The mercury will top 40 yet. Care to bet?",
+      "text_de": "Pustekuchen – wir sind ja noch nicht mal am Äquator! Wir bekommen sicher noch über 30 Grad.",
+      "text_en": "Nonsense! We’re not even at the equator yet! We’re sure to get over 30 degrees.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1213,8 +1214,8 @@ const imageTexts = {
   ],
   "04b_F_23": [
     {
-      "text_de": "Über 40 Grad auf offener See? Hm… ich weiß nicht. Na schön – die Wette gilt!",
-      "text_en": "Over 40 degrees, out on the open sea? Hm… I’m not sure. All right then — you’re on!",
+      "text_de": "Auf offener See?! Nein. Das würde ich in den Knochen spüren. Wollen wir wetten, Bjaaland?",
+      "text_en": "Out at sea?! No. I’d feel it in my bones. Tell you what, Bjaaland—let’s make a bet!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
