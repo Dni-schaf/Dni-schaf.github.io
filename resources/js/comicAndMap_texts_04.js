@@ -1227,263 +1227,974 @@ const imageTexts = {
       "width": "20%"
     }
   ],
-    "04d_F_27": [
-      {
-        "text_de": "Unbegreiflich, diese Arglosigkeit!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "85%",
-        "left": "0%",
-        "width": "20%"
-      }
-    ],
-    "04d_F_28": [
-      {
-        "text_de": "Hallo Fridtjof!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "80%",
-        "left": "69%",
-        "width": "20%"
-      }
-    ],
-    "04d_F_29": [
-      {
-        "text_de": "Deine Welt ist noch in Ordnung.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "67%",
-        "left": "6%",
-        "width": "11%"
-      }
-    ],
-    "04d_F_30": [
-      {
-        "text_de": "Alle sind unzufrieden. Aber sie wussten, dass uns die Reise viel abverlangen wird.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "65%",
-        "left": "63%",
-        "width": "20%"
-      }
-    ],
-    "04d_F_31": [
-      {
-        "text_de": "Mehr Wasser!?",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "80%",
-        "left": "15%",
-        "width": "12%"
-      },
-      {
-        "text_de": "Als ob das so einfach wäre! Und wir nicht viel größere Sorgen hätten!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "0%",
-        "left": "45%",
-        "width": "15%"
-      }
-    ],
-    "04d_F_32": [
-      {
-        "text_de": "Sie verstehen die Tragweite unseres Unterfangens nicht! Und welch engem Zeitplan wir folgen müssen! Aber ich sollte mich nicht so aufregen.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "46%",
-        "left": "64%",
-        "width": "29%"
-      }
-    ],
-    "04d_F_33": [
-      {
-        "text_de": "Morgen ist ein folgenschwerer Tag. Danach wird die Welt uns mit anderen Augen sehen.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "-5%",
-        "left": "77%",
-        "width": "18%"
-      }
-    ],
-    "04d_F_34": [
-      {
-        "text_de": "Tschirp, tschirp!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "74%",
-        "left": "32%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Eigenartig, dass mich diese Vorstellung so kaltlässt. Leon ist vermutlich gerade viel nervöser als ich.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "87%",
-        "left": "54%",
-        "width": "17%"
-      },
-      {
-        "text_de": "Ich kann ja auch nichts tun, außer meinen Plan mit aller Vehemenz zu verfolgen.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "33%",
-        "left": "16%",
-        "width": "20%"
-      }
-    ],
-    "04d_F_35": [
-      {
-        "text_de": "Und darauf hoffen, dass dein Namensvetter sich nicht hintergangen fühlt.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "70%",
-        "left": "12%",
-        "width": "20%"
-      },
-      {
-        "text_de": "In wenigen Tagen weiß auch die Presse Bescheid.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "67%",
-        "left": "72%",
-        "width": "16%"
-      }
-    ],
-    "04d_F_36": [
-      {
-        "text_de": "Die wird sicher begeistert sein, denn die Leserschaft liebt Wettrennen!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "50%",
-        "left": "16%",
-        "width": "16%"
-      },
-      {
-        "text_de": "Tschirp, tschirp!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "white",
-        "backgroundColor": "hundstag_dark",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "93%",
-        "left": "66%",
-        "width": "20%"
-      }
-    ],
-    "04d_F_37": [
-      {
-        "text_de": "Bei den Briten wird die Nachricht vermutlich für großen Missmut sorgen. Die haben einen Haufen Gründe, uns in ein schlechtes Licht zu rücken – niemand wird gern derart kalt erwischt.",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "62%",
-        "left": "4%",
-        "width": "29%"
-      }
-    ],
-    "04d_F_38": [
-      {
-        "text_de": "Tja, aber was machen wir nun wegen des Wassers? Mehr Regen kommt, nicht wahr?",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "left",
-        "bottom": "52%",
-        "left": "71%",
-        "width": "20%"
-      },
-      {
-        "text_de": "Tschirp, tschirp!",
-        "text_en": "",
-        "text_no": "no",
-        "kind": "dialog",
-        "color": "black",
-        "backgroundColor": "hundstag_middle",
-        "Fontsize": "1.8vw",
-        "textAlign": "right",
-        "bottom": "68%",
-        "left": "27%",
-        "width": "20%"
-      }
-    ]
+  "04d_F_01": [
+    {
+      "text_de": "1. Oktober 1910",
+      "text_en": "1 Oktober 1910",
+      "text_no": "no",
+      "kind": "date",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Atlantischer Ozean",
+      "text_en": "Atlantic Ocean",
+      "text_no": "no",
+      "kind": "location",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Njörd hat dich endlich erhört, Lindstrøm!",
+      "text_en": "Looks like Njord finally heard you, Lindstrøm!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_02": [
+    {
+      "text_de": "Ein Segen!",
+      "text_en": "What a blessing!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wäre es bloß nicht so eine Tortur für die Hunde! Ihr Fell saugt sich voll bis auf die Knochen.",
+      "text_en": "If only it weren’t such an ordeal for the dogs! Their fur gets soaked right down to the bone.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "40%"
+    }
+  ],
+  "04d_F_03": [
+    {
+      "text_de": "Fiep, fiep!",
+      "text_en": "Yip, yip!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wa-hu-hu-hu!",
+      "text_en": "Woo-hoo-hoo!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "40%"
+    }
+  ],
+  "04d_F_04": [
+    {
+      "text_de": "Fiep, fiep, fiiiep!",
+      "text_en": "Yip, yip, yiiip!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Bringt die Welpen ins Trockene!",
+      "text_en": "Get the puppies somewhere dry!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "40%"
+    }
+  ],
+  "04d_F_05": [
+    {
+      "text_de": "Wird gemacht, Chef!",
+      "text_en": "On it, Chief!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_06": [
+    {
+      "text_de": "Achtung! Die Sonnensegel laufen über! Wir brauchen eine Eimerkette – los!",
+      "text_en": "Watch out! The awnings are overflowing! We need a bucket line—move!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Zu Befehl, Prestrud!",
+      "text_en": "Aye, aye, Prestrud!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "40%"
+    }
+  ],
+  "04d_F_07": [
+    {
+      "text_de": "Ich bilde den Anfang!",
+      "text_en": "I’ll take the lead!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Na schön, der Junge hat das Sagen.",
+      "text_en": "All right, the lad’s in charge.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Wa-hu-hu-hu!",
+      "text_en": "Woo-hoo-hoo!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_08": [
+    {
+      "text_de": "Eimer, schnell!",
+      "text_en": "Bucket, quick!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Kommt!",
+      "text_en": "Coming!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Geschafft!",
+      "text_en": "Done!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_09": [
+    {
+      "text_de": "Herrlich! Endlich mehr als nur Katzenwäsche!",
+      "text_en": "Glorious! At last—more than a cat’s lick!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_11": [
+    {
+      "text_de": "Was? Schon vorbei?!",
+      "text_en": "Wait, that’s it?!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Noch nicht ganz.",
+      "text_en": "Not quite.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Du kommst wie gerufen.",
+      "text_en": "You’re just in time.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_12": [
+    {
+      "text_de": "Ihr wisst, was zu tun ist, Männer!",
+      "text_en": "You know what to do, men!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Aber sicher, Prestrud.",
+      "text_en": "Aye, Prestrud—we’re on it!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "60%"
+    }
+  ],
+  "04d_F_13": [
+    {
+      "text_de": "Ich fühl mich wie neugeboren!",
+      "text_en": "I feel like a new man!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Nilsen, die Fram schlingert zu stark. Halt sie ruhiger, sonst geht uns die halbe Himmelsgabe gleich wieder flöten!",
+      "text_en": "Nilsen, the Fram’s rolling too much—steady her, or we’ll lose half our heavenly bounty!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Ruhiger krieg ich sie nicht – nicht bei dem Wind!",
+      "text_en": "Can’t steady her any more—not with this wind!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_14": [
+    {
+      "text_de": "Die Ausbeute ist besser als beim letzten Mal. Reichen wird es aber nicht.",
+      "text_en": "The yield is better than last time, but it won’t be enough.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Wir sollten in absehbarer Zeit einen Hafen ansteuern – vielleicht in Südafrika?",
+      "text_en": "We should consider making port before long—perhaps in South Africa?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "60%"
+    }
+  ],
+  "04d_F_15": [
+    {
+      "text_de": "Kommt nicht infrage! In einem britischen Dominion anzulegen, ist das Letzte, was wir tun werden!",
+      "text_en": "Out of the question! Docking in a British dominion is the last thing we’ll do!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_16": [
+    {
+      "text_de": "Wenn überhaupt, dann in Kerguelen – bei der norwegischen Walfangstation.",
+      "text_en": "If anywhere, then Kerguelen—at the Norwegian whaling station.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_17": [
+    {
+      "text_de": "Bis dahin müssen wir Entbehrungen in Kauf nehmen. Wir kürzen die Rationen auf einen Liter.",
+      "text_en": "Until then, we’ll have to make some sacrifices. We’re cutting rations to one liter.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Sobald wir den 40. Breitengrad passiert haben, wird es mehr regnen, als uns lieb ist. Und um den Vorsprung der Briten einzuholen, sollten wir in drei Monaten ohnehin im Packeis sein.",
+      "text_en": "Once we’ve crossed the 40th parallel, it’ll rain more than we care for. And to catch up with the British, we should be in the pack ice within three months anyway.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Dort gibt es bekanntermaßen unendlich viel Trinkwasser! Wir müssen eben durchhalten!",
+      "text_en": "There’s no shortage of drinking water there! We just have to endure!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_18": [
+    {
+      "text_de": "Wie geht es den Hunden? Manche waren ja regelrecht in Panik.",
+      "text_en": "How are the dogs? Some seemed downright panicked.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Angeleint zu sein und keinen Schutz suchen zu können, hat es sicher schlimmer gemacht.",
+      "text_en": "Being tethered and unable to find shelter certainly made it worse.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    }
+  ],
+  "04d_F_19": [
+    {
+      "text_de": "Hassel, wie weit sind wir mit den Beißkörben?",
+      "text_en": "Hassel, how’s the work on the muzzles coming along?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Noch zwei bis drei Tage, Chef.",
+      "text_en": "Two or three days more, Chief.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Hörst du, Uroa? Bald bist du auf freiem Fuß.",
+      "text_en": "Hear that, Uroa? A few more days and you’ll be free.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_20": [
+    {
+      "text_de": "Es mangelt aber nach wie vor an trockenen Plätzen.",
+      "text_en": "But there’s still a shortage of dry spots.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Stubberud wird ein paar Hundehütten bauen. Wie geht es unseren Sorgenkindern?",
+      "text_en": "Stubberud will build a few kennels. How are our poor souls?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_21": [
+    {
+      "text_de": "Bei Liket weiß ich mir keinen Rat mehr. Frisst nichts, ist nur noch Haut und Knochen. Vielleicht müssen wir ihn aufgeben.",
+      "text_en": "I’m at my wit’s end with Liket. Won’t eat and is thin as a rake. We may have to give up on him.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Dafür ist es zu früh. Ich will eine experimentelle Behandlung versuchen – mit bereits verdauter Nahrung.",
+      "text_en": "Too soon for that. I want to try an experimental treatment—with food that’s already been digested.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_22": [
+    {
+      "text_de": "Willst du ihm das Essen vorkauen, oder wie meinst du das?",
+      "text_en": "You mean you’re going to chew his food for him, or what?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ja, schon – aber ich meine gänzlich verdautes Essen.",
+      "text_en": "Well, yes—but I mean food that’s fully digested.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "50%"
+    },
+    {
+      "text_de": "Das ist ja widerlich!",
+      "text_en": "That’s disgusting!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_23": [
+    {
+      "text_de": "Probier es aus, Johansen.",
+      "text_en": "Give it a try, Johansen.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Meine Empfehlung wäre, den Hunden mehr Wasser …",
+      "text_en": "What I’d also recommend is giving the dogs more water…",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_24": [
+    {
+      "text_de": "Ausgeschlossen! Einmal Regen bedeutet noch keinen Überfluss. Wir kürzen die Rationen weiter.",
+      "text_en": "Absolutely not! A little rain doesn’t mean abundance. We’ll reduce the rations further.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_25": [
+    {
+      "text_de": "Ich verstehe nicht, warum wir derart sparen. Wir können unsere Vorräte doch in einem Hafen auffüllen.",
+      "text_en": "I don’t understand why we have to be so strict. We could replenish our supplies in port.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Dann denk weiter darüber nach – herrje noch mal!",
+      "text_en": "Then keep thinking it over —damn it!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "70%"
+    }
+  ],
+  "04d_F_27": [
+    {
+      "text_de": "Unbegreiflich, diese Arglosigkeit …",
+      "text_en": "Unbelievable—such naïveté...",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "0%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_28": [
+    {
+      "text_de": "Hallo, Fridtjof.",
+      "text_en": "Hello, Fridtjof.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "69%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_29": [
+    {
+      "text_de": "Hier drinnen ist die Welt noch in Ordnung, was?",
+      "text_en": "In here, the world still feels all right, doesn’t it?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "67%",
+      "left": "6%",
+      "width": "11%"
+    }
+  ],
+  "04d_F_30": [
+    {
+      "text_de": "Da draußen sind Alle unzufrieden. Aber sie wussten, dass uns diese Reise viel abverlangen würde.",
+      "text_en": "Out there, everyone’s dissatisfied. But they knew this journey would demand a lot from us.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "65%",
+      "left": "63%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_31": [
+    {
+      "text_de": "Mehr Wasser – als ob das so einfach wäre!",
+      "text_en": "More water—as if it were that simple!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "80%",
+      "left": "15%",
+      "width": "12%"
+    },
+    {
+      "text_de": "Als hätten wir nicht weitaus größere Sorgen.",
+      "text_en": "As if we didn’t have far greater worries.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "0%",
+      "left": "45%",
+      "width": "15%"
+    }
+  ],
+  "04d_F_32": [
+    {
+      "text_de": "Sie begreifen nicht die Tragweite unseres Unterfangens! Und wie eng unser Zeitplan ist! Aber ich sollte mich nicht aufregen.",
+      "text_en": "They fail to grasp the magnitude of our enterprise! Or how tight our schedule is! But I shouldn’t let myself get worked up.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "46%",
+      "left": "64%",
+      "width": "29%"
+    }
+  ],
+  "04d_F_33": [
+    {
+      "text_de": "Morgen ist ein entscheidender Tag. Die Welt wird uns mit anderen Augen sehen.",
+      "text_en": "Tomorrow’s a decisive day. The world will see us differently after that.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "-5%",
+      "left": "77%",
+      "width": "18%"
+    }
+  ],
+  "04d_F_34": [
+    {
+      "text_de": "Tschirp, tschirp!",
+      "text_en": "Chirp, chirp!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "74%",
+      "left": "32%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Leon ist vermutlich ein einziges Nervenbündel.",
+      "text_en": "Leon’s probably a bundle of nerves by now.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "87%",
+      "left": "54%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Da muss er jetzt einfach durch.",
+      "text_en": "He’ll just have to tough it out.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "33%",
+      "left": "16%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_35": [
+    {
+      "text_de": "Dein Namensvetter wird daran zu knabbern haben. Niemand wird gern so kalt erwischt.",
+      "text_en": "Your namesake will take it hard, I suppose. No one likes to be caught off guard like that.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "12%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Aber die Presse wird begeistert sein, so viel ist sicher.",
+      "text_en": "But the press will love it—that’s for sure.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "67%",
+      "left": "72%",
+      "width": "16%"
+    }
+  ],
+  "04d_F_36": [
+    {
+      "text_de": "Die Leserschaft liebt Wettrennen.",
+      "text_en": "The public adores a race.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "50%",
+      "left": "16%",
+      "width": "16%"
+    },
+    {
+      "text_de": "Tschirp, tschirp!",
+      "text_en": "Chirp, chirp!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "hundstag_dark",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "93%",
+      "left": "66%",
+      "width": "20%"
+    }
+  ],
+  "04d_F_37": [
+    {
+      "text_de": "Nur bei den Briten wird die Nachricht für Unmut sorgen. Die haben einen Haufen Gründe, uns in ein schlechtes Licht zu rücken.",
+      "text_en": "The British, though—they won’t take it kindly. They have plenty of reasons to paint us in a bad light.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "62%",
+      "left": "4%",
+      "width": "29%"
+    }
+  ],
+  "04d_F_38": [
+    {
+      "text_de": "Tja... aber was machen wir nun wegen des Wassers? Mehr Regen kommt – nicht wahr?",
+      "text_en": "Well then, what are we to do about the water, eh? More rain’s coming—isn’t it?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "71%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Tschirp, tschirp!",
+      "text_en": "Chirp, chirp!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
+      "Fontsize": "",
+      "textAlign": "right",
+      "bottom": "68%",
+      "left": "27%",
+      "width": "20%"
+    }
+  ]
 
 };
