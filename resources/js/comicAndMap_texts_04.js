@@ -8,7 +8,7 @@ const imageTexts = {
       "kind": "chapter",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "",
+      "Fontsize": "1.8vw",
       "textAlign": "center",
       "bottom": "90%",
       "left": "0%",
@@ -21,7 +21,7 @@ const imageTexts = {
       "kind": "title",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "",
+      "Fontsize": "1.8vw",
       "textAlign": "center",
       "bottom": "85%",
       "left": "10%",
@@ -34,7 +34,7 @@ const imageTexts = {
       "kind": "date",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "",
+      "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -47,7 +47,7 @@ const imageTexts = {
       "kind": "location",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "",
+      "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -1236,7 +1236,7 @@ const imageTexts = {
       "kind": "date",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "",
+      "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -1249,7 +1249,7 @@ const imageTexts = {
       "kind": "location",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "",
+      "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -1276,11 +1276,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "58%",
+      "left": "24%",
       "width": "20%"
     },
     {
@@ -1289,12 +1289,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "40%"
+      "bottom": "38%",
+      "left": "59%",
+      "width": "20%"
     }
   ],
   "04d_F_03": [
@@ -1403,11 +1403,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "92%",
+      "left": "50%",
       "width": "20%"
     },
     {
@@ -1416,12 +1416,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "82%",
+      "left": "60%",
+      "width": "12%"
     },
     {
       "text_de": "Wa-hu-hu-hu!",
@@ -1429,12 +1429,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "91%",
+      "left": "89%",
+      "width": "20%"
     }
   ],
   "04d_F_08": [
@@ -1444,11 +1444,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "90%",
+      "left": "68%",
       "width": "20%"
     },
     {
@@ -1457,12 +1457,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "58%",
+      "left": "21%",
+      "width": "20%"
     },
     {
       "text_de": "Geschafft!",
@@ -1470,12 +1470,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "20%",
+      "left": "76%",
+      "width": "20%"
     }
   ],
   "04d_F_09": [
@@ -1485,12 +1485,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "74%",
+      "left": "65%",
+      "width": "16%"
     }
   ],
   "04d_F_11": [
@@ -1500,11 +1500,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "21%",
       "width": "20%"
     },
     {
@@ -1513,12 +1513,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "left": "57%",
+      "width": "20%"
     },
     {
       "text_de": "Du kommst wie gerufen.",
@@ -1526,12 +1526,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "40%",
+      "left": "12%",
+      "width": "20%"
     }
   ],
   "04d_F_12": [
@@ -1644,16 +1644,14 @@ const imageTexts = {
       "bottom": "85%",
       "left": "2%",
       "width": "20%"
-    }
-  ],
-  "04d_F_16": [
+    },
     {
       "text_de": "Wenn überhaupt, dann in Kerguelen – bei der norwegischen Walfangstation.",
       "text_en": "If anywhere, then Kerguelen—at the Norwegian whaling station.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
@@ -1661,19 +1659,19 @@ const imageTexts = {
       "width": "20%"
     }
   ],
-  "04d_F_17": [
+  "04d_F_16": [
     {
       "text_de": "Bis dahin müssen wir Entbehrungen in Kauf nehmen. Wir kürzen die Rationen auf einen Liter.",
       "text_en": "Until then, we’ll have to make some sacrifices. We’re cutting rations to one liter.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "78%",
+      "left": "16%",
+      "width": "13%"
     },
     {
       "text_de": "Sobald wir den 40. Breitengrad passiert haben, wird es mehr regnen, als uns lieb ist. Und um den Vorsprung der Briten einzuholen, sollten wir in drei Monaten ohnehin im Packeis sein.",
@@ -1681,12 +1679,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "68%",
+      "left": "49%",
+      "width": "17%"
     },
     {
       "text_de": "Dort gibt es bekanntermaßen unendlich viel Trinkwasser! Wir müssen eben durchhalten!",
@@ -1694,15 +1692,15 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "81%",
+      "left": "281%",
+      "width": "17%"
     }
   ],
-  "04d_F_18": [
+  "04d_F_17": [
     {
       "text_de": "Wie geht es den Hunden? Manche waren ja regelrecht in Panik.",
       "text_en": "How are the dogs? Some seemed downright panicked.",
@@ -1730,19 +1728,19 @@ const imageTexts = {
       "width": "50%"
     }
   ],
-  "04d_F_19": [
+  "04d_F_18": [
     {
       "text_de": "Hassel, wie weit sind wir mit den Beißkörben?",
       "text_en": "Hassel, how’s the work on the muzzles coming along?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "68%",
+      "left": "22%",
+      "width": "12%"
     },
     {
       "text_de": "Noch zwei bis drei Tage, Chef.",
@@ -1750,12 +1748,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "69%",
+      "left": "85%",
+      "width": "10%"
     },
     {
       "text_de": "Hörst du, Uroa? Bald bist du auf freiem Fuß.",
@@ -1763,27 +1761,27 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "10%",
+      "left": "56%",
+      "width": "15%"
     }
   ],
-  "04d_F_20": [
+  "04d_F_19": [
     {
       "text_de": "Es mangelt aber nach wie vor an trockenen Plätzen.",
       "text_en": "But there’s still a shortage of dry spots.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "83%",
+      "left": "41%",
+      "width": "16%"
     },
     {
       "text_de": "Stubberud wird ein paar Hundehütten bauen. Wie geht es unseren Sorgenkindern?",
@@ -1791,27 +1789,40 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "textAlign": "right",
+      "bottom": "3%",
+      "left": "65%",
+      "width": "15%"
     }
   ],
-  "04d_F_21": [
+  "04d_F_20": [
     {
-      "text_de": "Bei Liket weiß ich mir keinen Rat mehr. Frisst nichts, ist nur noch Haut und Knochen. Vielleicht müssen wir ihn aufgeben.",
-      "text_en": "I’m at my wit’s end with Liket. Won’t eat and is thin as a rake. We may have to give up on him.",
+      "text_de": "Bei Liket weiß ich mir keinen Rat mehr. Frisst nichts, ist nur noch Haut und Knochen.",
+      "text_en": "I’m at my wit’s end with Liket. Won’t eat and is thin as a rake.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "61%",
+      "left": "20%",
+      "width": "14%"
+    },
+    {
+      "text_de": "Vielleicht müssen wir ihn aufgeben.",
+      "text_en": "We may have to give up on him.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "74%",
+      "left": "51%",
+      "width": "14%"
     },
     {
       "text_de": "Dafür ist es zu früh. Ich will eine experimentelle Behandlung versuchen – mit bereits verdauter Nahrung.",
@@ -1819,26 +1830,26 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "textAlign": "right",
+      "bottom": "44%",
+      "left": "66%",
+      "width": "15%"
     }
   ],
-  "04d_F_22": [
+  "04d_F_21": [
     {
       "text_de": "Willst du ihm das Essen vorkauen, oder wie meinst du das?",
       "text_en": "You mean you’re going to chew his food for him, or what?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "18%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -1847,25 +1858,27 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
-    },
+      "textAlign": "right",
+      "bottom": "3%",
+      "left": "50%",
+      "width": "14%"
+    }
+  ],
+  "04d_F_22": [
     {
       "text_de": "Das ist ja widerlich!",
       "text_en": "That’s disgusting!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "74%",
+      "left": "82%",
+      "width": "20%"
     }
   ],
   "04d_F_23": [
@@ -1875,11 +1888,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "80%",
+      "left": "18%",
       "width": "20%"
     },
     {
@@ -1888,12 +1901,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "75%",
+      "left": "69%",
+      "width": "20%"
     }
   ],
   "04d_F_24": [
@@ -1903,11 +1916,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "19%",
+      "left": "3%",
       "width": "20%"
     }
   ],
@@ -1921,9 +1934,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "60%",
+      "left": "11%",
+      "width": "22%"
     },
     {
       "text_de": "Dann denk weiter darüber nach – herrje noch mal!",
@@ -1931,12 +1944,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "13%",
+      "left": "84%",
+      "width": "18%"
     }
   ],
   "04d_F_27": [
@@ -2197,5 +2210,6 @@ const imageTexts = {
       "width": "20%"
     }
   ]
+
 
 };
