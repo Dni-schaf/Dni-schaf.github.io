@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeitung</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Georgia, serif;
+    }
+
+    .newsticker {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .ticker-text{
+      flex: 1 1 32%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .date {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+      border-top: solid;
+      border-bottom: solid;
+    }
+    .date-text{
+      flex: 1 1 32%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .price{
+      text-align: right;
+    }
+
+    .number{
+      text-align: left;
+    }
+
+    #titel{
+      font-size: 6vw;
+      text-transform: uppercase;
+    }
+
+    .intro {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .intro-text,
+    .intro-image {
+      flex: 1 1 49%;
+      box-sizing: border-box;
+    }
+
+    .intro-image {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      background-image: url("bild.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .part4 {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .part4-text {
+      flex: 1 32%;
+      box-sizing: border-box;
+      font-family: serif;
+      line-height: 1.6;
+      text-align: justify;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+    }
+
+    .part4-image {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      flex: 2 67%;
+      box-sizing: border-box;
+      display: block;
+      background-image: url("bild.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background-color: #fff;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 0.5em;
+    }
+
+    .newspaper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: auto;
+      gap: 20px;
+    }
+
+    .column-area {
+      grid-column: 1 / -1;
+      grid-row: 1 / -1;
+      column-width: 29vw;
+      column-gap: 20px;
+      column-fill: balance;
+    }
+
+    .flow-text {
+      height: 100%;
+      padding: 0;
+      font-family: serif;
+      line-height: 1.6;
+      text-align: justify;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+    }
+
+    #titel{
+      width: 100%;
+      position: relative;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Oberer Bereich mit 2 Spalten -->
+  <div class="newsticker">
+    <div class="ticker-text">
+      <p>Terra Nova legt aus London ab</p>
+    </div>
+    <div class="ticker-text">
+      <p>Terra Nova legt aus London ab</p>
+    </div>
+    <div class="ticker-text">
+      <p>Terra Nova legt aus London ab</p>
+    </div>
+  </div>
+
+  <div id="titel">
+    The London tribune
+  </div>
+  
+  <div class="date">
+    <div class="date-text number">
+      <p>No. 3,042.</p>
+    </div>
+    <div class="date-text">
+      <p>Mittwoch, 1. Juni 1910</p>
+    </div>
+    <div class="date-text price">
+      <p>Einen Penny</p>
+    </div>
+  </div>
+
+  <div class="intro">
+    <div class="intro-text">
+      <p>
+        Robert Falcon Scott (* 6. Juni 1868 in Devonport bei Plymouth, England; † 29. März 1912 auf dem Ross-Schelfeis, Antarktis) war ein britischer Marineoffizier und Polarforscher. Er leitete die Discovery-Expedition (1901–1904) und die Terra-Nova-Expedition (1910–1913), zwei Forschungsreisen während des sogenannten Goldenen Zeitalters der Antarktisforschung. Er zählt zu den ersten zehn Menschen, die den geographischen Südpol erreichten.
+        Robert Falcon Scott (* 6. Juni 1868 in Devonport bei Plymouth, England; † 29. März 1912 auf dem Ross-Schelfeis, Antarktis) war ein britischer Marineoffizier und Polarforscher. Er leitete die Discovery-Expedition (1901–1904) und die Terra-Nova-Expedition (1910–1913), zwei Forschungsreisen während des sogenannten Goldenen Zeitalters der Antarktisforschung. Er zählt zu den ersten zehn Menschen, die den geographischen Südpol erreichten.
+      </p>
+    </div>
+    <div class="intro-image">
+      <div class="caption">Robert Falcon Scott in der Antarktis, ca. 1911</div>
+    </div>
+  </div>
+
+  <!-- Zeitungs-Layout darunter -->
+  <div class="newspaper">
+    <div class="column-area">
+      <div class="flow-text">
+        <p>Frühe Jahre</p>
+        <p>Robert Falcon Scott wurde 1868 in Devonport geboren und trat schon früh in die britische Marine ein... Robert Falcon Scott wurde 1868 in Devonport geboren und trat schon früh in die britische Marine ein... Robert Falcon Scott wurde 1868 in Devonport geboren und trat schon früh in die britische Marine ein... Robert Falcon Scott wurde 1868 in Devonport geboren und trat schon früh in die britische Marine ein...</p>
+
+        <p>Expeditionen</p>
+        <p>Scott leitete zwei bedeutende Antarktis-Expeditionen, die Discovery-Expedition und die Terra-Nova-Expedition...Scott leitete zwei bedeutende Antarktis-Expeditionen, die Discovery-Expedition und die Terra-Nova-Expedition...Scott leitete zwei bedeutende Antarktis-Expeditionen, die Discovery-Expedition und die Terra-Nova-Expedition... Scott leitete zwei bedeutende Antarktis-Expeditionen, die Discovery-Expedition und die Terra-Nova-Expedition... Scott leitete zwei bedeutende Antarktis-Expeditionen, die Discovery-Expedition und die Terra-Nova-Expedition...</p>
+
+        <p>Letzte Reise</p>
+        <p>Im März 1912 starb Scott auf dem Rückweg vom Südpol. Seine letzte Tagebuchnotiz datiert vom 29. März...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="part4">
+    <div class="part4-image">
+      <div class="caption">Robert Falcon Scott in der Antarktis, ca. 1911</div>
+    </div>
+    <div class="part4-text">
+      <p>
+        Robert Falcon Scott (* 6. Juni 1868 in Devonport bei Plymouth, England; † 29. März 1912 auf dem Ross-Schelfeis, Antarktis) war ein britischer Marineoffizier und Polarforscher. Er leitete die Discovery-Expedition (1901–1904) und die Terra-Nova-Expedition (1910–1913), zwei Forschungsreisen während des sogenannten Goldenen Zeitalters der Antarktisforschung. Er zählt zu den ersten zehn Menschen, die den geographischen Südpol erreichten.
+        Robert Falcon Scott (* 6. Juni 1868 in Devonport bei Plymouth, England; † 29. März 1912 auf dem Ross-Schelfeis, Antarktis) war ein britischer Marineoffizier und Polarforscher. Er leitete die Discovery-Expedition (1901–1904) und die Terra-Nova-Expedition (1910–1913), zwei Forschungsreisen während des sogenannten Goldenen Zeitalters der Antarktisforschung. Er zählt zu den ersten zehn Menschen, die den geographischen Südpol erreichten.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
