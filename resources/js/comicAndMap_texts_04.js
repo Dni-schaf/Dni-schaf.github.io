@@ -8,7 +8,7 @@ const imageTexts = {
       "kind": "chapter",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "center",
       "bottom": "90%",
       "left": "0%",
@@ -21,7 +21,7 @@ const imageTexts = {
       "kind": "title",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "center",
       "bottom": "85%",
       "left": "10%",
@@ -34,7 +34,7 @@ const imageTexts = {
       "kind": "date",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -47,7 +47,7 @@ const imageTexts = {
       "kind": "location",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
       "bottom": "80%",
       "left": "0%",
@@ -1226,7 +1226,596 @@ const imageTexts = {
       "left": "2%",
       "width": "20%"
     }
-
+  ],
+  "04c_F_01": [
+    {
+      "text_de": "22. September 1910",
+      "text_en": "22 September 1910",
+      "text_no": "no",
+      "kind": "date",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    },
+    {
+      "text_de": "Atlantischer Ozean",
+      "text_en": "Atlantic Ocean",
+      "text_no": "no",
+      "kind": "location",
+      "color": "black",
+      "backgroundColor": "",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "80%",
+      "left": "0%",
+      "width": "100%"
+    }
+  ],
+  "04c_F_02": [
+    {
+      "text_de": "Ich sag’s dir, Lindstrøm – heute ist es so weit!",
+      "text_en": "I’m telling you, Lindstrøm—today’s the day!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "77%",
+      "left": "21%",
+      "width": "15%"
+    },
+    {
+      "text_de": "Papperlapapp! Das sind höchstens 29,5.",
+      "text_en": "Nonsense! It’s no more than 29.5.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "51%",
+      "width": "14%"
+    }
+  ],
+  "04c_F_03": [
+    {
+      "text_de": "Gibt’s schon eine Messung, Nilsen?",
+      "text_en": "Got a reading yet, Nilsen?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "56%",
+      "width": "15%"
+    }
+  ],
+  "04c_F_04": [
+    {
+      "text_de": "Liebe Wettpaten, seit sieben Tagen fiebern wir mit euch – löst sich eure Wette heute auf?",
+      "text_en": "Dear betting partners, we’ve been on tenterhooks for seven days—will your wager be settled today?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "63%",
+      "left": "25%",
+      "width": "15%"
+    }
+  ],
+  "04c_F_05": [
+    {
+      "text_de": "Mach es doch nicht so spannend!",
+      "text_en": "Don’t drag it out!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "25%",
+      "width": "12%"
+    }
+  ],
+  "04c_F_06": [
+    {
+      "text_de": "Notier ins Logbuch, Prestrud: Barometer 31.0, 61.1 … Temperatur (Luft) 29,5.",
+      "text_en": "Log this, Prestrud: Barometer 31.0, 61.1 … temperature (air) 29.5.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "88%",
+      "left": "9%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Der heißeste Tag bisher.",
+      "text_en": "Hottest day so far.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "3%",
+      "left": "45%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_07": [
+    {
+      "text_de": "Ha! Ich hab’s euch gesagt!",
+      "text_en": "Ha! Told you so!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "2.5vw",
+      "textAlign": "right",
+      "bottom": "67%",
+      "left": "0%",
+      "width": "13%"
+    },
+    {
+      "text_de": "Seit heute früh zuckt meine linke Augenbraue – ab morgen wird es wieder kühler.",
+      "text_en": "My left eyebrow’s been twitching since this morning—mark my words, it’ll be cooler tomorrow.",
+      "text_no": "",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "58%",
+      "left": "32%",
+      "width": "12%"
+    },
+    {
+      "text_de": "Ich geb mich noch nicht geschlagen – nicht, bis wir den Äquator passiert haben.",
+      "text_en": "I’m not giving up yet—not until we’ve crossed the Equator.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "58%",
+      "left": "62%",
+      "width": "13%"
+    }
+  ],
+  "04c_F_08": [
+    {
+      "text_de": "Unter 30, Chef.",
+      "text_en": "Under 30, Chief.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "War nicht zu überhören.",
+      "text_en": "Hard not to hear that.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_09": [
+    {
+      "text_de": "Tja, da muss Bjaaland wohl zum Kartoffelschälen antanzen.",
+      "text_en": "Well, looks like Bjaaland’s on potato-peeling duty.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "20%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_10": [
+    {
+      "text_de": "Und, wie lautet deine Prognose? Wann dürfen wir mit Regen rechnen? Kräuselt sich dein Bart schon?",
+      "text_en": "So, what’s your forecast? Any sign of rain? Is your beard giving you any clues?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Chef?",
+      "text_en": "Chief?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Manchen Hunden geht es miserabel. Ich fürchte, sie schaffen es nicht. Einige verlieren stark Fell, haben schon kahle Stellen. Die Spezialseife hat kaum geholfen.",
+      "text_en": "Some of the dogs are in bad shape. I fear they won’t make it. Several are losing fur, with bald patches already showing. The special soap has done little good.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_11": [
+    {
+      "text_de": "Und die Hitze setzt ihnen zu. Johansen hat seine Sorgenkinder schon „Liket“ und „Dødsengelen“ getauft.",
+      "text_en": "And the heat is taking its toll. Johansen’s already renamed his worst cases \"Liket\" and \"Dødsengelen\".",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "56%",
+      "width": "23%"
+    },
+    {
+      "text_de": "„Leiche“ und „Todesengel“ – herrlich! Ich liebe seinen Humor.",
+      "text_en": "“Corpse” and “Angel of Death”—splendid! Love his sense of humor.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "32%",
+      "left": "24%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_12": [
+    {
+      "text_de": "Ich habe volles Vertrauen in deine medizinische Kompetenz, Wisting.",
+      "text_en": "I have full confidence in your medical expertise, Wisting.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "2%",
+      "left": "38%",
+      "width": "21%"
+    }
+  ],
+  "04c_F_13": [
+    {
+      "text_de": "Ein wenig mehr Wasser täte ihnen gut. Nach dem Regen vorgestern …",
+      "text_en": "A little more water would do them good. After that rain the other day…",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.3vw",
+      "textAlign": "right",
+      "bottom": "73%",
+      "left": "18%",
+      "width": "12%"
+    },
+    {
+      "text_de": "Du hast doch gesehen, was der Wind mit unserer Ausbeute gemacht hat.",
+      "text_en": "You saw what the wind did to our precious catch.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.3vw",
+      "textAlign": "left",
+      "bottom": "73%",
+      "left": "42%",
+      "width": "15%"
+    }
+  ],
+  "04c_F_14": [
+    {
+      "text_de": "Na, da hast du dir ja das beste Plätzchen auf dem ganzen Deck geschnappt, Hassel!",
+      "text_en": "Well, you’ve grabbed the best spot on the whole deck, Hassel!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "35%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_15": [
+    {
+      "text_de": "Das habe ich mir auch verdient.",
+      "text_en": "I’ve earned it.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "81%",
+      "left": "23%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Schau – mein Prototyp. Beißkorb",
+      "text_en": "Look—my prototype.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "64%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_16": [
+    {
+      "text_de": "Ah, der Beißkorb! Dann ist mein Allerwertester endlich sicher.",
+      "text_en": "Ah, the muzzle! Then my posterior is finally safe.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Das wird noch dauern. Sei lieber weniger arglos im Umgang mit den Hunden, Lindstrøm.",
+      "text_en": "It’ll take a while yet. In the meantime, you should be less reckless with the dogs, Lindstrøm.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Aber wenn erst alle einen Beißkorb tragen und frei herumlaufen können, werden sie hoffentlich friedlicher.",
+      "text_en": "But once they all have muzzles and can run free, they’ll hopefully be a bit more peaceful.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "58%",
+      "left": "64%",
+      "width": "14%"
+    }
+  ],
+  "04c_F_17": [
+    {
+      "text_de": "Sind wir bereit?",
+      "text_en": "Are we ready?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Bereit, Chef. Komm her, Fix!",
+      "text_en": "Ready, Chief. Come here, Fix!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ruhig, mein Guter.",
+      "text_en": "Easy, boy.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_18": [
+    {
+      "text_de": "Er passt!",
+      "text_en": "It fits!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ausgezeichnet.",
+      "text_en": "Outstanding.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_19": [
+    {
+      "text_de": "Huhu, Fix! Beiß doch jetzt mal in meinen Schinken!",
+      "text_en": "Hey, Fix! Go on, take a bite of my ham now!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "21%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Ha, bei deinem Hüftschwung kann man ihm kaum verübeln, dass er’s versucht!",
+      "text_en": "Ha! With hips like that, you can’t blame him for trying!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "70%",
+      "left": "60%",
+      "width": "18%"
+    },
+    {
+      "text_de": "Wau-au-au!",
+      "text_en": "Ruff-ruff-ruff!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "89%",
+      "left": "78%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_20": [
+    {
+      "text_de": "Bissprobe bestanden – die Produktion kann beginnen.",
+      "text_en": "Bite test passed—let the production begin.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "89%",
+      "left": "12%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Männer Rønne wird sich freuen – bei der Hitze hunderte Ösen und Stifte zu schmieden!",
+      "text_en": "Rønne’s going to be thrilled—forging hundreds of rivets and rings in this heat!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "86%",
+      "left": "54%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_21": [
+    {
+      "text_de": "Laut Lindstrøm sieht’s nach Abkühlung aus – sein Ohrläppchen juckt schon. Kommt denn dann auch Regen?",
+      "text_en": "According to Lindstrøm, it looks like things might cool down—his earlobe’s itching. Does that mean we’ll get some rain, too?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "74%",
+      "left": "17%",
+      "width": "23%"
+    },
+    {
+      "text_de": "Wenn ihr wollt, lege ich bei Njörd noch ein gutes Wort ein.",
+      "text_en": "If you like, I’ll put in a good word for us with Njord.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "74%",
+      "left": "43%",
+      "width": "20%"
+    }
+  ],
+  "04c_F_22": [
+    {
+      "text_de": "Hoffen wir, dass er dir auch zuhört.",
+      "text_en": "Let’s hope he listens to you.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "2%",
+      "width": "20%"
+    }
   ],
   "04d_F_01": [
     {
