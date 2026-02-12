@@ -208,7 +208,17 @@ body {
 }
 
 .hundstag_light{
-    background-color: #B0E6EF
+    background-color: #B0E6EF;
+}
+.FSturm_dark{
+    background-color: #2e3c5f;
+}
+.FSturm_middle{
+    background-color: #455c90;
+}
+
+.FSturm_light{
+    background-color: #89a0d7;
 }
 
 .post_dark{

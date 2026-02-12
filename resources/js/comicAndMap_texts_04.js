@@ -1617,10 +1617,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "0%",
+      "left": "27%",
+      "width": "19%"
     },
     {
       "text_de": "Aber wenn erst alle einen Beißkorb tragen und frei herumlaufen können, werden sie hoffentlich friedlicher.",
@@ -1850,12 +1850,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "27%",
+      "left": "24%",
+      "width": "15%"
     }
   ],
   "04d_F_02": [
