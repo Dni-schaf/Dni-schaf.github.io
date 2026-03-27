@@ -35,7 +35,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "70%",
       "left": "0%",
       "width": "100%"
     },
@@ -48,7 +48,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "70%",
       "left": "0%",
       "width": "100%"
     },
@@ -79,21 +79,19 @@ const imageTexts ={
       "bottom": "75%",
       "left": "43%",
       "width": "16%"
-    }
-  ],
-  "": [
+    },
     {
-      "text_de": "ziege",
-      "text_en": "",
-      "text_no": "",
-      "kind": "",
-      "color": "",
-      "backgroundColor": "",
-      "Fontsize": "",
-      "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "text_de": "bähhh",
+      "text_en": "baa",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_middle",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "55%",
+      "left": "79%",
+      "width": "14%"
     }
   ],
   "01a_TN_03": [
@@ -724,8 +722,8 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "40%",
+      "left": "63%",
       "width": "20%"
     },
     {
@@ -734,11 +732,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "37%",
+      "left": "79%",
       "width": "20%"
     },
     {
@@ -747,11 +745,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "80%",
+      "left": "19%",
       "width": "20%"
     },
     {
@@ -760,10 +758,10 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
+      "bottom": "40%",
       "left": "5%",
       "width": "20%"
     },
@@ -773,11 +771,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "5%",
+      "bottom": "60%",
+      "left": "78%",
       "width": "20%"
     }
   ],
@@ -811,28 +809,28 @@ const imageTexts ={
     {
       "text_de": "Aau-kja-kja-kja!",
       "text_en": "Aark-kya-kya-kya!",
-      "text_no": "",
-      "kind": "",
-      "color": "",
-      "backgroundColor": "",
-      "Fontsize": "",
-      "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "12%",
+      "left": "22%",
+      "width": "13%"
     },
     {
       "text_de": "Gag-ag-ag!",
       "text_en": "Aark-ark-ark!",
-      "text_no": "",
-      "kind": "",
-      "color": "",
-      "backgroundColor": "",
-      "Fontsize": "",
-      "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "69%",
+      "left": "58%",
+      "width": "10%"
     }
   ],
   "01b_TN_02": [
@@ -857,11 +855,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "73%",
       "width": "20%"
     },
     {
@@ -870,11 +868,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "57%",
+      "left": "47%",
       "width": "20%"
     },
     {
@@ -886,8 +884,8 @@ const imageTexts ={
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "bottom": "41%",
+      "left": "55%",
       "width": "20%"
     },
     {
@@ -899,8 +897,8 @@ const imageTexts ={
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "bottom": "36%",
+      "left": "35%",
       "width": "20%"
     }
   ],
@@ -914,8 +912,8 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "71%",
+      "left": "34%",
       "width": "20%"
     },
     {
@@ -924,11 +922,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "33%",
+      "left": "49%",
       "width": "20%"
     }
   ],
@@ -939,12 +937,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "52%",
+      "left": "78%",
+      "width": "14%"
     }
   ],
   "01b_TN_06": [
@@ -954,11 +952,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "37%",
       "width": "20%"
     },
     {
@@ -967,11 +965,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "68%",
+      "left": "34%",
       "width": "20%"
     }
   ],
@@ -982,11 +980,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "69%",
+      "left": "37%",
       "width": "20%"
     },
     {
@@ -995,12 +993,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "3%",
+      "left": "45%",
+      "width": "16%"
     }
   ],
   "01b_TN_08": [

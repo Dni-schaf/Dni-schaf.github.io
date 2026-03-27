@@ -45,7 +45,7 @@ const imageTexts = {
       "text_en": "Atlantic Ocean",
       "text_no": "no",
       "kind": "location",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
@@ -92,7 +92,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "62%",
       "left": "20%",
-      "width": "20%"
+      "width": "19%"
     }
   ],
   "06_F_03": [
@@ -133,7 +133,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "",
       "left": "8%",
       "width": "20%"
     }
@@ -150,7 +150,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "76%",
       "left": "49%",
-      "width": "20%"
+      "width": "18%"
     }
   ],
   "06_F_06": [
@@ -191,7 +191,7 @@ const imageTexts = {
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "57%",
+      "bottom": "63%",
       "left": "36%",
       "width": "20%"
     }
@@ -236,7 +236,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "83%",
       "left": "54%",
       "width": "13%"
     }
@@ -306,9 +306,9 @@ const imageTexts = {
       "color": "white",
       "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "76%",
-      "left": "54%",
+      "textAlign": "left",
+      "bottom": "23%",
+      "left": "11%",
       "width": "20%"
     },
     {
@@ -319,10 +319,10 @@ const imageTexts = {
       "color": "white",
       "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "2%",
-      "left": "26%",
-      "width": "24%"
+      "left": "50%",
+      "width": "17%"
     }
   ],
   "06_F_14": [
@@ -332,12 +332,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "40%",
+      "left": "27%",
+      "width": "17%"
     },
     {
       "text_de": "Sprich besser nicht vom Seegang – Prestrud sieht jetzt schon grün aus.",
@@ -345,12 +345,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
+      "bottom": "2%",
+      "left": "83%",
+      "width": "17%"
     }
   ],
   "06_F_15": [
@@ -360,12 +360,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "72%",
+      "left": "21%",
+      "width": "25%"
     },
     {
       "text_de": "Nicht hilfreich!",
@@ -373,11 +373,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "bottom": "79%",
+      "left": "78%",
       "width": "20%"
     }
   ],
@@ -388,12 +388,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "47%",
+      "left": "10%",
+      "width": "24%"
     }
   ],
   "06_F_17": [
@@ -403,24 +403,24 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "18%",
+      "left": "0%",
+      "width": "21%"
     },
     {
       "text_de": "Und ganz nebenbei hätte uns diese Drift auch am Nordpol absetzen sollen – schade, dass der Teil des Plans missglückt ist.",
       "text_en": "And incidentally, that drift should have set us down right at the North Pole—too bad that part of the plan didn’t work out.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "bottom": "2%",
+      "left": "51%",
       "width": "20%"
     }
   ],
@@ -430,12 +430,12 @@ const imageTexts = {
       "text_en": "You must have weathered a fair share of fierce storms with Nansen. Didn’t he ever curse his beloved ship in those moments?",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "17%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -443,11 +443,11 @@ const imageTexts = {
       "text_en": "Never. Not even when he himself was sick as a dog.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "73%",
       "left": "52%",
       "width": "20%"
     }
@@ -569,10 +569,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "69%",
+      "left": "38%",
+      "width": "25%"
     }
   ],
   "06_F_22": [
@@ -585,15 +585,28 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "8%",
+      "left": "32%",
       "width": "20%"
+    },
+    {
+      "text_de": "Das Ansehen einer solchen Expedition wäre gewiss auch für unsere junge Nation von großem Wert.",
+      "text_en": "Such an undertaking would be of great value—not just for science, but for our young nation.",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "0%",
+      "left": "51%",
+      "width": "16%"
     }
   ],
   "06_F_23": [
     {
-      "text_de": "Das Ansehen einer solchen Expedition wäre gewiss auch für unsere junge Nation von großem Wert.",
-      "text_en": "Such an undertaking would be of great value—not just for science, but for our young nation.",
+      "text_de": "Ich kann Ihr Fernweh gut verstehen, Herr Amundsen. Während Ihres Vortrags hat es mich selbst wieder gepackt, aber es ist leider ...",
+      "text_en": "I understand your restlessness, Mr. Amundsen. During your lecture, I felt it stir in me as well. But, unfortunately, it’s not so…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -607,19 +620,6 @@ const imageTexts = {
   ],
   "06_F_24": [
     {
-      "text_de": "Ich kann Ihr Fernweh gut verstehen, Herr Amundsen. Während Ihres Vortrags hat es mich selbst wieder gepackt, aber es ist leider ...",
-      "text_en": "I understand your restlessness, Mr. Amundsen. During your lecture, I felt it stir in me as well. But, unfortunately, it’s not so…",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
       "text_de": "Herr Botschafter! Ich dachte mir schon, dass ich Sie hier treffe!",
       "text_en": "Ambassador! I had a feeling I’d find you here!",
       "text_no": "no",
@@ -629,7 +629,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "52%",
+      "left": "32%",
       "width": "20%"
     }
   ],
@@ -1186,6 +1186,5 @@ const imageTexts = {
       "width": "20%"
     }
   ]
-
   
 };
