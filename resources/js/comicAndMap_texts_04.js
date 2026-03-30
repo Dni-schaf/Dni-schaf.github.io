@@ -1178,12 +1178,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "77%",
+      "left": "14%",
+      "width": "18%"
     },
     {
       "text_de": "Teufel auch – schlimmer geht’s kaum.",
@@ -1191,12 +1191,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "42%",
+      "width": "16%"
     },
     {
       "text_de": "Pustekuchen – wir sind ja noch nicht mal am Äquator! Wir bekommen sicher noch über 30 Grad.",
@@ -1206,10 +1206,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "5%",
+      "left": "67%",
+      "width": "13%"
     }
   ],
   "04b_F_23": [
@@ -1219,11 +1219,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "70%",
+      "left": "73%",
       "width": "20%"
     }
   ],
