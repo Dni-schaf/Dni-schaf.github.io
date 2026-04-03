@@ -203,3 +203,71 @@
       text-transform: uppercase;
       text-align: left;
     }
+
+.card-row {
+  position: absolute;
+  bottom: 7vw;
+  left: 10vw;
+  display: flex;
+  width: 79vw;
+}
+
+.card-label-wrapper,
+.card-headline-wrapper,
+.card-sub-wrapper {
+  position: absolute;
+}
+
+.card-bg-1 .card-headline-wrapper { left: 9%; bottom: 68%; width: 33%; }
+.card-bg-1 .card-sub-wrapper      { left: 9%; bottom: 42%; width: 90%; }
+
+.card-bg-2 .card-headline-wrapper { right: 9%; bottom: 68%; width: 50%; }
+.card-bg-2 .card-sub-wrapper      { left: 9%; bottom: 15%; width: 90%; }
+
+.card-bg-3 .card-headline-wrapper { left: 18%; bottom: 68%; width: 33%; }
+.card-bg-3 .card-sub-wrapper      { left: 18%; bottom: 33%; width: 70%; }
+
+
+.card-item {
+  flex: 1;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  height: 17.5vw;
+}
+
+.card-bg-1 { background-image: url('../images/Anzeige1.svg'); }
+.card-bg-2 { background-image: url('../images/Anzeige2.svg'); }
+.card-bg-3 { background-image: url('../images/Anzeige3.svg'); }
+
+.card-label,
+.card-headline,
+.card-sub {
+  position: absolute;
+  margin: 0;
+}
+
+.card-bg-1 .card-headline {
+  font-size: 2vw;
+}
+
+.card-bg-1 .card-sub {
+  font-size: 1.7vw;
+}
+
+.card-bg-2 .card-headline {
+  font-size: 2vw;
+  text-align: right;
+}
+
+.card-bg-2 .card-sub {
+  font-size: 1.2vw;
+}
+
+.card-bg-3 .card-headline {
+  font-size: 2vw;
+}
+
+.card-bg-3 .card-sub {
+  font-size: 1vw;
+}

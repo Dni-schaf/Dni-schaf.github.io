@@ -187,6 +187,40 @@
       part4.appendChild(part4text);
       newspaperwrapper.appendChild(part4);
 
+      const cardRow = document.createElement("div");
+cardRow.classList.add("card-row");
+
+const cards = [
+  { bgClass: "card-bg-1", key: "card1" },
+  { bgClass: "card-bg-2", key: "card2" },
+  { bgClass: "card-bg-3", key: "card3" },
+];
+
+      cards.forEach(({ bgClass, key }) => {
+  const card = document.createElement("div");
+  card.classList.add("card-item", bgClass);
+
+  const headlineWrapper = document.createElement("div");
+  headlineWrapper.classList.add("card-headline-wrapper");
+  const headline = document.createElement("p");
+  headline.classList.add("card-headline");
+  headline.textContent = getText(newspaperTexts[key].headline);
+  headlineWrapper.appendChild(headline);
+
+  const subWrapper = document.createElement("div");
+  subWrapper.classList.add("card-sub-wrapper");
+  const sub = document.createElement("p");
+  sub.classList.add("card-sub");
+  sub.textContent = getText(newspaperTexts[key].sub);
+  subWrapper.appendChild(sub);
+
+  card.appendChild(headlineWrapper);
+  card.appendChild(subWrapper);
+  cardRow.appendChild(card);
+});
+
+newspaperwrapper.appendChild(cardRow);
+
     }
 
     function updateNewspaper(language) {

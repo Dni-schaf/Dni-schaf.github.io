@@ -118,5 +118,42 @@ p2: {
       text_en: "His Majesty King George V has conveyed his best wishes to Captain Scott and his entire party. The whole nation is gripped by polar fever and places its hopes in Scott and his brave men to reach the South Pole on behalf of Great Britain. Before the Terra Nova sets course for the Southern Ocean, she will make a short farewell tour, calling at several ports from London to Weymouth, Portsmouth, and finally Cardiff. Yet the departure from the West India Docks this afternoon already marks the beginning of a new and significant chapter in the history of British Antarctic exploration, a moment that will long be remembered.",
       text_no: "Kaptein Scott leder en nøye utvalgt gruppe …"
     }
+  },
+card1: {
+  headline: {
+    text_de: "VERSPÄTUNG VERMEIDEN",
+    text_en: "AVOID DELAY!",
+    text_no: "no"
+  },
+  sub: {
+    text_de: "FAHREN SIE MIT DER",
+    text_en: "TRAVEL BY THE",
+    text_no: "no"
   }
+},
+card2: {
+  headline: {
+    text_de: "Glanz ohne Gleichen – nur mit RADIUM!",
+    text_en: "Brilliance beyond belief — only with RADIUM!",
+    text_no: "no"
+  },
+    sub: {
+    text_de: "Diese Politur bringt Ihre Stiefel zum Strahlen.",
+    text_en: "This polish puts a bright shine on your boots.",
+    text_no: "no"
+  }
+},
+card3: {
+  headline: {
+    text_de: "Verschlingt den Staub!",
+    text_en: "It eats dirt!",
+    text_no: "no"
+  },
+    sub: {
+    text_de: "Mit dem B. V. C. wird alles sauber, hygienisch und staubfrei.",
+    text_en: "The B. V. C. makes everything clean, healthy and dustless.",
+    text_no: "no"
+  }
+},
+
 };
