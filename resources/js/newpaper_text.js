@@ -1,19 +1,19 @@
 const newspaperTexts = {
   tickertext1: {
-      text_de: "Südafrikanische Union gegründet",
-      text_en: "Union of South Africa established",
-      text_no: "Sør-Afrikas union grunnlagt",
+      text_de: "▪ Südafrikanische Union gegründet",
+      text_en: "▪ Union of South Africa established",
+      text_no: "▪ Sør-Afrikas union grunnlagt",
     },
     tickertext2:
     {
-      text_de: "Terra Nova legt aus London ab",
-      text_en: "Terra Nova departs from London",
-      text_no: "Terra Nova drar fra London",
+      text_de: "▪ Terra Nova legt aus London ab",
+      text_en: "▪ Terra Nova departs from London",
+      text_no: "▪ Terra Nova drar fra London",
     },
       tickertext3: {
-      text_de: "Suffragetten kündigen weitere Proteste an",
-      text_en: "Suffragette marches expand",
-      text_no: "Suffragette-marsjer utvider seg",
+      text_de: "▪ Suffragetten kündigen weitere Proteste an",
+      text_en: "▪ Suffragette marches expand",
+      text_no: "▪ Suffragette-marsjer utvider seg",
     },
   title: {
     text_de: "The London Herald",
@@ -126,8 +126,8 @@ card1: {
     text_no: "no"
   },
   sub: {
-    text_de: "FAHREN SIE MIT DER",
-    text_en: "TRAVEL BY THE",
+    text_de: "Fahren Sie mit der",
+    text_en: "Travel by the",
     text_no: "no"
   }
 },
