@@ -80,7 +80,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "83%",
       "left": "4%",
-      "width": "17%"
+      "width": "16%"
     },
     {
       "text_de": "Letzte Inspektion für heute, Doktor?",
@@ -97,7 +97,7 @@ const imageTexts = {
     },
     {
       "text_de": "Ja – und eine ganz besondere dazu.",
-      "text_en": "Yes — and a very special one at that.",
+      "text_en": "Yes—and a very special one at that.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -205,7 +205,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "75%",
       "left": "22%",
-      "width": "18%"
+      "width": "19%"
     }
   ],
   "03_F_08": [
@@ -254,7 +254,7 @@ const imageTexts = {
     },
     {
       "text_de": "Nein, nein! Den beanspruchen seit letztem Jahr zwei Amerikaner – Cook und Peary. Und sie streiten sich bis heute, wer zuerst dort war.",
-      "text_en": "Oh no, no! That’s been claimed since last year by two Americans — Cook and Peary. And they’re still quarrelling about who was first.",
+      "text_en": "Oh no, no! That’s been claimed since last year by two Americans—Cook and Peary. And they’re still quarrelling about who was first.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -269,7 +269,7 @@ const imageTexts = {
   "03_F_11": [
     {
       "text_de": "Aber Nansen – der ist der wahre Pionier der Arktis. Er hat unzählige Geräte und Techniken verbessert. Ein Wegbereiter für alle, die nach ihm kamen.",
-      "text_en": "But Nansen — he is the true pioneer of the Arctic. He perfected countless tools and techniques. A trailblazer for all who came after him.",
+      "text_en": "But Nansen—he is the true pioneer of the Arctic. He perfected countless tools and techniques. A trailblazer for all who came after him.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -312,7 +312,7 @@ const imageTexts = {
   "03_F_13": [
     {
       "text_de": "Genau, genau. Seine Reiseberichte habe ich zuhause – bei Gelegenheit lese ich Ihnen daraus vor.",
-      "text_en": "Indeed, indeed! I keep his travelogues at home — one day I’ll read to you from them.",
+      "text_en": "Indeed, indeed! I keep his travelogues at home—one day I’ll read to you from them.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -327,7 +327,7 @@ const imageTexts = {
   "03_F_14": [
     {
       "text_de": "Ha! Das würde ich gern hören. Und der große Entdecker – ist er wirklich an Bord?",
-      "text_en": "Ha! That I’d like to hear. And the great explorer — is he really aboard?",
+      "text_en": "Ha! That I’d like to hear. And the great explorer—is he really aboard?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -362,7 +362,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "14%",
       "left": "75%",
-      "width": "23%"
+      "width": "21%"
     }
   ],
   "03_F_15": [
@@ -377,7 +377,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "36%",
       "left": "3%",
-      "width": "18%"
+      "width": "16%"
     }
   ],
   "03_F_16": [
@@ -441,7 +441,7 @@ const imageTexts = {
   "03_F_20": [
     {
       "text_de": "Keine Sorge – hier bin immer noch ICH der Kapitän.",
-      "text_en": "Rest assured — I’m still the captain here.",
+      "text_en": "Rest assured—I’m still the captain here.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -493,11 +493,11 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "76%",
       "left": "11%",
-      "width": "21%"
+      "width": "22%"
     },
     {
       "text_de": "Neunundneunzig Hunde an Bord – alle kerngesund.",
-      "text_en": "Ninety-nine dogs aboard — all in fine condition.",
+      "text_en": "Ninety-nine dogs aboard—all in fine condition.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -506,7 +506,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "76%",
       "left": "49%",
-      "width": "15%"
+      "width": "16%"
     },
     {
       "text_de": "Dios! Mehr Hunde als Männer!",
@@ -524,8 +524,8 @@ const imageTexts = {
   ],
   "03_F_24": [
     {
-      "text_de": "Mir ist sofort aufgefallen, dass Sie die Fram etwas umgebaut haben.",
-      "text_en": "I couldn’t help but notice — you’ve made some changes to the Fram.",
+      "text_de": "Mir ist auch sofort aufgefallen, dass Sie die Fram etwas umgebaut haben.",
+      "text_en": "I also couldn’t help but notice—you’ve made some changes to the Fram.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -540,7 +540,7 @@ const imageTexts = {
   "03_F_25": [
     {
       "text_de": "Jedenfalls ist es mir eine unendliche Freude, an Bord zu sein, Comandante – auf dem Schiff eines so berühmten Entdeckers!",
-      "text_en": "In any case, it is an immense joy to be aboard, Comandante — aboard the ship of such a famous explorer!",
+      "text_en": "In any case, it is an immense joy to be aboard, Comandante—aboard the ship of such a famous explorer!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -583,7 +583,7 @@ const imageTexts = {
     },
     {
       "text_de": "Herr Nansen war so nett, uns sein Schiff und seinen Segen zu geben.",
-      "text_en": "Mr. Nansen was kind enough to grant us his ship — and his blessing.",
+      "text_en": "Mr. Nansen was kind enough to grant us his ship—and his blessing.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -619,7 +619,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "51%",
+      "left": "48%",
       "width": "20%"
     },
     {
@@ -639,7 +639,7 @@ const imageTexts = {
   "03_F_29": [
     {
       "text_de": "Senhor Amundsen – welch große Ehre! Doktor Sapato, zu Diensten. Ich bin Ihr größter Bewunderer.",
-      "text_en": "Senhor Amundsen — what a great honour! Doctor Sapato, at your service. I am your greatest admirer.",
+      "text_en": "Senhor Amundsen—what a great honour! Doctor Sapato, at your service. I am your greatest admirer.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -717,11 +717,11 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "40%",
       "left": "26%",
-      "width": "12%"
+      "width": "9%"
     },
     {
       "text_de": "Das würde mich ja wundern! Weil sich die Amerikaner den ja schon geschnappt haben.",
-      "text_en": "Though that would surprise me — the Americans have already claimed it!",
+      "text_en": "Though that would surprise me—the Americans have already claimed it!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -764,7 +764,7 @@ const imageTexts = {
   "03_F_33": [
     {
       "text_de": "Ach, der hohe Norden fasziniert mich so!",
-      "text_en": "Ah, the Far North — it fascinates me endlessly!",
+      "text_en": "Ah, the Far North—it fascinates me endlessly!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -785,8 +785,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "85%",
-      "left": "32%",
-      "width": "20%"
+      "left": "36%",
+      "width": "16%"
     },
     {
       "text_de": "Meu Deus!",
@@ -812,9 +812,9 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "7%",
+      "bottom": "19%",
       "left": "32%",
-      "width": "20%"
+      "width": "21%"
     },
     {
       "text_de": "Lassen Sie uns die Formalitäten klären, Doktor.",
@@ -846,7 +846,7 @@ const imageTexts = {
     },
     {
       "text_de": "Das wäre wunderbar! Fragen Sie einfach bei der Hafenbehörde nach Doktor Sapato – jederzeit!",
-      "text_en": "That would be wonderful! Just ask for Doctor Sapato at the harbour office — any time!",
+      "text_en": "That would be wonderful! Just ask for Doctor Sapato at the harbour office—any time!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -874,22 +874,22 @@ const imageTexts = {
     },
     {
       "text_de": "Was für ein Glück! Erst die Terra Nova, jetzt die Fram – meine Frau wird Augen machen! Keine Kranken oder Verletzte?",
-      "text_en": "Fortune smiles on me — first the Terra Nova, now the Fram! My wife won’t believe it! No sick or injured then?",
+      "text_en": "Fortune smiles on me—first the Terra Nova, now the Fram! My wife won’t believe it! No sick or injured then?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "84%",
-      "left": "76%",
-      "width": "22%"
+      "textAlign": "left",
+      "bottom": "68%",
+      "left": "80%",
+      "width": "19%"
     }
   ],
   "03_F_37": [
     {
-      "text_de": "Uiii! Aaah! Portugues??",
-      "text_en": "Yikes!",
+      "text_de": "Cruzes!",
+      "text_en": "Cruzes!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -921,12 +921,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "90%",
+      "left": "80%",
+      "width": "17%"
     },
     {
       "text_de": "WUFF! Wuff, wohuff, wuff!",
@@ -934,12 +934,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "79%",
+      "left": "61%",
+      "width": "10%"
     },
     {
       "text_de": "Ruhe, Jakob!",
@@ -950,8 +950,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "2.5vw",
       "textAlign": "left",
-      "bottom": "80%",
-      "left": "54%",
+      "bottom": "56%",
+      "left": "8%",
       "width": "20%"
     }
   ],
@@ -991,8 +991,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "77%",
+      "left": "56%",
       "width": "20%"
     }
   ],
@@ -1106,8 +1106,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "77%",
-      "left": "9%",
-      "width": "20%"
+      "left": "12%",
+      "width": "13%"
     },
     {
       "text_de": "Wuff!",
@@ -1152,7 +1152,7 @@ const imageTexts = {
     },
     {
       "text_de": "Dafür jede Menge neugierige Fragen. Also gut – steuern wir unseren Liegeplatz an.",
-      "text_en": "But plenty of curious questions. Very well — let’s make for our anchorage.",
+      "text_en": "But plenty of curious questions. Very well—let’s make for our anchorage.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1171,50 +1171,50 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "73%",
+      "left": "11%",
       "width": "20%"
     },
     {
-      "text_de": "Heiliger Bimbam! Das kommt ja eine richtige Armada auf uns zu!",
-      "text_en": "Good heavens! Looks like a veritable armada is upon us!",
+      "text_de": "Heilige Ölsardine! Das kommt ja eine richtige Armada auf uns zu!",
+      "text_en": "Holy mackerel! There’s a whole armada heading our way!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "66%",
+      "left": "62%",
       "width": "20%"
     },
     {
-      "text_de": "Bom dia! Wollen Sie Wasser kaufen?",
-      "text_en": "Bom dia! Want to buy water?",
+      "text_de": "Frisches Wasser kaufen?",
+      "text_en": "Bom dia! Buy fresh water?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "12%",
+      "left": "87%",
+      "width": "10%"
     },
     {
-      "text_de": "Frische Weintrauben!",
-      "text_en": "Fresh grapes!",
+      "text_de": "Wein? Weintrauben?",
+      "text_en": "Wine? Grapes?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "9%",
+      "left": "42%",
       "width": "20%"
     },
     {
@@ -1223,12 +1223,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "31%",
+      "left": "35%",
+      "width": "12%"
     },
     {
       "text_de": "Maracujás frescos!",
@@ -1236,53 +1236,53 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "25%",
+      "left": "67%",
       "width": "20%"
     }
   ],
   "03_F_47": [
     {
-      "text_de": "Wir tauschen auch gegen Kleidung!",
-      "text_en": "We’ll trade for clothing!",
+      "text_de": "Tauschen gegen Kleidung?",
+      "text_en": "Trade for clothing?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "84%",
+      "left": "10%",
+      "width": "14%"
     },
     {
       "text_de": "Eines meiner Hemden könnte ich entbehren.",
-      "text_en": "I could spare one of my shirts.",
+      "text_en": "I suppose I could spare a shirt.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
+      "bottom": "43%",
       "left": "2%",
-      "width": "20%"
+      "width": "16%"
     },
     {
-      "text_de": "Was in aller Welt ist denn Maracujás?",
-      "text_en": "What on earth is maracujás?",
+      "text_de": "Was in aller Welt sind denn „Marakuschas“?",
+      "text_en": "What on earth are “maracoozhahs”?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "48%",
+      "left": "54%",
+      "width": "14%"
     },
     {
       "text_de": "Passionsfrüchte. Die haben hier allerlei exotisches Obst. Dein Gaumen wird was erleben!",
@@ -1293,22 +1293,22 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "0%",
+      "left": "33%",
       "width": "20%"
     },
     {
-      "text_de": "Etwas Passion hat noch keinem geschadet.",
+      "text_de": "Ein bisschen Passion hat noch niemandem geschadet.",
       "text_en": "Can’t hurt to have a bit of passion.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "5%",
+      "left": "62%",
+      "width": "18%"
     }
   ],
   "03_F_48": [
@@ -1432,9 +1432,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "75%",
+      "left": "26%",
       "width": "20%"
     }
   ],
@@ -1454,7 +1454,7 @@ const imageTexts = {
     },
     {
       "text_de": "Unterrichte die Mannschaft. Wir sehen uns später im Hotel.",
-      "text_en": "Brief the crew — I’ll see you later at the hotel.",
+      "text_en": "Brief the crew—I’ll see you later at the hotel.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1469,7 +1469,7 @@ const imageTexts = {
   "03_F_54": [
     {
       "text_de": "Die Männer können sich freuen: gutes Essen, Sehenswürdigkeiten, eine Fahrt mit der Zahnradbahn – und noch manches Vergnügen mehr.",
-      "text_en": "The men can look forward to good food, sightseeing, a ride on the funicular — and plenty more diversions.",
+      "text_en": "The men can look forward to good food, sightseeing, a ride on the funicular—and plenty more diversions.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1484,7 +1484,7 @@ const imageTexts = {
   "03_F_58": [
     {
       "text_de": "Hier, ein stilles Eckchen.",
-      "text_en": "Here — a quiet spot.",
+      "text_en": "Here—a quiet spot.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1512,9 +1512,9 @@ const imageTexts = {
     },
     {
       "text_de": "EXPEDITION ZUM SÜDPOL Die Terra Nova verlässt Südafrika – 2. September 1910",
-      "text_en": "SOUTH POLE EXPEDITION Terra Nova Leaves South Africa — September 2, 1910",
+      "text_en": "SOUTH POLE EXPEDITION Terra Nova Leaves South Africa—September 2, 1910",
       "text_no": "no",
-      "kind": "dialog",
+      "kind": "footnote",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
@@ -1626,7 +1626,7 @@ const imageTexts = {
   "03_F_64": [
     {
       "text_de": "Die nächsten Züge gilt es mit Bedacht zu wählen. Und ebenso die Worte, die an die oberste Instanz gehen.",
-      "text_en": "The next moves must be weighed with care — as must the words you send to the highest authority.",
+      "text_en": "The next moves must be weighed with care—as must the words you send to the highest authority.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1669,7 +1669,7 @@ const imageTexts = {
   "03_F_66": [
     {
       "text_de": "Aber mehr Sorge bereitet mir eine andere – eine, die meinen Schritt als Verrat deuten könnte.",
-      "text_en": "But I worry more about another figure — one who might take my step as betrayal.",
+      "text_en": "But I worry more about another figure—one who might see my actions as betrayal.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1683,7 +1683,7 @@ const imageTexts = {
   ],
   "03_F_67": [
     {
-      "text_de": "Ein Diplomat weiß um die Kunst der Diskretion.",
+      "text_de": "Als Diplomat weiß er um die Kunst der Diskretion.",
       "text_en": "A diplomat, at least, understands the art of discretion.",
       "text_no": "no",
       "kind": "dialog",
@@ -1698,8 +1698,8 @@ const imageTexts = {
   ],
   "03_F_68": [
     {
-      "text_de": "Wohlgesinnt sind mir beide am Ende aber nur, wenn die Mission auch gelingt.",
-      "text_en": "Yet in the end, both will only look kindly on me if the mission succeeds.",
+      "text_de": "Am Ende sind mir beide nur wohlgesinnt, wenn die Mission auch gelingt.",
+      "text_en": "In the end, both will only look kindly on me if the mission succeeds.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1726,8 +1726,8 @@ const imageTexts = {
   ],
   "03_F_69": [
     {
-      "text_de": "Den Gegenspieler sollte man nicht unterschätzen.",
-      "text_en": "The opponent must never be underestimated.",
+      "text_de": "Und seinen Gegenspieler sollte man nie unterschätzen.",
+      "text_en": "And one should never underestimate an opponent.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1739,7 +1739,7 @@ const imageTexts = {
       "width": "26%"
     },
     {
-      "text_de": "Fahrlässig wäre es.",
+      "text_de": "Das wäre fahrlässig.",
       "text_en": "That would be reckless.",
       "text_no": "no",
       "kind": "dialog",
@@ -1856,7 +1856,7 @@ const imageTexts = {
   "03_F_75": [
     {
       "text_de": "Hassel, Prestrud, Nilsen – ständig fürchten sie, sich zu verplappern.",
-      "text_en": "Hassel, Prestrud, Nilsen — forever afraid of letting something slip.",
+      "text_en": "Hassel, Prestrud, Nilsen—forever afraid of letting something slip.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1884,7 +1884,7 @@ const imageTexts = {
   "03_F_76": [
     {
       "text_de": "So, lieber Bruder. Bereit für eine Partie?",
-      "text_en": "Well then, brother. Will you Ready to take the/your first turn?",
+      "text_en": "Well then, brother. Are you ready for your first turn?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1925,7 +1925,7 @@ const imageTexts = {
     },
     {
       "text_de": "Drei Tage sind vergangen. Die Männer, noch heiter vom Landgang, und die Fram, schwer beladen mit frischen Vorräten, stehen zur Abfahrt bereit. Oder sagen wir: fast.",
-      "text_en": "Three days have passed. The men, still buoyed by their time ashore, and the Fram, heavy with fresh provisions, stand ready to depart. Or rather — almost ready.",
+      "text_en": "Three days have passed. The men, still buoyed by their time ashore, and the Fram, heavy with fresh provisions, stand ready to depart. Or rather—almost ready.",
       "text_no": "no",
       "kind": "speaker",
       "color": "",
@@ -1947,23 +1947,23 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "80%",
+      "left": "72%",
       "width": "20%"
     }
   ],
   "03_F_79": [
     {
       "text_de": "Na endlich, da bist du ja!",
-      "text_en": "At last — there you are!",
+      "text_en": "At last—there you are!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "52%",
-      "left": "2%",
+      "left": "79%",
       "width": "20%"
     }
   ],
@@ -1992,9 +1992,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "79%",
+      "left": "67%",
+      "width": "22%"
     }
   ],
   "03_F_83": [
@@ -2007,8 +2007,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "69%",
+      "left": "77%",
       "width": "20%"
     }
   ],
@@ -2022,24 +2022,24 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "85%",
+      "left": "26%",
       "width": "20%"
     }
   ],
   "03_F_85": [
     {
       "text_de": "Wusste ich’s doch – etwas liegt in der Luft!",
-      "text_en": "Knew it — something’s in the air!",
+      "text_en": "Knew it—something’s in the air!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "33%",
+      "width": "15%"
     }
   ],
   "03_F_86": [
@@ -2049,11 +2049,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "80%",
+      "left": "62%",
       "width": "20%"
     }
   ],
@@ -2066,16 +2066,16 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
+      "textAlign": "right",
+      "bottom": "1%",
       "left": "2%",
-      "width": "20%"
+      "width": "21%"
     }
   ],
   "03_F_89": [
     {
       "text_de": "Bitte nehmt mir die Geheimhaltung nicht übel. Sie hatte gute Gründe – denn unser Unternehmen ist … heikel.",
-      "text_en": "Do not hold the secrecy against me. It had its reasons — for our enterprise is… delicate.",
+      "text_en": "Do not hold the secrecy against me. It had its reasons—for our enterprise is… delicate.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2097,22 +2097,22 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "67%",
+      "left": "27%",
+      "width": "22%"
     },
     {
       "text_de": "Es gibt nämlich eine Planänderung, Männer. Unsere Route führt uns zwar weiterhin nach Norden – doch sie ist etwas …",
-      "text_en": "There has been a change of plan, men. Our course still points north — but it has now…",
+      "text_en": "There has been a change of plan, men. Our course still points north—but it has now…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "74%",
+      "left": "74%",
+      "width": "25%"
     }
   ],
   "03_F_91": [
@@ -2122,12 +2122,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "76%",
+      "left": "7%",
+      "width": "26%"
     }
   ],
   "03_F_92": [
@@ -2152,12 +2152,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "69%",
+      "left": "28%",
+      "width": "21%"
     }
   ],
   "03_F_94": [
@@ -2273,16 +2273,16 @@ const imageTexts = {
   "03_F_97": [
     {
       "text_de": "Alles ist wohlüberlegt. Die Details erfahrt ihr später. Jetzt brauche ich euer Vertrauen. Gemeinsam können wir es schaffen, die Briten zu schlagen! Oder wollt ihr einen Rückfahrschein nach Hause – und das Abenteuer eures Lebens verpassen?",
-      "text_en": "Everything has been carefully thought through. The details I will explain later. What I need now is your trust. Together we can beat the British to the Pole! Or would you rather take a ticket home — and miss the adventure of a lifetime?",
+      "text_en": "Everything has been carefully thought through. The details I will explain later. What I need now is your trust. Together we can beat the British to the Pole! Or would you rather take a ticket home—and miss the adventure of a lifetime?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "60%",
+      "left": "4%",
+      "width": "32%"
     }
   ],
   "03_F_98": [
@@ -2479,9 +2479,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
+      "bottom": "19%",
       "left": "2%",
-      "width": "20%"
+      "width": "15%"
     },
     {
       "text_de": "Es bleibt noch ein wenig Zeit, Briefe an eure Liebsten zu schreiben.",
@@ -2492,8 +2492,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "4%",
+      "left": "81%",
       "width": "20%"
     }
   ],
@@ -2604,8 +2604,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "71%",
+      "left": "11%",
       "width": "20%"
     },
     {
@@ -2617,8 +2617,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "71%",
+      "left": "44%",
       "width": "20%"
     },
     {
@@ -2629,10 +2629,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "67%",
+      "left": "73%",
+      "width": "19%"
     }
   ],
   "03_F_105": [
@@ -2642,40 +2642,40 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "82%",
+      "left": "35%",
+      "width": "13%"
     },
     {
-      "text_de": "Darauf lastet meine ganze Hoffnung – auf königliches Wohlwollen und auf Nansens Nachsicht.",
-      "text_en": "On them rests all my hope — for the King’s favour, and for Nansen’s forbearance.",
+      "text_de": "Auf ihnen lastet unsere ganze Hoffnung – auf königliches Wohlwollen und auf Nansens Nachsicht.",
+      "text_en": "On them rest all our hopes—for the King’s favour, and for Nansen’s forbearance.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "0%",
+      "left": "53%",
+      "width": "23%"
     }
   ],
   "03_F_106": [
     {
-      "text_de": "Sie dürfen es nicht aus der Presse erfahren. Aber das ist ja meine Sorge.",
-      "text_en": "They must not hear it from the press. But that is my concern.",
+      "text_de": "Sie müssen es vor der Presse erfahren. Aber das ist ja meine Sorge.",
+      "text_en": "They must hear it before the press does. But that’s my concern.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "0%",
+      "left": "20%",
+      "width": "23%"
     },
     {
       "text_de": "Noch etwas.",
@@ -2685,38 +2685,38 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "78%",
+      "left": "61%",
       "width": "20%"
     },
     {
       "text_de": "Oh! Mein Bruder hat Geheimnisse vor mir.",
-      "text_en": "Oh! My brother keeps secrets from me.",
+      "text_en": "Oh! My brother is keeping secrets from me.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "22%",
+      "left": "50%",
+      "width": "18%"
     }
   ],
   "03_F_107": [
     {
       "text_de": "Für den Hafenarzt. Richte ihm aus, dass es mir an Zeit mangelte.",
-      "text_en": "For the port doctor. Tell him time was too short.",
+      "text_en": "For the port doctor. Tell him I simply ran out of time.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "65%",
+      "left": "67%",
+      "width": "16%"
     }
   ],
   "03_F_108": [
@@ -2729,36 +2729,36 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "70%",
+      "left": "71%",
+      "width": "18%"
     }
   ],
   "03_F_109": [
     {
       "text_de": "Wegen der Briefe – bleibt es beim 1. Oktober?",
-      "text_en": "As for the letters — the 1st of October still stands?",
+      "text_en": "As for the letters—are we still set for October first?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "70%",
+      "left": "32%",
+      "width": "16%"
     },
     {
-      "text_de": "Dann sollten wir südlich des Äquators sein, dann kann uns Niemand mehr aufhalten.",
-      "text_en": "By then we should be south of the Equator, and no one will be able to stop us.",
+      "text_de": "Dann sollten wir südlich des Äquators sein. Dann kann uns niemand mehr aufhalten.",
+      "text_en": "By then, we should be south of the Equator. Then no one can stop us.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "27%",
+      "left": "36%",
       "width": "20%"
     }
   ],
@@ -2769,12 +2769,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "56%",
+      "width": "14%"
     }
   ],
   "03_F_111": [
@@ -2784,11 +2784,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "0%",
+      "left": "23%",
       "width": "20%"
     },
     {
@@ -2799,10 +2799,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "80%",
+      "left": "44%",
+      "width": "22%"
     },
     {
       "text_de": "Richtig.",
@@ -2810,11 +2810,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "52%",
-      "left": "2%",
+      "left": "90%",
       "width": "20%"
     }
   ]
