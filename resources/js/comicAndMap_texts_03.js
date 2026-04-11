@@ -2573,11 +2573,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "6%",
       "width": "20%"
     },
     {
@@ -2586,11 +2586,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "82%",
+      "left": "62%",
       "width": "20%"
     }
   ],
