@@ -1934,11 +1934,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "55%",
+      "left": "10%",
       "width": "20%"
     },
     {
@@ -1947,11 +1947,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "89%",
+      "left": "34%",
       "width": "40%"
     }
   ],
@@ -2146,9 +2146,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "47%",
+      "left": "31%",
+      "width": "12%"
     },
     {
       "text_de": "Aber sicher, Prestrud.",
@@ -2160,7 +2160,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "84%",
       "width": "60%"
     }
   ],
