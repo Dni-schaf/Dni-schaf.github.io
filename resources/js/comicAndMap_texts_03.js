@@ -896,8 +896,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "60%",
+      "left": "55%",
       "width": "20%"
     },
     {
@@ -910,7 +910,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "50%",
-      "left": "2%",
+      "left": "59%",
       "width": "20%"
     }
   ],
@@ -1156,11 +1156,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "0%",
+      "left": "20%",
       "width": "20%"
     }
   ],
@@ -1345,12 +1345,12 @@ const imageTexts = {
       "text_en": "Greetings, brother! Permission to come aboard?",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "50%",
-      "left": "2%",
+      "left": "70%",
       "width": "20%"
     }
   ],
@@ -2136,12 +2136,12 @@ const imageTexts = {
       "text_en": "Tock, tock, tock!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "madeira_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "87%",
+      "left": "54%",
       "width": "20%"
     }
   ],
