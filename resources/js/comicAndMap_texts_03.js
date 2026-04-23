@@ -1447,9 +1447,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "83%",
+      "left": "4%",
       "width": "20%"
     },
     {
@@ -1460,10 +1460,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "59%",
+      "left": "67%",
+      "width": "15%"
     }
   ],
   "03_F_54": [
@@ -1472,13 +1472,13 @@ const imageTexts = {
       "text_en": "The men can look forward to good food, sightseeing, a ride on the funicular—and plenty more diversions.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "45%",
+      "left": "22%",
+      "width": "23%"
     }
   ],
   "03_F_58": [

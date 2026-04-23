@@ -1117,12 +1117,12 @@ const imageTexts = {
       "text_en": "Chirp, chirp!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "2vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "2%",
+      "left": "72%",
       "width": "20%"
     }
   ],
@@ -1133,11 +1133,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "backgroundColor": "FSturm_middle",
+      "Fontsize": "2vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "57%",
+      "left": "60%",
       "width": "20%"
     }
   ],

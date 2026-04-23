@@ -2212,12 +2212,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "15%",
+      "left": "13%",
+      "width": "17%"
     },
     {
       "text_de": "Wir sollten in absehbarer Zeit einen Hafen ansteuern – vielleicht in Südafrika?",
@@ -2227,10 +2227,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "60%"
+      "textAlign": "right",
+      "bottom": "39%",
+      "left": "50%",
+      "width": "17%"
     }
   ],
   "04d_F_15": [
@@ -2240,11 +2240,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "34%",
+      "left": "50%",
       "width": "20%"
     },
     {
@@ -2256,8 +2256,8 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "-1%",
+      "left": "43%",
       "width": "20%"
     }
   ],
