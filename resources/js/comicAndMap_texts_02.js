@@ -1182,22 +1182,20 @@ const imageTexts = {
       "width": "16%"
     }
   ],
-  "02_TN_47": [
+  "02_TN_48": [
     {
       "text_de": "Na, Birdie – kannst du mit deinen Adleraugen schon den Tafelberg erkennen?",
       "text_en": "Well, Birdie — can your eagle eyes make out Table Mountain yet?",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "81%",
-      "left": "2%",
-      "width": "20%"
-    }
-  ],
-  "02_TN_48": [
+      "textAlign": "right",
+      "bottom": "64%",
+      "left": "47%",
+      "width": "19%"
+    },
     {
       "text_de": "Sehr witzig, Sir!",
       "text_en": "Very funny, sir!",
@@ -1259,7 +1257,7 @@ const imageTexts = {
       "text_en": "Be that as it may, the leak must be repaired. That’s the first priority.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "right",
@@ -1274,7 +1272,7 @@ const imageTexts = {
       "text_en": "Which means several days in dry dock. That’s for the Captain to decide.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",

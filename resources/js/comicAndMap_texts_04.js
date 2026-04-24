@@ -1822,12 +1822,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "76%",
+      "left": "57%",
+      "width": "12%"
     }
   ],
   "04d_F_01": [
@@ -2311,9 +2311,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "90%",
+      "left": "63%",
       "width": "20%"
     },
     {
@@ -2325,9 +2325,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "70%",
+      "left": "53%",
+      "width": "20%"
     }
   ],
   "04d_F_18": [

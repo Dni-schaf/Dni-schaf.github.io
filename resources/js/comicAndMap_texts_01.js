@@ -1527,11 +1527,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "9%",
+      "left": "72%",
       "width": "20%"
     },
     {
@@ -1540,12 +1540,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "76%",
+      "left": "48%",
+      "width": "25%"
     },
     {
       "text_de": "… Kaltblüter sage ich Ihnen!",
@@ -1553,11 +1553,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
+      "bottom": "3%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -1566,12 +1566,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
-      "width": "20%"
+      "bottom": "62%",
+      "left": "78%",
+      "width": "15%"
     },
     {
       "text_de": "… mit dieser Minzsoße wahrlich deliziös!",
@@ -1579,12 +1579,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "46%",
+      "left": "64%",
+      "width": "16%"
     },
     {
       "text_de": "… bahnbrechend für die Synthese von Kunststoffen.",
@@ -1595,9 +1595,9 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "33%",
-      "width": "20%"
+      "bottom": "34%",
+      "left": "40%",
+      "width": "19%"
     }
   ],
   "01b_TN_28": [
@@ -2828,12 +2828,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "65%",
+      "left": "26%",
+      "width": "17%"
     }
   ],
   "01b_TN_63": [
