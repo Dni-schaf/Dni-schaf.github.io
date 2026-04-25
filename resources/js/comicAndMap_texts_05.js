@@ -735,9 +735,9 @@ const imageTexts =
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "13.5%",
-      "left": "26%",
+      "textAlign": "right",
+      "bottom": "11.2%",
+      "left": "78%",
       "width": "21%"
     }
   ],
@@ -750,10 +750,10 @@ const imageTexts =
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "57.5%",
-      "left": "12%",
-      "width": "15%"
+      "textAlign": "left",
+      "bottom": "70.5%",
+      "left": "24%",
+      "width": "21%"
     },
     {
       "text_de": "Hoffen wir, dass er auch ein offenes Ohr für mein Anliegen hat.",
@@ -761,11 +761,11 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "post_dream_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "57.5%",
-      "left": "32%",
+      "textAlign": "right",
+      "bottom": "27.5%",
+      "left": "1%",
       "width": "15%"
     },
     {
@@ -860,11 +860,11 @@ const imageTexts =
       "text_no": "",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "post_dream_dark",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85.5%",
-      "left": "41%",
+      "bottom": "83.5%",
+      "left": "31%",
       "width": "21%"
     }
   ],

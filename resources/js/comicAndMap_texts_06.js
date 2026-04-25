@@ -458,12 +458,12 @@ const imageTexts = {
       "text_en": "Then he’d just say, “Wait and see—once we’re in the ice, you’ll understand how indispensable the Fram is. Simply indispensable.”",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "65%",
+      "left": "58%",
       "width": "20%"
     }
   ],
