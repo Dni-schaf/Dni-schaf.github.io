@@ -1909,8 +1909,8 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "37%",
+      "left": "15%",
       "width": "20%"
     },
     {
@@ -1919,11 +1919,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "2.5vw",
+      "textAlign": "right",
+      "bottom": "50%",
+      "left": "15%",
       "width": "40%"
     }
   ],
@@ -1962,11 +1962,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "80%",
       "width": "20%"
     }
   ],
@@ -1980,9 +1980,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "60%",
+      "left": "37%",
+      "width": "17%"
     },
     {
       "text_de": "Zu Befehl, Prestrud!",
@@ -1993,8 +1993,8 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "32%",
+      "left": "7%",
       "width": "40%"
     }
   ],

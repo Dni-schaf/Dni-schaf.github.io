@@ -2330,12 +2330,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "95%",
-      "left": "33%",
-      "width": "20%"
+      "bottom": "68%",
+      "left": "55%",
+      "width": "13%"
     },
     {
       "text_de": "Du hattest recht … Ardea purpurea.",
@@ -2343,12 +2343,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "65.5%",
+      "left": "34%",
+      "width": "14%"
     },
     {
       "text_de": "Du fängst mich nicht!",
