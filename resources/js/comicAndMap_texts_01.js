@@ -1004,16 +1004,16 @@ const imageTexts ={
   "01b_TN_08": [
     {
       "text_de": "Dr. Edward Adrian Wilson – wie konntest du mir deine Anwesenheit nur so lange vorenthalten?",
-      "text_en": "Dr. Edward Adrian Wilson — how could you keep your presence from me so long?",
+      "text_en": "Dr. Edward Adrian Wilson—how could you keep your presence from me so long?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "82%",
+      "left": "29%",
+      "width": "21%"
     },
     {
       "text_de": "Willkommen an Bord.",
@@ -1021,11 +1021,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "65%",
+      "left": "66%",
       "width": "20%"
     }
   ],
@@ -1036,12 +1036,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "64%",
+      "left": "36%",
+      "width": "15%"
     },
     {
       "text_de": "Bereit?! Ich kann’s kaum erwarten, wieder Polarluft zu schnuppern.",
@@ -1049,12 +1049,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
-      "width": "20%"
+      "bottom": "15%",
+      "left": "64%",
+      "width": "16%"
     }
   ],
   "01b_TN_10": [
@@ -1064,26 +1064,26 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "82%",
+      "left": "23%",
       "width": "20%"
     }
   ],
   "01b_TN_11": [
     {
       "text_de": "Taff – alter Weggefährte!",
-      "text_en": "Taff — dear old companion!",
+      "text_en": "Taff—dear old companion!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "2%",
+      "left": "26%",
       "width": "20%"
     },
     {
@@ -1092,12 +1092,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
-      "width": "20%"
+      "bottom": "39%",
+      "left": "21%",
+      "width": "16%"
     },
     {
       "text_de": "Wie wär’s mit einer exklusiven Führung über unser bescheidenes Schiff?",
@@ -1105,12 +1105,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "74%",
+      "left": "53%",
+      "width": "17%"
     }
   ],
   "01b_TN_12": [
@@ -1122,25 +1122,25 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "68%",
+      "left": "1%",
       "width": "20%"
     }
   ],
   "01b_TN_13": [
     {
       "text_de": "Die größte – und die wissenschaftlich bedeutendste.",
-      "text_en": "The greatest — and the most significant for science.",
+      "text_en": "The greatest—and the most significant for science.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "72%",
+      "left": "20%",
+      "width": "19%"
     },
     {
       "text_de": "Und gewiss die erfolgreichste!",
@@ -1150,10 +1150,10 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "30%",
+      "width": "17%"
     },
     {
       "text_de": "Leider auch die teuerste.",
@@ -1161,41 +1161,41 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "19%",
+      "left": "64%",
+      "width": "14%"
     }
   ],
   "01b_TN_14": [
     {
       "text_de": "Ein zweites Schiff können wir vergessen. Immerhin ist die Kohle für die Terra Nova gesichert. Aber die Mannschaft … drei Jahre Expedition, 64 Mann – das geht ins Geld. Darum muss ich morgen zurück nach London – damit unsere Kassen sich weiter füllen.",
-      "text_en": "A second ship is beyond our means. At least the coal for the Terra Nova is secured. But the crew costs… three years, sixty-four men — that’s no small sum. That’s why I have to return to London tomorrow — to keep the funds coming.",
+      "text_en": "A second ship is beyond our means. At least the coal for the Terra Nova is secured. But the crew costs… three years, sixty-four men—that’s no small sum. That’s why I have to return to London tomorrow—to keep the funds coming.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "70%",
+      "left": "53%",
+      "width": "23%"
     }
   ],
   "01b_TN_15": [
     {
       "text_de": "Die Männer sind alle hochqualifiziert – jede Entscheidung war gut durchdacht.",
-      "text_en": "They’re all highly qualified men — every choice carefully made.",
+      "text_en": "They’re all highly qualified men—every choice carefully made.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "65%",
+      "left": "46%",
       "width": "20%"
     }
   ],
@@ -1206,11 +1206,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "30%",
+      "left": "24%",
       "width": "20%"
     },
     {
@@ -1219,12 +1219,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "27%",
+      "left": "50%",
+      "width": "21%"
     }
   ],
   "01b_TN_17": [
@@ -1237,9 +1237,9 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "74%",
+      "left": "31%",
+      "width": "18%"
     },
     {
       "text_de": "Unsere Forschung unterwegs zum Kap wird sicher weitere Finanziers beeindrucken.",
@@ -1250,24 +1250,24 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "64%",
+      "left": "81%",
+      "width": "19%"
     }
   ],
   "01b_TN_18": [
     {
       "text_de": "Bestimmt. Aber nun genug von den Sorgen – Cardiff ist in Feierlaune und bereitet uns heute Abend einen gebührenden Abschied.",
-      "text_en": "I’m sure it will. But enough of worries — Cardiff’s in a festive mood, ready to give us a grand send-off tonight.",
+      "text_en": "I’m sure it will. But enough of worries—Cardiff’s in a festive mood, ready to give us a grand send-off tonight.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "44%",
+      "left": "11%",
+      "width": "22%"
     }
   ],
   "01b_TN_19": [
@@ -1277,53 +1277,53 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "38%",
+      "left": "33%",
       "width": "20%"
     },
     {
       "text_de": "Auf die köstliche walisische Küche können Sie sich freuen – wir sind schließlich nicht nur berühmt für unsere Kohle.",
-      "text_en": "You can look forward to the delights of Welsh cooking — we’re famous for more than our coal, you know.",
+      "text_en": "You can look forward to the delights of Welsh cooking—we’re famous for more than our coal, you know.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "40%",
+      "left": "69%",
       "width": "20%"
     }
   ],
   "01b_TN_20": [
     {
       "text_de": "Übrigens, Sie sind auch eingeladen, Taff.",
-      "text_en": "By the way, Taff — you’re invited as well.",
+      "text_en": "By the way, Taff—you’re invited as well.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
+      "bottom": "28%",
+      "left": "31%",
       "width": "20%"
     },
     {
-      "text_de": "Ich? Unter all den Offizieren Obschon ich kein Offizier bin? Donnerwetter, Sir!",
-      "text_en": "Me? Among all the officers? By golly, Sir!",
+      "text_de": "Ich? Obwohl das doch eigentlich nur für Offiziere ist? Donnerwetter, Sir!",
+      "text_en": "Me? Even though that’s meant for officers only? By golly, Sir!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "8%",
+      "left": "49%",
+      "width": "15%"
     }
   ],
   "01b_TN_21": [
@@ -1333,25 +1333,25 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "80%",
+      "left": "18%",
+      "width": "15%"
     },
     {
-      "text_de": "Dann hol ich wohl besser meinen feinsten Zwirn raus.",
+      "text_de": "Dann hole ich wohl besser meinen feinsten Zwirn raus.",
       "text_en": "Then I’d best dust off my finest suit.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "76%",
+      "left": "50%",
+      "width": "18%"
     }
   ],
   "01b_TN_22": [
@@ -1370,7 +1370,7 @@ const imageTexts ={
     },
     {
       "text_de": "Fangen wir unten in den Lagerräumen an. Keine Sorge, Bill – zu deinen heißgeliebten Laboren kommen wir gleich danach.",
-      "text_en": "Let’s start down in the stores first. Don’t worry, Bill — we’ll get to your precious labs right after.",
+      "text_en": "Let’s start down in the stores first. Don’t worry, Bill—we’ll get to your precious labs right after.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1389,7 +1389,7 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "81%",
@@ -1469,7 +1469,7 @@ const imageTexts ={
     },
     {
       "text_de": "… alles in Kinemacolor – ein Erlebnis!",
-      "text_en": "… all in Kinemacolor — quite the experience!",
+      "text_en": "… all in Kinemacolor—quite the experience!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1482,7 +1482,7 @@ const imageTexts ={
     },
     {
       "text_de": "Nein, danke – kein Alkohol für mich.",
-      "text_en": "No, thank you — no alcohol for me.",
+      "text_en": "No, thank you—no alcohol for me.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1522,7 +1522,7 @@ const imageTexts ={
   ],
   "01b_TN_27": [
     {
-      "text_de": "… Sie meinen, dieser Mr. Marconi wird uns bald drahtlos über den Atlantik verbinden?",
+      "text_de": "… Sie meinen, dieser Mister Marconi wird uns bald drahtlos über den Atlantik verbinden?",
       "text_en": "… you suppose this Mr. Marconi will soon connect us by wireless across the Atlantic?",
       "text_no": "no",
       "kind": "dialog",
@@ -1568,7 +1568,7 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "62%",
       "left": "78%",
       "width": "15%"
@@ -1587,8 +1587,8 @@ const imageTexts ={
       "width": "16%"
     },
     {
-      "text_de": "… bahnbrechend für die Synthese von Kunststoffen.",
-      "text_en": "… a true breakthrough in the synthesis of plastics.",
+      "text_de": "… was bahnbrechend für die Synthese von Kunststoffen ist.",
+      "text_en": "… will lead to a true breakthrough in the synthesis of plastics.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1700,7 +1700,7 @@ const imageTexts ={
     },
     {
       "text_de": "Mein Name ist Edgar Evans – aber nennen Sie mich gerne Taff. Es ist mir eine außerordentliche Ehre, heute hier zu sein und Sie kennenzulernen.",
-      "text_en": "My name is Edgar Evans — but please, call me Taff. It’s an extraordinary honour to be here tonight and to meet you all.",
+      "text_en": "My name is Edgar Evans—but please, call me Taff. It’s an extraordinary honour to be here tonight and to meet you all.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1741,7 +1741,7 @@ const imageTexts ={
     },
     {
       "text_de": "… seinen Stellvertreter, Lieutenant Evans – nein, wir sind nicht verwandt – lerne ich erst noch kennen, ebenso wie viele meiner anderen Kameraden …",
-      "text_en": "… his second-in-command, Lieutenant Evans — no relation, I assure you — I’ve yet to get to know, as well as many of my other comrades…",
+      "text_en": "… his second-in-command, Lieutenant Evans—no family ties, I assure you—I’ve yet to get to know, as well as many of my other comrades…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1967,8 +1967,8 @@ const imageTexts ={
   ],
   "01b_TN_37": [
     {
-      "text_de": "Und auf die walisische Kohle, die uns ins Po-Polarmeer bringen wird!",
-      "text_en": "And to Welsh coal, that will carry us to the Po–Po–Polar Sea!",
+      "text_de": "Und auf die walisische Kohle, die uns … ins P-Po-Polarmeer bringen wird!",
+      "text_en": "And to Welsh coal, that will carry us … to the P–Po–Polar Sea!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2049,8 +2049,8 @@ const imageTexts ={
   ],
   "01b_TN_39": [
     {
-      "text_de": "K-Kohle … hihi … im doppppelten Sinn-nnn!",
-      "text_en": "C-ccoal … hehe … in the double sennn-se!",
+      "text_de": "Kkkooohle … hihi …",
+      "text_en": "Cccoooaal… hehe…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2078,7 +2078,7 @@ const imageTexts ={
   "01b_TN_40": [
     {
       "text_de": "Werte Herrschaften — erlauben Sie mir, Ihnen von Herzen für Ihre Großzügigkeit zu danken. All unseren Freunden hier in Wales, die uns so tatkräftig unterstützt haben, gilt mein aufrichtiger Dank. Unser Erfolg wird auch der Ihre sein.",
-      "text_en": "Ladies and gentlemen — allow me to thank you, from the heart, for your extraordinary generosity. To all our friends here in Wales who have supported us so warmly — you have my deepest gratitude. Our success will be your success too.",
+      "text_en": "Ladies and gentlemen—allow me to thank you, from the heart, for your extraordinary generosity. To all our friends here in Wales who have supported us so warmly—you have my deepest gratitude. Our success will be your success too.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2175,7 +2175,7 @@ const imageTexts ={
   "01b_TN_43": [
     {
       "text_de": "Ihre Spenden dienen nicht allein dem großen Ziel, den Pol zu erreichen. Sie fließen auch in die Forschung – Geologie, Meteorologie, Biologie …",
-      "text_en": "Your contributions are not only for the great goal ahead — the Pole itself — they also serve science: geology, meteorology, biology…",
+      "text_en": "Your contributions are not only for the great goal ahead—the Pole itself—they also serve science: geology, meteorology, biology…",
       "text_no": "",
       "kind": "dialog",
       "color": "black",
@@ -2188,7 +2188,7 @@ const imageTexts ={
     },
     {
       "text_de": "Verzeihen Sie, Captain Scott – gewiss werden Sie großartige Erkenntnisse gewinnen …",
-      "text_en": "Forgive me, Captain Scott — no doubt your voyage will bring great discoveries…",
+      "text_en": "Forgive me, Captain Scott—no doubt your voyage will bring great discoveries…",
       "text_no": "",
       "kind": "dialog",
       "color": "black",
@@ -2203,7 +2203,7 @@ const imageTexts ={
   "01b_TN_44": [
     {
       "text_de": "Aber die Erkenntnis des heutigen Abends lautet: Ein solches Fest wird es im Eis wohl kaum geben – also erheben wir die Gläser und trinken auf den Südpol!",
-      "text_en": "But the truth I’ve discovered tonight is plain: you’ll find no feast like this upon the ice. So, my friends, let us raise our glasses, and drink — to the South Pole!",
+      "text_en": "But the truth I’ve discovered tonight is plain: you’ll find no feast like this upon the ice. So, my friends, let us raise our glasses, and drink—to the South Pole!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2326,7 +2326,7 @@ const imageTexts ={
     },
     {
       "text_de": "Sieh nur – der Reiher ist wieder da!",
-      "text_en": "Look — the heron is back!",
+      "text_en": "Look—the heron is back!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2339,7 +2339,7 @@ const imageTexts ={
     },
     {
       "text_de": "Du hattest recht … Ardea purpurea.",
-      "text_en": "Quite so … Ardea purpurea.",
+      "text_en": "You were right… Ardea purpurea.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2356,37 +2356,37 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
+      "bottom": "20%",
+      "left": "51%",
       "width": "20%"
     },
     {
-      "text_de": "Kinder, Kinder – nicht so wild.",
-      "text_en": "Kids, kids — not so rough.",
+      "text_de": "Kinder – nicht so wild!",
+      "text_en": "Easy, children!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "10%",
+      "left": "30%",
+      "width": "12%"
     },
     {
       "text_de": "Puh … die Keks-Ladung kam wirklich in allerletzter Minute.",
-      "text_en": "Phew … the biscuit shipment really did come at the last minute.",
+      "text_en": "Phew... the biscuit shipment really did come at the last minute.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "33%",
+      "textAlign": "right",
+      "bottom": "46%",
+      "left": "31%",
       "width": "20%"
     },
     {
@@ -2395,25 +2395,25 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "66%",
+      "bottom": "61%",
+      "left": "52%",
       "width": "20%"
     },
     {
       "text_de": "Komm Sarah, Zeit Lebwohl zu sagen.",
-      "text_en": "Come, Sarah — time to bid farewell.",
+      "text_en": "Come, Sarah—time to bid farewell.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "50%",
+      "left": "55%",
+      "width": "14%"
     }
   ],
   "01b_TN_48": [
@@ -2432,7 +2432,7 @@ const imageTexts ={
     },
     {
       "text_de": "Aber klar – ich will doch meine Lieblingsnichte wiedersehen!",
-      "text_en": "Of course — I’ve got to see my favourite niece again!",
+      "text_en": "Of course—I’ve got to see my favourite niece again!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2445,7 +2445,7 @@ const imageTexts ={
     },
     {
       "text_de": "Lieferung spät – Qualität jedoch tadellos.",
-      "text_en": "Late delivery — but impeccable quality.",
+      "text_en": "Late delivery—but impeccable quality.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2516,7 +2516,7 @@ const imageTexts ={
   "01b_TN_51": [
     {
       "text_de": "… hier, einer unserer Schlittenkekse – als kleines Andenken. Sie sind unser Proviant für den Weg zum Südpol.",
-      "text_en": "... here, one of our sledging biscuits — as a small keepsake. They'll serve as provisions on our journey to the South Pole.",
+      "text_en": "... here, one of our sledging biscuits—as a small keepsake. They'll serve as provisions on our journey to the South Pole.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2751,7 +2751,7 @@ const imageTexts ={
     },
     {
       "text_de": "Verzeihung – das Lotsenboot ist bereit zum Zurückfahren.",
-      "text_en": "Beg pardon — the pilot boat is ready to return.",
+      "text_en": "Beg pardon—the pilot boat is ready to return.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2824,7 +2824,7 @@ const imageTexts ={
   "01b_TN_62": [
     {
       "text_de": "Ich kann es kaum erwarten. Wünscht mir Glück – und reiche Spenden!",
-      "text_en": "I can hardly wait. Wish me luck — and generous donations!",
+      "text_en": "I can hardly wait. Wish me luck—and generous donations!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2854,7 +2854,7 @@ const imageTexts ={
   "01b_TN_64": [
     {
       "text_de": "Und an den Patriotismus zu appellieren – wir wollen die erste Nation am Pol sein!",
-      "text_en": "And appeal to patriotism — we want to be the first nation at the Pole!",
+      "text_en": "And appeal to patriotism—we want to be the first nation at the Pole!",
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
@@ -2866,6 +2866,7 @@ const imageTexts ={
       "width": "18%"
     }
   ]
+
 
     
 }
