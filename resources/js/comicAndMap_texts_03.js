@@ -2167,12 +2167,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "60%",
+      "left": "21%",
+      "width": "12%"
     },
     {
       "text_de": "Aber die Terra Nova ist uns doch um Wochen voraus ...",
@@ -2180,12 +2180,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "75%",
+      "left": "67%",
+      "width": "18%"
     },
     {
       "text_de": "Bei allen Winden!",
@@ -2195,9 +2195,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "24%",
       "width": "20%"
     }
   ],
@@ -2211,9 +2211,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "78%",
+      "left": "20%",
+      "width": "24%"
     },
     {
       "text_de": "Das wär ja ein Ding!",
@@ -2224,8 +2224,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "21%",
+      "left": "55%",
       "width": "20%"
     },
     {
@@ -2234,11 +2234,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "27%",
+      "left": "21%",
       "width": "20%"
     }
   ],
@@ -2545,11 +2545,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "84%",
+      "left": "30%",
       "width": "20%"
     },
     {
@@ -2560,9 +2560,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "20%",
+      "left": "6%",
       "width": "20%"
     }
   ],

@@ -385,12 +385,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "71%",
-      "left": "52%",
-      "width": "26%"
+      "textAlign": "right",
+      "bottom": "69%",
+      "left": "35%",
+      "width": "19%"
     }
   ],
   "02_TN_20": [

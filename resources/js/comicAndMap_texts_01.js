@@ -2715,8 +2715,8 @@ const imageTexts ={
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
+      "bottom": "53%",
+      "left": "72%",
       "width": "20%"
     }
   ],
