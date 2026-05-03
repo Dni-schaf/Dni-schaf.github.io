@@ -45,7 +45,7 @@ const imageTexts = {
       "text_en": "Atlantic Ocean",
       "text_no": "no",
       "kind": "location",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
@@ -919,12 +919,12 @@ const imageTexts = {
       "text_en": "Chief?",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "33%",
+      "left": "24%",
       "width": "20%"
     }
   ],
@@ -934,12 +934,12 @@ const imageTexts = {
       "text_en": "CHIEF?!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "33%",
+      "left": "19%",
       "width": "20%"
     },
     {
@@ -947,12 +947,12 @@ const imageTexts = {
       "text_en": "We should batten down the hatches, Chief!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "bottom": "66%",
+      "left": "32%",
       "width": "20%"
     }
   ],
@@ -962,12 +962,12 @@ const imageTexts = {
       "text_en": "Er—yes, of course! Don’t just stand about—get moving!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "89%",
+      "left": "46%",
       "width": "20%"
     },
     {
@@ -975,12 +975,12 @@ const imageTexts = {
       "text_en": "Aye, Chief!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "55%",
+      "left": "41%",
       "width": "20%"
     }
   ],
@@ -1018,12 +1018,12 @@ const imageTexts = {
       "text_en": "You’ve chosen yourself a dangerous spot. Come aft, quickly!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "61%",
+      "left": "67%",
       "width": "20%"
     }
   ],
@@ -1186,5 +1186,5 @@ const imageTexts = {
       "width": "20%"
     }
   ]
-  
+
 };
