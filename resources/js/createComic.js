@@ -148,7 +148,7 @@ for (let i = 0; i < datestartArray.length; i++) {
   // Füge die ID mit dem Timestamp des Startdatums hinzu
   dayDiv.id = `${startDate}`;
   dayDiv.style.height = `${divHeight}px`;
-  dayDiv.textContent = `Start: ${datestartArray[i]} - Ende: ${dateendArray[i]} - Tage: ${daysDiff}`;
+  //xtContent = `Start: ${datestartArray[i]} - Ende: ${dateendArray[i]} - Tage: ${daysDiff}`;
  
   // Hinzufügen des divs und eines Spacer-divs mit Bildern zum Container
   container.appendChild(dayDiv);

@@ -1,8 +1,8 @@
 const speaker = {
   "1a_Speaker": [
     {
-      "text_de": "Unter Applaus, Hochrufen und einigen Tränen verlässt der ehemalige Walfänger London und zieht die Themse hinab. Kurz darauf verabschiedet sich Captain Scott im flussabwärts gelegenen Greenhithe von seiner Mannschaft.",
-      "text_en": "Amid applause, cheers and a few tears, the former whaler leaves London and heads down the Thames. Shortly afterwards, Captain Scott bids farewell to his crew in Greenhithe downriver.",
+      "text_de": "Unter Applaus und Hochrufen gleitet der ehemalige Walfänger die Themse hinab. Nur wenig später, in Greenhithe, nimmt Captain Scott mit getrübtem Herzen Abschied von seiner Crew.",
+      "text_en": "Amid applause and cheers, the old whaler glides down the Thames. Only a short while later, in Greenhithe, Captain Scott takes leave of his crew, his heart clouded with wistfulness.",
       "text_no": "NO",
       "kind": "speaker",
       "color": "black",
@@ -13,8 +13,8 @@ const speaker = {
       "width": "20%"
     },
     {
-      "text_de": "In den nächsten Tagen macht die Terra Nova Halt in Portsmouth und Weymouth, wo zusätzliche Ausrüstung geladen wird. Doch vor allem sind es die Menschen an Land, die ihr einen bewegenden Abschied bereiten. Schließlich sticht sie wieder in See – begleitet von Fahnen, Fanfaren und einem Flottengruß.",
-      "text_en": "Over the next few days, the Terra Nova will make stops in Portsmouth and Weymouth, where additional equipment will be loaded. But above all, it is the people ashore who give her a moving farewell. Finally, she sets sail again - accompanied by flags, fanfares and a fleet salute.",
+      "text_de": "Die Terra Nova zieht weiter, steuert erst Portsmouth, dann Weymouth an. Ausrüstung wird verladen, Hände werden geschüttelt, letzte Grüße ausgetauscht. Dann geht es weiter nach Cardiff – das große Finale der Abschiedstour.",
+      "text_en": "The Terra Nova sails on, heading first for Portsmouth, then for Weymouth. Supplies are loaded, hands are shaken, and final farewells exchanged. Then it’s onward to Cardiff—the grand finale of the farewell tour.",
       "text_no": "NO",
       "kind": "speaker",
       "color": "black",
@@ -25,8 +25,8 @@ const speaker = {
       "width": "20%"
     },
     {
-      "text_de": "Die Abschiedstour der Terra Nova endet im walisischen Cardiff, wo Captain Scott endlich wieder zu seiner Mannschaft zurückkehrt. Doch die große Reise kann erst beginnen, wenn eine weitere Schlüsselperson an Bord kommt.",
-      "text_en": "The Terra Nova's farewell tour ends in Cardiff, Wales, where Captain Scott finally rejoins his crew. But the great journey can only begin when another key person comes on board.",
+      "text_de": "Hier kommt auch Captain Scott endlich wieder an Bord. Doch die große Reise der Terra Nova kann noch nicht beginnen. Denn eine weitere, sehr wichtige Person lässt noch auf sich warten.",
+      "text_en": "Here, at last, Captain Scott comes back on board. Yet the great voyage of the Terra Nova cannot begin—not just yet. For one more, very important person is still awaited.",
       "text_no": "NO",
       "kind": "speaker",
       "color": "black",
