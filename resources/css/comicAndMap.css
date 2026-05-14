@@ -4,6 +4,27 @@ body {
     background-color: #4E5F70;
 }
 
+footer{
+    position: relative;
+    z-index: 100;
+}
+
+a.next {
+    position: absolute;
+    margin: 2%;
+    right: 2%;
+    bottom: 2%;
+    background: url(../images/next.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 1% 2%;
+    border: none;
+    box-shadow: none;
+    font-family: Location;
+    font-size: 2vw;
+    color: #4e5f70;
+    text-decoration: none;
+}
+
 @font-face {
     font-family: dialogues;
     src: url('../fonts/YanoneKaffeesatz-Regular.ttf')  format('truetype');
@@ -210,6 +231,16 @@ body {
 .hundstag_light{
     background-color: #B0E6EF;
 }
+.storm_FB_dark{
+    background-color: #5a6d98;
+}
+.storm_FB_middle{
+    background-color: #7e94c7;
+}
+
+.storm_FB_light{
+    background-color: #c5d7fb;
+}
 .FSturm_dark{
     background-color: #2e3c5f;
 }
@@ -220,7 +251,6 @@ body {
 .FSturm_light{
     background-color: #89a0d7;
 }
-
 .post_dark{
     background-color: #214B4D;
   }

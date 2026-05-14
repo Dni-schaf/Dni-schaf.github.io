@@ -1,5 +1,6 @@
 const imageTexts = {
     
+
   "06_F_01": [
     {
       "text_de": "Kapitel 6",
@@ -36,7 +37,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "58%",
       "left": "0%",
       "width": "100%"
     },
@@ -49,7 +50,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "57%",
       "left": "0%",
       "width": "100%"
     },
@@ -62,7 +63,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "34%",
+      "bottom": "34.5%",
       "left": "70%",
       "width": "15%"
     },
@@ -75,9 +76,9 @@ const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "19%",
-      "left": "54%",
-      "width": "20%"
+      "bottom": "19.5%",
+      "left": "57%",
+      "width": "16%"
     }
   ],
   "06_F_02": [
@@ -90,7 +91,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "62%",
+      "bottom": "58%",
       "left": "20%",
       "width": "19%"
     }
@@ -119,7 +120,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "76%",
-      "left": "52%",
+      "left": "40%",
       "width": "20%"
     }
   ],
@@ -163,7 +164,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "72%",
+      "bottom": "74%",
       "left": "41%",
       "width": "20%"
     },
@@ -252,7 +253,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "90%",
-      "left": "79%",
+      "left": "81%",
       "width": "20%"
     },
     {
@@ -279,7 +280,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "70%",
+      "bottom": "68%",
       "left": "49%",
       "width": "18%"
     },
@@ -292,7 +293,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "28%",
+      "bottom": "25%",
       "left": "13%",
       "width": "21%"
     }
@@ -391,7 +392,7 @@ const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "47%",
+      "bottom": "44%",
       "left": "10%",
       "width": "24%"
     }
@@ -435,7 +436,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "17%",
-      "left": "28%",
+      "left": "29%",
       "width": "20%"
     },
     {
@@ -459,7 +460,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "FSturm_dark",
+      "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "65%",
@@ -477,7 +478,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "82.5%",
       "left": "0%",
       "width": "100%"
     },
@@ -503,8 +504,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "84%",
+      "left": "69%",
       "width": "20%"
     },
     {
@@ -516,9 +517,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "40%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "54%",
+      "left": "74%",
+      "width": "24%"
     },
     {
       "text_de": "Was man von diesen Ureinwohnern alles lernen kann!",
@@ -529,9 +530,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "30%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "52%",
+      "left": "39%",
+      "width": "15%"
     },
     {
       "text_de": "Mir war nicht klar, wie faszinierend die Inselwelt Kanadas ist.",
@@ -542,8 +543,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "20%",
-      "left": "2%",
+      "bottom": "3%",
+      "left": "83%",
       "width": "20%"
     },
     {
@@ -555,9 +556,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "10%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "9%",
+      "left": "22%",
+      "width": "13%"
     }
   ],
   "06_F_21": [
@@ -613,8 +614,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "11%",
+      "left": "72%",
       "width": "20%"
     }
   ],
@@ -643,9 +644,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "78%",
+      "left": "35%",
+      "width": "11%"
     },
     {
       "text_de": "Beeindruckender Vortrag, Herr Amundsen. Wie Sie die Nordwestpassage durchquert haben – formidabel!",
@@ -656,8 +657,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "bottom": "4%",
+      "left": "72%",
       "width": "20%"
     }
   ],
@@ -671,38 +672,25 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "81%",
+      "left": "18%",
+      "width": "14%"
     },
     {
-      "text_de": "Bitte verzeihen Sie – einer Dame darf man nichts ausschlagen.",
+      "text_de": "Bitte verzeihen Sie – einer Dame darf man nichts ausschlagen. Und wegen Ihrer Bitte: Lassen Sie uns später in Ruhe noch einmal darüber sprechen.",
       "text_en": "You’ll have to forgive me—one mustn’t deny a lady.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "storm_FB_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "26%",
+      "left": "49%",
+      "width": "14%"
     }
   ],
   "06_F_27": [
-    {
-      "text_de": "Und wegen Ihrer Bitte: Lassen Sie uns später in Ruhe noch einmal darüber sprechen.",
-      "text_en": "Let’s discuss your request later, when things are quieter.",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
-    },
     {
       "text_de": "Kommen Sie, ich muss Ihnen unbedingt jemanden vorstellen.",
       "text_en": "Come, there’s someone I must introduce you to!",
@@ -712,9 +700,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
+      "bottom": "72%",
+      "left": "57%",
+      "width": "15%"
     }
   ],
   "06_F_28": [
@@ -723,13 +711,13 @@ const imageTexts = {
       "text_en": "I’m sorry, sir—Mr Nansen has already departed.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "storm_FB_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "86%",
+      "left": "54%",
+      "width": "16%"
     },
     {
       "text_de": "Die Fram mag zwar offiziell dem norwegischen Staat gehören, aber ohne Fridtjof Nansens Zustimmung bekommt sie niemand. Seit Monaten versucht Amundsen, den berühmten Polarforscher und Diplomaten in seinem Haus bei Oslo zu erwischen – doch jedes Mal vergeblich.",
@@ -778,12 +766,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "storm_FB_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "39%",
+      "left": "37%",
+      "width": "14%"
     },
     {
       "text_de": "Bitte, nehmen Sie Platz! Herr Nansen kommt gleich.",
@@ -795,7 +783,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "52%",
+      "left": "63%",
       "width": "20%"
     }
   ],
@@ -806,12 +794,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "storm_FB_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "86%",
+      "left": "30%",
+      "width": "18%"
     },
     {
       "text_de": "Aus dem Munde eines so hochgeachteten Diplomaten klingt das wie ein Kompliment.",
@@ -821,10 +809,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "67%",
+      "left": "79%",
+      "width": "19%"
     }
   ],
   "06_F_32": [
@@ -837,9 +825,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "42%",
+      "left": "23%",
+      "width": "17%"
     },
     {
       "text_de": "Ausgezeichnet! Ich bin Ihnen ewig zu Dank verpflichtet, Herr Nansen.",
@@ -849,10 +837,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
+      "left": "58%",
+      "width": "16%"
     }
   ],
   "06_F_33": [
@@ -866,7 +854,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "2%",
+      "left": "36%",
       "width": "20%"
     }
   ],
@@ -879,9 +867,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "60%",
+      "left": "32%",
       "width": "20%"
     }
   ],
@@ -894,10 +882,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "67%",
+      "left": "16%",
+      "width": "15%"
     },
     {
       "text_de": "Ich werde hier gebraucht. Und meine Südpol-Pläne – die können warten.",
@@ -908,8 +896,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "bottom": "60%",
+      "left": "48%",
       "width": "20%"
     }
   ],
@@ -991,12 +979,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
+      "textAlign": "right",
+      "bottom": "88%",
       "left": "2%",
-      "width": "20%"
+      "width": "14%"
     },
     {
       "text_de": "Klar Schiff machen!",
@@ -1004,11 +992,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "64%",
+      "left": "24%",
       "width": "20%"
     }
   ],
@@ -1033,25 +1021,25 @@ const imageTexts = {
       "text_en": "Mind the rudder—ease the wind!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "FSturm_dark",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "79%",
+      "left": "18%",
+      "width": "14%"
     },
     {
       "text_de": "Zu Befehl, Kapitän!",
       "text_en": "Aye, Captain!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
+      "color": "white",
+      "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
+      "textAlign": "right",
+      "bottom": "49%",
+      "left": "40%",
       "width": "20%"
     }
   ],
@@ -1186,5 +1174,6 @@ const imageTexts = {
       "width": "20%"
     }
   ]
+
 
 };

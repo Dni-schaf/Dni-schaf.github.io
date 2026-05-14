@@ -657,7 +657,7 @@ const imageTexts ={
       "width": "11%"
     },
     {
-      "text_de": "Sie sitzt tadellos.",
+      "text_de": "Sie sitzt makellos.",
       "text_en": "It fits perfectly.",
       "text_no": "no",
       "kind": "dialog",
@@ -672,8 +672,8 @@ const imageTexts ={
   ],
   "01a_TN_28": [
     {
-      "text_de": "Alles ist tadellos, Schatz. Auf diesen Moment hast du so lange hingearbeitet.",
-      "text_en": "Everything’s perfect, darling. You’ve worked so long for this moment.",
+      "text_de": "Alles ist makellos, Schatz. Auf diesen Moment hast du so lange hingearbeitet.",
+      "text_en": "Everything is perfect, darling. You’ve worked so very long for this moment.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -685,8 +685,8 @@ const imageTexts ={
       "width": "17%"
     },
     {
-      "text_de": "Ich wünschte, auch unsere Finanzen wären tadellos … so vieles hängt noch in der Luft.",
-      "text_en": "If only our finances were just as perfect… so much still hangs in the balance.",
+      "text_de": "Hmm, ich wünschte, auch unsere Finanzen wären makellos … so vieles hängt noch in der Luft.",
+      "text_en": "Hmm, if only our finances were perfect as well… so much still hangs in the balance.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -733,7 +733,7 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "93%",
@@ -816,7 +816,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "82.8%",
       "left": "0%",
       "width": "100%"
     },
@@ -829,7 +829,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "84%",
       "left": "0%",
       "width": "100%"
     },
@@ -1349,7 +1349,7 @@ const imageTexts ={
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "8%",
-      "left": "49%",
+      "left": "47%",
       "width": "15%"
     }
   ],
@@ -1419,8 +1419,8 @@ const imageTexts ={
       "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "60%",
+      "bottom": "79%",
+      "left": "62%",
       "width": "20%"
     }
   ],
@@ -1430,7 +1430,7 @@ const imageTexts ={
       "text_en": "Royal Hotel, Cardiff",
       "text_no": "no",
       "kind": "location2",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "",
       "Fontsize": "1.8vw",
       "textAlign": "left",
@@ -2693,7 +2693,7 @@ const imageTexts ={
       "width": "20%"
     },
     {
-      "text_de": "Viel Glück!",
+      "text_de": "Glück auf!",
       "text_en": "Good luck, lads!",
       "text_no": "no",
       "kind": "dialog",
@@ -2706,8 +2706,8 @@ const imageTexts ={
       "width": "20%"
     },
     {
-      "text_de": "Gute Reise, Captain Scott!",
-      "text_en": "Bon voyage, Captain Scott!",
+      "text_de": "Gute Reise!",
+      "text_en": "Fair winds!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2729,21 +2729,6 @@ const imageTexts ={
       "textAlign": "left",
       "bottom": "88%",
       "left": "31%",
-      "width": "20%"
-    }
-  ],
-  "01b_TN_56": [
-    {
-      "text_de": "Glück auf!",
-      "text_en": "Fair winds!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "start_light",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "53%",
-      "left": "72%",
       "width": "20%"
     }
   ],

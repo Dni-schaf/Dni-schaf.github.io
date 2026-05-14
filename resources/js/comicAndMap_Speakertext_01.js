@@ -39,8 +39,8 @@ const speaker = {
   ],
   "1b_Speaker": [
     {
-      "text_de": "Ohne ihren Captain sticht die Terra Nova in See. Nur eine Woche später taucht Madeira am Horizont auf – die Insel des ewigen Frühlings. Dort wirft das Schiff für drei Tage Anker, bevor es seine Reise über den Atlantik fortsetzt.",
-      "text_en": "The Terra Nova sets sail without its captain. Just one week later, Madeira appears on the horizon - the island of eternal spring. The ship drops anchor there for three days before continuing its journey across the Atlantic.",
+      "text_de": "Ohne ihren Captain bricht die Terra Nova gen Süden auf. Schon nach einer Woche taucht Madeira am Horizont auf – die Insel des ewigen Frühlings. Drei Tage liegt das Schiff dort vor Anker, bevor die große Atlantiküberquerung beginnt.",
+      "text_en": "Without her captain, the Terra Nova sets out southward. After just one week, Madeira emerges on the horizon—the island of eternal spring. For three days, the ship lies at anchor there before the great crossing of the Atlantic begins.",
       "text_no": "NO",
       "kind": "speaker",
       "color": "black",
@@ -51,8 +51,8 @@ const speaker = {
       "width": "20%"
     },
     {
-      "text_de": "Fast vier Wochen nach dem Aufbruch aus der Heimat passiert die Terra Nova den Äquator. Inmitten der endlosen Weiten des Ozeans begeht die Mannschaft mit einer Mischung aus Ehrfurcht und Ausgelassenheit das uralte, seemännische Ritual der Äquatortaufe.",
-      "text_en": "Almost four weeks after leaving home, the Terra Nova passes the equator. In the middle of the endless expanse of the ocean, the crew celebrates the ancient maritime ritual of baptising the equator with a mixture of reverence and exuberance.",
+      "text_de": "Fast vier Wochen nach dem Abschied von der Heimat erreicht die Terra Nova den Äquator. Mitten im endlosen Blau begeht die Mannschaft das alte Ritual der Äquatortaufe – halb ehrfürchtig, halb ausgelassen.",
+      "text_en": "Nearly four weeks after leaving home, the Terra Nova reaches the Equator. In the midst of boundless blue, the crew takes part in the traditional line-crossing ceremony—half in reverence, half in revelry.",
       "text_no": "NO",
       "kind": "speaker",
       "color": "black",
@@ -63,8 +63,8 @@ const speaker = {
       "width": "20%"
     },
     {
-      "text_de": "Ihr nächster Halt führt die Terra Nova zu einem winzigen, unbewohnten Archipel vor der Küste Brasiliens. Auf Trindade betritt eine kleine Gruppe um den Chefwissenschaftler Wilson festen Boden. Die Männer durchstreifen die wilde Insel, sammeln geologische und biologische Proben.",
-      "text_en": "Their next stop takes the Terra Nova to a tiny, uninhabited archipelago off the coast of Brazil. On Trindade, a small group led by chief scientist Wilson sets foot on solid ground. The men roam the wild island, collecting geological and biological samples.",
+      "text_de": "Dann Trindade: ein einsamer Felsen vor der brasilianischen Küste. Wilson führt eine kleine Gruppe über die wilde Insel. Gestein und Getier werden gesammelt, Gläser gefüllt, Notizbücher beschrieben.",
+      "text_en": "Then comes Trindade: a solitary rock off the coast of Brazil. Wilson leads a small group across the wild island. Stones and living things are collected, jars are filled, notebooks brim with observations.",
       "text_no": "NO",
       "kind": "speaker",
       "color": "black",
@@ -75,9 +75,8 @@ const speaker = {
       "width": "20%"
     },
     {
-      "text_de": "Dann nimmt die Terra Nova südöstlichen Kurs und steuert entschlossen auf die Südspitze Afrikas zu. Acht Wochen auf See haben die Mannschaft geformt, aus Fremden eine mehr oder weniger eingeschworene Gemeinschaft gemacht.",
-      "text_en": "Then the Terra Nova sets a south-easterly course and heads resolutely for the southern tip of Africa. Eight weeks at sea have moulded the crew, turning strangers into a more or less close-knit community.",
-      "text_no": "NO",
+      "text_de": "Schließlich nimmt die Terra Nova Kurs auf das Kap der Guten Hoffnung. Acht Wochen auf See haben die Mannschaft geformt – aus einem Haufen Fremder ist eine mehr oder weniger eingeschworene Gemeinschaft geworden.",
+      "text_en": "Finally, the Terra Nova sets course for the Cape of Good Hope. Eight weeks at sea have shaped the crew, forging a more or less close-knit community out of what was once a motley group of strangers.",
       "kind": "speaker",
       "color": "black",
       "backgroundColor": null,
