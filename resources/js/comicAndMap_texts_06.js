@@ -1,6 +1,4 @@
 const imageTexts = {
-    
-
   "06_F_01": [
     {
       "text_de": "Kapitel 6",
@@ -436,7 +434,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "17%",
-      "left": "29%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -723,14 +721,14 @@ const imageTexts = {
       "text_de": "Die Fram mag zwar offiziell dem norwegischen Staat gehören, aber ohne Fridtjof Nansens Zustimmung bekommt sie niemand. Seit Monaten versucht Amundsen, den berühmten Polarforscher und Diplomaten in seinem Haus bei Oslo zu erwischen – doch jedes Mal vergeblich.",
       "text_en": "The Fram may be owned by the Norwegian state—yet without Fridtjof Nansen’s approval, she remains out of reach. For months, Amundsen has been trying to catch the famous polar explorer and diplomat at his house near Oslo—every time, in vain.",
       "text_no": "no",
-      "kind": "speaker",
+      "kind": "speaker_comic",
       "color": "",
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "bottom": "40%",
+      "left": "75%",
+      "width": "20%"
     },
     {
       "text_de": "September 1907",
@@ -766,12 +764,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "storm_FB_middle",
+      "backgroundColor": "storm_FB_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "39%",
-      "left": "37%",
-      "width": "14%"
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "15%",
+      "width": "15%"
     },
     {
       "text_de": "Bitte, nehmen Sie Platz! Herr Nansen kommt gleich.",
@@ -911,8 +909,8 @@ const imageTexts = {
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "33%",
-      "left": "24%",
+      "bottom": "38%",
+      "left": "28%",
       "width": "20%"
     }
   ],
@@ -995,27 +993,12 @@ const imageTexts = {
       "backgroundColor": "FSturm_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "64%",
+      "bottom": "61.3%",
       "left": "24%",
       "width": "20%"
     }
   ],
   "06_F_40": [
-    {
-      "text_de": "Du hast dir aber einen gefährlichen Platz ausgesucht. Komm mit zum Heck!",
-      "text_en": "You’ve chosen yourself a dangerous spot. Come aft, quickly!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_black",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "61%",
-      "left": "67%",
-      "width": "20%"
-    }
-  ],
-  "06_F_41": [
     {
       "text_de": "Vorsicht am Ruder! Wind abfallen lassen!",
       "text_en": "Mind the rudder—ease the wind!",
@@ -1043,63 +1026,7 @@ const imageTexts = {
       "width": "20%"
     }
   ],
-  "06_F_42": [
-    {
-      "text_de": "Es ist nur eine Frage der Zeit, bis einer der Hunde von Bord geht!",
-      "text_en": "It’s only a matter of time before one of the dogs goes overboard!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Der Kartenraum ist der einzig sichere Ort für sie!",
-      "text_en": "The chart room’s the only safe place for them!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
-    }
-  ],
-  "06_F_43": [
-    {
-      "text_de": "Fiep, fiep, fiep!",
-      "text_en": "Yip, yip, yip!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Nur sind dort die Plätze leider begrenzt!",
-      "text_en": "But there’s barely any room left in there!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "52%",
-      "width": "20%"
-    }
-  ],
-  "06_F_44": [
+  "06_F_41": [
     {
       "text_de": "Tschirp, tschirp!",
       "text_en": "Chirp, chirp!",
@@ -1114,7 +1041,106 @@ const imageTexts = {
       "width": "20%"
     }
   ],
+  "06_F_42": [
+    {
+      "text_de": "Du hast dir aber einen gefährlichen Platz ausgesucht. Komm mit zum Heck!",
+      "text_en": "You’ve chosen yourself a dangerous spot. Come aft, quickly!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "67%",
+      "width": "20%"
+    }
+  ],
+  "06_F_44": [
+    {
+      "text_de": "Fiep, fiep!",
+      "text_en": "Yip, yip!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "82%",
+      "left": "34%",
+      "width": "20%"
+    }
+  ],
+  "06_F_45": [
+    {
+      "text_de": "Es ist nur eine Frage der Zeit, bis einer der Hunde von Bord geht!",
+      "text_en": "It’s only a matter of time before one of the dogs goes overboard!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "92%",
+      "left": "25%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Der Kartenraum ist der einzig sichere Ort für sie!",
+      "text_en": "The chart room’s the only safe place for them!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "75%",
+      "left": "75%",
+      "width": "17%"
+    },
+    {
+      "text_de": "Fiep, fiep, fiep!",
+      "text_en": "Yip, yip, yip!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "14%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Nur sind dort die Plätze leider begrenzt!",
+      "text_en": "But there’s barely any room left in there!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "38%",
+      "left": "82%",
+      "width": "15%"
+    }
+  ],
   "06_F_46": [
+    {
+      "text_de": "Festhalten!",
+      "text_en": "Hold on tight!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "2.8vw",
+      "textAlign": "left",
+      "bottom": "40%",
+      "left": "17%",
+      "width": "20%"
+    }
+  ],
+  "06_F_47": [
     {
       "text_de": "Herrje!",
       "text_en": "Good grief!",
@@ -1124,56 +1150,24 @@ const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "Fontsize": "2vw",
       "textAlign": "left",
-      "bottom": "57%",
+      "bottom": "46%",
       "left": "60%",
       "width": "20%"
     }
   ],
   "06_F_48": [
     {
-      "text_de": "Fiep, fiep!",
-      "text_en": "Yip, yip!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
-    }
-  ],
-  "06_F_49": [
-    {
-      "text_de": "Festhalten!",
-      "text_en": "Hold on tight!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
-      "width": "20%"
-    }
-  ],
-  "06_F_50": [
-    {
       "text_de": "Fiiiiiep!",
       "text_en": "Yiiiiip!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "color": "white",
+      "backgroundColor": "bg_black",
+      "Fontsize": "2.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "2%",
+      "bottom": "15%",
+      "left": "79%",
       "width": "20%"
     }
   ]
-
-
-};
+}

@@ -1,5 +1,4 @@
-const imageTexts =
-{
+const imageTexts ={
   "05_TN_01": [
     {
       "text_de": "Kapitel 5",
@@ -17,7 +16,7 @@ const imageTexts =
     {
       "text_de": "Aus heiterem Himmel",
       "text_en": "Out of the Blue",
-      "text_no": "Ut av det blå",
+      "text_no": "NO",
       "kind": "title",
       "color": "white",
       "backgroundColor": "",
@@ -36,7 +35,7 @@ const imageTexts =
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "49%",
       "left": "0%",
       "width": "100%"
     },
@@ -49,16 +48,16 @@ const imageTexts =
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "48%",
       "left": "0%",
       "width": "100%"
     }
   ],
   "05_TN_02": [
     {
-      "text_de": "Bitte, Kapitän – es ist äußerst dringend! Sonst wären wir nicht hier.",
-      "text_en": "Please, Captain — it is terribly urgent! We wouldn’t be here otherwise.",
-      "text_no": "Vær så snill, kaptein, det er svært viktig, ellers hadde vi ikke vært her",
+      "text_de": "Es ist äußerst dringend, Kapitän! Sonst wären wir nicht hier.",
+      "text_en": "It is terribly urgent, Captain! We wouldn’t be here otherwise.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -73,7 +72,7 @@ const imageTexts =
     {
       "text_de": "Die Terra Nova liegt nur ein paar Meilen draußen. Wir müssen heute noch hin, Sir!",
       "text_en": "The Terra Nova is anchored just a few miles out. We have to reach her tonight, Sir!",
-      "text_no": "Terra Nova ligger for anker bare noen få kilometer herfra. Vi må komme dit i dag. Herr.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -86,7 +85,7 @@ const imageTexts =
     {
       "text_de": "Die See ist rau, sag ich Ihnen. Und bald ist’s stockfinster.",
       "text_en": "The sea’s rough, I tell you. And it’ll be pitch-dark soon.",
-      "text_no": "Havet er urolig, hører du, og snart vil det være helt mørkt",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -101,7 +100,7 @@ const imageTexts =
     {
       "text_de": "Bitte, lassen Sie es uns wenigstens versuchen!",
       "text_en": "At least let us try, please!",
-      "text_no": "Vær så snill, la oss i det minste gi det et forsøk",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -116,7 +115,7 @@ const imageTexts =
     {
       "text_de": "Unter diesen Bedingungen ist das nicht ganz ungefährlich.",
       "text_en": "In weather like this, it’s no small risk.",
-      "text_no": "Under disse forholdene er det ikke helt trygt",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -131,7 +130,7 @@ const imageTexts =
     {
       "text_de": "Wir müssen zu meinem Mann, Kapitän. Unbedingt!",
       "text_en": "We have to see my husband, Captain. It’s important!",
-      "text_no": "Vi må absolutt treffe min mann, kaptein",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -146,7 +145,7 @@ const imageTexts =
     {
       "text_de": "Naaa gut ...",
       "text_en": "All right, then…",
-      "text_no": "Vel, greit",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_light",
@@ -159,7 +158,7 @@ const imageTexts =
     {
       "text_de": "... aber nur auf Ihre Verantwortung.",
       "text_en": "…but it’s on your own heads.",
-      "text_no": "... men kun på ditt ansvar",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_light",
@@ -172,7 +171,7 @@ const imageTexts =
     {
       "text_de": "Und ich drehe um, sobald es zu riskant wird.",
       "text_en": "And I’ll turn back the moment it gets too risky.",
-      "text_no": "... og jeg vil snu når det blir for risikabelt",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_light",
@@ -187,7 +186,7 @@ const imageTexts =
     {
       "text_de": "Sicher, dass du’s versuchen willst, Junge?",
       "text_en": "You sure you’re up for it, lad?",
-      "text_no": "Er du sikker på at vil prøve, gutt?",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -200,9 +199,9 @@ const imageTexts =
   ],
   "05_TN_11": [
     {
-      "text_de": "Ahoi, Bill!",
-      "text_en": "Ahoy, Bill!",
-      "text_no": "Ahoy, BIll",
+      "text_de": "BILL!",
+      "text_en": "BILL!",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -215,7 +214,7 @@ const imageTexts =
     {
       "text_de": "Holt den Captain!",
       "text_en": "Fetch the Captain!",
-      "text_no": "Hent kapteinen",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -228,7 +227,7 @@ const imageTexts =
     {
       "text_de": "Keine Chance, Junge!",
       "text_en": "No chance, lad!",
-      "text_no": "Ikke en sjanse, gutt",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dark",
@@ -239,8 +238,8 @@ const imageTexts =
       "width": "20%"
     },
     {
-      "text_de": "Vielleicht an Backbord. Bitte, nur noch ein Versuch!",
-      "text_en": "Try portside! Please, just once more!",
+      "text_de": "An Backbord, bitte! Nur noch ein Versuch!",
+      "text_en": "Try portside, please! Just once more!",
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
@@ -249,7 +248,7 @@ const imageTexts =
       "textAlign": "left",
       "bottom": "47.2%",
       "left": "68%",
-      "width": "18%"
+      "width": "16%"
     },
     {
       "text_de": "Achtung!",
@@ -309,7 +308,7 @@ const imageTexts =
     },
     {
       "text_de": "Puh – das war knapp.",
-      "text_en": "Phew — that was a close one.",
+      "text_en": "Phew—that was a close one.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
@@ -408,7 +407,7 @@ const imageTexts =
     },
     {
       "text_de": "Gran! In die Offiziersmesse – sofort!",
-      "text_en": "Gran! To the wardroom — at once!",
+      "text_en": "Gran! To the wardroom—at once!",
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
@@ -435,23 +434,23 @@ const imageTexts =
       "width": "15%"
     },
     {
-      "text_de": "Erlaube mir mitzuteilen, Fram auf dem Weg Antarktis – Amundsen.",
-      "text_en": "Beg to inform you Fram proceeding Antarctic — Amundsen.",
+      "text_de": "*Erlaube mir mitzuteilen, Fram auf dem Weg Antarktis – Amundsen.",
+      "text_en": "*Beg to inform you Fram proceeding Antarctic—Amundsen.",
       "text_no": "NO",
-      "kind": "translation",
-      "color": "black",
-      "backgroundColor": "post_light",
-      "Fontsize": "1.8vw",
+      "kind": "footnote",
+      "color": "white",
+      "backgroundColor": "post_middle",
+      "Fontsize": "1.4vw",
       "textAlign": "left",
-      "bottom": "30%",
-      "left": "10%",
-      "width": "20%"
+      "bottom": "5%",
+      "left": "75%",
+      "width": "22%"
     }
   ],
   "05_TN_23": [
     {
       "text_de": "Ich … verstehe nicht, Sir.",
-      "text_en": "I… I don’t understand, Sir.",
+      "text_en": "I… don’t understand, Sir.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -479,7 +478,7 @@ const imageTexts =
     },
     {
       "text_de": "Zum Teufel – das haben wir alle gedacht!",
-      "text_en": "For Heaven’s sake — so did we all!",
+      "text_en": "For Heaven’s sake—so did we all!",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -493,8 +492,8 @@ const imageTexts =
   ],
   "05_TN_26": [
     {
-      "text_de": "Ich wollte Sie ja mit ihm bekannt machen, aber Sie erinnern sich doch bestimmt … er war ja nie zu Hause.",
-      "text_en": "I tried to introduce you to him, but you’ll recall… he was never home.",
+      "text_de": "Ich wollte Sie ja mit ihm bekannt machen, aber Sie erinnern sich … er war ja nie zu Hause.",
+      "text_en": "I wanted to introduce you to him, but as you’ll recall… he was never at home.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -506,8 +505,8 @@ const imageTexts =
       "width": "15%"
     },
     {
-      "text_de": "Auf keine meiner Anfragen hat er je reagiert – dabei ging es um wichtige Forschungsarbeit.",
-      "text_en": "Not once did he respond to my requests — though they concerned vital scientific work.",
+      "text_de": "Auf keine meiner Anfragen hat er je reagiert – dabei ging es doch um wichtige Forschungsarbeit!",
+      "text_en": "Not once did he respond to any of my requests—though they concerned important scientific work!",
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
@@ -550,7 +549,7 @@ const imageTexts =
   "05_TN_28": [
     {
       "text_de": "Eigentlich wollte ich es dir erst später zeigen – im Hotel …",
-      "text_en": "I was going to show you this later — back at the hotel...",
+      "text_en": "I was going to show you this later—back at the hotel...",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -591,7 +590,7 @@ const imageTexts =
     },
     {
       "text_de": "Er hat die ganze Welt getäuscht – während wir mit offenen Karten gespielt haben.",
-      "text_en": "He’s bluffed the whole world — while we’ve laid all our cards on the table.",
+      "text_en": "He’s bluffed the whole world—while we’ve laid all our cards on the table.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -647,7 +646,7 @@ const imageTexts =
   "05_TN_31": [
     {
       "text_de": "Und, Gran – kein Wort davon an die Mannschaft. Morgen informiere ich sie selbst.",
-      "text_en": "And, Gran — not a word to the men. I’ll inform them myself tomorrow.",
+      "text_en": "And, Gran—not a word to the men. I’ll inform them myself tomorrow.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -703,34 +702,60 @@ const imageTexts =
     },
     {
       "text_de": "Liebster, komm ins Bett! Du brauchst deinen Schlaf.",
-      "text_en": "Dearest, come to bed. You need your rest.",
+      "text_en": "Love, come to bed. You need your rest.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "bg_black",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "29.5%",
+      "bottom": "28.5%",
       "left": "50%",
       "width": "21%"
     },
     {
-      "text_de": "Obschon das Licht längst erloschen ist, lodern die Gedanken bis zum Morgengrauen. Welcher Schatten liegt über dieser Expedition? Wer kennt Amundsens Pläne? Was gilt es jetzt anzupassen – wenn überhaupt?",
-      "text_en": "Though the light has long gone out, thoughts burn on until dawn. What shadow lies over this expedition? Who knows what Amundsen intends? What, if anything, can still be changed?",
-      "text_no": "",
-      "kind": "speaker",
+      "text_de": "Obwohl das Licht längst erloschen ist, lodern die Gedanken bis zum Morgengrauen. Wer kennt Amundsens Pläne? Was gilt es jetzt anzupassen – wenn überhaupt? Liegt ein Schatten über dieser Expedition?",
+      "text_en": "Though the light has long since faded, thoughts burn on until dawn. Who knows what Amundsen intends? What, if anything, must be changed? Is there a shadow hanging over this expedition?",
+      "text_no": "NO",
+      "kind": "speaker_comic",
       "color": "",
       "backgroundColor": "",
+      "Fontsize": "1.4vw",
+      "textAlign": "left",
+      "bottom": "35%",
+      "left": "75%",
+      "width": "20%"
+    },
+    {
+      "text_de": "März 1910",
+      "text_en": "March 1910",
+      "text_no": "NO",
+      "kind": "date",
+      "color": "black",
+      "backgroundColor": "bg_white",
       "Fontsize": "",
-      "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "textAlign": "left",
+      "bottom": "10.5%",
+      "left": "0%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Uranienborg, Norwegen",
+      "text_en": "Uranienborg, Norway",
+      "text_no": "NO",
+      "kind": "location",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "",
+      "textAlign": "left",
+      "bottom": "10%",
+      "left": "0%",
+      "width": "20%"
     },
     {
       "text_de": "Endlich! Das da ist es.",
-      "text_en": "",
-      "text_no": "",
+      "text_en": "Finally! This is it.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -743,22 +768,22 @@ const imageTexts =
   ],
   "05_TN_33b": [
     {
-      "text_de": "Ich bin mir sicher, dass man uns mit offenen Armen empfangen wird.",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Ich bin mir sicher, man wird uns mit offenen Armen empfangen.",
+      "text_en": "I’m sure we’ll be welcomed with open arms.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "post_dream_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "70.5%",
-      "left": "24%",
+      "bottom": "77.5%",
+      "left": "27%",
       "width": "21%"
     },
     {
-      "text_de": "Hoffen wir, dass er auch ein offenes Ohr für mein Anliegen hat.",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Hoffentlich auch mit offenen Ohren für für mein Anliegen.",
+      "text_en": "Hopefully with open ears for my proposal as well.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_dream_light",
@@ -769,24 +794,24 @@ const imageTexts =
       "width": "15%"
     },
     {
-      "text_de": "Simultane magnetische Messungen an beiden Polen – eine solche Kooperation ist eine einmalige Gelegenheit.",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Stellen Sie sich vor, Gran – simultane magnetische Messungen an beiden Polen! Eine solche Kooperation ist eine einmalige Gelegenheit.",
+      "text_en": "Just imagine, Gran—simultaneous magnetic measurements at both poles! Such a cooperation is a unique opportunity.",
+      "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "post_dream_dark",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "73.5%",
-      "left": "66%",
-      "width": "23%"
+      "left": "58%",
+      "width": "29%"
     }
   ],
   "05_TN_33d": [
     {
-      "text_de": "Mister Scott - welch unerwartete Ehre!",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Mister Scott – welch unerwartete Ehre!",
+      "text_en": "Mr. Scott—what an unexpected honor!",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_dream_light",
@@ -797,9 +822,9 @@ const imageTexts =
       "width": "17%"
     },
     {
-      "text_de": "Falls Sie meinen Bruder zu sprechen wünschen, fürchte ich, dass Ihre Mühe vergebens war.",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Falls Sie meinen Bruder zu sprechen wünschen, fürchte ich, dass Sie umsonst nach Uranienborg gekommen sind.",
+      "text_en": "If you’re hoping to speak with my brother, I’m afraid you’ve come to Uranienborg for nothing.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "white",
       "backgroundColor": "post_dream_dark",
@@ -813,8 +838,8 @@ const imageTexts =
   "05_TN_33e": [
     {
       "text_de": "Roald scheint in aller Frühe aufgebrochen zu sein, möglicherweise für mehrere Tage – sein Schreibtisch ist aufgeräumt und die Haushälterin ausgeflogen.",
-      "text_en": "",
-      "text_no": "",
+      "text_en": "Roald seems to have left early this morning, possibly for several days—his desk is tidy and the housekeeper is gone.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_dream_light",
@@ -827,9 +852,9 @@ const imageTexts =
   ],
   "05_TN_33f": [
     {
-      "text_de": "Wie konnte das schiefgehen? Hat er das Telegramm nicht bekommen?",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Wie konnte das schon wieder schiefgehen? Hat er mein Telegramm nicht bekommen?",
+      "text_en": "How could it go wrong again? Didn’t he get my telegram?",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "post_dream_light",
@@ -841,8 +866,8 @@ const imageTexts =
     },
     {
       "text_de": "Vielleicht ist ihm etwas Dringliches dazwischen gekommen.",
-      "text_en": "",
-      "text_no": "",
+      "text_en": "Perhaps something urgent came up.",
+      "text_no": "NO",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
@@ -855,17 +880,17 @@ const imageTexts =
   ],
   "05_TN_33g": [
     {
-      "text_de": "Aber schade! Es war meine letzte Gelegenheit, ihn persönlich zu sprechen - mein kurzer Aufenthalt in Norwegen ist bereits bis auf die Stunde verplant.",
-      "text_en": "",
-      "text_no": "",
+      "text_de": "Ein Jammer – es war die letzte Gelegenheit für mich, ihn noch zu treffen.",
+      "text_en": "What a pity—it was my last chance to meet him.",
+      "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "83.5%",
-      "left": "31%",
-      "width": "21%"
+      "left": "34%",
+      "width": "17%"
     }
   ],
   "05_TN_34": [
@@ -891,19 +916,19 @@ const imageTexts =
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "78%",
       "left": "0%",
       "width": "100%"
     }
   ],
   "05_TN_35": [
     {
-      "text_de": "Männer, bevor Sie sich auf die Post aus der Heimat stürzen, habe ich eine wichtige Mitteilung.",
-      "text_en": "Men, before you rush to your letters from home, I have an important announcement.",
+      "text_de": "Ruhe, Männer! Bevor Sie sich auf die Post aus der Heimat stürzen, habe ich noch eine wichtige Mitteilung.",
+      "text_en": "Quiet, men! Before you rush to your letters from home, I have an important announcement.",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "post_dark",
+      "color": "black",
+      "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "73%",
@@ -913,8 +938,8 @@ const imageTexts =
   ],
   "05_TN_36": [
     {
-      "text_de": "Die Norweger sind offenbar ebenfalls auf dem Weg zum Südpol.",
-      "text_en": "It appears the Norwegians are also bound for the South Pole.",
+      "text_de": "Die … die Norweger sind offenbar ebenfalls auf dem Weg zum Südpol.",
+      "text_en": "It… it appears the Norwegians are also bound for the South Pole.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
@@ -927,7 +952,7 @@ const imageTexts =
     },
     {
       "text_de": "Amundsen hat – so scheint es – die ganze Welt hinters Licht geführt.",
-      "text_en": "Amundsen — it seems — has deceived the entire world.",
+      "text_en": "Amundsen—it seems—has deceived the entire world.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -982,8 +1007,8 @@ const imageTexts =
   ],
   "05_TN_38": [
     {
-      "text_de": "Ruhe, bitte! Genaueres wissen wir noch nicht. Aber wir tun alles, um mehr herauszufinden. erfahren in erfahrung zu bringen",
-      "text_en": "Quiet, please! We don’t yet know the details, but we’ll do our utmost to learn more.",
+      "text_de": "Ruhe, bitte! Genaueres wissen wir noch nicht. Aber wir tun alles, um mehr in Erfahrung zu bringen.",
+      "text_en": "Quiet, please! We don’t have any details yet. But we’re doing everything we can to find out more.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -1011,7 +1036,7 @@ const imageTexts =
     },
     {
       "text_de": "Und nun: Freuen Sie sich auf hoffentlich bessere Nachrichten aus der Heimat.",
-      "text_en": "And now — may your letters bring better news from home.",
+      "text_en": "And now—may your letters bring better news from home.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -1033,13 +1058,13 @@ const imageTexts =
       "backgroundColor": "post_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "87.5%",
+      "bottom": "81.5%",
       "left": "19%",
       "width": "26%"
     },
     {
       "text_de": "Na, vielleicht hat das Theater ja etwas Gutes – die Spendenbereitschaft könnte steigen.",
-      "text_en": "Well, perhaps all this commotion will do some good — might loosen a few purse strings.",
+      "text_en": "Well, perhaps all this commotion will do some good—might loosen a few purse strings.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -1083,8 +1108,8 @@ const imageTexts =
       "text_en": "What do you mean exactly?",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "post_middle",
+      "color": "black",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "8%",
@@ -1093,7 +1118,7 @@ const imageTexts =
     },
     {
       "text_de": "All das Gerede vom Nordpolarmeer – reine Täuschung. Wie hinterlistig!",
-      "text_en": "All that talk of the Arctic Ocean — pure deception. How devious!",
+      "text_en": "All that talk of the Arctic Ocean—pure deception. How devious!",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -1151,7 +1176,7 @@ const imageTexts =
   "05_TN_45": [
     {
       "text_de": "Ich hab ja nichts gegen einen Wettkampf. Aber mit solch perfiden Methoden?",
-      "text_en": "I’ve nothing against a contest — but not with such underhand tactics.",
+      "text_en": "I’ve nothing against a contest—but not with such underhand tactics.",
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
@@ -1179,4 +1204,3 @@ const imageTexts =
     }
   ]
 }
-;

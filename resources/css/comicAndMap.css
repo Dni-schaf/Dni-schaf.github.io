@@ -157,7 +157,7 @@ a.next {
 }
 
 .speaker{
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     padding: 2%;
     font-family: "chapter";
     position: relative;
@@ -167,6 +167,27 @@ a.next {
     background-size: 100% 100%; /* <<< das verzerrt das Bild auf die Boxgröße */
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.speaker_comic{
+    font-size: 1.4vw;
+    padding: 2%;
+    font-family: "chapter";
+    color: #000;
+    font-style: italic;
+    background-image: url("/resources/images/speaker.png");
+    background-size: 100% 100%; /* <<< das verzerrt das Bild auf die Boxgröße */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+}
+
+.footnote{
+    position: absolute;
+    font-family: "chapter";
+    font-style: italic;
+    font-size: 1.4vw;
+
 }
 
 .dialog {

@@ -1,5 +1,4 @@
 const imageTexts = {
-
   "04a_F_01": [
     {
       "text_de": "Kapitel 4",
@@ -36,7 +35,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "62.8%",
       "left": "0%",
       "width": "100%"
     },
@@ -49,7 +48,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "62%",
       "left": "0%",
       "width": "100%"
     }
@@ -263,7 +262,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "62%",
-      "left": "32%",
+      "left": "31%",
       "width": "20%"
     }
   ],
@@ -336,7 +335,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "83%",
-      "left": "27%",
+      "left": "25%",
       "width": "20%"
     },
     {
@@ -348,8 +347,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "41%",
-      "left": "53%",
+      "bottom": "39%",
+      "left": "54%",
       "width": "15%"
     }
   ],
@@ -432,11 +431,11 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "Fontsize": "1.4vw",
       "textAlign": "left",
-      "bottom": "18%",
-      "left": "82%",
-      "width": "16%"
+      "bottom": "25%",
+      "left": "83%",
+      "width": "15%"
     }
   ],
   "04a_F_19": [
@@ -478,7 +477,7 @@ const imageTexts = {
       "Fontsize": "2.8vw",
       "textAlign": "right",
       "bottom": "33%",
-      "left": "36%",
+      "left": "31%",
       "width": "24%"
     },
     {
@@ -490,7 +489,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "79%",
       "left": "59%",
       "width": "20%"
     }
@@ -548,7 +547,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "2.8vw",
       "textAlign": "right",
-      "bottom": "40%",
+      "bottom": "54%",
       "left": "43%",
       "width": "20%"
     },
@@ -562,7 +561,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "83%",
-      "left": "37%",
+      "left": "41%",
       "width": "20%"
     }
   ],
@@ -589,7 +588,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "76%",
+      "bottom": "78%",
       "left": "54%",
       "width": "20%"
     }
@@ -619,7 +618,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "65%",
+      "bottom": "67%",
       "left": "22%",
       "width": "26%"
     },
@@ -660,9 +659,9 @@ const imageTexts = {
       "kind": "date",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "19.3%",
       "left": "0%",
       "width": "100%"
     },
@@ -673,9 +672,9 @@ const imageTexts = {
       "kind": "location",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "18%",
       "left": "0%",
       "width": "100%"
     }
@@ -690,7 +689,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "76%",
+      "bottom": "77%",
       "left": "43%",
       "width": "15%"
     }
@@ -706,7 +705,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "63%",
-      "left": "47%",
+      "left": "50%",
       "width": "20%"
     }
   ],
@@ -748,7 +747,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "32%",
+      "bottom": "38%",
       "left": "85%",
       "width": "20%"
     },
@@ -789,7 +788,7 @@ const imageTexts = {
       "backgroundColor": "bg_transparent",
       "Fontsize": "2.8vw",
       "textAlign": "left",
-      "bottom": "63%",
+      "bottom": "59%",
       "left": "2%",
       "width": "9%"
     },
@@ -855,11 +854,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "hundstag_dark",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "15%",
-      "left": "46%",
+      "bottom": "0%",
+      "left": "32%",
       "width": "20%"
     }
   ],
@@ -957,8 +956,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "67%",
-      "left": "20%",
+      "bottom": "72%",
+      "left": "74%",
       "width": "20%"
     },
     {
@@ -970,7 +969,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "62%",
+      "bottom": "66%",
       "left": "55%",
       "width": "20%"
     }
@@ -985,8 +984,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "67%",
-      "left": "26%",
+      "bottom": "88%",
+      "left": "23%",
       "width": "17%"
     },
     {
@@ -998,7 +997,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "90%",
+      "bottom": "73%",
       "left": "28%",
       "width": "20%"
     },
@@ -1074,8 +1073,8 @@ const imageTexts = {
   ],
   "04b_F_18": [
     {
-      "text_de": "So eine Expedition plant man nicht mal eben an einem Nachmittag.",
-      "text_en": "You don’t plan an expedition like this in just one afternoon.",
+      "text_de": "Mumpitz! So eine Expedition plant man nicht mal eben an einem Nachmittag.",
+      "text_en": "Balderdash! An expedition of this sort is hardly planned in an afternoon.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1182,7 +1181,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "77%",
-      "left": "14%",
+      "left": "17%",
       "width": "18%"
     },
     {
@@ -1207,9 +1206,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "5%",
-      "left": "67%",
-      "width": "13%"
+      "bottom": "2%",
+      "left": "65%",
+      "width": "16%"
     }
   ],
   "04b_F_23": [
@@ -1331,7 +1330,7 @@ const imageTexts = {
   "04c_F_06": [
     {
       "text_de": "Notier ins Logbuch, Prestrud: Barometer 31.0, 61.1 und Temperatur (Luft) … 29,5.",
-      "text_en": "Log this, Prestrud: Barometer 31.0, 61.1 and temperature (air) … 29.5.",
+      "text_en": "Log this, Prestrud: Barometer 31.0, 61.1 and temperature (air)  … 29.5.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1438,12 +1437,25 @@ const imageTexts = {
       "bottom": "76%",
       "left": "20%",
       "width": "20%"
+    },
+    {
+      "text_de": "Wie lautet denn deine Prognose – wann dürfen wir mit Regen rechnen?",
+      "text_en": "What is your forecast then—when may we expect rain?",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "bg_white",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "76%",
+      "left": "20%",
+      "width": "20%"
     }
   ],
   "04c_F_10": [
     {
-      "text_de": "Und, wie lautet deine Prognose? Wann dürfen wir mit Regen rechnen? Kräuselt sich dein Bart schon?",
-      "text_en": "So, what’s your forecast? Any sign of rain? Is your beard giving you any clues?",
+      "text_de": "Kräuselt sich dein Bart schon?",
+      "text_en": "Is your beard starting to curl yet?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1479,12 +1491,12 @@ const imageTexts = {
       "bottom": "75%",
       "left": "64%",
       "width": "20%"
-    },
+    }
   ],
   "04c_F_11": [
     {
-      "text_de": "Manchen Hunden geht es miserabel. Ich fürchte, sie schaffen es nicht. Einige verlieren stark Fell, haben schon kahle Stellen. Die Spezialseife hat kaum geholfen.",
-      "text_en": "Some of the dogs are in bad shape. I fear they won’t make it. Several are losing fur, with bald patches already showing. The special soap has done little good.",
+      "text_de": "Den Hunden geht es miserabel. Manche verlieren so stark Fell, dass sie schon kahle Stellen haben. Die Spezialseife hat kaum geholfen. Und die Hitze setzt ihnen zu. Einige werden es nicht schaffen.",
+      "text_en": "The dogs are in a miserable state. Some are losing so much fur that they already have bald patches. The special soap has hardly helped, and the heat is taking its toll on them. Some of them will not make it.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1496,8 +1508,8 @@ const imageTexts = {
       "width": "33%"
     },
     {
-      "text_de": "Und die Hitze setzt ihnen zu. Johansen hat seine Sorgenkinder schon „Liket“ und „Dødsengelen“ getauft.",
-      "text_en": "And the heat is taking its toll. Johansen’s already renamed his worst cases \"Liket\" and \"Dødsengelen\".",
+      "text_de": "Johansen hat seine Sorgenkinder schon „Liket“ und „Dødsengelen“ getauft.",
+      "text_en": "Johansen has already christened his worst cases \"Liket\" and \"Dødsengelen\".",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1507,7 +1519,9 @@ const imageTexts = {
       "bottom": "76%",
       "left": "56%",
       "width": "23%"
-    },
+    }
+  ],
+  "04c_F_12": [
     {
       "text_de": "„Leiche“ und „Todesengel“ – herrlich! Ich liebe seinen Humor.",
       "text_en": "“Corpse” and “Angel of Death”—splendid! Love his sense of humor.",
@@ -1517,12 +1531,10 @@ const imageTexts = {
       "backgroundColor": "hundstag_dark",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "8%",
+      "bottom": "79%",
       "left": "38%",
-      "width": "20%"
-    }
-  ],
-  "04c_F_12": [
+      "width": "21%"
+    },
     {
       "text_de": "Ich habe volles Vertrauen in deine medizinische Kompetenz, Wisting.",
       "text_en": "I have full confidence in your medical expertise, Wisting.",
@@ -1595,8 +1607,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Schau – mein Prototyp. Beißkorb",
-      "text_en": "Look—my prototype.",
+      "text_de": "Schau – mein Prototyp für den Beißkorb ist fertig.",
+      "text_en": "Look—my prototype for the muzzle is finished.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1610,8 +1622,8 @@ const imageTexts = {
   ],
   "04c_F_16": [
     {
-      "text_de": "Ah, der Beißkorb! Dann ist mein Allerwertester endlich sicher.",
-      "text_en": "Ah, the muzzle! Then my posterior is finally safe.",
+      "text_de": "Ah, dann ist mein Allerwertester ja endlich sicher.",
+      "text_en": "Ah, then my posterior is finally safe.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1623,8 +1635,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Das wird noch dauern. Sei lieber weniger arglos im Umgang mit den Hunden, Lindstrøm.",
-      "text_en": "It’ll take a while yet. In the meantime, you should be less reckless with the dogs, Lindstrøm.",
+      "text_de": "Das wird noch dauern.",
+      "text_en": "Not for a while yet.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1636,8 +1648,8 @@ const imageTexts = {
       "width": "19%"
     },
     {
-      "text_de": "Aber wenn erst alle einen Beißkorb tragen und frei herumlaufen können, werden sie hoffentlich friedlicher.",
-      "text_en": "But once they all have muzzles and can run free, they’ll hopefully be a bit more peaceful.",
+      "text_de": "Du solltest lieber nicht so arglos mit den Hunden umgehen, Lindstrøm.",
+      "text_en": "You’d better not be so careless with the dogs, Lindstrøm.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1701,7 +1713,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "58%",
-      "left": "7%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -1774,8 +1786,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Männer Rønne wird sich freuen – bei der Hitze hunderte Ösen und Stifte zu schmieden!",
-      "text_en": "Rønne’s going to be thrilled—forging hundreds of rivets and rings in this heat!",
+      "text_de": "Die Männer werden sich freuen – bei der Hitze hunderte Ösen und Stifte zu schmieden!",
+      "text_en": "The men will be delighted—forging hundreds of rivets and rings in this heat!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1789,8 +1801,8 @@ const imageTexts = {
   ],
   "04c_F_21": [
     {
-      "text_de": "Laut Lindstrøm sieht’s nach Abkühlung aus – sein Ohrläppchen juckt schon. Kommt denn dann auch Regen?",
-      "text_en": "According to Lindstrøm, it looks like things might cool down—his earlobe’s itching. Does that mean we’ll get some rain, too?",
+      "text_de": "Laut Lindstrøm sieht’s nach Abkühlung aus – sein Ohrläppchen juckt schon. Nur was den Regen angeht, ist er noch unsicher.",
+      "text_en": "According to Lindstrøm, we’re in for a spell of cooler weather—his earlobe has started itching. Only the matter of rain still seems uncertain to him.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1818,7 +1830,7 @@ const imageTexts = {
   "04c_F_22": [
     {
       "text_de": "Hoffen wir, dass er dir auch zuhört.",
-      "text_en": "Let’s hope he listens to you.",
+      "text_en": "Let’s hope he is inclined to listen to you.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1838,9 +1850,9 @@ const imageTexts = {
       "kind": "date",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "66.7%",
       "left": "0%",
       "width": "100%"
     },
@@ -1851,9 +1863,9 @@ const imageTexts = {
       "kind": "location",
       "color": "black",
       "backgroundColor": "",
-      "Fontsize": "1.8vw",
+      "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "66%",
       "left": "0%",
       "width": "100%"
     },
@@ -1881,7 +1893,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "58%",
+      "bottom": "61%",
       "left": "24%",
       "width": "20%"
     },
@@ -1894,7 +1906,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "38%",
+      "bottom": "45%",
       "left": "59%",
       "width": "20%"
     }
@@ -1920,7 +1932,7 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "hundstag_light",
-      "Fontsize": "2.5vw",
+      "Fontsize": "2vw",
       "textAlign": "right",
       "bottom": "50%",
       "left": "15%",
@@ -1934,11 +1946,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_light",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "10%",
+      "bottom": "61%",
+      "left": "38%",
       "width": "20%"
     },
     {
@@ -1965,15 +1977,15 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "80%",
-      "width": "20%"
+      "bottom": "81%",
+      "left": "83%",
+      "width": "24%"
     }
   ],
   "04d_F_06": [
     {
-      "text_de": "Achtung! Die Sonnensegel laufen über! Wir brauchen eine Eimerkette – los!",
-      "text_en": "Watch out! The awnings are overflowing! We need a bucket line—move!",
+      "text_de": "Achtung, die Sonnensegel laufen über! Wir brauchen eine Eimerkette – los!",
+      "text_en": "Watch out, the awnings are overflowing! We need a bucket line—move!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1985,8 +1997,8 @@ const imageTexts = {
       "width": "17%"
     },
     {
-      "text_de": "Zu Befehl, Prestrud!",
-      "text_en": "Aye, aye, Prestrud!",
+      "text_de": "Ist klar, Prestrud!",
+      "text_en": "Got it, Prestrud!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2013,8 +2025,8 @@ const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Na schön, der Junge hat das Sagen.",
-      "text_en": "All right, the lad’s in charge.",
+      "text_de": "Na schön.",
+      "text_en": "All right then.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2049,7 +2061,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "90%",
+      "bottom": "92%",
       "left": "68%",
       "width": "20%"
     },
@@ -2105,8 +2117,8 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "21%",
+      "bottom": "86%",
+      "left": "22%",
       "width": "20%"
     },
     {
@@ -2119,7 +2131,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "57%",
+      "left": "54%",
       "width": "20%"
     },
     {
@@ -2132,7 +2144,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "40%",
-      "left": "12%",
+      "left": "8%",
       "width": "20%"
     }
   ],
@@ -2294,38 +2306,38 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_light",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "281%",
-      "width": "17%"
+      "bottom": "41%",
+      "left": "68%",
+      "width": "16%"
     }
   ],
   "04d_F_17": [
     {
-      "text_de": "Wie geht es den Hunden? Manche waren ja regelrecht in Panik.",
-      "text_en": "How are the dogs? Some seemed downright panicked.",
+      "text_de": "Wie geht es den Hunden? Einige waren ja völlig in Panik.",
+      "text_en": "How are the dogs faring? Some of them were in quite a panic.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "90%",
-      "left": "63%",
+      "bottom": "82%",
+      "left": "58%",
       "width": "20%"
     },
     {
-      "text_de": "Angeleint zu sein und keinen Schutz suchen zu können, hat es sicher schlimmer gemacht.",
-      "text_en": "Being tethered and unable to find shelter certainly made it worse.",
+      "text_de": "Angekettet und ohne Chance, Schutz zu suchen – kein Wunder.",
+      "text_en": "Chained up and unable to seek any shelter—it is hardly surprising.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "70%",
+      "bottom": "73%",
       "left": "53%",
       "width": "20%"
     }
@@ -2470,6 +2482,19 @@ const imageTexts = {
   ],
   "04d_F_22": [
     {
+      "text_de": "Pfui!",
+      "text_en": "Yuck!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "63%",
+      "left": "61%",
+      "width": "20%"
+    },
+    {
       "text_de": "Das ist ja widerlich!",
       "text_en": "That’s disgusting!",
       "text_no": "no",
@@ -2533,7 +2558,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "60%",
@@ -2560,13 +2585,13 @@ const imageTexts = {
       "text_en": "Unbelievable—such naïveté...",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "hundstag_dark",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "0%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "58%",
+      "left": "35%",
+      "width": "17%"
     }
   ],
   "04d_F_28": [
@@ -2626,7 +2651,7 @@ const imageTexts = {
       "textAlign": "right",
       "bottom": "80%",
       "left": "15%",
-      "width": "12%"
+      "width": "13%"
     },
     {
       "text_de": "Als hätten wir nicht weitaus größere Sorgen.",
@@ -2678,12 +2703,12 @@ const imageTexts = {
       "text_en": "Chirp, chirp!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "hundstag_dark",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "74%",
-      "left": "32%",
+      "left": "45%",
       "width": "20%"
     },
     {
@@ -2747,12 +2772,12 @@ const imageTexts = {
       "text_en": "The public adores a race.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "hundstag_dark",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "50%",
-      "left": "16%",
+      "textAlign": "left",
+      "bottom": "66%",
+      "left": "58%",
       "width": "16%"
     },
     {
@@ -2760,12 +2785,12 @@ const imageTexts = {
       "text_en": "Chirp, chirp!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "hundstag_dark",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "93%",
-      "left": "66%",
+      "bottom": "60%",
+      "left": "78%",
       "width": "20%"
     }
   ],

@@ -1013,8 +1013,8 @@ const imageTexts = {
   ],
   "03_F_41": [
     {
-      "text_de": "Aaaaaa…",
-      "text_en": "Aaaaaa…",
+      "text_de": "Aaaaa…",
+      "text_en": "Aaaaa…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1028,8 +1028,8 @@ const imageTexts = {
   ],
   "03_F_42": [
     {
-      "text_de": "…aajuda!",
-      "text_en": "…aajuda!",
+      "text_de": "…ajuda!",
+      "text_en": "…ajuda!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1143,11 +1143,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "2%",
+      "bottom": "65%",
+      "left": "39%",
       "width": "20%"
     },
     {
@@ -1229,7 +1229,9 @@ const imageTexts = {
       "bottom": "31%",
       "left": "35%",
       "width": "12%"
-    },
+    }
+  ],
+  "03_F_47": [
     {
       "text_de": "Maracujás frescos!",
       "text_en": "Maracujás frescos!",
@@ -1237,14 +1239,12 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "25%",
-      "left": "67%",
-      "width": "20%"
-    }
-  ],
-  "03_F_47": [
+      "Fontsize": "",
+      "textAlign": "",
+      "bottom": "",
+      "left": "",
+      "width": ""
+    },
     {
       "text_de": "Tauschen gegen Kleidung?",
       "text_en": "Trade for clothing?",
@@ -1285,8 +1285,8 @@ const imageTexts = {
       "width": "14%"
     },
     {
-      "text_de": "Passionsfrüchte. Die haben hier allerlei exotisches Obst. Dein Gaumen wird was erleben!",
-      "text_en": "Passionfruit. They’ve all sorts of exotic fruit here. Your palate’s in for a treat!",
+      "text_de": "Passionsfrüchte. Giebt hier allerlei exotisches Obst – dein Gaumen wird was erleben!",
+      "text_en": "Passionfruit. They’ve all sorts of exotic fruit here—your palate’s in for a treat!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1296,19 +1296,6 @@ const imageTexts = {
       "bottom": "0%",
       "left": "33%",
       "width": "20%"
-    },
-    {
-      "text_de": "Ein bisschen Passion hat noch niemandem geschadet.",
-      "text_en": "Can’t hurt to have a bit of passion.",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "madeira_light",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "5%",
-      "left": "62%",
-      "width": "18%"
     }
   ],
   "03_F_48": [
@@ -1447,9 +1434,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "83%",
-      "left": "4%",
+      "textAlign": "left",
+      "bottom": "50%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -1625,8 +1612,8 @@ const imageTexts = {
   ],
   "03_F_64": [
     {
-      "text_de": "Die nächsten Züge gilt es mit Bedacht zu wählen. Und ebenso die Worte, die an die oberste Instanz gehen.",
-      "text_en": "The next moves must be weighed with care—as must the words you send to the highest authority.",
+      "text_de": "Unsere nächsten Züge sollten wohl durchdacht sein. Ebenso die Worte, die du an die oberste Instanz richtest.",
+      "text_en": "Our next moves must be weighed with care. The same goes for the words you address to the highest authority.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1640,8 +1627,8 @@ const imageTexts = {
   ],
   "03_F_65": [
     {
-      "text_de": "Vielleicht hast du nur diese eine Chance, seine Gunst zu gewinnen.",
-      "text_en": "You may have but this one chance to win his favour.",
+      "text_de": "Vielleicht hast du nur diese eine Chance, um seine Gunst zu gewinnen.",
+      "text_en": "You may have only this one chance to win his favour.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1653,8 +1640,8 @@ const imageTexts = {
       "width": "19%"
     },
     {
-      "text_de": "Er ist DIE wichtigste Figur, ja.",
-      "text_en": "He is THE key figure, yes.",
+      "text_de": "Und immerhin ist er die wichtigste Figur.",
+      "text_en": "And after all, he is the key figure.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1668,8 +1655,8 @@ const imageTexts = {
   ],
   "03_F_66": [
     {
-      "text_de": "Aber mehr Sorge bereitet mir eine andere – eine, die meinen Schritt als Verrat deuten könnte.",
-      "text_en": "But I worry more about another figure—one who might see my actions as betrayal.",
+      "text_de": "Mehr Sorge bereitet mir aber eine andere Figur – eine, die meine Entscheidung als Verrat deuten könnte.",
+      "text_en": "What troubles me more, however, is another figure—one who might see my decision as an act of treason.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1684,7 +1671,7 @@ const imageTexts = {
   "03_F_67": [
     {
       "text_de": "Als Diplomat weiß er um die Kunst der Diskretion.",
-      "text_en": "A diplomat, at least, understands the art of discretion.",
+      "text_en": "As a diplomat, he understands the art of discretion.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1698,8 +1685,8 @@ const imageTexts = {
   ],
   "03_F_68": [
     {
-      "text_de": "Am Ende sind mir beide nur wohlgesinnt, wenn die Mission auch gelingt.",
-      "text_en": "In the end, both will only look kindly on me if the mission succeeds.",
+      "text_de": "Beide werden mir jedoch nur wohlgesinnt sein, wenn unsere Mission am Ende gelingt.",
+      "text_en": "Yet both of them will look kindly on me only if our mission succeeds in the end.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1711,8 +1698,8 @@ const imageTexts = {
       "width": "27%"
     },
     {
-      "text_de": "Daran haben wir keinen Zweifel. Doch ein Risiko gehört immer dazu.",
-      "text_en": "Of that we have no doubt. But risk is always part of the game.",
+      "text_de": "Daran haben wir keinen Zweifel – doch ein Risiko gehört immer dazu.",
+      "text_en": "Of that we have no doubt—but risk is always part of the game.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1726,7 +1713,7 @@ const imageTexts = {
   ],
   "03_F_69": [
     {
-      "text_de": "Und seinen Gegenspieler sollte man nie unterschätzen.",
+      "text_de": "Seinen Gegenspieler darf man nämlich nie unterschätzen.",
       "text_en": "And one should never underestimate an opponent.",
       "text_no": "no",
       "kind": "dialog",
@@ -2182,10 +2169,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "75%",
-      "left": "67%",
-      "width": "18%"
+      "textAlign": "left",
+      "bottom": "52%",
+      "left": "2%",
+      "width": "20%"
     },
     {
       "text_de": "Bei allen Winden!",
@@ -2193,7 +2180,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "81%",
@@ -2225,7 +2212,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "21%",
-      "left": "55%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -2577,7 +2564,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "77%",
-      "left": "6%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -2638,7 +2625,7 @@ const imageTexts = {
   "03_F_105": [
     {
       "text_de": "Ich werde sie hüten wie einen Schatz.",
-      "text_en": "I will guard them as a treasure.",
+      "text_en": "I will guard them like a treasure.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2650,8 +2637,8 @@ const imageTexts = {
       "width": "13%"
     },
     {
-      "text_de": "Auf ihnen lastet unsere ganze Hoffnung – auf königliches Wohlwollen und auf Nansens Nachsicht.",
-      "text_en": "On them rest all our hopes—for the King’s favour, and for Nansen’s forbearance.",
+      "text_de": "Auf ihnen ruht unsere ganze Hoffnung.",
+      "text_en": "All our hopes rest upon them.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2665,8 +2652,8 @@ const imageTexts = {
   ],
   "03_F_106": [
     {
-      "text_de": "Sie müssen es vor der Presse erfahren. Aber das ist ja meine Sorge.",
-      "text_en": "They must hear it before the press does. But that’s my concern.",
+      "text_de": "Beide müssen es vor der Presse erfahren. Dafür werde ich sorgen.",
+      "text_en": "They must both hear of it before the press does. I will see to that.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",

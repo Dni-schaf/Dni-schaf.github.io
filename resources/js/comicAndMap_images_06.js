@@ -49,6 +49,5 @@ const imageSets = [
         { "Kapitel": "06_F_47", "speed": 0 },
         { "Kapitel": "06_F_48", "speed": 0 },
         { "Kapitel": "06_F_49", "speed": 0 },
-        { "Kapitel": "06_F_50", "speed": 0 }
     ]
 ];

@@ -1,4 +1,4 @@
-const imageTexts = {
+const imageTexts ={
   "02_TN_01": [
     {
       "text_de": "Kapitel 2",
@@ -112,7 +112,7 @@ const imageTexts = {
     },
     {
       "text_de": "Dieser Morus Capensis ist vorerst das letzte Präparat für London. Versprochen!",
-      "text_en": "This Morus capensis will be the last specimen for London — for now. I promise!",
+      "text_en": "This Morus capensis will be the last specimen for London—for now. I promise!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -125,7 +125,7 @@ const imageTexts = {
     },
     {
       "text_de": "Morus. Was heißt das überhaupt?",
-      "text_en": "Morus — what does that mean, anyway?",
+      "text_en": "Morus—what does that mean, anyway?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -153,7 +153,7 @@ const imageTexts = {
   "02_TN_09": [
     {
       "text_de": "Tölpel sind wahre Künstler der Lüfte – aber am Boden wirken sie tollpatschig. Und sie sind leichte Beute, weil sie keine Scheu vor Jägern haben.",
-      "text_en": "Gannets are true masters of the air — but on land, they look clumsy. And they’re easy prey, since they show no fear of hunters.",
+      "text_en": "Gannets are true masters of the air—but on land, they look clumsy. And they’re easy prey, since they show no fear of hunters.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -194,7 +194,7 @@ const imageTexts = {
     },
     {
       "text_de": "Lass uns später weiterplaudern, Birdie. Der Kaptölpel ist in Gefahr, und meine Schicht im Kohlebunker steht bald an.",
-      "text_en": "Let’s chat later, Birdie. The Cape gannet needs my attention — and soon I’ve got my shift in the coal bunkers.",
+      "text_en": "Let’s chat later, Birdie. The Cape gannet needs my attention—and soon I’ve got my shift in the coal bunkers.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -310,7 +310,7 @@ const imageTexts = {
   "02_TN_16": [
     {
       "text_de": "Los Matrose, fang die Mäuse im Frachtraum!",
-      "text_en": "Off you go, sailor — down to the hold to catch the mice!",
+      "text_en": "Off you go, sailor—down to the hold to catch the mice!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -381,7 +381,7 @@ const imageTexts = {
   "02_TN_19": [
     {
       "text_de": "Lasst die Fäuste sprechen – Norwegen gegen Großbritannien! Ring frei!",
-      "text_en": "Let your fists do the talking — Norway against Britain! Seconds out, round one!",
+      "text_en": "Let your fists do the talking—Norway against Britain! Seconds out, round one!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -396,7 +396,7 @@ const imageTexts = {
   "02_TN_20": [
     {
       "text_de": "Achtung, Gran von rechts!",
-      "text_en": "Watch out — Gran from the right!",
+      "text_en": "Watch out—Gran from the right!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -830,7 +830,7 @@ const imageTexts = {
   "02_TN_29": [
     {
       "text_de": "An die Arbeit, Männer – wir sind ja nicht zum Vergnügen hier.",
-      "text_en": "Back to work, men — we’re not here for pleasure.",
+      "text_en": "Back to work, men—we’re not here for pleasure.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -899,7 +899,7 @@ const imageTexts = {
   "02_TN_31": [
     {
       "text_de": "He, Tom, was treibst du da?",
-      "text_en": "Hey, Tom — what are you up to?",
+      "text_en": "Hey, Tom—what are you up to?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -998,7 +998,7 @@ const imageTexts = {
   "02_TN_37": [
     {
       "text_de": "Wenn wir nicht gerade Wasser pumpen müssen – denn undicht ist sie ja auch noch!",
-      "text_en": "When we’re not busy pumping water — she leaks as well, mind you!",
+      "text_en": "When we’re not busy pumping water—she leaks as well, mind you!",
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
@@ -1071,7 +1071,7 @@ const imageTexts = {
   "02_TN_42": [
     {
       "text_de": "Schauen Sie – sogar der Kater ist solidarisch mit uns.",
-      "text_en": "Look — even the cat shares our lot.",
+      "text_en": "Look—even the cat shares our lot.",
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
@@ -1184,8 +1184,8 @@ const imageTexts = {
   ],
   "02_TN_48": [
     {
-      "text_de": "Na, Birdie – kannst du mit deinen Adleraugen schon den Tafelberg erkennen?",
-      "text_en": "Well, Birdie — can your eagle eyes make out Table Mountain yet?",
+      "text_de": "Na, Birdie – können deine Adleraugen den Tafelberg schon erkennen?",
+      "text_en": "Well, Birdie—can your eagle eyes make out Table Mountain yet?",
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
@@ -1197,8 +1197,8 @@ const imageTexts = {
       "width": "19%"
     },
     {
-      "text_de": "Sehr witzig, Sir!",
-      "text_en": "Very funny, sir!",
+      "text_de": "Sehr witzig, Sir.",
+      "text_en": "Very funny, sir.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1212,7 +1212,7 @@ const imageTexts = {
   ],
   "02_TN_49": [
     {
-      "text_de": "Ich bin gespannt, was Scott in London erreicht hat.",
+      "text_de": "Bin gespannt, was Scott in London erreicht hat.",
       "text_en": "I’m curious to know what Scott has achieved in London.",
       "text_no": "no",
       "kind": "dialog",
@@ -1326,8 +1326,8 @@ const imageTexts = {
   ],
   "02_TN_55": [
     {
-      "text_de": "Da – Glattwale! Vier … nein, sechs Stück!",
-      "text_en": "There — right whales! Four… no, six of them!",
+      "text_de": "Da – Glattwale! Vier Stück!",
+      "text_en": "There—right whales! Four of them!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1341,8 +1341,8 @@ const imageTexts = {
   ],
   "02_TN_56": [
     {
-      "text_de": "Sensationell!",
-      "text_en": "Remarkable!",
+      "text_de": "Sensationell.",
+      "text_en": "Remarkable.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1357,7 +1357,7 @@ const imageTexts = {
   "02_TN_57": [
     {
       "text_de": "Bravo, Taff! Ich notiere die Sichtung gleich auf dem Weg zu Lillie. Er möchte mir einige neue Funde zeigen.",
-      "text_en": "Well spotted, Taff! I’ll note the sighting on my way to Lillie — he wants to show me some new specimens.",
+      "text_en": "Well spotted, Taff! I’ll note the sighting on my way to Lillie—he wants to show me some new specimens.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1384,7 +1384,7 @@ const imageTexts = {
   ],
   "02_TN_58": [
     {
-      "text_de": "Tja … da war ich vorhin wohl etwas voreilig, Birdie. Vermutlich seltene Arten, die für das Museum von großem Interesse sind.",
+      "text_de": "Tja … da war ich wohl etwas voreilig, Birdie. Vermutlich handelt es sich um seltene Arten, die für das Museum von großem Interesse sind.",
       "text_en": "Ah… I may have spoken too soon, Birdie. Likely they’re rare species, of great interest to the museum.",
       "text_no": "no",
       "kind": "dialog",
@@ -1398,7 +1398,7 @@ const imageTexts = {
     },
     {
       "text_de": "Schon gut – ich treibe noch ein paar Kisten auf.",
-      "text_en": "Very well then — I’ll rustle up a few more crates.",
+      "text_en": "Very well then—I’ll rustle up a few more crates.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1410,5 +1410,4 @@ const imageTexts = {
       "width": "20%"
     }
   ]
-
 }

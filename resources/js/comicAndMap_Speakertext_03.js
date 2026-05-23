@@ -1,8 +1,8 @@
 const speaker = {  
     "3a_Speaker": [
       {
-        "text_de": "Eine erfrischende Brise weht der Mannschaft und den Hunden um die Nase, als die Fram in der warmen Abendsonne Madeira hinter sich lässt.",
-        "text_en": "A refreshing breeze blows around the noses of the crew and the dogs as the Fram leaves Madeira behind in the warm evening sun.",
+        "text_de": "Mit frischem Wind in den Segeln verlässt die Fram Madeira und nimmt Kurs nach Süden.",
+        "text_en": "With a fresh wind in her sails, the Fram leaves Madeira behind and sets a course for the south.",
         "text_no": "NO",
         "kind": "speaker",
         "color": "black",
@@ -13,8 +13,8 @@ const speaker = {
         "width": "20%"
       },
       {
-        "text_de": "Derweil hält die Terra Nova im südlichen Indischen Ozean ihren Kurs auf Australien, ohne zu ahnen, dass soeben ein stiller Startschuss für den Wettlauf zum Pol gefallen ist.",
-        "text_en": "Meanwhile, in the southern Indian Ocean, the Terra Nova holds its course for Australia, unaware that a silent starting shot has just been fired for the race to the pole.",
+        "text_de": "Die Terra Nova hält derweil auf Australien zu – nichtsahnend, dass soeben ein stiller Startschuss gefallen ist: Aus einer Expedition ist ein Wettlauf geworden.",
+        "text_en": "Meanwhile, the Terra Nova heads for Australia—unaware that a silent starting gun has just been fired: what began as an expedition has become a race.",
         "text_no": "NO",
         "kind": "speaker",
         "color": "black",
