@@ -924,8 +924,8 @@ const imageTexts = {
       "text_en": "My head’s pounding again. This heat is simply unbearable.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "hundstag_dark",
+      "color": "black",
+      "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "66%",
@@ -1236,7 +1236,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "19.3%",
       "left": "0%",
       "width": "100%"
     },
@@ -1249,7 +1249,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "18%",
       "left": "0%",
       "width": "100%"
     }
@@ -1264,7 +1264,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "77%",
+      "bottom": "81%",
       "left": "21%",
       "width": "15%"
     },
@@ -1292,8 +1292,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "56%",
+      "bottom": "82%",
+      "left": "59%",
       "width": "15%"
     }
   ],
@@ -1323,7 +1323,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "25%",
+      "left": "27%",
       "width": "12%"
     }
   ],
@@ -1336,9 +1336,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "88%",
-      "left": "9%",
+      "textAlign": "right",
+      "bottom": "86%",
+      "left": "8%",
       "width": "20%"
     },
     {
@@ -1350,7 +1350,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "3%",
+      "bottom": "2%",
       "left": "45%",
       "width": "20%"
     }
@@ -1391,8 +1391,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "58%",
-      "left": "62%",
+      "bottom": "64%",
+      "left": "60%",
       "width": "13%"
     }
   ],
@@ -1406,8 +1406,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "91%",
-      "left": "55%",
+      "bottom": "93%",
+      "left": "57%",
       "width": "20%"
     },
     {
@@ -1446,10 +1446,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "76%",
-      "left": "20%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "69%",
+      "left": "49%",
+      "width": "18%"
     }
   ],
   "04c_F_10": [
@@ -1462,9 +1462,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "0%",
+      "bottom": "8%",
       "left": "0%",
-      "width": "17%"
+      "width": "12%"
     },
     {
       "text_de": "CHEF!",
@@ -1473,7 +1473,7 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "Fontsize": "2.2vw",
       "textAlign": "right",
       "bottom": "75%",
       "left": "12%",
@@ -1502,9 +1502,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
+      "textAlign": "left",
       "bottom": "85%",
-      "left": "22%",
+      "left": "58%",
       "width": "33%"
     },
     {
@@ -1516,7 +1516,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "75%",
       "left": "56%",
       "width": "23%"
     }
@@ -1528,12 +1528,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_dark",
-      "Fontsize": "1.8vw",
+      "backgroundColor": "hundstag_light",
+      "Fontsize": "1.3vw",
       "textAlign": "left",
-      "bottom": "79%",
-      "left": "38%",
-      "width": "21%"
+      "bottom": "42%",
+      "left": "75%",
+      "width": "15%"
     },
     {
       "text_de": "Ich habe volles Vertrauen in deine medizinische Kompetenz, Wisting.",
@@ -1545,7 +1545,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "79%",
-      "left": "38%",
+      "left": "44%",
       "width": "21%"
     }
   ],
@@ -1615,7 +1615,7 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "71%",
       "left": "64%",
       "width": "20%"
     }
@@ -1643,9 +1643,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "0%",
-      "left": "27%",
-      "width": "19%"
+      "bottom": "7%",
+      "left": "32%",
+      "width": "9%"
     },
     {
       "text_de": "Du solltest lieber nicht so arglos mit den Hunden umgehen, Lindstrøm.",
@@ -1671,8 +1671,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "79%",
+      "left": "23%",
       "width": "20%"
     },
     {
@@ -1683,10 +1683,10 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "70%",
+      "left": "44%",
+      "width": "11%"
     },
     {
       "text_de": "Ruhig, mein Guter.",
@@ -1697,8 +1697,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "70%",
+      "left": "86%",
       "width": "20%"
     }
   ],
@@ -1713,7 +1713,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "58%",
-      "left": "2%",
+      "left": "6%",
       "width": "20%"
     },
     {
@@ -1725,8 +1725,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "72%",
-      "left": "77%",
+      "bottom": "66%",
+      "left": "71%",
       "width": "20%"
     }
   ],
@@ -1781,8 +1781,8 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "89%",
-      "left": "12%",
+      "bottom": "90%",
+      "left": "14%",
       "width": "20%"
     },
     {
@@ -1791,11 +1791,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_dark",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "86%",
-      "left": "54%",
+      "textAlign": "right",
+      "bottom": "45%",
+      "left": "20%",
       "width": "20%"
     }
   ],
@@ -1809,9 +1809,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "74%",
+      "bottom": "72%",
       "left": "17%",
-      "width": "23%"
+      "width": "25%"
     },
     {
       "text_de": "Wenn ihr wollt, lege ich bei Njörd noch ein gutes Wort ein.",
@@ -1819,10 +1819,10 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "74%",
+      "bottom": "9%",
       "left": "43%",
       "width": "20%"
     }
@@ -1837,8 +1837,8 @@ const imageTexts = {
       "backgroundColor": "hundstag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "57%",
+      "bottom": "80%",
+      "left": "64%",
       "width": "12%"
     }
   ],
