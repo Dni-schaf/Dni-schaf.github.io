@@ -35,7 +35,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "56%",
       "left": "0%",
       "width": "100%"
     },
@@ -48,7 +48,7 @@ const imageTexts = {
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "55%",
       "left": "0%",
       "width": "100%"
     }
@@ -147,7 +147,7 @@ const imageTexts = {
       "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "40%",
+      "bottom": "42%",
       "left": "52%",
       "width": "11%"
     },
@@ -160,7 +160,7 @@ const imageTexts = {
       "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "37%",
+      "bottom": "39%",
       "left": "73%",
       "width": "20%"
     }
@@ -390,7 +390,7 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85%",
+      "bottom": "87%",
       "left": "25%",
       "width": "17%"
     }
@@ -476,7 +476,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "72%",
+      "bottom": "75%",
       "left": "65%",
       "width": "10%"
     }
@@ -517,9 +517,9 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "23%",
+      "bottom": "11%",
       "left": "83%",
-      "width": "12%"
+      "width": "10%"
     }
   ],
   "03_F_24": [
@@ -532,9 +532,9 @@ const imageTexts = {
       "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "27%",
+      "bottom": "25%",
       "left": "17%",
-      "width": "16%"
+      "width": "18%"
     }
   ],
   "03_F_25": [
@@ -562,7 +562,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "59%",
+      "bottom": "67%",
       "left": "80%",
       "width": "15%"
     }
@@ -590,7 +590,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
+      "bottom": "58%",
       "left": "75%",
       "width": "15%"
     }
@@ -659,7 +659,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "88%",
       "left": "68%",
       "width": "20%"
     }
@@ -772,7 +772,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "72%",
-      "left": "1%",
+      "left": "4%",
       "width": "17%"
     },
     {
@@ -797,7 +797,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "88%",
+      "bottom": "86%",
       "left": "55%",
       "width": "20%"
     }
@@ -855,7 +855,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "67%",
       "left": "78%",
-      "width": "19%"
+      "width": "20%"
     }
   ],
   "03_F_36": [
@@ -881,7 +881,7 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "68%",
+      "bottom": "6%",
       "left": "80%",
       "width": "19%"
     }
@@ -896,7 +896,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "60%",
+      "bottom": "66%",
       "left": "55%",
       "width": "20%"
     },
@@ -925,7 +925,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "90%",
-      "left": "80%",
+      "left": "81%",
       "width": "17%"
     },
     {
@@ -936,9 +936,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "79%",
-      "left": "61%",
+      "textAlign": "left",
+      "bottom": "39%",
+      "left": "16%",
       "width": "10%"
     },
     {
@@ -978,8 +978,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "39%",
-      "left": "3%",
+      "bottom": "43%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -1036,7 +1036,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "89%",
       "left": "29%",
       "width": "20%"
     },
@@ -1064,7 +1064,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "25%",
+      "bottom": "10%",
       "left": "1%",
       "width": "9%"
     },
@@ -1146,8 +1146,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "65%",
-      "left": "39%",
+      "bottom": "72%",
+      "left": "41%",
       "width": "20%"
     },
     {
@@ -1187,8 +1187,8 @@ const imageTexts = {
       "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "66%",
-      "left": "62%",
+      "bottom": "65%",
+      "left": "64%",
       "width": "20%"
     },
     {
@@ -1213,8 +1213,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "9%",
-      "left": "42%",
+      "bottom": "10%",
+      "left": "43%",
       "width": "20%"
     },
     {
@@ -1226,8 +1226,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "31%",
-      "left": "35%",
+      "bottom": "33%",
+      "left": "33%",
       "width": "12%"
     }
   ],
@@ -1239,11 +1239,11 @@ const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "madeira_light",
-      "Fontsize": "",
-      "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "84%",
+      "left": "61%",
+      "width": "14%"
     },
     {
       "text_de": "Tauschen gegen Kleidung?",
@@ -1254,8 +1254,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "84%",
-      "left": "10%",
+      "bottom": "86%",
+      "left": "9%",
       "width": "14%"
     },
     {
@@ -1264,11 +1264,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "43%",
-      "left": "2%",
+      "bottom": "38%",
+      "left": "53%",
       "width": "16%"
     },
     {
@@ -1281,7 +1281,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "48%",
-      "left": "54%",
+      "left": "3%",
       "width": "14%"
     },
     {
@@ -1293,8 +1293,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "0%",
-      "left": "33%",
+      "bottom": "-1%",
+      "left": "34%",
       "width": "20%"
     }
   ],
@@ -1321,8 +1321,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "1%",
-      "left": "51%",
+      "bottom": "7%",
+      "left": "49%",
       "width": "14%"
     }
   ],
@@ -1348,10 +1348,10 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "81%",
+      "bottom": "86%",
       "left": "2%",
       "width": "16%"
     },
@@ -1434,8 +1434,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "50%",
+      "textAlign": "right",
+      "bottom": "83%",
       "left": "2%",
       "width": "20%"
     },
@@ -1494,7 +1494,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "77%",
-      "left": "31%",
+      "left": "33%",
       "width": "20%"
     },
     {
@@ -1534,8 +1534,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "7%",
-      "left": "15%",
+      "bottom": "10%",
+      "left": "19%",
       "width": "20%"
     }
   ],
@@ -1605,8 +1605,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "79%",
-      "left": "50%",
+      "bottom": "85%",
+      "left": "47%",
       "width": "20%"
     }
   ],
@@ -1693,9 +1693,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "67%",
-      "left": "33%",
-      "width": "27%"
+      "bottom": "70%",
+      "left": "34%",
+      "width": "22%"
     },
     {
       "text_de": "Daran haben wir keinen Zweifel – doch ein Risiko gehört immer dazu.",
@@ -1707,8 +1707,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "70%",
-      "left": "82%",
-      "width": "14%"
+      "left": "81%",
+      "width": "15%"
     }
   ],
   "03_F_69": [
@@ -1721,9 +1721,9 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "81%",
+      "bottom": "84%",
       "left": "70%",
-      "width": "26%"
+      "width": "20%"
     },
     {
       "text_de": "Das wäre fahrlässig.",
@@ -1734,7 +1734,7 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "37%",
+      "bottom": "41%",
       "left": "26%",
       "width": "20%"
     }
@@ -1749,9 +1749,9 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "2%",
-      "left": "33%",
-      "width": "22%"
+      "bottom": "26%",
+      "left": "34%",
+      "width": "12%"
     }
   ],
   "03_F_71": [
@@ -1778,8 +1778,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "64%",
-      "left": "62%",
-      "width": "15%"
+      "left": "60%",
+      "width": "16%"
     }
   ],
   "03_F_72": [
@@ -1791,9 +1791,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
+      "textAlign": "left",
       "bottom": "82%",
-      "left": "43%",
+      "left": "34%",
       "width": "20%"
     }
   ],
@@ -1852,7 +1852,7 @@ const imageTexts = {
       "textAlign": "left",
       "bottom": "52%",
       "left": "25%",
-      "width": "25%"
+      "width": "24%"
     },
     {
       "text_de": "Die zwei Tage werden sie wohl noch dicht halten können.",
@@ -1879,8 +1879,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "85%",
-      "left": "29%",
-      "width": "18%"
+      "left": "32%",
+      "width": "15%"
     }
   ],
   "03_F_77": [
@@ -1914,14 +1914,14 @@ const imageTexts = {
       "text_de": "Drei Tage sind vergangen. Die Männer, noch heiter vom Landgang, und die Fram, schwer beladen mit frischen Vorräten, stehen zur Abfahrt bereit. Oder sagen wir: fast.",
       "text_en": "Three days have passed. The men, still buoyed by their time ashore, and the Fram, heavy with fresh provisions, stand ready to depart. Or rather—almost ready.",
       "text_no": "no",
-      "kind": "speaker",
+      "kind": "speaker_comic",
       "color": "",
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "",
-      "bottom": "",
-      "left": "",
-      "width": ""
+      "bottom": "9%",
+      "left": "2%",
+      "width": "20%"
     }
   ],
   "03_F_78": [
@@ -1963,9 +1963,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "68%",
+      "left": "44%",
       "width": "20%"
     }
   ],
@@ -2044,7 +2044,7 @@ const imageTexts = {
       "width": "20%"
     }
   ],
-  "03_F_88": [
+  "03_F_87": [
     {
       "text_de": "Nun, da wir alle beisammen sind, will ich euch etwas offenbaren: Ich war nicht ganz ehrlich, was unser Vorhaben betrifft.",
       "text_en": "Now that we are all gathered, there is something I must reveal: I have not been entirely honest about our mission.",
@@ -2053,13 +2053,13 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "1%",
-      "left": "2%",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "65%",
       "width": "21%"
     }
   ],
-  "03_F_89": [
+  "03_F_88": [
     {
       "text_de": "Bitte nehmt mir die Geheimhaltung nicht übel. Sie hatte gute Gründe – denn unser Unternehmen ist … heikel.",
       "text_en": "Do not hold the secrecy against me. It had its reasons—for our enterprise is… delicate.",
@@ -2068,8 +2068,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
+      "textAlign": "right",
+      "bottom": "1%",
       "left": "2%",
       "width": "20%"
     }
@@ -2169,9 +2169,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "71%",
+      "left": "63%",
       "width": "20%"
     },
     {
@@ -2211,8 +2211,8 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "21%",
-      "left": "2%",
+      "bottom": "73%",
+      "left": "59%",
       "width": "20%"
     },
     {
@@ -2221,11 +2221,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "madeira_middle",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "27%",
-      "left": "21%",
+      "bottom": "11%",
+      "left": "38%",
       "width": "20%"
     }
   ],
@@ -2238,9 +2238,9 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "73%",
+      "left": "11%",
       "width": "20%"
     },
     {
@@ -2249,12 +2249,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "77%",
+      "left": "65%",
+      "width": "12%"
     }
   ],
   "03_F_97": [
@@ -2279,11 +2279,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "78%",
+      "left": "52%",
       "width": "20%"
     },
     {
@@ -2292,11 +2292,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "2vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "92%",
+      "left": "33%",
       "width": "20%"
     },
     {
@@ -2305,11 +2305,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "69%",
+      "left": "19%",
       "width": "20%"
     },
     {
@@ -2318,12 +2318,12 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "62%",
+      "left": "42%",
+      "width": "18%"
     },
     {
       "text_de": "Und ihr anderen? Seid ihr dabei?",
@@ -2331,63 +2331,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Na klar!",
-      "text_en": "Of course!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Jaaa!",
-      "text_en": "Yesss!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Aber ja!",
-      "text_en": "Aye!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Jawohl!",
-      "text_en": "Indeed!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "56.5%",
+      "left": "36%",
       "width": "20%"
     },
     {
@@ -2396,11 +2344,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "72%",
+      "left": "84%",
       "width": "20%"
     },
     {
@@ -2409,11 +2357,24 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "textAlign": "right",
+      "bottom": "50.5%",
+      "left": "45%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Jawohl!",
+      "text_en": "Me too!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "madeira_middle",
+      "Fontsize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "53%",
+      "left": "44%",
       "width": "20%"
     },
     {
@@ -2422,24 +2383,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Ich auch!",
-      "text_en": "Me too!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "backgroundColor": "madeira_middle",
+      "Fontsize": "2vw",
+      "textAlign": "right",
+      "bottom": "48%",
+      "left": "43%",
       "width": "20%"
     },
     {
@@ -2448,11 +2396,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "2vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
+      "bottom": "51%",
+      "left": "41%",
       "width": "20%"
     }
   ],
@@ -2465,8 +2413,8 @@ const imageTexts = {
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "19%",
+      "textAlign": "right",
+      "bottom": "44%",
       "left": "2%",
       "width": "15%"
     },
@@ -2494,9 +2442,9 @@ const imageTexts = {
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "bottom": "89%",
+      "left": "72%",
+      "width": "16%"
     },
     {
       "text_de": "Jetzt wird mir einiges klar ...",
@@ -2504,25 +2452,25 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "left": "0%",
+      "width": "12%"
     },
     {
-      "text_de": "Endlich, Prestrud. Die Katze ist aus dem Sack.",
+      "text_de": "Endlich! Die Katze ist aus dem Sack.",
       "text_en": "At last, the truth is out, Prestrud.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "52%",
-      "left": "2%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "78%",
+      "width": "14%"
     }
   ],
   "03_F_101": [
@@ -2549,8 +2497,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "20%",
-      "left": "6%",
-      "width": "20%"
+      "left": "4%",
+      "width": "16%"
     }
   ],
   "03_F_103": [
@@ -2564,8 +2512,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "77%",
-      "left": "2%",
-      "width": "20%"
+      "left": "0%",
+      "width": "19%"
     },
     {
       "text_de": "Hier. Die wichtigste Post.",
@@ -2577,7 +2525,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "82%",
-      "left": "62%",
+      "left": "58%",
       "width": "20%"
     }
   ],
@@ -2588,11 +2536,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "71%",
-      "left": "11%",
+      "textAlign": "right",
+      "bottom": "81%",
+      "left": "7%",
       "width": "20%"
     },
     {
@@ -2601,10 +2549,10 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "71%",
+      "textAlign": "right",
+      "bottom": "83%",
       "left": "44%",
       "width": "20%"
     },
@@ -2614,10 +2562,10 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "67%",
+      "bottom": "81%",
       "left": "73%",
       "width": "19%"
     }
@@ -2646,8 +2594,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "0%",
-      "left": "53%",
-      "width": "23%"
+      "left": "61%",
+      "width": "14%"
     }
   ],
   "03_F_106": [
@@ -2661,8 +2609,8 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "0%",
-      "left": "20%",
-      "width": "23%"
+      "left": "27%",
+      "width": "16%"
     },
     {
       "text_de": "Noch etwas.",
@@ -2701,8 +2649,8 @@ const imageTexts = {
       "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "65%",
-      "left": "67%",
+      "bottom": "60%",
+      "left": "70%",
       "width": "16%"
     }
   ],
@@ -2717,7 +2665,7 @@ const imageTexts = {
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "70%",
-      "left": "71%",
+      "left": "73%",
       "width": "18%"
     }
   ],
@@ -2784,7 +2732,7 @@ const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "80%",
@@ -2800,8 +2748,8 @@ const imageTexts = {
       "backgroundColor": "madeira_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "90%",
+      "bottom": "45%",
+      "left": "92%",
       "width": "20%"
     }
   ]

@@ -87,7 +87,6 @@ const imageSets = [
         { "Kapitel": "03_F_86", "speed": 0 },
         { "Kapitel": "03_F_87", "speed": 0 },
         { "Kapitel": "03_F_88", "speed": 0 },
-        { "Kapitel": "03_F_89", "speed": 0 },
         { "Kapitel": "03_F_90", "speed": 0 },
         { "Kapitel": "03_F_91", "speed": 0 },
         { "Kapitel": "03_F_92", "speed": 0 },
