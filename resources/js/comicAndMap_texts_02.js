@@ -35,7 +35,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "67.7%",
       "left": "0%",
       "width": "100%"
     },
@@ -48,7 +48,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "67%",
       "left": "0%",
       "width": "100%"
     }
@@ -75,10 +75,10 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "71%",
+      "bottom": "81%",
       "left": "25%",
       "width": "20%"
     },
@@ -91,7 +91,7 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "71%",
+      "bottom": "81%",
       "left": "79.8%",
       "width": "21%"
     }
@@ -106,7 +106,7 @@ const imageTexts ={
       "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "57%",
+      "bottom": "69%",
       "left": "0%",
       "width": "16%"
     },
@@ -160,7 +160,7 @@ const imageTexts ={
       "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "71%",
+      "bottom": "75%",
       "left": "50%",
       "width": "29%"
     }
@@ -176,8 +176,8 @@ const imageTexts ={
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "85%",
-      "left": "20%",
-      "width": "15%"
+      "left": "23%",
+      "width": "11%"
     },
     {
       "text_de": "Kein Fünkchen Respekt vor der Wissenschaft …",
@@ -190,7 +190,7 @@ const imageTexts ={
       "textAlign": "left",
       "bottom": "78%",
       "left": "46%",
-      "width": "20%"
+      "width": "15%"
     },
     {
       "text_de": "Lass uns später weiterplaudern, Birdie. Der Kaptölpel ist in Gefahr, und meine Schicht im Kohlebunker steht bald an.",
@@ -244,7 +244,7 @@ const imageTexts ={
       "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "48%",
+      "bottom": "52%",
       "left": "76%",
       "width": "19%"
     }
@@ -255,13 +255,13 @@ const imageTexts ={
       "text_en": "How old do you reckon it is?",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "alltag_middle",
+      "color": "black",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "36%",
-      "left": "15%",
-      "width": "14%"
+      "bottom": "51%",
+      "left": "11%",
+      "width": "11%"
     },
     {
       "text_de": "So, die Wasserproben sind jetzt auch alle etikettiert.",
@@ -319,7 +319,7 @@ const imageTexts ={
       "textAlign": "right",
       "bottom": "90%",
       "left": "36%",
-      "width": "20%"
+      "width": "16%"
     }
   ],
   "02_TN_17": [
@@ -345,7 +345,7 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "62%",
+      "bottom": "73%",
       "left": "89%",
       "width": "13%"
     }
@@ -362,7 +362,7 @@ const imageTexts ={
       "textAlign": "right",
       "bottom": "74%",
       "left": "34%",
-      "width": "12%"
+      "width": "9%"
     },
     {
       "text_de": "Ich werd dir eine ordentliche Tracht Prügel verpassen!",
@@ -602,7 +602,7 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "14%",
+      "bottom": "20%",
       "left": "82%",
       "width": "20%"
     }
@@ -631,7 +631,7 @@ const imageTexts ={
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "76%",
-      "left": "24%",
+      "left": "22%",
       "width": "20%"
     }
   ],
@@ -765,10 +765,10 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
+      "textAlign": "left",
       "bottom": "70%",
-      "left": "64%",
-      "width": "21%"
+      "left": "75%",
+      "width": "19%"
     },
     {
       "text_de": "Soso.",
@@ -834,12 +834,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "alltag_light",
+      "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
+      "bottom": "89%",
       "left": "45%",
-      "width": "18%"
+      "width": "19%"
     },
     {
       "text_de": "Brot, Spiele und Kohle trimmen.",
@@ -908,7 +908,7 @@ const imageTexts ={
       "textAlign": "right",
       "bottom": "75%",
       "left": "26%",
-      "width": "9%"
+      "width": "10%"
     },
     {
       "text_de": "Nein, eindeutig Seiwale. Am Blas kann man sie unterscheiden.",
@@ -921,7 +921,7 @@ const imageTexts ={
       "textAlign": "left",
       "bottom": "43%",
       "left": "52%",
-      "width": "18%"
+      "width": "16%"
     }
   ],
   "02_TN_32": [
@@ -1029,13 +1029,13 @@ const imageTexts ={
       "text_en": "The old girl has seen her share of ice.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_black",
+      "color": "black",
+      "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "75%",
-      "left": "34%",
-      "width": "20%"
+      "left": "36%",
+      "width": "18%"
     }
   ],
   "02_TN_40": [
@@ -1094,8 +1094,8 @@ const imageTexts ={
       "Fontsize": "1.8vw",
       "textAlign": "right",
       "bottom": "68%",
-      "left": "59%",
-      "width": "15%"
+      "left": "62%",
+      "width": "14%"
     },
     {
       "text_de": "Danke. Nur, wenn Sie mich Titus nennen.",
@@ -1150,8 +1150,8 @@ const imageTexts ={
       "Fontsize": "1.8vw",
       "textAlign": "left",
       "bottom": "58%",
-      "left": "77%",
-      "width": "20%"
+      "left": "78%",
+      "width": "16%"
     }
   ],
   "02_TN_46": [
@@ -1188,13 +1188,13 @@ const imageTexts ={
       "text_en": "Well, Birdie—can your eagle eyes make out Table Mountain yet?",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "alltag_middle",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
+      "textAlign": "left",
       "bottom": "64%",
-      "left": "47%",
-      "width": "19%"
+      "left": "65%",
+      "width": "18%"
     },
     {
       "text_de": "Sehr witzig, Sir.",
@@ -1257,11 +1257,11 @@ const imageTexts ={
       "text_en": "Be that as it may, the leak must be repaired. That’s the first priority.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "alltag_middle",
+      "color": "black",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "right",
-      "bottom": "60%",
+      "bottom": "0%",
       "left": "52%",
       "width": "19%"
     }
@@ -1290,10 +1290,10 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "72%",
-      "left": "36%",
-      "width": "13%"
+      "textAlign": "left",
+      "bottom": "78%",
+      "left": "35%",
+      "width": "12%"
     }
   ],
   "02_TN_54": [
@@ -1308,7 +1308,7 @@ const imageTexts ={
       "textAlign": "left",
       "bottom": "67%",
       "left": "45%",
-      "width": "20%"
+      "width": "16%"
     },
     {
       "text_de": "Ihm wird es ähnlich gehen, glaub mir!",
@@ -1321,7 +1321,7 @@ const imageTexts ={
       "textAlign": "left",
       "bottom": "68%",
       "left": "82%",
-      "width": "16%"
+      "width": "15%"
     }
   ],
   "02_TN_55": [
@@ -1336,7 +1336,7 @@ const imageTexts ={
       "textAlign": "left",
       "bottom": "63%",
       "left": "33%",
-      "width": "13%"
+      "width": "11%"
     }
   ],
   "02_TN_56": [
@@ -1346,11 +1346,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "66%",
-      "left": "67%",
+      "bottom": "14%",
+      "left": "64%",
       "width": "20%"
     }
   ],
@@ -1392,9 +1392,9 @@ const imageTexts ={
       "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "84%",
+      "bottom": "94%",
       "left": "29%",
-      "width": "27%"
+      "width": "22%"
     },
     {
       "text_de": "Schon gut – ich treibe noch ein paar Kisten auf.",
@@ -1402,12 +1402,12 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "alltag_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "53%",
-      "left": "52%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "86%",
+      "left": "4%",
+      "width": "17%"
     }
   ]
 }
