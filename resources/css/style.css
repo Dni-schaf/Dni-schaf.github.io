@@ -108,10 +108,11 @@
         }
         section button{
             background-color: #74C3D2;
-            font-family: Location;
-            border-width: 0px;
+            color: #000;
+            font-family: "Location";
             border-style: solid;
             border-width: 2px;
+            border-color: #000;
             cursor: pointer;
             border-bottom-left-radius: 17px 255px;
             border-bottom-right-radius: 15px 20px;
