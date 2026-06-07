@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="../resources/css/style.css">
     <link rel="stylesheet" href="../resources/css/navigation_styles.css">
     <script src="../resources/js/navigation_script.js" defer></script>
+    <script src="../resources/js/index_text.js"></script> 
 
 </head>
 <body>
     <header>
-        <h1>Ein Palast aus Eis </br> am Ende der Welt</h1>
+        <h1 id="title">Ein Palast aus Eis </br> am Ende der Welt</h1>
         <div id="clouds"></div>
-        <p id="present_by">Ein Projekt von:</p>
+        <p id="present">Ein Projekt von:</p>
         <img src="../resources/images/logo.png" width="25%">
     </header>
     
@@ -21,8 +22,8 @@
 
     <div id="content">
         <section>
-            <h3>Wir schreiben das Jahr 1910. Zwei Männer. Zwei Expeditionen. Ein Ziel.</h3>
-            <p>Der Brite Robert Falcon Scott und der Norweger Roald Amundsen brechen zu einer abenteuerlichen 
+            <h3 id="headline">Wir schreiben das Jahr 1910. Zwei Männer. Zwei Expeditionen. Ein Ziel.</h3>
+            <p id="p1">Der Brite Robert Falcon Scott und der Norweger Roald Amundsen brechen zu einer abenteuerlichen 
                 Reise auf, bei der sie sich durch das unwirtlichste Terrain der Erde kämpfen werden – getrieben 
                 von Ehrgeiz, Pflichtgefühl und dem unbändigen Willen, als Erste den Südpol zu erreichen. 
                 Was in den Geschichtsbüchern als sportlicher Wettlauf gilt, war in Wirklichkeit ein Kampf 
@@ -32,25 +33,25 @@
 
         </div>
         <section>
-            <p>
+            <p id="p2">
                 Basierend auf den Originaltagebüchern der Expeditionen erweckt Ein Palast aus Eis am Ende der Welt 
                 eine der dramatischsten Geschichten der Entdeckungsgeschichte neu zum Leben. In über 500 Bildern 
                 und sechs Kapiteln erzählen wir, was XXXXXXXX und folgen beiden Männern auf Schritt und Tritt – nah, 
                 persönlich und packend. Was die Tagebücher überliefern – und was zwischen den Zeilen liegt.
             </p>
-            <p>
+            <p id="p3">
                 Eine digitale Graphic Novel für alle, die spannende Geschichten lieben – und nebenbei etwas über Mut, 
                 Strategie und die Grenzen des Möglichen lernen wollen.
             </p>
             <div id="CtA">
                 <div>
-                    <p>
+                    <p id="call_to_action">
                         Der erste Teil ist jetzt verfügbar. Machen Sie sich einen Tee, legen Sie die Füße hoch und XXXXXXX
                     </p>
                 </div>
                 <a href="chapter1.html">
                     <button>
-                        <p>Leinen los!</p>
+                        <p id="button_txt">Leinen los!</p>
                     </button>
                 </a>
             </div>    
@@ -58,7 +59,7 @@
         <section id="footer">
             <img src="../resources/images/logo_white_logo.jpg" width="25%"> 
             <div>
-            <p>
+            <p id="impressum">
                 Verantwortlich für den Inhalt der Seite ist Daniela Scharffenberg</br>
                 Kontakt E-Mail: kontakt@dna-graphic-novals</br>
                 Ein Projekt von DNA Graphic Novels</br>
@@ -67,29 +68,36 @@
 
         </section>
     </div>
-    <!--
-    <div id="footer">
-        <div>
-            <p>
-                Verantwortlich für den Inhalt der Seite ist Daniela Scharffenberg</br>
-                Kontakt E-Mail: kontakt@dna-graphic-novals</br>
-                Ein Projekt von DNA Graphic Novels</br>
-            </p>
-        </div>
-
-    </div>
-    
--->
     
 
-    <div style="position: fixed; top: 5px; left: 5px; z-index: 100;">
+    <div id="nav">
         <button id="menuButton">☰</button>
+        <div id="language"> 
+            <button id="btn-de">DE</button>
+            <button id="btn-en">EN</button>
+            <button id="btn-no">NO</button>
+        </div>
     </div>
     <div id="navigationPlaceholder"></div>
 
 
 
+<script>
 
+function setLanguage(lang) {
+  for (const id in index_txt) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.innerHTML = index_txt[id][`text_${lang}`];
+    }
+  }
+}
+
+// Button-Listener
+document.getElementById('btn-de').addEventListener('click', () => setLanguage('de'));
+document.getElementById('btn-en').addEventListener('click', () => setLanguage('en'));
+document.getElementById('btn-no').addEventListener('click', () => setLanguage('no'));
+</script>
 
 
 </body>
