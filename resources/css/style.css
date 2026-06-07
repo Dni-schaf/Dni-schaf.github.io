@@ -107,6 +107,8 @@
             position: relative;
         }
         section button{
+            -webkit-appearance: none;  /* ← Safari Reset */
+            appearance: none;
             background-color: #74C3D2;
             color: #000;
             font-family: "Location";
