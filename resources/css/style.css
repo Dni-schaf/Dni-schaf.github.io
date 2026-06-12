@@ -45,15 +45,15 @@
             background-image: url(../images/clouds.svg);
             background-size: 100vw;
             background-repeat: no-repeat;
-            background-position: 0vw 24vw;
+            background-position: 0vw 20vw;
             animation: slideUp reverse;
             animation-timeline: view();
             animation-range: entry 0% exit 100%;        
         }
 
         header p {
-            margin-top: 10vw;
-            font-family: "chapter";
+            margin-top: 1vw;
+            font-family: "chapter"; 
             margin-bottom: 0vw;
             font-size: 1vw;
         }
@@ -63,8 +63,12 @@
             padding-top: 11vw;
             margin: 0;
             font-family: "title";
-            line-height: 10vw;
+            line-height: 8vw;
             text-transform: uppercase;
+        }
+
+        #subline{
+            font-size: 7vw;
         }
 
         h3 {
@@ -89,13 +93,16 @@
             background-repeat: no-repeat;
             background-size: 100vw;
             padding-top: 20vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         #content p{
             font-family: "chapter";
-            
+            font-size: larger;
         }
         section{
-            padding: 5vw 10vw;
+            padding: 0vw 10vw;
             max-width: 600px;
             position: relative;
         }
@@ -187,6 +194,8 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            margin-top: 5vw;
+            margin-bottom: 5vw;
         }
 
         #footer{
