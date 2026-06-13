@@ -109,7 +109,7 @@
         section a{
             color: #000;
         }
-        section button{
+        #button_start{
             -webkit-appearance: none;  /* ← Safari Reset */
             appearance: none;
             background-color: #74C3D2;

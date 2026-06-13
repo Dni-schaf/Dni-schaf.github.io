@@ -1,69 +1,79 @@
 <div id="menuOverlay" class="hidden">
     <div class="menu-content">
-        <button id="closeMenuButton">×</button>
-        <h2>Wähle eine Sprache</h2>
-        <div>
-            <button class="language-button" data-lang="de">Deutsch</button>
-            <button class="language-button" data-lang="en">English</button>
-            <button class="language-button" data-lang="no">Norsk</button>
-        </div>
-            
-        <h2>Inhaltsverzeichnis</h2>
-            <ul>
-            <li>
+        <section id="settings">
+            <button id="closeMenuButton">×</button>
+            <div id="language">
+                <button id="btn-de" class="language-button" data-lang="de">DE</button>
+                <button id="btn-en" class="language-button" data-lang="en">EN</button>
+                <button id="btn-no" class="language-button" data-lang="no">NO</button>
+            </div>  
+        </section>
+        
+        <section id="tableofcontent">
+            <h1 data-key="title">Inhaltsverzeichnis</h1>
+            <div id="chapters">
                 <a href="chapter1.html">
                     <img src="../resources/images/chapter1-preview.jpg" alt="Vorschau Kapitel 1">
                     <div>
-                        <p class="chapter_navigation">Kapitel 1</p>
-                        <p class="title_navigation">Abschied auf Raten</p>
+                        <p data-key="chapter1" class="chapter_navigation">Kapitel 1</p>
+                        <p data-key="chapter_titel1" class="title_navigation">Abschied auf Raten</p>
                     </div>
                 </a>
-            </li>
-            <li>
                 <a href="chapter2.html">
                     <img src="../resources/images/chapter2-preview.jpg" alt="Vorschau Kapitel 2">
                     <div>
-                        <p class="chapter_navigation">Kapitel 2</p>
-                        <p class="title_navigation">Federkleid und Kohlenstaub</p>
+                        <p data-key="chapter2" class="chapter_navigation">Kapitel 2</p>
+                        <p data-key="chapter_titel2" class="title_navigation">Federkleid und Kohlenstaub</p>
                     </div>
                 </a>
-            </li>
-            <li>
                 <a href="chapter3.html">
                     <img src="../resources/images/chapter3-preview.jpg" alt="Vorschau Kapitel 3">
                     <div>
-                        <p class="chapter_navigation">Kapitel 3</p>
-                        <p class="title_navigation">Eine neue Partie</p>
+                        <p data-key="chapter3" class="chapter_navigation">Kapitel 3</p>
+                        <p data-key="chapter_titel3" class="title_navigation">Eine neue Partie</p>
                     </div>
                 </a>
-            </li>
-            <li>
                 <a href="chapter4.html">
                     <img src="../resources/images/chapter4-preview.jpg" alt="Vorschau Kapitel 4">
                     <div>
-                        <p class="chapter_navigation">Kapitel 4</p>
-                        <p class="title_navigation">Von Hundstagen und Hundewetter</p>
+                        <p data-key="chapter4" class="chapter_navigation">Kapitel 4</p>
+                        <p data-key="chapter_titel4" class="title_navigation">Von Hundstagen und Hundewetter</p>
                     </div>
                 </a>
-            </li>
-            <li>
                 <a href="chapter5.html">
                     <img src="../resources/images/chapter5-preview.jpg" alt="Vorschau Kapitel 5">
                     <div>
-                        <p class="chapter_navigation">Kapitel 5</p>
-                        <p class="title_navigation">Aus heiterem Himmel</p>
+                        <p data-key="chapter5" class="chapter_navigation">Kapitel 5</p>
+                        <p data-key="chapter_titel5" class="title_navigation">Aus heiterem Himmel</p>
                     </div>
                 </a>
-            </li>
-            <li>
                 <a href="chapter6.html">
                     <img src="../resources/images/chapter6-preview.jpg" alt="Vorschau Kapitel 6">
                     <div>
-                        <p class="chapter_navigation">Kapitel 6</p>
-                        <p class="title_navigation">Fluch und Segen</p>
+                        <p data-key="chapter6" class="chapter_navigation">Kapitel 6</p>
+                        <p data-key="chapter_titel6" class="title_navigation">Fluch und Segen</p>
                     </div>
                 </a>
-            </li>
-        </ul>
+            </div>
+        </section>
+        
+        <section class="footnotes" id="sources">
+            <h5 data-key="sources">Quellen</h5>
+            <p data-key="sources_txt">Ein Ausführliches Literaturverzeichnis finden Sie hier: <a href="">Quellen</a></p>
+        </section>
+        <section class="footnotes" id="impressum">
+            <h5 data-key="legal">Impressum</h5>
+            <p data-key="legal_txt">Verantwortlich für den Inhalt ist Daniela Scharffenberg - Kontakt E-Mail: kontakt@dna-graphic-novels - © 2026 DNA Graphic Novels</p>
+        </section>
+        <section class="footnotes" id="privacypolicy">
+            <h5 data-key="data">Datenschutzerklärung</h5>
+            <p data-key="data_txt1">1. Verantwortlicher Verantwortlich für die Datenverarbeitung auf dieser Website ist: Daniela Scharffenberg</p>
+            <p data-key="data_txt2">2. Hosting Diese Website wird gehostet bei webgo. Beim Aufruf der Website werden durch den Hoster automatisch technische Zugriffsdaten gespeichert (sog. Server-Logfiles), darunter IP-Adresse, Datum und Uhrzeit des Abrufs sowie die aufgerufene Seite. Dies erfolgt auf Basis von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren Betrieb der Website). Weitere Informationen findet ihr in der Datenschutzerklärung von webgo</p>
+            <p data-key="data_txt3">3. Cookies und Tracking Diese Website verwendet keine Cookies und setzt keine Tracking- oder Analysetools ein.</p>
+            <p data-key="data_txt4">4. Erhebung und Speicherung personenbezogener Daten Wir erheben, speichern oder verarbeiten keine personenbezogenen Daten unserer Besucher. Es gibt keine Kontaktformulare, keine Newsletter-Anmeldung und keinen Shop.</p>
+            <p data-key="data_txt5">5. Eure Rechte Obwohl wir keine personenbezogenen Daten speichern, habt ihr gemäß DSGVO jederzeit das Recht auf Auskunft, Berichtigung und Löschung. Bei Fragen wendet euch an: kontakt@dna-graphic-novels</p>
+        </section>
+    
     </div>
 </div>
+

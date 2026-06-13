@@ -193,6 +193,15 @@ window.updateAllTexts = function() {
 
   updateTexts(language); // Bildtexte wie gehabt
   updateNewspaper(language);
+  console.log (language);
+
+  // ← NEU: Menü-Texte aktualisieren
+  document.querySelectorAll('[data-key]').forEach(el => {
+    const key = el.getAttribute('data-key');
+    if (nav_txt[key] && nav_txt[key][`text_${language}`]) {
+      el.textContent = nav_txt[key][`text_${language}`];
+    }
+  });
 }
 
 
