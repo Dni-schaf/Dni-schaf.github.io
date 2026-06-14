@@ -49,7 +49,7 @@ const imageTexts ={
       "backgroundColor": "",
       "Fontsize": "",
       "textAlign": "left",
-      "bottom": "59%",
+      "bottom": "57.6%",
       "left": "0%",
       "width": "100%"
     },
@@ -1718,11 +1718,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "52%",
+      "textAlign": "center",
+      "bottom": "97%",
+      "left": "38%",
       "width": "20%"
     },
     {
@@ -1731,26 +1731,24 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "textAlign": "center",
+      "bottom": "90%",
+      "left": "38%",
       "width": "20%"
-    }
-  ],
-  "01b_TN_33": [
+    },
     {
       "text_de": "Unseren verehrten Captain kenne ich ja schon lange …",
       "text_en": "Our esteemed Captain I’ve known for many years…",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "center",
       "bottom": "85%",
-      "left": "2%",
+      "left": "38%",
       "width": "20%"
     },
     {
@@ -1762,8 +1760,8 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
+      "bottom": "76%",
+      "left": "10%",
       "width": "20%"
     },
     {
@@ -1772,11 +1770,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
+      "textAlign": "center",
+      "bottom": "78%",
+      "left": "38%",
       "width": "20%"
     },
     {
@@ -1785,11 +1783,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "65%",
-      "left": "2%",
+      "textAlign": "center",
+      "bottom": "64%",
+      "left": "38%",
       "width": "20%"
     },
     {
@@ -1800,10 +1798,10 @@ const imageTexts ={
       "color": "black",
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "65%",
-      "left": "33%",
-      "width": "20%"
+      "textAlign": "right",
+      "bottom": "57%",
+      "left": "3%",
+      "width": "12%"
     },
     {
       "text_de": "… denn wenn es einen Mann auf der Welt gibt, der dieses Unterfangen zum Erfolg führt, dann ist er es!",
@@ -1811,11 +1809,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "65%",
-      "left": "66%",
+      "textAlign": "center",
+      "bottom": "53%",
+      "left": "38%",
       "width": "20%"
     },
     {
@@ -1824,24 +1822,24 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
+      "bottom": "47%",
+      "left": "37%",
       "width": "20%"
     },
     {
-      "text_de": "Auf Sie, Captain!",
+      "text_de": "Auf sein Wohl!",
       "text_en": "Here's to you, Captain!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "33%",
+      "textAlign": "right",
+      "bottom": "36%",
+      "left": "39%",
       "width": "20%"
     },
     {
@@ -1853,21 +1851,8 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "66%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Auf sein Wohl!",
-      "text_en": "To his health!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "2%",
+      "bottom": "83%",
+      "left": "65%",
       "width": "20%"
     },
     {
@@ -1876,11 +1861,11 @@ const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "55%",
-      "left": "33%",
+      "textAlign": "right",
+      "bottom": "60%",
+      "left": "37%",
       "width": "20%"
     },
     {
@@ -1892,7 +1877,7 @@ const imageTexts ={
       "backgroundColor": "bg_white",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
+      "bottom": "66%",
       "left": "66%",
       "width": "20%"
     }
