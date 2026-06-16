@@ -8,7 +8,7 @@ const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "0%",
+        "top": "39%",
         "left": "70%",
         "width": "20%"
       },
@@ -20,7 +20,7 @@ const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "59%",
+        "top": "99%",
         "left": "70%",
         "width": "20%"
       }

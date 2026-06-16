@@ -31,7 +31,7 @@ imgRose2.src = "../resources/images/rose2.svg";
             <div id="windrosebox">
                 <div id="windrose"></div>
             </div>
-            <div id="progress">0%</div>
+            <div id="progress">please wait ...</div>
         </div>
     `;
     document.body.insertAdjacentHTML("afterbegin", loaderHTML);
@@ -61,7 +61,7 @@ function startLoadingAnimation() {
 
     function updateProgress(percent) {
         loadingProgress = percent;
-        progressText.textContent = `${Math.floor(loadingProgress)}%`;
+        //progressText.textContent = `${Math.floor(loadingProgress)}%`;
         randomRotation();
     }
 
@@ -106,4 +106,5 @@ function startLoadingAnimation() {
         updateProgress(100); // Komplett geladen
         fadeOutLoader();
     });
+
 }

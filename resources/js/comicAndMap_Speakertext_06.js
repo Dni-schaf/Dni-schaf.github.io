@@ -24,5 +24,17 @@ const speaker = {
         "left": "70%",
         "width": "20%"
       },
+      {
+      "text_de": "Fortsetzung folgt",
+      "text_en": "To be continued",
+      "text_no": "no",
+      "kind": "speaker",
+      "color": "black",
+      "backgroundColor": null,
+      "textAlign": "center",
+      "top": "125%",
+      "left": "40%",
+      "width": "20%"
+      }
     ]
   }

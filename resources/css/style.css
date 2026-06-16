@@ -56,15 +56,27 @@
             font-family: "chapter"; 
             margin-bottom: 0vw;
             font-size: 1vw;
+            position: absolute;
+            color: #fff;
+            top: 9vw;
+            text-align: center;
+            left: 48%;
+            display: inline;
         }
 
         h1 {
             font-size: 10vw;
-            padding-top: 11vw;
-            margin: 0;
+            padding-top: 25vw;
             font-family: "title";
             line-height: 8vw;
             text-transform: uppercase;
+        }
+
+        header img{
+            position: absolute;
+            top: 2vw;
+            width: 20vw;
+            left: 40vw;
         }
 
         #subline{
@@ -72,7 +84,11 @@
         }
 
         h3 {
-            font-family: "Location";
+            text-transform: uppercase;
+            font-size: 1.7em;
+            font-family: title_medium;
+            letter-spacing: 0.1em;
+            color: #0F4A53;
         }
 
         #iceshelf{
@@ -97,9 +113,11 @@
             flex-direction: column;
             align-items: center;
         }
-        #content p{
+        .content_p{
             font-family: "chapter";
-            font-size: larger;
+            font-size: 1em;
+            line-height: 1.6em;
+            margin-bottom: 3vw;
         }
         section{
             padding: 0vw 10vw;
@@ -112,21 +130,22 @@
         #button_start{
             -webkit-appearance: none;  /* ← Safari Reset */
             appearance: none;
-            background-color: #74C3D2;
-            color: #000;
-            font-family: "Location";
+            background-color: #0F4A53;
+            color: #fff;
+            font-family: title_medium;
+            letter-spacing: 0.1em;
             border-style: solid;
-            border-width: 2px;
-            border-color: #000;
+            border-width: 4px;
+            border-color: #74C3D2;
             cursor: pointer;
-            border-bottom-left-radius: 17px 255px;
-            border-bottom-right-radius: 15px 20px;
+            border-bottom-left-radius: 17px 192px;
+            border-bottom-right-radius: 12px 73px;
             border-top-left-radius: 15px 15px;
-            border-top-right-radius: 20px 225px;
-            padding: 20px;
-            position: absolute;
-            right: 10vw;
+            border-top-right-radius: 86px 13px;
+            padding: 26px 14px;
             transition: all 235ms ease-in-out;
+            text-transform: uppercase;
+            font-size: 1.3em;
         }
 
         section button:hover {
@@ -168,24 +187,6 @@
         }
 
 
-        
-        #CtA{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-top: 15%;
-        }
-        #CtA div{
-            width: 50%;
-        }
-
-        #CtA p {
-            margin: 0px;
-            font-family: "chapter";
-            font-style: italic;
-        }
-
         #gab{
             height: 20vw;
             width: 100%;
@@ -202,10 +203,6 @@
             background-color: #fff;
             margin: 0px;
             padding-bottom: 3vw;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: flex-end;
         }
 
         #footer div{
@@ -216,11 +213,17 @@
             margin-bottom: 0vw;
             font-family: "chapter";
             margin-bottom: 0vw;
-            font-size: 1.2vw;
+            font-size: 0.8em;
             color: grey;
+            line-height: 1.5em;
         }
         #footer img {
             opacity: 0.8;
+        }
+        button p{
+            line-height: 0;
+            margin: 0;
+            padding: 0;
         }
     
 @media (max-width: 600px) {
@@ -253,6 +256,6 @@
             width: 70%;
         }
     #footer p {
-            font-size: 2.5vw;
+            font-size: 1em;
         }
 }

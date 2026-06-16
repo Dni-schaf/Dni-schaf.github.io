@@ -71,7 +71,7 @@
         <div id="windrose"></div>
     </div>
     <!-- Ladefortschritt in Prozent anzeigen -->
-    <div id="progress">0%</div>
+    <div id="progress">please wait...</div>
 </div>
 
 <script>
@@ -125,7 +125,7 @@
             }
             randomRotation(); // Die Windrose basierend auf dem Fortschritt drehen
             // Ladefortschritt in Prozent anzeigen
-            progressText.textContent = `${Math.floor(loadingProgress)}%`;
+            //progressText.textContent = `${Math.floor(loadingProgress)}%`;
         }, 50); // Alle 100ms aktualisieren
     }
 
