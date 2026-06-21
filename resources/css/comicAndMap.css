@@ -200,7 +200,7 @@ a.next {
 
 .highlight { 
     display: inline;
-    padding: 0.3vw 0.8vw;
+    padding: 0.3em 0.5em;
     
     /* Needs prefixing */
     box-decoration-break: clone;

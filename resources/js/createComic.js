@@ -202,6 +202,8 @@ window.updateAllTexts = function() {
       el.textContent = nav_txt[key][`text_${language}`];
     }
   });
+
+
 }
 
 

@@ -1503,11 +1503,11 @@ const imageTexts = {
       "text_no": "no",
       "kind": "footnote",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "Fontsize": "1.8vw",
+      "backgroundColor": "madeira_light",
+      "Fontsize": "1.4vw",
       "textAlign": "left",
-      "bottom": "90%",
-      "left": "0%",
+      "bottom": "1%",
+      "left": "61%",
       "width": "20%"
     }
   ],

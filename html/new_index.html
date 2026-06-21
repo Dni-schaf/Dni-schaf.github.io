@@ -14,9 +14,10 @@
 </head>
 <body>
     <header>
-        <img src="../resources/images/logo.png" width="25%">
+        <img id="logo" src="/resources/images/dna-logo-white.svg" width="25%">
         <p id="present">präsentiert:</p>
-        <h1 id="title">Ein Palast aus Eis </br><span id="subline">am Ende der Welt</span></h1>
+        <img id="title_index" src="/resources/images/title_de.svg" width="100%">
+        <!--<h1 id="title">Ein Palast aus Eis </br><span id="subline">am Ende der Welt</span></h1>-->
         <div id="clouds"></div>
         
         
@@ -59,7 +60,7 @@
         </section>
         <div id="gab"></div>
         <section id="footer">
-            <img src="../resources/images/logo_white_logo.jpg" width="25%"> 
+            <img src="/resources/images/dna-logo-blue.svg" width="35%"> 
             <p id="impressum">
                 Verantwortlich für den Inhalt der Seite ist Daniela Scharffenberg</br>
                 kontakt@dna-graphic-novels.de • © 2026 DNA Graphic Novels
@@ -91,6 +92,11 @@ function setLanguage(lang) {
     if (element) {
       element.innerHTML = index_txt[id][`text_${lang}`];
     }
+  }
+
+const titleImg = document.getElementById('title_index');
+  if (titleImg) {
+    titleImg.src = `/resources/images/title_${lang}.svg`;
   }
 }
 

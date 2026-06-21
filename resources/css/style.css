@@ -45,23 +45,23 @@
             background-image: url(../images/clouds.svg);
             background-size: 100vw;
             background-repeat: no-repeat;
-            background-position: 0vw 20vw;
+            background-position: 0vw 44vw;
             animation: slideUp reverse;
             animation-timeline: view();
             animation-range: entry 0% exit 100%;        
         }
 
         header p {
-            margin-top: 1vw;
             font-family: "chapter"; 
             margin-bottom: 0vw;
             font-size: 1vw;
             position: absolute;
             color: #fff;
-            top: 9vw;
+            top: 10vw;
             text-align: center;
             left: 48%;
             display: inline;
+            letter-spacing: 0.1vw;
         }
 
         h1 {
@@ -72,11 +72,18 @@
             text-transform: uppercase;
         }
 
-        header img{
+        #logo{
             position: absolute;
-            top: 2vw;
+            top: 5vw;
             width: 20vw;
             left: 40vw;
+        }
+
+        #title_index{
+            position: absolute;
+            top: 25vw;
+            width: 100vw;
+            left: 0vw;
         }
 
         #subline{

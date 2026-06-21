@@ -2178,19 +2178,6 @@ const imageTexts = {
   ],
   "04d_F_13": [
     {
-      "text_de": "Ich fühl mich wie neugeboren!",
-      "text_en": "I feel like a new man!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "hundstag_middle",
-      "Fontsize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
       "text_de": "Nilsen, die Fram schlingert zu stark. Halt sie ruhiger, sonst geht uns die halbe Himmelsgabe gleich wieder flöten!",
       "text_en": "Nilsen, the Fram’s rolling too much—steady her, or we’ll lose half our heavenly bounty!",
       "text_no": "no",
@@ -2199,9 +2186,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "78%",
+      "left": "60%",
+      "width": "20%"
     },
     {
       "text_de": "Ruhiger krieg ich sie nicht – nicht bei dem Wind!",
@@ -2212,9 +2199,9 @@ const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "Fontsize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "46%",
+      "left": "12%",
+      "width": "18%"
     }
   ],
   "04d_F_14": [
